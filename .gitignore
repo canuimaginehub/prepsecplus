@@ -21,3 +21,5 @@ sy0-701-section3-video/
 sy0-701-section4-video/
 sy0-701-section5-video/
 ~$*
+dist/
+public_html/

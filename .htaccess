@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /
+
+# Rewrite rules for Single Page Application
+# Do not rewrite if request points to an existing file, directory, or the contact form
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/contact.php$
+RewriteRule ^ index.html [L]
