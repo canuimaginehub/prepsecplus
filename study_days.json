@@ -13,11 +13,11 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0101-01-security-controls.mp4",
+        "content_ref": "./video/sy0-701-0101-01-security-controls.mp4",
         "title": "Security Controls",
         "all_videos": [
           {
-            "path": "./sy0-701-0101-01-security-controls.mp4",
+            "path": "./video/sy0-701-0101-01-security-controls.mp4",
             "title": "Security Controls",
             "lesson_num": "01"
           }
@@ -290,36 +290,36 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0102-01-the-cia-triad.mp4",
+        "content_ref": "./video/sy0-701-0102-01-the-cia-triad.mp4",
         "title": "The Cia Triad",
         "all_videos": [
           {
-            "path": "./sy0-701-0102-01-the-cia-triad.mp4",
+            "path": "./video/sy0-701-0102-01-the-cia-triad.mp4",
             "title": "The Cia Triad",
             "lesson_num": "01"
           },
           {
-            "path": "./sy0-701-0102-02-non-repudiation.mp4",
+            "path": "./video/sy0-701-0102-02-non-repudiation.mp4",
             "title": "Non Repudiation",
             "lesson_num": "02"
           },
           {
-            "path": "./sy0-701-0102-03-authentication-authorization-and-accounting.mp4",
+            "path": "./video/sy0-701-0102-03-authentication-authorization-and-accounting.mp4",
             "title": "Authentication Authorization And Accounting",
             "lesson_num": "03"
           },
           {
-            "path": "./sy0-701-0102-05-zero-trust.mp4",
+            "path": "./video/sy0-701-0102-05-zero-trust.mp4",
             "title": "Zero Trust",
             "lesson_num": "05"
           },
           {
-            "path": "./sy0-701-0102-04-gap-analysis.mp4",
+            "path": "./video/sy0-701-0102-04-gap-analysis.mp4",
             "title": "Gap Analysis",
             "lesson_num": "04"
           },
           {
-            "path": "./sy0-701-0102-06-physical-security.mp4",
+            "path": "./video/sy0-701-0102-06-physical-security.mp4",
             "title": "Physical Security",
             "lesson_num": "06"
           }
@@ -599,16 +599,16 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0103-02-technical-change-management.mp4",
+        "content_ref": "./video/sy0-701-0103-02-technical-change-management.mp4",
         "title": "Technical Change Management",
         "all_videos": [
           {
-            "path": "./sy0-701-0103-02-technical-change-management.mp4",
+            "path": "./video/sy0-701-0103-02-technical-change-management.mp4",
             "title": "Technical Change Management",
             "lesson_num": "02"
           },
           {
-            "path": "./sy0-701-0103-01-change-management.mp4",
+            "path": "./video/sy0-701-0103-01-change-management.mp4",
             "title": "Change Management",
             "lesson_num": "01"
           }
@@ -881,46 +881,46 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0104-03-key-exchange.mp4",
+        "content_ref": "./video/sy0-701-0104-03-key-exchange.mp4",
         "title": "Key Exchange",
         "all_videos": [
           {
-            "path": "./sy0-701-0104-03-key-exchange.mp4",
+            "path": "./video/sy0-701-0104-03-key-exchange.mp4",
             "title": "Key Exchange",
             "lesson_num": "03"
           },
           {
-            "path": "./sy0-701-0104-05-obfuscation.mp4",
+            "path": "./video/sy0-701-0104-05-obfuscation.mp4",
             "title": "Obfuscation",
             "lesson_num": "05"
           },
           {
-            "path": "./sy0-701-0104-07-blockchain-technology.mp4",
+            "path": "./video/sy0-701-0104-07-blockchain-technology.mp4",
             "title": "Blockchain Technology",
             "lesson_num": "07"
           },
           {
-            "path": "./sy0-701-0104-08-certificates.mp4",
+            "path": "./video/sy0-701-0104-08-certificates.mp4",
             "title": "Certificates",
             "lesson_num": "08"
           },
           {
-            "path": "./sy0-701-0104-04-encryption-technologies.mp4",
+            "path": "./video/sy0-701-0104-04-encryption-technologies.mp4",
             "title": "Encryption Technologies",
             "lesson_num": "04"
           },
           {
-            "path": "./sy0-701-0104-06-hashing-and-digital-signatures.mp4",
+            "path": "./video/sy0-701-0104-06-hashing-and-digital-signatures.mp4",
             "title": "Hashing And Digital Signatures",
             "lesson_num": "06"
           },
           {
-            "path": "./sy0-701-0104-01-public-key-infrastructure.mp4",
+            "path": "./video/sy0-701-0104-01-public-key-infrastructure.mp4",
             "title": "Public Key Infrastructure",
             "lesson_num": "01"
           },
           {
-            "path": "./sy0-701-0104-02-encrypting-data.mp4",
+            "path": "./video/sy0-701-0104-02-encrypting-data.mp4",
             "title": "Encrypting Data",
             "lesson_num": "02"
           }
@@ -1197,11 +1197,11 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0201-01-threat-actors.mp4",
+        "content_ref": "./video/sy0-701-0201-01-threat-actors.mp4",
         "title": "Threat Actors",
         "all_videos": [
           {
-            "path": "./sy0-701-0201-01-threat-actors.mp4",
+            "path": "./video/sy0-701-0201-01-threat-actors.mp4",
             "title": "Threat Actors",
             "lesson_num": "01"
           }
@@ -1476,31 +1476,31 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0202-04-watering-hole-attacks.mp4",
+        "content_ref": "./video/sy0-701-0202-04-watering-hole-attacks.mp4",
         "title": "Watering Hole Attacks",
         "all_videos": [
           {
-            "path": "./sy0-701-0202-04-watering-hole-attacks.mp4",
+            "path": "./video/sy0-701-0202-04-watering-hole-attacks.mp4",
             "title": "Watering Hole Attacks",
             "lesson_num": "04"
           },
           {
-            "path": "./sy0-701-0202-03-impersonation.mp4",
+            "path": "./video/sy0-701-0202-03-impersonation.mp4",
             "title": "Impersonation",
             "lesson_num": "03"
           },
           {
-            "path": "./sy0-701-0202-02-phishing.mp4",
+            "path": "./video/sy0-701-0202-02-phishing.mp4",
             "title": "Phishing",
             "lesson_num": "02"
           },
           {
-            "path": "./sy0-701-0202-05-other-social-engineering-attacks.mp4",
+            "path": "./video/sy0-701-0202-05-other-social-engineering-attacks.mp4",
             "title": "Other Social Engineering Attacks",
             "lesson_num": "05"
           },
           {
-            "path": "./sy0-701-0202-01-common-threat-vectors.mp4",
+            "path": "./video/sy0-701-0202-01-common-threat-vectors.mp4",
             "title": "Common Threat Vectors",
             "lesson_num": "01"
           }
@@ -1775,76 +1775,76 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0203-01-memory-injections.mp4",
+        "content_ref": "./video/sy0-701-0203-01-memory-injections.mp4",
         "title": "Memory Injections",
         "all_videos": [
           {
-            "path": "./sy0-701-0203-01-memory-injections.mp4",
+            "path": "./video/sy0-701-0203-01-memory-injections.mp4",
             "title": "Memory Injections",
             "lesson_num": "01"
           },
           {
-            "path": "./sy0-701-0203-03-race-conditions.mp4",
+            "path": "./video/sy0-701-0203-03-race-conditions.mp4",
             "title": "Race Conditions",
             "lesson_num": "03"
           },
           {
-            "path": "./sy0-701-0203-14-zero-day-vulnerabilities.mp4",
+            "path": "./video/sy0-701-0203-14-zero-day-vulnerabilities.mp4",
             "title": "Zero Day Vulnerabilities",
             "lesson_num": "14"
           },
           {
-            "path": "./sy0-701-0203-06-sql-injection.mp4",
+            "path": "./video/sy0-701-0203-06-sql-injection.mp4",
             "title": "Sql Injection",
             "lesson_num": "06"
           },
           {
-            "path": "./sy0-701-0203-05-operating-system-vulnerabilities.mp4",
+            "path": "./video/sy0-701-0203-05-operating-system-vulnerabilities.mp4",
             "title": "Operating System Vulnerabilities",
             "lesson_num": "05"
           },
           {
-            "path": "./sy0-701-0203-04-malicious-updates.mp4",
+            "path": "./video/sy0-701-0203-04-malicious-updates.mp4",
             "title": "Malicious Updates",
             "lesson_num": "04"
           },
           {
-            "path": "./sy0-701-0203-13-mobile-device-vulnerabilities.mp4",
+            "path": "./video/sy0-701-0203-13-mobile-device-vulnerabilities.mp4",
             "title": "Mobile Device Vulnerabilities",
             "lesson_num": "13"
           },
           {
-            "path": "./sy0-701-0203-02-buffer-overflows.mp4",
+            "path": "./video/sy0-701-0203-02-buffer-overflows.mp4",
             "title": "Buffer Overflows",
             "lesson_num": "02"
           },
           {
-            "path": "./sy0-701-0203-08-hardware-vulnerabilities.mp4",
+            "path": "./video/sy0-701-0203-08-hardware-vulnerabilities.mp4",
             "title": "Hardware Vulnerabilities",
             "lesson_num": "08"
           },
           {
-            "path": "./sy0-701-0203-07-cross-site-scripting.mp4",
+            "path": "./video/sy0-701-0203-07-cross-site-scripting.mp4",
             "title": "Cross Site Scripting",
             "lesson_num": "07"
           },
           {
-            "path": "./sy0-701-0203-09-virtualization-vulnerabilities.mp4",
+            "path": "./video/sy0-701-0203-09-virtualization-vulnerabilities.mp4",
             "title": "Virtualization Vulnerabilities",
             "lesson_num": "09"
           },
           {
-            "path": "./sy0-701-0203-11-supply-chain-vulnerabilities.mp4",
+            "path": "./video/sy0-701-0203-11-supply-chain-vulnerabilities.mp4",
             "title": "Supply Chain Vulnerabilities",
             "lesson_num": "11"
           },
           {
-            "path": "./sy0-701-0203-12-misconfiguration-vulnerabilities.mp4",
+            "path": "./video/sy0-701-0203-12-misconfiguration-vulnerabilities.mp4",
             "title": "Misconfiguration Vulnerabilities",
             "lesson_num": "12"
           },
           {
-            "path": "./sy0-701-0203-10-cloud-specific-vulnerabilities.mp4",
+            "path": "./video/sy0-701-0203-10-cloud-specific-vulnerabilities.mp4",
             "title": "Cloud Specific Vulnerabilities",
             "lesson_num": "10"
           }
@@ -2121,81 +2121,81 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0204-10-replay-attacks.mp4",
+        "content_ref": "./video/sy0-701-0204-10-replay-attacks.mp4",
         "title": "Replay Attacks",
         "all_videos": [
           {
-            "path": "./sy0-701-0204-10-replay-attacks.mp4",
+            "path": "./video/sy0-701-0204-10-replay-attacks.mp4",
             "title": "Replay Attacks",
             "lesson_num": "10"
           },
           {
-            "path": "./sy0-701-0204-14-password-attacks.mp4",
+            "path": "./video/sy0-701-0204-14-password-attacks.mp4",
             "title": "Password Attacks",
             "lesson_num": "14"
           },
           {
-            "path": "./sy0-701-0204-02-viruses-and-worms.mp4",
+            "path": "./video/sy0-701-0204-02-viruses-and-worms.mp4",
             "title": "Viruses And Worms",
             "lesson_num": "02"
           },
           {
-            "path": "./sy0-701-0204-06-denial-of-service.mp4",
+            "path": "./video/sy0-701-0204-06-denial-of-service.mp4",
             "title": "Denial Of Service",
             "lesson_num": "06"
           },
           {
-            "path": "./sy0-701-0204-03-spyware-and-bloatware.mp4",
+            "path": "./video/sy0-701-0204-03-spyware-and-bloatware.mp4",
             "title": "Spyware And Bloatware",
             "lesson_num": "03"
           },
           {
-            "path": "./sy0-701-0204-07-dns-attacks.mp4",
+            "path": "./video/sy0-701-0204-07-dns-attacks.mp4",
             "title": "Dns Attacks",
             "lesson_num": "07"
           },
           {
-            "path": "./sy0-701-0204-11-malicious-code.mp4",
+            "path": "./video/sy0-701-0204-11-malicious-code.mp4",
             "title": "Malicious Code",
             "lesson_num": "11"
           },
           {
-            "path": "./sy0-701-0204-09-on-path-attacks.mp4",
+            "path": "./video/sy0-701-0204-09-on-path-attacks.mp4",
             "title": "On Path Attacks",
             "lesson_num": "09"
           },
           {
-            "path": "./sy0-701-0204-05-physical-attacks.mp4",
+            "path": "./video/sy0-701-0204-05-physical-attacks.mp4",
             "title": "Physical Attacks",
             "lesson_num": "05"
           },
           {
-            "path": "./sy0-701-0204-01-an-overview-of-malware.mp4",
+            "path": "./video/sy0-701-0204-01-an-overview-of-malware.mp4",
             "title": "An Overview Of Malware",
             "lesson_num": "01"
           },
           {
-            "path": "./sy0-701-0204-04-other-malware-types.mp4",
+            "path": "./video/sy0-701-0204-04-other-malware-types.mp4",
             "title": "Other Malware Types",
             "lesson_num": "04"
           },
           {
-            "path": "./sy0-701-0204-12-application-attacks.mp4",
+            "path": "./video/sy0-701-0204-12-application-attacks.mp4",
             "title": "Application Attacks",
             "lesson_num": "12"
           },
           {
-            "path": "./sy0-701-0204-13-cryptographic-attacks.mp4",
+            "path": "./video/sy0-701-0204-13-cryptographic-attacks.mp4",
             "title": "Cryptographic Attacks",
             "lesson_num": "13"
           },
           {
-            "path": "./sy0-701-0204-15-indicators-of-compromise.mp4",
+            "path": "./video/sy0-701-0204-15-indicators-of-compromise.mp4",
             "title": "Indicators Of Compromise",
             "lesson_num": "15"
           },
           {
-            "path": "./sy0-701-0204-08-wireless-attacks.mp4",
+            "path": "./video/sy0-701-0204-08-wireless-attacks.mp4",
             "title": "Wireless Attacks",
             "lesson_num": "08"
           }
@@ -2469,81 +2469,81 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0204-10-replay-attacks.mp4",
+        "content_ref": "./video/sy0-701-0204-10-replay-attacks.mp4",
         "title": "Replay Attacks",
         "all_videos": [
           {
-            "path": "./sy0-701-0204-10-replay-attacks.mp4",
+            "path": "./video/sy0-701-0204-10-replay-attacks.mp4",
             "title": "Replay Attacks",
             "lesson_num": "10"
           },
           {
-            "path": "./sy0-701-0204-14-password-attacks.mp4",
+            "path": "./video/sy0-701-0204-14-password-attacks.mp4",
             "title": "Password Attacks",
             "lesson_num": "14"
           },
           {
-            "path": "./sy0-701-0204-02-viruses-and-worms.mp4",
+            "path": "./video/sy0-701-0204-02-viruses-and-worms.mp4",
             "title": "Viruses And Worms",
             "lesson_num": "02"
           },
           {
-            "path": "./sy0-701-0204-06-denial-of-service.mp4",
+            "path": "./video/sy0-701-0204-06-denial-of-service.mp4",
             "title": "Denial Of Service",
             "lesson_num": "06"
           },
           {
-            "path": "./sy0-701-0204-03-spyware-and-bloatware.mp4",
+            "path": "./video/sy0-701-0204-03-spyware-and-bloatware.mp4",
             "title": "Spyware And Bloatware",
             "lesson_num": "03"
           },
           {
-            "path": "./sy0-701-0204-07-dns-attacks.mp4",
+            "path": "./video/sy0-701-0204-07-dns-attacks.mp4",
             "title": "Dns Attacks",
             "lesson_num": "07"
           },
           {
-            "path": "./sy0-701-0204-11-malicious-code.mp4",
+            "path": "./video/sy0-701-0204-11-malicious-code.mp4",
             "title": "Malicious Code",
             "lesson_num": "11"
           },
           {
-            "path": "./sy0-701-0204-09-on-path-attacks.mp4",
+            "path": "./video/sy0-701-0204-09-on-path-attacks.mp4",
             "title": "On Path Attacks",
             "lesson_num": "09"
           },
           {
-            "path": "./sy0-701-0204-05-physical-attacks.mp4",
+            "path": "./video/sy0-701-0204-05-physical-attacks.mp4",
             "title": "Physical Attacks",
             "lesson_num": "05"
           },
           {
-            "path": "./sy0-701-0204-01-an-overview-of-malware.mp4",
+            "path": "./video/sy0-701-0204-01-an-overview-of-malware.mp4",
             "title": "An Overview Of Malware",
             "lesson_num": "01"
           },
           {
-            "path": "./sy0-701-0204-04-other-malware-types.mp4",
+            "path": "./video/sy0-701-0204-04-other-malware-types.mp4",
             "title": "Other Malware Types",
             "lesson_num": "04"
           },
           {
-            "path": "./sy0-701-0204-12-application-attacks.mp4",
+            "path": "./video/sy0-701-0204-12-application-attacks.mp4",
             "title": "Application Attacks",
             "lesson_num": "12"
           },
           {
-            "path": "./sy0-701-0204-13-cryptographic-attacks.mp4",
+            "path": "./video/sy0-701-0204-13-cryptographic-attacks.mp4",
             "title": "Cryptographic Attacks",
             "lesson_num": "13"
           },
           {
-            "path": "./sy0-701-0204-15-indicators-of-compromise.mp4",
+            "path": "./video/sy0-701-0204-15-indicators-of-compromise.mp4",
             "title": "Indicators Of Compromise",
             "lesson_num": "15"
           },
           {
-            "path": "./sy0-701-0204-08-wireless-attacks.mp4",
+            "path": "./video/sy0-701-0204-08-wireless-attacks.mp4",
             "title": "Wireless Attacks",
             "lesson_num": "08"
           }
@@ -2818,21 +2818,21 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0205-02-mitigation-techniques.mp4",
+        "content_ref": "./video/sy0-701-0205-02-mitigation-techniques.mp4",
         "title": "Mitigation Techniques",
         "all_videos": [
           {
-            "path": "./sy0-701-0205-02-mitigation-techniques.mp4",
+            "path": "./video/sy0-701-0205-02-mitigation-techniques.mp4",
             "title": "Mitigation Techniques",
             "lesson_num": "02"
           },
           {
-            "path": "./sy0-701-0205-01-segmentation-and-access-control.mp4",
+            "path": "./video/sy0-701-0205-01-segmentation-and-access-control.mp4",
             "title": "Segmentation And Access Control",
             "lesson_num": "01"
           },
           {
-            "path": "./sy0-701-0205-03-hardening-techniques.mp4",
+            "path": "./video/sy0-701-0205-03-hardening-techniques.mp4",
             "title": "Hardening Techniques",
             "lesson_num": "03"
           }
@@ -3107,26 +3107,26 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0301-01-cloud-infrastructures.mp4",
+        "content_ref": "./video/sy0-701-0301-01-cloud-infrastructures.mp4",
         "title": "Cloud Infrastructures",
         "all_videos": [
           {
-            "path": "./sy0-701-0301-01-cloud-infrastructures.mp4",
+            "path": "./video/sy0-701-0301-01-cloud-infrastructures.mp4",
             "title": "Cloud Infrastructures",
             "lesson_num": "01"
           },
           {
-            "path": "./sy0-701-0301-04-infrastructure-considerations.mp4",
+            "path": "./video/sy0-701-0301-04-infrastructure-considerations.mp4",
             "title": "Infrastructure Considerations",
             "lesson_num": "04"
           },
           {
-            "path": "./sy0-701-0301-03-other-infrastructure-concepts.mp4",
+            "path": "./video/sy0-701-0301-03-other-infrastructure-concepts.mp4",
             "title": "Other Infrastructure Concepts",
             "lesson_num": "03"
           },
           {
-            "path": "./sy0-701-0301-02-network-infrastructure-concepts.mp4",
+            "path": "./video/sy0-701-0301-02-network-infrastructure-concepts.mp4",
             "title": "Network Infrastructure Concepts",
             "lesson_num": "02"
           }
@@ -3399,36 +3399,36 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0302-02-intrusion-prevention.mp4",
+        "content_ref": "./video/sy0-701-0302-02-intrusion-prevention.mp4",
         "title": "Intrusion Prevention",
         "all_videos": [
           {
-            "path": "./sy0-701-0302-02-intrusion-prevention.mp4",
+            "path": "./video/sy0-701-0302-02-intrusion-prevention.mp4",
             "title": "Intrusion Prevention",
             "lesson_num": "02"
           },
           {
-            "path": "./sy0-701-0302-05-firewall-types.mp4",
+            "path": "./video/sy0-701-0302-05-firewall-types.mp4",
             "title": "Firewall Types",
             "lesson_num": "05"
           },
           {
-            "path": "./sy0-701-0302-06-secure-communication.mp4",
+            "path": "./video/sy0-701-0302-06-secure-communication.mp4",
             "title": "Secure Communication",
             "lesson_num": "06"
           },
           {
-            "path": "./sy0-701-0302-01-secure-infrastructures.mp4",
+            "path": "./video/sy0-701-0302-01-secure-infrastructures.mp4",
             "title": "Secure Infrastructures",
             "lesson_num": "01"
           },
           {
-            "path": "./sy0-701-0302-03-network-appliances.mp4",
+            "path": "./video/sy0-701-0302-03-network-appliances.mp4",
             "title": "Network Appliances",
             "lesson_num": "03"
           },
           {
-            "path": "./sy0-701-0302-04-port-security.mp4",
+            "path": "./video/sy0-701-0302-04-port-security.mp4",
             "title": "Port Security",
             "lesson_num": "04"
           }
@@ -3702,21 +3702,21 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0303-02-states-of-data.mp4",
+        "content_ref": "./video/sy0-701-0303-02-states-of-data.mp4",
         "title": "States Of Data",
         "all_videos": [
           {
-            "path": "./sy0-701-0303-02-states-of-data.mp4",
+            "path": "./video/sy0-701-0303-02-states-of-data.mp4",
             "title": "States Of Data",
             "lesson_num": "02"
           },
           {
-            "path": "./sy0-701-0303-01-data-types-and-classifications.mp4",
+            "path": "./video/sy0-701-0303-01-data-types-and-classifications.mp4",
             "title": "Data Types And Classifications",
             "lesson_num": "01"
           },
           {
-            "path": "./sy0-701-0303-03-protecting-data.mp4",
+            "path": "./video/sy0-701-0303-03-protecting-data.mp4",
             "title": "Protecting Data",
             "lesson_num": "03"
           }
@@ -3990,31 +3990,31 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0304-01-resiliency.mp4",
+        "content_ref": "./video/sy0-701-0304-01-resiliency.mp4",
         "title": "Resiliency",
         "all_videos": [
           {
-            "path": "./sy0-701-0304-01-resiliency.mp4",
+            "path": "./video/sy0-701-0304-01-resiliency.mp4",
             "title": "Resiliency",
             "lesson_num": "01"
           },
           {
-            "path": "./sy0-701-0304-04-backups.mp4",
+            "path": "./video/sy0-701-0304-04-backups.mp4",
             "title": "Backups",
             "lesson_num": "04"
           },
           {
-            "path": "./sy0-701-0304-05-power-resiliency.mp4",
+            "path": "./video/sy0-701-0304-05-power-resiliency.mp4",
             "title": "Power Resiliency",
             "lesson_num": "05"
           },
           {
-            "path": "./sy0-701-0304-03-recovery-testing.mp4",
+            "path": "./video/sy0-701-0304-03-recovery-testing.mp4",
             "title": "Recovery Testing",
             "lesson_num": "03"
           },
           {
-            "path": "./sy0-701-0304-02-capacity-planning.mp4",
+            "path": "./video/sy0-701-0304-02-capacity-planning.mp4",
             "title": "Capacity Planning",
             "lesson_num": "02"
           }
@@ -4557,31 +4557,31 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0401-03-securing-wireless-and-mobile.mp4",
+        "content_ref": "./video/sy0-701-0401-03-securing-wireless-and-mobile.mp4",
         "title": "Securing Wireless And Mobile",
         "all_videos": [
           {
-            "path": "./sy0-701-0401-03-securing-wireless-and-mobile.mp4",
+            "path": "./video/sy0-701-0401-03-securing-wireless-and-mobile.mp4",
             "title": "Securing Wireless And Mobile",
             "lesson_num": "03"
           },
           {
-            "path": "./sy0-701-0401-02-hardening-targets.mp4",
+            "path": "./video/sy0-701-0401-02-hardening-targets.mp4",
             "title": "Hardening Targets",
             "lesson_num": "02"
           },
           {
-            "path": "./sy0-701-0401-04-wireless-security-settings.mp4",
+            "path": "./video/sy0-701-0401-04-wireless-security-settings.mp4",
             "title": "Wireless Security Settings",
             "lesson_num": "04"
           },
           {
-            "path": "./sy0-701-0401-05-application-security.mp4",
+            "path": "./video/sy0-701-0401-05-application-security.mp4",
             "title": "Application Security",
             "lesson_num": "05"
           },
           {
-            "path": "./sy0-701-0401-01-secure-baselines.mp4",
+            "path": "./video/sy0-701-0401-01-secure-baselines.mp4",
             "title": "Secure Baselines",
             "lesson_num": "01"
           }
@@ -4855,11 +4855,11 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0402-01-asset-management.mp4",
+        "content_ref": "./video/sy0-701-0402-01-asset-management.mp4",
         "title": "Asset Management",
         "all_videos": [
           {
-            "path": "./sy0-701-0402-01-asset-management.mp4",
+            "path": "./video/sy0-701-0402-01-asset-management.mp4",
             "title": "Asset Management",
             "lesson_num": "01"
           }
@@ -5137,16 +5137,16 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0404-01-security-monitoring.mp4",
+        "content_ref": "./video/sy0-701-0404-01-security-monitoring.mp4",
         "title": "Security Monitoring",
         "all_videos": [
           {
-            "path": "./sy0-701-0404-01-security-monitoring.mp4",
+            "path": "./video/sy0-701-0404-01-security-monitoring.mp4",
             "title": "Security Monitoring",
             "lesson_num": "01"
           },
           {
-            "path": "./sy0-701-0404-02-security-tools.mp4",
+            "path": "./video/sy0-701-0404-02-security-tools.mp4",
             "title": "Security Tools",
             "lesson_num": "02"
           }
@@ -5422,41 +5422,41 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0405-02-web-filtering.mp4",
+        "content_ref": "./video/sy0-701-0405-02-web-filtering.mp4",
         "title": "Web Filtering",
         "all_videos": [
           {
-            "path": "./sy0-701-0405-02-web-filtering.mp4",
+            "path": "./video/sy0-701-0405-02-web-filtering.mp4",
             "title": "Web Filtering",
             "lesson_num": "02"
           },
           {
-            "path": "./sy0-701-0405-01-firewalls.mp4",
+            "path": "./video/sy0-701-0405-01-firewalls.mp4",
             "title": "Firewalls",
             "lesson_num": "01"
           },
           {
-            "path": "./sy0-701-0405-07-endpoint-security.mp4",
+            "path": "./video/sy0-701-0405-07-endpoint-security.mp4",
             "title": "Endpoint Security",
             "lesson_num": "07"
           },
           {
-            "path": "./sy0-701-0405-06-monitoring-data.mp4",
+            "path": "./video/sy0-701-0405-06-monitoring-data.mp4",
             "title": "Monitoring Data",
             "lesson_num": "06"
           },
           {
-            "path": "./sy0-701-0405-05-email-security.mp4",
+            "path": "./video/sy0-701-0405-05-email-security.mp4",
             "title": "Email Security",
             "lesson_num": "05"
           },
           {
-            "path": "./sy0-701-0405-03-operating-system-security.mp4",
+            "path": "./video/sy0-701-0405-03-operating-system-security.mp4",
             "title": "Operating System Security",
             "lesson_num": "03"
           },
           {
-            "path": "./sy0-701-0405-04-secure-protocols.mp4",
+            "path": "./video/sy0-701-0405-04-secure-protocols.mp4",
             "title": "Secure Protocols",
             "lesson_num": "04"
           }
@@ -5729,26 +5729,26 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0406-02-access-controls.mp4",
+        "content_ref": "./video/sy0-701-0406-02-access-controls.mp4",
         "title": "Access Controls",
         "all_videos": [
           {
-            "path": "./sy0-701-0406-02-access-controls.mp4",
+            "path": "./video/sy0-701-0406-02-access-controls.mp4",
             "title": "Access Controls",
             "lesson_num": "02"
           },
           {
-            "path": "./sy0-701-0406-03-multi-factor-authentication.mp4",
+            "path": "./video/sy0-701-0406-03-multi-factor-authentication.mp4",
             "title": "Multi Factor Authentication",
             "lesson_num": "03"
           },
           {
-            "path": "./sy0-701-0406-04-password-security.mp4",
+            "path": "./video/sy0-701-0406-04-password-security.mp4",
             "title": "Password Security",
             "lesson_num": "04"
           },
           {
-            "path": "./sy0-701-0406-01-identity-and-access-management.mp4",
+            "path": "./video/sy0-701-0406-01-identity-and-access-management.mp4",
             "title": "Identity And Access Management",
             "lesson_num": "01"
           }
@@ -6026,11 +6026,11 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0407-01-scripting-and-automation.mp4",
+        "content_ref": "./video/sy0-701-0407-01-scripting-and-automation.mp4",
         "title": "Scripting And Automation",
         "all_videos": [
           {
-            "path": "./sy0-701-0407-01-scripting-and-automation.mp4",
+            "path": "./video/sy0-701-0407-01-scripting-and-automation.mp4",
             "title": "Scripting And Automation",
             "lesson_num": "01"
           }
@@ -6304,21 +6304,21 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0408-01-incident-response.mp4",
+        "content_ref": "./video/sy0-701-0408-01-incident-response.mp4",
         "title": "Incident Response",
         "all_videos": [
           {
-            "path": "./sy0-701-0408-01-incident-response.mp4",
+            "path": "./video/sy0-701-0408-01-incident-response.mp4",
             "title": "Incident Response",
             "lesson_num": "01"
           },
           {
-            "path": "./sy0-701-0408-02-incident-planning.mp4",
+            "path": "./video/sy0-701-0408-02-incident-planning.mp4",
             "title": "Incident Planning",
             "lesson_num": "02"
           },
           {
-            "path": "./sy0-701-0408-03-digital-forensics.mp4",
+            "path": "./video/sy0-701-0408-03-digital-forensics.mp4",
             "title": "Digital Forensics",
             "lesson_num": "03"
           }
@@ -6593,11 +6593,11 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0409-01-log-data.mp4",
+        "content_ref": "./video/sy0-701-0409-01-log-data.mp4",
         "title": "Log Data",
         "all_videos": [
           {
-            "path": "./sy0-701-0409-01-log-data.mp4",
+            "path": "./video/sy0-701-0409-01-log-data.mp4",
             "title": "Log Data",
             "lesson_num": "01"
           }
@@ -6874,31 +6874,31 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0501-01-security-policies.mp4",
+        "content_ref": "./video/sy0-701-0501-01-security-policies.mp4",
         "title": "Security Policies",
         "all_videos": [
           {
-            "path": "./sy0-701-0501-01-security-policies.mp4",
+            "path": "./video/sy0-701-0501-01-security-policies.mp4",
             "title": "Security Policies",
             "lesson_num": "01"
           },
           {
-            "path": "./sy0-701-0501-02-security-standards.mp4",
+            "path": "./video/sy0-701-0501-02-security-standards.mp4",
             "title": "Security Standards",
             "lesson_num": "02"
           },
           {
-            "path": "./sy0-701-0501-03-security-procedures.mp4",
+            "path": "./video/sy0-701-0501-03-security-procedures.mp4",
             "title": "Security Procedures",
             "lesson_num": "03"
           },
           {
-            "path": "./sy0-701-0501-04-security-considerations.mp4",
+            "path": "./video/sy0-701-0501-04-security-considerations.mp4",
             "title": "Security Considerations",
             "lesson_num": "04"
           },
           {
-            "path": "./sy0-701-0501-05-data-roles-and-responsibilities.mp4",
+            "path": "./video/sy0-701-0501-05-data-roles-and-responsibilities.mp4",
             "title": "Data Roles And Responsibilities",
             "lesson_num": "05"
           }
@@ -7172,26 +7172,26 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0502-04-business-impact-analysis.mp4",
+        "content_ref": "./video/sy0-701-0502-04-business-impact-analysis.mp4",
         "title": "Business Impact Analysis",
         "all_videos": [
           {
-            "path": "./sy0-701-0502-04-business-impact-analysis.mp4",
+            "path": "./video/sy0-701-0502-04-business-impact-analysis.mp4",
             "title": "Business Impact Analysis",
             "lesson_num": "04"
           },
           {
-            "path": "./sy0-701-0502-03-risk-management-strategies.mp4",
+            "path": "./video/sy0-701-0502-03-risk-management-strategies.mp4",
             "title": "Risk Management Strategies",
             "lesson_num": "03"
           },
           {
-            "path": "./sy0-701-0502-01-risk-management.mp4",
+            "path": "./video/sy0-701-0502-01-risk-management.mp4",
             "title": "Risk Management",
             "lesson_num": "01"
           },
           {
-            "path": "./sy0-701-0502-02-risk-analysis.mp4",
+            "path": "./video/sy0-701-0502-02-risk-analysis.mp4",
             "title": "Risk Analysis",
             "lesson_num": "02"
           }
@@ -7465,16 +7465,16 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0503-02-agreement-types.mp4",
+        "content_ref": "./video/sy0-701-0503-02-agreement-types.mp4",
         "title": "Agreement Types",
         "all_videos": [
           {
-            "path": "./sy0-701-0503-02-agreement-types.mp4",
+            "path": "./video/sy0-701-0503-02-agreement-types.mp4",
             "title": "Agreement Types",
             "lesson_num": "02"
           },
           {
-            "path": "./sy0-701-0503-01-third-party-risk-assessment.mp4",
+            "path": "./video/sy0-701-0503-01-third-party-risk-assessment.mp4",
             "title": "Third Party Risk Assessment",
             "lesson_num": "01"
           }
@@ -7747,16 +7747,16 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0505-01-audits-and-assessments.mp4",
+        "content_ref": "./video/sy0-701-0505-01-audits-and-assessments.mp4",
         "title": "Audits And Assessments",
         "all_videos": [
           {
-            "path": "./sy0-701-0505-01-audits-and-assessments.mp4",
+            "path": "./video/sy0-701-0505-01-audits-and-assessments.mp4",
             "title": "Audits And Assessments",
             "lesson_num": "01"
           },
           {
-            "path": "./sy0-701-0505-02-penetration-tests.mp4",
+            "path": "./video/sy0-701-0505-02-penetration-tests.mp4",
             "title": "Penetration Tests",
             "lesson_num": "02"
           }
@@ -8029,16 +8029,16 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0506-02-user-training.mp4",
+        "content_ref": "./video/sy0-701-0506-02-user-training.mp4",
         "title": "User Training",
         "all_videos": [
           {
-            "path": "./sy0-701-0506-02-user-training.mp4",
+            "path": "./video/sy0-701-0506-02-user-training.mp4",
             "title": "User Training",
             "lesson_num": "02"
           },
           {
-            "path": "./sy0-701-0506-01-security-awareness.mp4",
+            "path": "./video/sy0-701-0506-01-security-awareness.mp4",
             "title": "Security Awareness",
             "lesson_num": "01"
           }
@@ -8310,7 +8310,7 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0101-01-security-controls.mp4",
+        "content_ref": "./video/sy0-701-0101-01-security-controls.mp4",
         "title": "Security Controls",
         "all_videos": []
       },
@@ -8583,7 +8583,7 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0301-01-cloud-infrastructures.mp4",
+        "content_ref": "./video/sy0-701-0301-01-cloud-infrastructures.mp4",
         "title": "Cloud Infrastructures",
         "all_videos": []
       },
@@ -8854,7 +8854,7 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0401-03-securing-wireless-and-mobile.mp4",
+        "content_ref": "./video/sy0-701-0401-03-securing-wireless-and-mobile.mp4",
         "title": "Securing Wireless And Mobile",
         "all_videos": []
       },
@@ -9130,7 +9130,7 @@
       },
       "video": {
         "duration_min": 35,
-        "content_ref": "./sy0-701-0501-01-security-policies.mp4",
+        "content_ref": "./video/sy0-701-0501-01-security-policies.mp4",
         "title": "Security Policies",
         "all_videos": []
       },

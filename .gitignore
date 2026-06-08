@@ -16,6 +16,8 @@ _source/dist/
 *.mp3
 *.zip
 *.apkg
+audio/
+video/
 sy0-701-audio/
 sy0-701-section1-video/
 sy0-701-section2-video/
