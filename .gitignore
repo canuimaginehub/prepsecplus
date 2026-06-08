@@ -1,5 +1,7 @@
 # Dependency Directories
 node_modules/
+_source/node_modules/
+_source/dist/
 
 # Local Environment & Logs
 .DS_Store
@@ -21,5 +23,7 @@ sy0-701-section3-video/
 sy0-701-section4-video/
 sy0-701-section5-video/
 ~$*
-dist/
-public_html/
+
+# Track root production assets explicitly
+!index.html
+!assets/
