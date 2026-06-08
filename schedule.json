@@ -1,0 +1,641 @@
+[
+  {
+    "day": 1,
+    "date": "2026-06-08",
+    "sub_objective": "1.1",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: General Security Concepts. Complete 20 questions in 20 minutes focusing on Domain 1. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 1.1: Security Control Categories and Types. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Contrast functional classifications: Preventive, Deterrent, Detective, Corrective, Compensating, and Directive controls.",
+      "Map controls to contextual administrative configurations (policies, training, risk assessments).",
+      "Map controls to technical systems (firewalls, encryption, antivirus).",
+      "Map controls to physical barriers (gates, guards, locks, lighting)."
+    ]
+  },
+  {
+    "day": 2,
+    "date": "2026-06-09",
+    "sub_objective": "1.2",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: General Security Concepts. Complete 20 questions in 20 minutes focusing on Domain 1. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 1.2: Fundamental Security Concepts & Zero Trust. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Define the elements of the CIA Triad (Confidentiality, Integrity, Availability).",
+      "Explain non-repudiation using cryptographic mechanics (digital signatures).",
+      "Contrast Identification, Authentication, Authorization, and Accounting (AAA) controls.",
+      "Conduct a Gap Analysis to compare current security posture against targeted baselines.",
+      "Isolate the Zero Trust Control Plane (Policy Engine & Policy Administrator) from the Data Plane (Policy Enforcement Point - PEP).",
+      "Distinguish physical sensors: Infrared, Pressure, Microwave, and Ultrasonic equipment.",
+      "Implement deception environments: Honeypots, Honeynets, and Honeyfiles."
+    ]
+  },
+  {
+    "day": 3,
+    "date": "2026-06-10",
+    "sub_objective": "1.3",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: General Security Concepts. Complete 20 questions in 20 minutes focusing on Domain 1. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 1.3: Change Management Processes. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Trace the Change Control process: Request for Change (RFC), CAB approvals, scheduling, validation, and documentation.",
+      "Implement technical change management constraints: rollback/backout plans and sandbox testing."
+    ]
+  },
+  {
+    "day": 4,
+    "date": "2026-06-11",
+    "sub_objective": "1.4",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: General Security Concepts. Complete 20 questions in 20 minutes focusing on Domain 1. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 1.4: Cryptographic Concepts and PKI Infrastructure. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Audit the CSR validation pipeline from public/private key generation to Certificate Authority submission.",
+      "Configure Wildcard certificate traits and specify domain matching boundaries.",
+      "Detail CRL blacklists and distinguish them from real-time OCSP Stapling mechanics.",
+      "Contrast symmetric vs asymmetric algorithms and check key exchange protocols (Diffie-Hellman).",
+      "Evaluate hashing algorithms (SHA-256/384) and check digital signatures for integrity."
+    ]
+  },
+  {
+    "day": 5,
+    "date": "2026-06-12",
+    "sub_objective": "2.1",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Threats, Vulnerabilities, and Mitigations. Complete 20 questions in 20 minutes focusing on Domain 2. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 2.1: Threat Actors, Vectors, and Motivations. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Categorize threat actors: APTs, state-sponsored agents, script kiddies, hacktivists, and malicious insiders.",
+      "Define threat actor motivations (financial, geopolitical, espionage, revenge)."
+    ]
+  },
+  {
+    "day": 6,
+    "date": "2026-06-13",
+    "sub_objective": "2.2",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Threats, Vulnerabilities, and Mitigations. Complete 20 questions in 20 minutes focusing on Domain 2. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 2.2: Threat Vectors and Social Engineering Attacks. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Detail threat vectors: email, wireless, direct access, supply chain, cloud services, and removable media.",
+      "Contrast phishing, spear phishing, whaling, watering hole attacks, and impersonation."
+    ]
+  },
+  {
+    "day": 7,
+    "date": "2026-06-14",
+    "sub_objective": "2.3",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Threats, Vulnerabilities, and Mitigations. Complete 20 questions in 20 minutes focusing on Domain 2. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 2.3: Software and Hardware Vulnerabilities. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Map the race condition window in Time-of-Check to Time-of-Use (TOCTOU) code flaws.",
+      "Identify memory manipulation tools: DLL injection vs buffer bounds checking failures.",
+      "Manage hardware state transitions: End-of-Life (EOL) vs End-of-Service-Life (EOSL) assets."
+    ]
+  },
+  {
+    "day": 8,
+    "date": "2026-06-15",
+    "sub_objective": "2.4",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Threats, Vulnerabilities, and Mitigations. Complete 20 questions in 20 minutes focusing on Domain 2. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 2.4: Indicators of Compromise & Malware (Part 1). Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Detect malware behaviors: Ransomware (crypto locker states), Spyware (keyloggers), Rootkits (kernel level), and Trojans.",
+      "Identify physical security threats (tailgating, card cloning, dumpster diving)."
+    ]
+  },
+  {
+    "day": 9,
+    "date": "2026-06-16",
+    "sub_objective": "2.4",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Threats, Vulnerabilities, and Mitigations. Complete 20 questions in 20 minutes focusing on Domain 2. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 2.4: Indicators of Compromise & Attacks (Part 2). Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Analyze DoS/DDoS amplification attack vectors (DNS/NTP amplification).",
+      "Isolate network attacks: On-path (MITM) attacks, ARP cache poisoning, DNS hijacking, and replay attacks.",
+      "Examine wireless attacks (evil twin, rogue AP, bluejacking)."
+    ]
+  },
+  {
+    "day": 10,
+    "date": "2026-06-17",
+    "sub_objective": "2.5",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Threats, Vulnerabilities, and Mitigations. Complete 20 questions in 20 minutes focusing on Domain 2. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 2.5: Mitigation and Hardening Techniques. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Enforce security configurations: Network segmentation, VLANs, and air gapping.",
+      "Configure host-level hardening: disabling unused ports/services and uninstalling default apps."
+    ]
+  },
+  {
+    "day": 11,
+    "date": "2026-06-18",
+    "sub_objective": "3.1",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Architecture. Complete 20 questions in 20 minutes focusing on Domain 3. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 3.1: Secure Architecture & Cloud Models. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Differentiate cloud deployment types: Public, Private, Hybrid, and Community clouds.",
+      "Identify virtualization vulnerabilities: VM escape, hypervisor compromise, and resource exhaustion.",
+      "Enforce Software-Defined Networking (SDN) security partitions."
+    ]
+  },
+  {
+    "day": 12,
+    "date": "2026-06-19",
+    "sub_objective": "3.2",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Architecture. Complete 20 questions in 20 minutes focusing on Domain 3. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 3.2: Securing Network Infrastructures & Firewalls. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Detail network appliances: firewalls, load balancers, proxies, and VPN concentrators.",
+      "Contrast firewall types: stateless, stateful, Web Application Firewalls (WAF), and NGFW with DPI.",
+      "Implement port-security settings (802.1X, MAC address filtering)."
+    ]
+  },
+  {
+    "day": 13,
+    "date": "2026-06-20",
+    "sub_objective": "3.3",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Architecture. Complete 20 questions in 20 minutes focusing on Domain 3. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 3.3: Data Types, Classifications, and Protection. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Contrast regulated data profiles: PII, PHI, and financial transaction records (PCI-DSS).",
+      "Examine data classification tags: Public, Private, Proprietary, and Confidential.",
+      "Secure states of data: data at rest (FDE), data in transit (TLS 1.3), and data in use (secure enclaves).",
+      "Implement data masking, obfuscation, tokenization, and DLP policies."
+    ]
+  },
+  {
+    "day": 14,
+    "date": "2026-06-21",
+    "sub_objective": "3.4",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Architecture. Complete 20 questions in 20 minutes focusing on Domain 3. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 3.4: Resilience, Backups, and Recovery. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Design redundant systems: RAID arrays, load balancers, and active-active clustering.",
+      "Evaluate backups: full, differential, incremental, and the 3-2-1 backup strategy.",
+      "Differentiate recovery tests (tabletop exercises vs simulations)."
+    ]
+  },
+  {
+    "day": 15,
+    "date": "2026-06-22",
+    "sub_objective": "3.0",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Architecture. Complete 20 questions in 20 minutes focusing on Domain 3. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 3.0: Domain 3 Architecture Review. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Review Domain 3 topics: Cloud, Virtualization, Firewalls, Data Protection, and Backups.",
+      "Conduct practice drill review for architectural vulnerabilities and design secure network maps."
+    ]
+  },
+  {
+    "day": 16,
+    "date": "2026-06-23",
+    "sub_objective": "4.1",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Operations. Complete 20 questions in 20 minutes focusing on Domain 4. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 4.1: Secure Infrastructure Baselines & Wireless Settings. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Set secure OS baselines: firmware security (UEFI, Secure Boot) and TPM integration.",
+      "Contrast secure wireless settings: WPA3 Personal using SAE Dragonfly handshakes vs WPA3 Enterprise using 802.1X/EAP validation pipelines."
+    ]
+  },
+  {
+    "day": 17,
+    "date": "2026-06-24",
+    "sub_objective": "4.2",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Operations. Complete 20 questions in 20 minutes focusing on Domain 4. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 4.2: Asset Management & Vulnerability Assessments. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Implement asset discovery, inventory controls, and lifecycle management.",
+      "Analyze vulnerability scans: identify false positives, prioritize CVE scores, and perform patch validation.",
+      "Contrast penetration testing strategies: black box, white box, and gray box exercises."
+    ]
+  },
+  {
+    "day": 18,
+    "date": "2026-06-25",
+    "sub_objective": "4.4",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Operations. Complete 20 questions in 20 minutes focusing on Domain 4. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 4.4: Security Monitoring and Log Aggregation. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Deploy security log aggregation systems and detail log flow structures.",
+      "Establish SIEM correlation rules to link security events across firewalls, proxies, and domain controllers."
+    ]
+  },
+  {
+    "day": 19,
+    "date": "2026-06-26",
+    "sub_objective": "4.5",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Operations. Complete 20 questions in 20 minutes focusing on Domain 4. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 4.5: Secure Protocols and Port Hardening. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Implement unencrypted service mitigation maps utilizing explicit port-level replacements: Telnet (TCP 23) to SSH (TCP 22), HTTP (TCP 80) to HTTPS (TCP 443), FTP (TCP 20/21) to SFTP (TCP 22).",
+      "Hardening application ports and configuring email protections: SPF, DKIM, and DMARC DNS records."
+    ]
+  },
+  {
+    "day": 20,
+    "date": "2026-06-27",
+    "sub_objective": "4.6",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Operations. Complete 20 questions in 20 minutes focusing on Domain 4. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 4.6: Identity and Access Management (IAM). Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Contrast IAM frameworks: Directory Services (LDAP, Active Directory) and Single Sign-On (SAML, OAuth 2.0, OIDC).",
+      "Enforce access control models: Attribute-based (ABAC), Role-based (RBAC), Mandatory (MAC), and Discretionary (DAC).",
+      "Configure Multi-Factor Authentication (MFA) credentials: TOTP tokens, push notifications, and biometric verification."
+    ]
+  },
+  {
+    "day": 21,
+    "date": "2026-06-28",
+    "sub_objective": "4.7",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Operations. Complete 20 questions in 20 minutes focusing on Domain 4. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 4.7: Scripting and Security Automation. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Identify scripting languages: PowerShell, Bash, and Python usage for security tasks.",
+      "Configure automation playbooks and deploy SOAR orchestration pipelines to accelerate incident containment."
+    ]
+  },
+  {
+    "day": 22,
+    "date": "2026-06-29",
+    "sub_objective": "4.8",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Operations. Complete 20 questions in 20 minutes focusing on Domain 4. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 4.8: Incident Response & Digital Forensics. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Map incident response steps: Preparation, Detection & Analysis, Containment, Eradication, Recovery, and Post-Incident Activity.",
+      "Enforce the explicit order of data volatility across storage resources: Registers/Cache -> Routing Tables/RAM -> Local Disk Storage -> Network Backups.",
+      "Trace chain of custody protocols to document evidence acquisition and hash verification."
+    ]
+  },
+  {
+    "day": 23,
+    "date": "2026-06-30",
+    "sub_objective": "4.9",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Operations. Complete 20 questions in 20 minutes focusing on Domain 4. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 4.9: Analyzing Data for Security Monitoring. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Inspect firewall connection tables, proxy logs, and DNS query histories to map malicious network telemetry.",
+      "Detect data exfiltration indicators and recognize command-and-control (C2) beaconing patterns."
+    ]
+  },
+  {
+    "day": 24,
+    "date": "2026-07-01",
+    "sub_objective": "5.1",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Program Management and Oversight. Complete 20 questions in 20 minutes focusing on Domain 5. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 5.1: Security Governance & Policies. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Differentiate governance documents: Policies (mandatory high-level), Standards (compulsory baselines), and Procedures (step-by-step instructions).",
+      "Assign data handling roles: Controller, Processor, Custodian, and Owner."
+    ]
+  },
+  {
+    "day": 25,
+    "date": "2026-07-02",
+    "sub_objective": "5.2",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Program Management and Oversight. Complete 20 questions in 20 minutes focusing on Domain 5. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 5.2: Risk Management & Calculation Formulas. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Enforce quantitative risk calculation formulas: SLE = AV * EF; ALE = ARO * SLE.",
+      "Contrast recovery milestones: Recovery Time Objective (RTO timelines) vs Recovery Point Objective (RPO age tolerances).",
+      "Review risk strategies: mitigation, acceptance, avoidance, and transfer."
+    ]
+  },
+  {
+    "day": 26,
+    "date": "2026-07-03",
+    "sub_objective": "5.3",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Program Management and Oversight. Complete 20 questions in 20 minutes focusing on Domain 5. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 5.3: Third-Party Vendor Contracts & Privacy. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Examine vendor contract blueprints: Service Level Agreement (SLA), Memorandum of Understanding (MOU), Memorandum of Agreement (MOA), and Statement of Work (SOW).",
+      "Verify compliance with privacy frameworks (GDPR, HIPAA, CCPA) and evaluate Privacy Impact Assessments (PIA)."
+    ]
+  },
+  {
+    "day": 27,
+    "date": "2026-07-04",
+    "sub_objective": "5.5",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Program Management and Oversight. Complete 20 questions in 20 minutes focusing on Domain 5. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 5.5: Security Audits and Assessments. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Differentiate audit categories: internal audits (self-assessments) vs external audits (third-party certifications).",
+      "Gather audit logs, configurations, and policy documents to validate control effectiveness."
+    ]
+  },
+  {
+    "day": 28,
+    "date": "2026-07-05",
+    "sub_objective": "5.6",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Program Management and Oversight. Complete 20 questions in 20 minutes focusing on Domain 5. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 5.6: Security Awareness and Training. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Deploy security training campaigns: phishing simulations, social engineering awareness, and clean desk policies.",
+      "Measure user training effectiveness via reporting rates and click-through metrics."
+    ]
+  },
+  {
+    "day": 29,
+    "date": "2026-07-06",
+    "sub_objective": "Review",
+    "track_1": {
+      "type": "Full Exam Simulation",
+      "description": "Full 90-question CompTIA Security+ practice exam simulator block. Complete under 90 minutes strict limit caps. Enforce Exam Hacks: Rule #4 (Board allocation maximization mapping), Rule #10 (Flag & Move), Rule #11 (Defer PBQs), and Rule #13 (Zero-penalty complete selection mandate).",
+      "questions": 90,
+      "time_limit": 90
+    },
+    "track_2": {
+      "description": "Review Domain 1 & 2 weak areas. Practice card decks on Control Classifications, Cryptographic PKI pipelines, and Malware types."
+    },
+    "checklist_payload": [
+      "Practice Domain 1 Flashcards (Security Control types and Zero Trust Control vs Data planes).",
+      "Practice Domain 2 Flashcards (TOCTOU race conditions and buffer overflow memory faults).",
+      "Analyze Practice Test 1 incorrect questions and log weak topics."
+    ]
+  },
+  {
+    "day": 30,
+    "date": "2026-07-07",
+    "sub_objective": "Review",
+    "track_1": {
+      "type": "Full Exam Simulation",
+      "description": "Full 90-question CompTIA Security+ practice exam simulator block. Complete under 90 minutes strict limit caps. Enforce Exam Hacks: Rule #4 (Board allocation maximization mapping), Rule #10 (Flag & Move), Rule #11 (Defer PBQs), and Rule #13 (Zero-penalty complete selection mandate).",
+      "questions": 90,
+      "time_limit": 90
+    },
+    "track_2": {
+      "description": "Review Domain 3 weak areas. Drill flashcards on Cloud Deployment types, Firewall topologies, and Resilience configurations."
+    },
+    "checklist_payload": [
+      "Practice Domain 3 Flashcards (RAID configurations, differential vs incremental backups).",
+      "Review states of data (TLS 1.3 transit, FDE at rest, secure enclaves in use).",
+      "Analyze Practice Test 2 incorrect questions and log weak topics."
+    ]
+  },
+  {
+    "day": 31,
+    "date": "2026-07-08",
+    "sub_objective": "Review",
+    "track_1": {
+      "type": "Full Exam Simulation",
+      "description": "Full 90-question CompTIA Security+ practice exam simulator block. Complete under 90 minutes strict limit caps. Enforce Exam Hacks: Rule #4 (Board allocation maximization mapping), Rule #10 (Flag & Move), Rule #11 (Defer PBQs), and Rule #13 (Zero-penalty complete selection mandate).",
+      "questions": 90,
+      "time_limit": 90
+    },
+    "track_2": {
+      "description": "Review Domain 4 weak areas. Memorize wireless settings (Dragonfly vs 802.1X/EAP) and port replacement maps."
+    },
+    "checklist_payload": [
+      "Practice Domain 4 Flashcards (WPA3 SAE, port configurations: SSH on 22, HTTPS on 443, SFTP on 22).",
+      "Memorize the order of volatility (Registers -> RAM -> Disk -> Backups).",
+      "Analyze Practice Test 3 incorrect questions and log weak topics."
+    ]
+  },
+  {
+    "day": 32,
+    "date": "2026-07-09",
+    "sub_objective": "Review",
+    "track_1": {
+      "type": "Full Exam Simulation",
+      "description": "Full 90-question CompTIA Security+ practice exam simulator block. Complete under 90 minutes strict limit caps. Enforce Exam Hacks: Rule #4 (Board allocation maximization mapping), Rule #10 (Flag & Move), Rule #11 (Defer PBQs), and Rule #13 (Zero-penalty complete selection mandate).",
+      "questions": 90,
+      "time_limit": 90
+    },
+    "track_2": {
+      "description": "Review Domain 5 weak areas. Recalculate ALE risk variables and verify contract frameworks."
+    },
+    "checklist_payload": [
+      "Practice Domain 5 Flashcards (Risk formulas: SLE=AV*EF, ALE=ARO*SLE).",
+      "Memorize agreement formats (SLA, MOU, MOA, SOW).",
+      "Analyze Practice Test 4 incorrect questions and log weak topics."
+    ]
+  },
+  {
+    "day": 33,
+    "date": "2026-07-10",
+    "sub_objective": "Review",
+    "track_1": {
+      "type": "Full Exam Simulation",
+      "description": "Full 90-question CompTIA Security+ practice exam simulator block. Complete under 90 minutes strict limit caps. Enforce Exam Hacks: Rule #4 (Board allocation maximization mapping), Rule #10 (Flag & Move), Rule #11 (Defer PBQs), and Rule #13 (Zero-penalty complete selection mandate).",
+      "questions": 90,
+      "time_limit": 90
+    },
+    "track_2": {
+      "description": "Comprehensive review of all 5 domains. Focus on acronym recognition and quick definitions."
+    },
+    "checklist_payload": [
+      "Run standard front-to-back testing flashcard deck of 200+ cards.",
+      "Review the complete list of 28 exam sub-objectives.",
+      "Analyze Practice Test 5 incorrect questions and map final prep checklist."
+    ]
+  },
+  {
+    "day": 34,
+    "date": "2026-07-11",
+    "sub_objective": "Review",
+    "track_1": {
+      "type": "Full Exam Simulation",
+      "description": "Full 90-question CompTIA Security+ practice exam simulator block. Complete under 90 minutes strict limit caps. Enforce Exam Hacks: Rule #4 (Board allocation maximization mapping), Rule #10 (Flag & Move), Rule #11 (Defer PBQs), and Rule #13 (Zero-penalty complete selection mandate).",
+      "questions": 90,
+      "time_limit": 90
+    },
+    "track_2": {
+      "description": "Exam Day Warm-up. Final memorization sweeps. Rest and mentally prepare."
+    },
+    "checklist_payload": [
+      "Review high-yield acronym lists and formula sheets.",
+      "Verify exam registration, location/online settings, and identification requirements.",
+      "Review Exam Hack Rule #13 (Zero-penalty full selection mandate) and Rule #11 (Immediate MCQ-first routing, deferring active PBQs)."
+    ]
+  }
+]

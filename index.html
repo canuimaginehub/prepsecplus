@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antigravity Security+ (SY0-701) Study Portal</title>
+  <meta name="description" content="A high-performance interactive web portal and simulator for the CompTIA Security+ (SY0-701) exam.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <div class="logo-text">
+          <h1>SecPlus</h1>
+          <span>Orchestrator v1.0</span>
+        </div>
+      </div>
+      
+      <nav class="sidebar-menu">
+        <button class="menu-btn active" data-pane="dashboard" id="btn-dashboard">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>
+          <span>Dashboard</span>
+        </button>
+        <button class="menu-btn" data-pane="practice" id="btn-practice">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 14 4-4-4-4M4 20l4-4M16 20l4-4M4 4l16 16"/></svg>
+          <span>Practice Engine</span>
+        </button>
+        <button class="menu-btn" data-pane="modules" id="btn-modules">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
+          <span>Reading Modules</span>
+        </button>
+        <button class="menu-btn" data-pane="flashcards" id="btn-flashcards">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M21 12H3M12 3v18"/></svg>
+          <span>Flashcards</span>
+        </button>
+        <button class="menu-btn" data-pane="hacks" id="btn-hacks">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10zM12 8v4M12 16h.01"/></svg>
+          <span>Exam Strategy Hacks</span>
+        </button>
+      </nav>
+      
+      <div class="sidebar-footer">
+        <div class="progress-widget">
+          <div class="widget-header">
+            <span>Overall Progress</span>
+            <span id="progress-percentage">0%</span>
+          </div>
+          <div class="widget-bar-bg">
+            <div class="widget-bar-fill" id="progress-bar-fill" style="width: 0%;"></div>
+          </div>
+          <div class="widget-details">
+            <span id="progress-count">0 of 34 Days Clear</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main View Area -->
+    <main class="main-content">
+      <!-- Pane: Dashboard -->
+      <section id="pane-dashboard" class="pane active">
+        <div class="pane-header">
+          <div>
+            <h2>Study Calendar & Roadmap</h2>
+            <p>June 8, 2026 – July 12, 2026 • 34 Days Dual-Track System</p>
+          </div>
+          <button class="action-btn-primary" id="btn-reset-data">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8M21 3v5h-5M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16M3 21v-5h5"/></svg>
+            Reset Progress
+          </button>
+        </div>
+        
+        <div class="dashboard-stats-grid">
+          <div class="stat-card cyan">
+            <h3>General Security Concepts</h3>
+            <span class="weight-badge">12% Weight</span>
+            <div class="stat-details">Days 1 - 4 • Sub 1.1 - 1.4</div>
+          </div>
+          <div class="stat-card purple">
+            <h3>Threats, Vulns & Mitigations</h3>
+            <span class="weight-badge">22% Weight</span>
+            <div class="stat-details">Days 5 - 10 • Sub 2.1 - 2.5</div>
+          </div>
+          <div class="stat-card pink">
+            <h3>Security Architecture</h3>
+            <span class="weight-badge">18% Weight</span>
+            <div class="stat-details">Days 11 - 15 • Sub 3.1 - 3.4</div>
+          </div>
+          <div class="stat-card amber">
+            <h3>Security Operations</h3>
+            <span class="weight-badge">28% Weight</span>
+            <div class="stat-details">Days 16 - 23 • Sub 4.1 - 4.9</div>
+          </div>
+          <div class="stat-card green">
+            <h3>Program Mgmt & Oversight</h3>
+            <span class="weight-badge">20% Weight</span>
+            <div class="stat-details">Days 24 - 28 • Sub 5.1 - 5.6</div>
+          </div>
+        </div>
+
+        <div class="calendar-section">
+          <h3>34-Day High-Performance Schedule</h3>
+          <div class="calendar-grid" id="calendar-days-container">
+            <!-- Programmatically rendered -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Pane: Practice Engine -->
+      <section id="pane-practice" class="pane">
+        <div class="pane-header">
+          <div>
+            <h2>Practice Test Engine</h2>
+            <p>Simulate exam conditions and drill domain-specific question pools</p>
+          </div>
+        </div>
+
+        <div id="practice-setup" class="practice-setup-card">
+          <h3>Launch Practice Session</h3>
+          <p class="card-desc">Prepare using actual exam simulations or target specific domains to build core strengths.</p>
+          
+          <div class="setup-options">
+            <div class="setup-group">
+              <label for="practice-mode">Select Session Type:</label>
+              <select id="practice-mode" class="form-select">
+                <option value="sim">Full Exam Simulation (90 Questions, 90 Mins, Enforces Hacks)</option>
+                <option value="drill">Domain Isolated Drill (Custom Length & Domain)</option>
+              </select>
+            </div>
+            
+            <div class="setup-group" id="drill-domain-group" style="display: none;">
+              <label for="drill-domain">Target Domain:</label>
+              <select id="drill-domain" class="form-select">
+                <option value="General Security Concepts">Domain 1: General Security Concepts (12%)</option>
+                <option value="Threats, Vulnerabilities, and Mitigations">Domain 2: Threats, Vulnerabilities, and Mitigations (22%)</option>
+                <option value="Security Architecture">Domain 3: Security Architecture (18%)</option>
+                <option value="Security Operations">Domain 4: Security Operations (28%)</option>
+                <option value="Security Program Management and Oversight">Domain 5: Security Program Management and Oversight (20%)</option>
+              </select>
+            </div>
+
+            <div class="setup-group" id="drill-count-group" style="display: none;">
+              <label for="drill-count">Question Count:</label>
+              <select id="drill-count" class="form-select">
+                <option value="15">15 Questions</option>
+                <option value="30">30 Questions</option>
+                <option value="50">50 Questions</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="hacks-warning-box">
+            <div class="warning-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0zM12 9v4M12 17h.01"/></svg>
+              <span>V Messer Exam Hacks Enforced in Simulation:</span>
+            </div>
+            <ul>
+              <li><strong>Rule #4: Board Allocation</strong> – Weights matched to blueprint allocations.</li>
+              <li><strong>Rule #10: Flag & Move</strong> – Tag questions to defer and review before submission.</li>
+              <li><strong>Rule #11: MCQ-First Routing</strong> – Defer Performance-Based Questions (PBQ) automatically.</li>
+              <li><strong>Rule #13: Zero-Penalty Mandate</strong> – Blocks submission if any question remains unanswered.</li>
+            </ul>
+          </div>
+
+          <button class="action-btn-primary start-btn" id="btn-start-practice">
+            Start Exam Session
+          </button>
+        </div>
+
+        <div id="practice-session" class="practice-session-container" style="display: none;">
+          <div class="session-header">
+            <div class="session-meta">
+              <span id="session-mode-title">Full Exam Simulation</span>
+              <span class="session-timer" id="session-timer">90:00</span>
+            </div>
+            <div class="session-actions">
+              <button class="btn-secondary" id="btn-flag-question">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"/></svg>
+                <span id="flag-btn-text">Flag Question</span>
+              </button>
+              <button class="btn-danger" id="btn-terminate-exam">End Session</button>
+            </div>
+          </div>
+
+          <div class="quiz-body-grid">
+            <div class="question-pane">
+              <div class="q-number-header">
+                <span id="q-index-disp">Question 1 of 90</span>
+                <span class="domain-tag" id="q-domain-disp">General Security Concepts</span>
+              </div>
+              <div class="q-content-text" id="q-text-disp">
+                <!-- Question text rendered -->
+              </div>
+              <div class="options-container" id="q-options-container">
+                <!-- Options rendered -->
+              </div>
+              <div class="nav-control-buttons">
+                <button class="btn-secondary" id="btn-prev-q">Previous</button>
+                <button class="btn-secondary" id="btn-next-q">Next</button>
+              </div>
+            </div>
+
+            <div class="navigation-sidebar">
+              <h4>Question Navigator</h4>
+              <p class="nav-hint">Review flagged (orange) or unanswered items. Select all before submitting.</p>
+              <div class="q-nav-grid" id="q-nav-grid-container">
+                <!-- Navigation buttons -->
+              </div>
+              <button class="action-btn-primary submit-exam-btn" id="btn-submit-exam">
+                Submit Exam For Scoring
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div id="practice-results" class="results-container" style="display: none;">
+          <h3>Session Scorecard</h3>
+          
+          <div class="score-summary-card">
+            <div class="score-radial">
+              <svg class="score-ring" width="120" height="120">
+                <circle class="ring-bg" cx="60" cy="60" r="50"/>
+                <circle class="ring-fill" id="result-ring-fill" cx="60" cy="60" r="50" style="stroke-dasharray: 314; stroke-dashoffset: 314;"/>
+              </svg>
+              <div class="score-value" id="result-score-percent">0%</div>
+            </div>
+            <div class="score-text">
+              <h4 id="result-status-text">Pass / Fail Status</h4>
+              <p id="result-numerical-score">0 of 0 Correct</p>
+              <span class="time-taken" id="result-time-taken">Time Taken: 00:00</span>
+            </div>
+          </div>
+
+          <h3>Domain Weakness Analysis (Rule #4 Blueprint Map)</h3>
+          <div class="domain-performance-list" id="result-domains-container">
+            <!-- Domain performance widgets -->
+          </div>
+
+          <div class="results-actions">
+            <button class="action-btn-primary" id="btn-results-review">Review Detailed Explanations</button>
+            <button class="btn-secondary" id="btn-results-close">Back to Setup</button>
+          </div>
+        </div>
+
+        <div id="practice-review" class="review-container" style="display: none;">
+          <div class="pane-header-review">
+            <h3>Explanations Review</h3>
+            <button class="btn-secondary" id="btn-review-close-top">Back to Results</button>
+          </div>
+          <div class="review-questions-list" id="review-questions-container">
+            <!-- Highlighted answers and full explanation markup -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Pane: Reading Modules -->
+      <section id="pane-modules" class="pane">
+        <div class="pane-header">
+          <div>
+            <h2>Exam Reading Modules</h2>
+            <p>Browse high-yield narrative summaries covering the 28 core sub-objectives</p>
+          </div>
+        </div>
+
+        <div class="modules-layout-grid">
+          <aside class="modules-sidebar">
+            <div class="modules-sidebar-search">
+              <input type="text" id="modules-search-input" placeholder="Search sub-objectives or terms..." class="form-select">
+            </div>
+            <div class="modules-tree-container" id="modules-list-tree">
+              <!-- Rendered modules list tree grouped by Domain -->
+            </div>
+          </aside>
+          
+          <article class="modules-viewer" id="modules-viewer-pane">
+            <div class="viewer-placeholder" id="viewer-placeholder-text">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
+              <h3>Select a Reading Module</h3>
+              <p>Pick a sub-objective on the left side to review key exam concepts, control details, and quantitative formulas.</p>
+            </div>
+            <div class="viewer-content" id="viewer-content-area" style="display: none;">
+              <!-- Renders module HTML -->
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Pane: Flashcards -->
+      <section id="pane-flashcards" class="pane">
+        <div class="pane-header">
+          <div>
+            <h2>Acronyms & Definitions Flashcards</h2>
+            <p>Interactive flipper deck covering the 200+ Security+ core concepts</p>
+          </div>
+        </div>
+
+        <div class="flashcards-layout">
+          <div class="flashcard-controls">
+            <div class="control-group">
+              <label for="flashcards-filter">Filter Deck:</label>
+              <select id="flashcards-filter" class="form-select">
+                <option value="all">All Flashcards (200 Cards)</option>
+                <option value="acronym">Acronyms Only (e.g. CSR, WPA3)</option>
+                <option value="term">Definition / Concepts Only</option>
+              </select>
+            </div>
+            <button class="btn-secondary" id="btn-shuffle-flashcards">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>
+              Shuffle Deck
+            </button>
+            <div class="deck-progress">
+              <span id="deck-progress-text">Card 1 of 200</span>
+              <div class="widget-bar-bg">
+                <div class="widget-bar-fill" id="deck-progress-fill" style="width: 0.5%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flashcard-deck-container">
+            <div class="flashcard-card-box" id="flashcard-container">
+              <div class="card-inner">
+                <div class="card-front">
+                  <span class="card-prompt">QUESTION / ACRONYM</span>
+                  <div class="card-text" id="card-front-text">What is two-factor authentication (2FA)?</div>
+                  <span class="card-action-hint">Click Card to Flip</span>
+                </div>
+                <div class="card-back">
+                  <span class="card-prompt">ANSWER / EXPLANATION</span>
+                  <div class="card-text" id="card-back-text">A security process that requires two different authentication methods to verify a user's identity.</div>
+                  <span class="card-action-hint">Click Card to Flip</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flashcard-navigation">
+            <button class="btn-secondary nav-btn" id="btn-prev-card">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+              Prev
+            </button>
+            <button class="action-btn-primary nav-btn" id="btn-next-card">
+              Next
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pane: Hacks Reference -->
+      <section id="pane-hacks" class="pane">
+        <div class="pane-header">
+          <div>
+            <h2>Professor Messer's Exam Hacks Cheat Sheet</h2>
+            <p>Strategic guidelines and operational parameters for maximize your exam score</p>
+          </div>
+        </div>
+
+        <div class="hacks-detail-grid">
+          <div class="hack-detail-card">
+            <div class="hack-badge">Rule #4</div>
+            <h4>Board Allocation Maximization Mapping</h4>
+            <p class="hack-desc">CompTIA scores questions based on weighting systems where operations (Domain 4) and vulnerability mitigation (Domain 2) hold the largest portions (50% combined). Align your review cycles to secure these high-yield domains first.</p>
+            <div class="hack-mechanics">
+              <h5>Weight Allocations Matrix:</h5>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Domain</th>
+                    <th>Exam Weight</th>
+                    <th>Blueprint Focus Areas</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>General Security Concepts</td>
+                    <td>12%</td>
+                    <td>Controls classifications, Zero Trust plane division, PKI mechanics.</td>
+                  </tr>
+                  <tr class="high-weight">
+                    <td>Threats, Vulns & Mitigations</td>
+                    <td>22%</td>
+                    <td>TOCTOU, memory injections, social engineering vectors, DDoS amplifications.</td>
+                  </tr>
+                  <tr>
+                    <td>Security Architecture</td>
+                    <td>18%</td>
+                    <td>Cloud models, VM escape protection, WAF vs NGFW, data protection.</td>
+                  </tr>
+                  <tr class="high-weight">
+                    <td>Security Operations</td>
+                    <td>28%</td>
+                    <td>WPA3 Personal/Enterprise, unencrypted service mitigation, order of volatility.</td>
+                  </tr>
+                  <tr>
+                    <td>Security Program Mgmt</td>
+                    <td>20%</td>
+                    <td>Quantitative risk analysis formulas, SLAs/MOUs, audits.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="hack-detail-card">
+            <div class="hack-badge">Rule #10</div>
+            <h4>Flag & Move Sequencing Parameters</h4>
+            <p class="hack-desc">Time management is the single highest failure point on the Security+ exam. Keep your momentum going and avoid analysis paralysis.</p>
+            <div class="hack-mechanics">
+              <h5>Execution Checklist:</h5>
+              <ul>
+                <li>If a question takes more than 45 seconds to parse, make a tentative choice immediately.</li>
+                <li>Press the <strong>Flag</strong> button to mark the question.</li>
+                <li>Move to the next question immediately. Do not sit and over-analyze.</li>
+                <li>Only return to review flagged questions during the "final loop" after completing all other items.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="hack-detail-card">
+            <div class="hack-badge">Rule #11</div>
+            <h4>Immediate MCQ-First Routing (Defer PBQs)</h4>
+            <p class="hack-desc">Performance Based Questions (PBQs) appear at the very beginning of the test. They require multi-step drag-and-drop operations or terminal emulation configurations and consume massive amounts of time.</p>
+            <div class="hack-mechanics">
+              <h5>Execution Blueprint:</h5>
+              <ul>
+                <li>When the exam starts, do NOT attempt to solve the first 3 to 7 questions if they are PBQs.</li>
+                <li>Flag them immediately, select no answers, and skip past them to the first Multiple Choice Question (MCQ).</li>
+                <li>Complete all 75+ multiple-choice questions first. This secures your foundation score.</li>
+                <li>Solve the skipped PBQs during your final loop with the remaining time, knowing exactly how many minutes you have left.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="hack-detail-card">
+            <div class="hack-badge">Rule #13</div>
+            <h4>Zero-Penalty Complete Selection Mandate</h4>
+            <p class="hack-desc">CompTIA does not deduct points for incorrect selections. A blank question is guaranteed to be 0 points, whereas an educated guess holds a 25%+ chance of adding points.</p>
+            <div class="hack-mechanics">
+              <h5>Mandate Policies:</h5>
+              <ul>
+                <li>Never submit the exam with any blank items.</li>
+                <li>Our Practice Engine blocks submission and forces guess inputs if questions are left empty before clicking final submit.</li>
+                <li>Use process of elimination to cross out two clearly incorrect options, then choose from the remaining two.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Modal: Day Details -->
+  <div class="modal-backdrop" id="day-modal" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="modal-day-title">Day X: June 8, 2026</h3>
+        <button class="close-modal-btn" id="btn-close-modal">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-track-card font-cyan">
+          <h5>Track 1: Daily Practice Test Engine Task</h5>
+          <p id="modal-t1-desc">Domain Drill Description</p>
+          <button class="action-btn-primary inline-btn" id="modal-btn-start-t1">Launch Target Drill</button>
+        </div>
+        
+        <div class="modal-track-card font-purple">
+          <h5>Track 2: Sub-Objective Study Assignment</h5>
+          <p id="modal-t2-desc">Professor Messer Video Path & Guide</p>
+          <button class="action-btn-primary inline-btn" id="modal-btn-view-t2">Open Reading Module</button>
+        </div>
+
+        <div class="modal-checklist-container">
+          <h5>Operational Checklist (Sync Ready)</h5>
+          <p class="modal-sec-desc">Verify these technical items for database logging payload:</p>
+          <div class="modal-checklist-list" id="modal-checklist-items-container">
+            <!-- Rendered checkbox items -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Alert Popup: Zero-Penalty Mandate -->
+  <div class="modal-backdrop alert" id="mandate-alert" style="display: none; z-index: 2000;">
+    <div class="alert-card">
+      <div class="alert-icon">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0zM12 9v4M12 17h.01"/></svg>
+      </div>
+      <h4>Zero-Penalty Mandate Warning (Rule #13)</h4>
+      <p id="mandate-alert-text">You have unanswered questions. CompTIA does not penalize incorrect guesses. You must fill all questions before submitting.</p>
+      <div class="alert-actions">
+        <button class="action-btn-primary" id="btn-close-alert">Return and Guess Unanswered</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
