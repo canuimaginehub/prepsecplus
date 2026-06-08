@@ -21,7 +21,9 @@ prepsecplus/ (Repository Root / Production Deployment Folder)
 ├── favicon.ico               # Website favicon
 ├── *.json                    # Study database payload files (study_days.json, questions.json, etc.)
 ├── *.md                      # Narrative reading modules
-├── *.mp4 / *.mp3 / *.zip     # Heavy media files (ignored by Git, managed on server)
+├── audio/                    # Directory for .mp3 files (ignored by Git)
+├── video/                    # Directory for .mp4 files (ignored by Git)
+├── *.zip                     # Heavy zip archives (ignored by Git)
 └── build_deploy.py           # Local build automation script
 ```
 
@@ -62,4 +64,4 @@ If you are not using Git integration on the Ferozo server:
    python3 build_deploy.py
    ```
 2. Using an FTP client (e.g. FileZilla) or the Ferozo Control Panel File Manager, upload all files and directories in the repository root **except the `_source/` folder** directly to `/public_html/splus/` on your server.
-3. Upload any heavy media files (`.mp4`, `.mp3`, `.zip`) directly to the same folder on the server if they were added or changed.
+3. Upload the `audio/` and `video/` folders containing `.mp3` and `.mp4` files (and any `.zip` files) directly to `/public_html/splus/` on your server.
