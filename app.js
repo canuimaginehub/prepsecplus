@@ -8,28 +8,46 @@ let filteredFlashcards = [];
 let videosData = {};
 let pdfsData = [];
 
+// New structured data
+let studyDaysData = [];
+let domainsData = {};
+let examObjectivesData = [];
+
 // Persistent user progress schema in localStorage
 let userProgress = {
-  checkedItems: {}, // key: "dayX_itemY", value: true/false
-  completedDays: {}, // key: "dayX", value: true/false
+  checkedItems: {},
+  completedDays: {},
+  blockProgress: {},    // key: "day_X_reading" | "day_X_video" | "day_X_quiz", value: true
+  popupQuizzes: {},     // key: "popup_slot_0..5", value: { score, total, completed: true }
 };
 
 // Quiz Session State
 let quizSession = {
-  mode: 'sim', // 'sim' or 'drill'
-  questions: [], // active questions list
-  userAnswers: {}, // key: qIndex, value: selectedOptionText
-  flaggedQuestions: {}, // key: qIndex, value: true/false
+  mode: 'sim',
+  questions: [],
+  userAnswers: {},
+  flaggedQuestions: {},
   currentIndex: 0,
-  timeLeft: 0, // in seconds
+  timeLeft: 0,
   timerInterval: null,
   startTime: 0,
   timeTaken: 0
 };
 
+// Popup Quiz State
+let popupQuizState = {
+  questions: [],
+  userAnswers: {},
+  currentIndex: 0,
+  slotIndex: -1
+};
+
 // Flashcards State
 let flashcardIndex = 0;
 let isFlipped = false;
+
+// Current video sub-objective (for split-screen reading)
+let currentVideoSubObjective = null;
 
 // --- Initialize App ---
 document.addEventListener('DOMContentLoaded', () => {
@@ -47,6 +65,8 @@ function loadProgress() {
       userProgress = JSON.parse(saved);
       if (!userProgress.checkedItems) userProgress.checkedItems = {};
       if (!userProgress.completedDays) userProgress.completedDays = {};
+      if (!userProgress.blockProgress) userProgress.blockProgress = {};
+      if (!userProgress.popupQuizzes) userProgress.popupQuizzes = {};
     } catch (e) {
       console.error("Failed to parse user progress", e);
     }
@@ -59,21 +79,28 @@ function saveProgress() {
 }
 
 function updateOverallProgress() {
-  if (!scheduleData.length) return;
+  if (!studyDaysData.length) return;
   
   let completedCount = 0;
-  scheduleData.forEach(day => {
-    const dayKey = `day_${day.day}`;
-    // Check if day is marked completed
-    let allChecked = true;
-    day.checklist_payload.forEach((item, idx) => {
-      const itemKey = `${dayKey}_item_${idx}`;
-      if (!userProgress.checkedItems[itemKey]) {
-        allChecked = false;
-      }
-    });
+  studyDaysData.forEach(day => {
+    const dayKey = `day_${day.day_id}`;
+    const readingKey = `${dayKey}_reading`;
+    const videoKey = `${dayKey}_video`;
+    const quizKey = `${dayKey}_quiz`;
     
-    if (day.checklist_payload.length > 0 && allChecked) {
+    // A day is complete if all 3 blocks are completed
+    let allCompleted = false;
+    
+    // Day 29+ are review days, they don't follow the 3-block strict rule, but we mark them complete if their quiz block is done
+    if (day.day_id >= 29) {
+      allCompleted = !!userProgress.blockProgress[quizKey];
+    } else {
+      allCompleted = userProgress.blockProgress[readingKey] && 
+                     userProgress.blockProgress[videoKey] && 
+                     userProgress.blockProgress[quizKey];
+    }
+    
+    if (allCompleted) {
       userProgress.completedDays[dayKey] = true;
       completedCount++;
     } else {
@@ -89,17 +116,8 @@ function updateOverallProgress() {
   document.getElementById('progress-count').textContent = `${completedCount} of 34 Days Clear`;
   
   // Re-draw day statuses in dashboard grid
-  scheduleData.forEach(day => {
-    const card = document.querySelector(`.calendar-day-card[data-day="${day.day}"]`);
-    if (card) {
-      const dayKey = `day_${day.day}`;
-      if (userProgress.completedDays[dayKey]) {
-        card.classList.add('completed');
-      } else {
-        card.classList.remove('completed');
-      }
-    }
-  });
+  renderDashboard();
+  renderPopupQuizTracker();
 }
 
 // --- Routing Engine ---
@@ -137,12 +155,18 @@ function initRouter() {
 
       if (paneId === 'dashboard') {
         renderDashboard();
+        renderPopupQuizTracker();
       } else if (paneId === 'modules') {
         renderModulesTree();
       } else if (paneId === 'flashcards') {
         initFlashcards();
       } else if (paneId === 'videos') {
         renderVideosTree();
+      } else if (paneId === 'domains') {
+        // Handled via hash routing, but force render if clicked
+        renderDomainDeepDive('domain_1');
+      } else if (paneId === 'objectives') {
+        renderObjectivesBrowser();
       }
     });
   });
@@ -151,17 +175,23 @@ function initRouter() {
 // --- Fetch Data Assets ---
 async function loadData() {
   try {
-    const [scheduleRes, questionsRes, flashcardsRes, videosRes] = await Promise.all([
+    const [scheduleRes, questionsRes, flashcardsRes, videosRes, studyDaysRes, domainsRes, objectivesRes] = await Promise.all([
       fetch('./schedule.json'),
       fetch('./questions.json'),
       fetch('./flashcards.json'),
-      fetch('./videos.json')
+      fetch('./videos.json'),
+      fetch('./study_days.json'),
+      fetch('./domains.json'),
+      fetch('./exam_objectives.json')
     ]);
 
     scheduleData = await scheduleRes.json();
     questionsData = await questionsRes.json();
     flashcardsData = (await flashcardsRes.json()).cards;
     videosData = await videosRes.json();
+    studyDaysData = await studyDaysRes.json();
+    domainsData = await domainsRes.json();
+    examObjectivesData = await objectivesRes.json();
 
     // Optional: Load PDF guides manifest
     try {
@@ -294,6 +324,63 @@ function setupEventListeners() {
     });
   }
 
+  // Domain view domain selector
+  document.querySelectorAll('#domain-selector-bar .domain-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('#domain-selector-bar .domain-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      renderDomainDeepDive(tab.getAttribute('data-domain'));
+    });
+  });
+
+  // Objectives browser search/filter
+  const objSearch = document.getElementById('objectives-search');
+  const objFilter = document.getElementById('objectives-domain-filter');
+  if (objSearch && objFilter) {
+    const renderObj = () => renderObjectivesBrowser(objSearch.value, objFilter.value);
+    objSearch.addEventListener('input', renderObj);
+    objFilter.addEventListener('change', renderObj);
+  }
+
+  // Split-screen video reading toggle
+  const toggleReadingBtn = document.getElementById('btn-toggle-reading');
+  const closeReadingBtn = document.getElementById('btn-close-reading');
+  if (toggleReadingBtn) {
+    toggleReadingBtn.addEventListener('click', toggleVideoReadingPanel);
+  }
+  if (closeReadingBtn) {
+    closeReadingBtn.addEventListener('click', toggleVideoReadingPanel);
+  }
+
+  // Popup Quiz Actions
+  document.getElementById('btn-toggle-popup-quiz').addEventListener('click', () => {
+    // Open the next available uncompleted slot
+    let nextSlot = -1;
+    for (let i = 0; i < 6; i++) {
+      if (!userProgress.popupQuizzes[`popup_slot_${i}`]) {
+        nextSlot = i;
+        break;
+      }
+    }
+    if (nextSlot === -1) {
+      alert("You've completed all 6 quick quizzes for today! Check your progress tracker.");
+    } else {
+      launchPopupQuiz(nextSlot);
+    }
+  });
+
+  document.getElementById('btn-close-popup-quiz').addEventListener('click', closePopupQuizModal);
+  document.getElementById('btn-popup-prev').addEventListener('click', () => navigatePopupQuiz(-1));
+  document.getElementById('btn-popup-next').addEventListener('click', () => navigatePopupQuiz(1));
+  document.getElementById('btn-popup-submit').addEventListener('click', submitPopupQuiz);
+  
+  document.getElementById('btn-close-popup-results').addEventListener('click', () => {
+    document.getElementById('popup-quiz-results').style.display = 'none';
+  });
+  document.getElementById('btn-popup-results-close').addEventListener('click', () => {
+    document.getElementById('popup-quiz-results').style.display = 'none';
+  });
+
   // Window hash routing handler
   window.addEventListener('hashchange', handleHashRouting);
 
@@ -318,156 +405,202 @@ function setupEventListeners() {
 // --- Dashboard Renderer ---
 function renderDashboard() {
   const container = document.getElementById('calendar-days-container');
-  if (!container || !scheduleData.length) return;
+  if (!container || !studyDaysData.length) return;
   
   container.innerHTML = '';
   
-  scheduleData.forEach(day => {
+  studyDaysData.forEach(day => {
     const dayCard = document.createElement('div');
     dayCard.className = 'calendar-day-card';
-    dayCard.setAttribute('data-day', day.day);
+    dayCard.setAttribute('data-day', day.day_id);
     
-    // Highlights if simulation day (days 29-34)
-    if (day.day >= 29) {
-      dayCard.classList.add('simulation-day');
-    }
-
-    const dayKey = `day_${day.day}`;
+    const dayKey = `day_${day.day_id}`;
+    
+    // Day completion check
     if (userProgress.completedDays[dayKey]) {
       dayCard.classList.add('completed');
     }
 
     // Determine domain category accent
     let domainClass = 'cyan';
-    if (day.day >= 5 && day.day <= 10) domainClass = 'purple';
-    else if (day.day >= 11 && day.day <= 15) domainClass = 'pink';
-    else if (day.day >= 16 && day.day <= 23) domainClass = 'amber';
-    else if (day.day >= 24 && day.day <= 28) domainClass = 'green';
-    else if (day.day >= 29) domainClass = 'red';
+    if (day.domain_id === 'domain_2') domainClass = 'purple';
+    else if (day.domain_id === 'domain_3') domainClass = 'pink';
+    else if (day.domain_id === 'domain_4') domainClass = 'amber';
+    else if (day.domain_id === 'domain_5') domainClass = 'green';
+    else if (!day.domain_id) domainClass = 'red'; // Review days
 
-    dayCard.innerHTML = `
-      <div class="day-badge">DAY ${day.day}</div>
-      <div class="day-sub text-${domainClass}">${day.sub_objective}</div>
-      <div class="day-check-indicator"></div>
+    if (day.day_id >= 29) {
+      dayCard.classList.add('simulation-day');
+    }
+
+    // Generate Blocks HTML
+    const readingKey = `${dayKey}_reading`;
+    const videoKey = `${dayKey}_video`;
+    const quizKey = `${dayKey}_quiz`;
+    
+    const rStatus = userProgress.blockProgress[readingKey] ? 'status-completed' : '';
+    const vStatus = userProgress.blockProgress[videoKey] ? 'status-completed' : '';
+    const qStatus = userProgress.blockProgress[quizKey] ? 'status-completed' : '';
+
+    const blocksHTML = `
+      <div class="day-blocks-row">
+        <div class="day-block ${rStatus}" data-type="reading" data-day="${day.day_id}" title="${day.modules?.reading?.title || 'Reading'}">
+          <svg class="block-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2zM22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          20m
+        </div>
+        <div class="day-block ${vStatus}" data-type="video" data-day="${day.day_id}" title="${day.modules?.video?.title || 'Video'}">
+          <svg class="block-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+          35m
+        </div>
+        <div class="day-block ${qStatus}" data-type="quiz" data-day="${day.day_id}" title="15 Question Quiz">
+          <svg class="block-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          15q
+        </div>
+      </div>
     `;
 
-    dayCard.addEventListener('click', () => openDayModal(day));
+    dayCard.innerHTML = `
+      <div class="day-badge">DAY ${day.day_id}</div>
+      <div class="day-sub text-${domainClass}">${day.sub_objective || 'Review'}</div>
+      <div class="day-check-indicator"></div>
+      ${day.day_id < 29 ? blocksHTML : '<div style="margin-top:8px; font-size:11px; color:var(--text-muted); text-align:center;">Review / Exam Sim</div>'}
+    `;
+
+    // Add block click listeners
+    if (day.day_id < 29) {
+      setTimeout(() => {
+        const blocks = dayCard.querySelectorAll('.day-block');
+        blocks.forEach(block => {
+          block.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const type = block.getAttribute('data-type');
+            handleBlockClick(day, type);
+          });
+        });
+      }, 0);
+    }
+
+    // Default click handler for the whole card (useful for review days)
+    dayCard.addEventListener('click', (e) => {
+      // Don't trigger if a block was clicked
+      if (e.target.closest('.day-block')) return;
+      
+      if (day.day_id >= 29) {
+        // Go to sim practice for review days
+        document.getElementById('btn-practice').click();
+        const modeSelect = document.getElementById('practice-mode');
+        modeSelect.value = 'sim';
+        modeSelect.dispatchEvent(new Event('change'));
+      }
+    });
+
     container.appendChild(dayCard);
   });
 }
 
-function openDayModal(day) {
-  const modal = document.getElementById('day-modal');
-  document.getElementById('modal-day-title').textContent = `Day ${day.day}: ${day.date}`;
-  document.getElementById('modal-t1-desc').textContent = day.track_1.description;
-  document.getElementById('modal-t2-desc').textContent = day.track_2.description;
+function handleBlockClick(day, type) {
+  const dayKey = `day_${day.day_id}`;
+  const blockKey = `${dayKey}_${type}`;
   
-  // Track 1 launch configuration
-  const startT1Btn = document.getElementById('modal-btn-start-t1');
-  startT1Btn.onclick = () => {
-    modal.style.display = 'none';
-    
-    // Switch to practice pane
-    document.getElementById('btn-practice').click();
-    
-    // Set up practice mode based on day
-    const modeSelect = document.getElementById('practice-mode');
-    const domainSelect = document.getElementById('drill-domain');
-    const countSelect = document.getElementById('drill-count');
-    
-    if (day.day >= 29) {
-      modeSelect.value = 'sim';
-      modeSelect.dispatchEvent(new Event('change'));
-    } else {
-      modeSelect.value = 'drill';
-      modeSelect.dispatchEvent(new Event('change'));
-      // select target domain
-      const domains = [
-        "General Security Concepts", 
-        "Threats, Vulnerabilities, and Mitigations", 
-        "Security Architecture", 
-        "Security Operations", 
-        "Security Program Management and Oversight"
-      ];
-      // Select domain matching the current sub-objective category
-      let targetDomain = domains[0];
-      if (day.day >= 5 && day.day <= 10) targetDomain = domains[1];
-      else if (day.day >= 11 && day.day <= 15) targetDomain = domains[2];
-      else if (day.day >= 16 && day.day <= 23) targetDomain = domains[3];
-      else if (day.day >= 24 && day.day <= 28) targetDomain = domains[4];
-      
-      domainSelect.value = targetDomain;
-      countSelect.value = "15";
+  // Toggle completion status if already completed
+  if (userProgress.blockProgress[blockKey]) {
+    if (confirm(`Mark this ${type} block as uncompleted?`)) {
+      delete userProgress.blockProgress[blockKey];
+      saveProgress();
     }
-  };
-
-  // Track 2 launch configuration
-  const viewT2Btn = document.getElementById('modal-btn-view-t2');
-  
-  // Remove any dynamically added play button first
-  const existingPlayBtn = document.getElementById('modal-btn-play-video');
-  if (existingPlayBtn) existingPlayBtn.remove();
-
-  if (day.day >= 29) {
-    viewT2Btn.textContent = "Open Flashcards Deck";
-    viewT2Btn.onclick = () => {
-      modal.style.display = 'none';
-      document.getElementById('btn-flashcards').click();
-    };
-  } else {
-    viewT2Btn.textContent = "Open Reading Module";
-    viewT2Btn.onclick = () => {
-      modal.style.display = 'none';
-      document.getElementById('btn-modules').click();
-      
-      // Load specific sub-objective
-      loadReadingModule(day.sub_objective);
-    };
-
-    // If videos are available for this day's sub-objective, add a play button
-    const subObjVideos = videosData[day.sub_objective];
-    if (subObjVideos && subObjVideos.length > 0) {
-      const playBtn = document.createElement('button');
-      playBtn.className = 'action-btn-primary inline-btn';
-      playBtn.id = 'modal-btn-play-video';
-      playBtn.style.marginLeft = '12px';
-      playBtn.style.background = 'linear-gradient(135deg, var(--color-purple), var(--color-pink))';
-      playBtn.textContent = 'Play Video Lesson';
-      playBtn.onclick = () => {
-        modal.style.display = 'none';
-        playVideoLesson(subObjVideos[0].path, `${day.sub_objective} - ${subObjVideos[0].title}`, `Video lesson for Objective ${day.sub_objective}.`);
-      };
-      // Insert after the View Reading Module button
-      viewT2Btn.parentNode.appendChild(playBtn);
-    }
+    return;
   }
 
-  // Render Checklists
-  const checklistContainer = document.getElementById('modal-checklist-items-container');
-  checklistContainer.innerHTML = '';
-  
-  day.checklist_payload.forEach((item, idx) => {
-    const itemKey = `day_${day.day}_item_${idx}`;
-    const row = document.createElement('label');
-    row.className = 'checklist-row';
-    
-    const isChecked = userProgress.checkedItems[itemKey] ? 'checked' : '';
-    
-    row.innerHTML = `
-      <input type="checkbox" id="${itemKey}" ${isChecked}>
-      <span>${item}</span>
-    `;
-    
-    const checkbox = row.querySelector('input');
-    checkbox.addEventListener('change', () => {
-      userProgress.checkedItems[itemKey] = checkbox.checked;
-      saveProgress();
-    });
-    
-    checklistContainer.appendChild(row);
-  });
+  // Go to content
+  if (type === 'reading') {
+    const ref = day.modules.reading.content_ref;
+    if (ref) {
+      document.getElementById('btn-modules').click();
+      loadReadingModule(day.sub_objective);
+    }
+    // Auto-mark reading as complete when opened (could be better, but simple)
+    userProgress.blockProgress[blockKey] = true;
+    saveProgress();
+  } else if (type === 'video') {
+    const ref = day.modules.video.content_ref;
+    if (ref) {
+      document.getElementById('btn-videos').click();
+      playVideoLesson(ref, day.modules.video.title, `Sub-objective ${day.sub_objective}`, day.sub_objective);
+    }
+    // Auto-mark video as complete when opened
+    userProgress.blockProgress[blockKey] = true;
+    saveProgress();
+  } else if (type === 'quiz') {
+    // Launch quiz block
+    startBlockQuiz(day);
+  }
+}
 
-  modal.style.display = 'flex';
+function startBlockQuiz(day) {
+  const quizQuestions = day.modules.quiz.questions;
+  if (!quizQuestions || quizQuestions.length === 0) {
+    alert("No questions found for this quiz.");
+    return;
+  }
+  
+  // Set up quiz session state for block quiz
+  quizSession.mode = 'block';
+  quizSession.questions = quizQuestions;
+  quizSession.userAnswers = {};
+  quizSession.flaggedQuestions = {};
+  quizSession.currentIndex = 0;
+  quizSession.startTime = Date.now();
+  quizSession.timeLeft = quizQuestions.length * 60; // 1 min per question
+  quizSession.currentDayObj = day; // Keep track of the day to mark complete later
+
+  document.getElementById('practice-setup').style.display = 'none';
+  document.getElementById('practice-session').style.display = 'block';
+  document.getElementById('practice-results').style.display = 'none';
+  document.getElementById('practice-review').style.display = 'none';
+  document.getElementById('btn-practice').click();
+
+  // Start Timer
+  document.getElementById('session-timer').textContent = formatTime(quizSession.timeLeft);
+  clearInterval(quizSession.timerInterval);
+  quizSession.timerInterval = setInterval(() => {
+    quizSession.timeLeft--;
+    document.getElementById('session-timer').textContent = formatTime(quizSession.timeLeft);
+    if (quizSession.timeLeft <= 0) {
+      clearInterval(quizSession.timerInterval);
+      alert("Time has expired!");
+      scoreExam();
+    }
+  }, 1000);
+
+  renderActiveQuestion();
+  renderQuestionNavGrid();
+}
+
+function renderPopupQuizTracker() {
+  const container = document.getElementById('quiz-tracker-slots');
+  if (!container) return;
+  container.innerHTML = '';
+
+  for (let i = 0; i < 6; i++) {
+    const slot = document.createElement('div');
+    slot.className = 'tracker-slot';
+    slot.textContent = i + 1;
+    
+    const slotKey = `popup_slot_${i}`;
+    const quizData = userProgress.popupQuizzes[slotKey];
+    
+    if (quizData && quizData.completed) {
+      slot.classList.add('completed');
+      slot.title = `Score: ${quizData.score}/${quizData.total}`;
+    }
+
+    // Allow user to retake or view
+    slot.addEventListener('click', () => {
+      launchPopupQuiz(i);
+    });
+
+    container.appendChild(slot);
+  }
 }
 
 // --- Practice Engine Controller ---
@@ -770,6 +903,14 @@ function scoreExam() {
   const percentage = Math.round((correctCount / total) * 100);
   // CompTIA Passing Score: 750 / 900 (corresponds to approx 81.25%)
   const passed = percentage >= 82;
+
+  // Block Mode Completion Handle
+  if (quizSession.mode === 'block' && quizSession.currentDayObj) {
+    const dayKey = `day_${quizSession.currentDayObj.day_id}`;
+    const blockKey = `${dayKey}_quiz`;
+    userProgress.blockProgress[blockKey] = true;
+    saveProgress();
+  }
 
   // Render Results Card UI
   document.getElementById('practice-session').style.display = 'none';
@@ -1223,7 +1364,7 @@ function renderVideosTree(filterQuery = '') {
           btn.addEventListener('click', () => {
             document.querySelectorAll('.module-tree-item-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-            playVideoLesson(v.path, `${item.sub_objective} - ${v.title}`, `Streaming: Lesson ${v.lesson_num} for Objective ${item.sub_objective} - ${item.name}.`);
+            playVideoLesson(v.path, `${item.sub_objective} - ${v.title}`, `Streaming: Lesson ${v.lesson_num} for Objective ${item.sub_objective} - ${item.name}.`, item.sub_objective);
           });
           
           itemsContainer.appendChild(btn);
@@ -1237,7 +1378,7 @@ function renderVideosTree(filterQuery = '') {
   });
 }
 
-function playVideoLesson(videoPath, title, desc) {
+function playVideoLesson(videoPath, title, desc, subObjective = null) {
   // Switch to videos tab if not active
   const videosBtn = document.getElementById('btn-videos');
   if (videosBtn && !videosBtn.classList.contains('active')) {
@@ -1271,6 +1412,53 @@ function playVideoLesson(videoPath, title, desc) {
       b.classList.remove('active');
     }
   });
+
+  // Prepare reading context for split-screen
+  currentVideoSubObjective = subObjective;
+  
+  // If reading panel is open, refresh it
+  const readingPanel = document.getElementById('video-reading-panel');
+  if (readingPanel.style.display !== 'none') {
+    loadSplitScreenReading(subObjective);
+  }
+}
+
+function toggleVideoReadingPanel() {
+  const container = document.getElementById('video-player-container');
+  const readingPanel = document.getElementById('video-reading-panel');
+  const isActive = container.classList.contains('reading-active');
+  
+  if (isActive) {
+    // Close it
+    container.classList.remove('reading-active');
+    readingPanel.style.display = 'none';
+  } else {
+    // Open it
+    container.classList.add('reading-active');
+    readingPanel.style.display = 'flex';
+    loadSplitScreenReading(currentVideoSubObjective);
+  }
+}
+
+async function loadSplitScreenReading(subObj) {
+  const contentDiv = document.getElementById('video-reading-content');
+  if (!subObj) {
+    contentDiv.innerHTML = '<p style="color: var(--text-muted);">No reading material linked to this video lesson.</p>';
+    return;
+  }
+  
+  contentDiv.innerHTML = '<em>Loading reading material...</em>';
+  try {
+    const res = await fetch(`./${subObj}.md`);
+    if (!res.ok) {
+      contentDiv.innerHTML = '<p style="color: var(--text-muted);">Reading material not available.</p>';
+      return;
+    }
+    const md = await res.text();
+    contentDiv.innerHTML = parseMarkdownToHTML(md);
+  } catch (err) {
+    contentDiv.innerHTML = '<p style="color: var(--color-red);">Error loading material.</p>';
+  }
 }
 
 // --- PDFs & Docs Router and Render Controllers ---
@@ -1372,14 +1560,354 @@ function renderPdfLibrary(filterQuery = '') {
     card.querySelector('.btn-read-md').addEventListener('click', (e) => {
       const mdPath = e.currentTarget.getAttribute('data-md');
       const title = e.currentTarget.getAttribute('data-title');
-      openPdfMarkdownReader(mdPath, title);
+      openPdfReader(mdPath, title);
     });
     
-    gridContainer.appendChild(card);
+    container.appendChild(card);
   });
 }
 
-async function openPdfMarkdownReader(mdPath, title) {
+// ════════════════════════════════════════════════════════════════
+// DOMAINS DEEP DIVE LOGIC
+// ════════════════════════════════════════════════════════════════
+
+function renderDomainDeepDive(domainId) {
+  const domain = domainsData[domainId];
+  if (!domain) return;
+  
+  // Highlight tab
+  document.querySelectorAll('#domain-selector-bar .domain-tab').forEach(t => {
+    if (t.getAttribute('data-domain') === domainId) t.classList.add('active');
+    else t.classList.remove('active');
+  });
+
+  const container = document.getElementById('domain-deep-content');
+  container.innerHTML = '';
+  
+  const colorMap = {
+    'domain_1': 'cyan',
+    'domain_2': 'purple',
+    'domain_3': 'pink',
+    'domain_4': 'amber',
+    'domain_5': 'green'
+  };
+  const dColor = colorMap[domainId];
+
+  // Title section
+  container.innerHTML += `
+    <div style="padding-bottom: 12px; border-bottom: 1px solid var(--border-color);">
+      <h2 style="color: var(--color-${dColor}); margin-bottom: 8px;">${domain.title}</h2>
+      <p style="color: var(--text-muted); font-size: 14px;">${domain.description}</p>
+    </div>
+  `;
+
+  // 1. Videos Section
+  let videosHTML = '';
+  domain.videos.forEach(v => {
+    videosHTML += `
+      <div class="domain-item-card" onclick="document.getElementById('btn-videos').click(); playVideoLesson('${v.url}', '${v.sub_objective} - ${v.title}', 'Lesson ${v.lesson_num}', '${v.sub_objective}')">
+        <div class="item-title">${v.title}</div>
+        <div class="item-meta">Sub-Objective ${v.sub_objective} • Lesson ${v.lesson_num}</div>
+      </div>
+    `;
+  });
+  
+  container.innerHTML += `
+    <div class="domain-section sec-videos">
+      <div class="domain-section-header">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+        <h3>Video Lectures</h3>
+        <span class="section-count">${domain.videos.length}</span>
+      </div>
+      <div class="domain-items-grid">${videosHTML}</div>
+    </div>
+  `;
+
+  // 2. Readings Section
+  let readingsHTML = '';
+  domain.readings.forEach(r => {
+    readingsHTML += `
+      <div class="domain-item-card" onclick="document.getElementById('btn-modules').click(); loadReadingModule('${r.sub_objective}')">
+        <div class="item-title">${r.title}</div>
+        <div class="item-meta">${r.sub_objective === 'all' ? 'Comprehensive Reference' : 'Specific Sub-Objective'}</div>
+      </div>
+    `;
+  });
+
+  container.innerHTML += `
+    <div class="domain-section sec-readings">
+      <div class="domain-section-header">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2zM22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        <h3>Reading Materials</h3>
+        <span class="section-count">${domain.readings.length}</span>
+      </div>
+      <div class="domain-items-grid">${readingsHTML}</div>
+    </div>
+  `;
+
+  // 3. Flashcards Section (Accordions)
+  let flashcardsHTML = '';
+  domain.flashcards.forEach((fc, idx) => {
+    flashcardsHTML += `
+      <div class="fc-accordion">
+        <div class="fc-accordion-header" onclick="this.parentElement.classList.toggle('open')">
+          <span>Q: ${fc.question}</span>
+          <svg class="fc-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <div class="fc-accordion-body">
+          <p><strong>A:</strong> ${fc.answer}</p>
+        </div>
+      </div>
+    `;
+  });
+
+  container.innerHTML += `
+    <div class="domain-section sec-flashcards">
+      <div class="domain-section-header">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M21 12H3M12 3v18"/></svg>
+        <h3>Flashcards</h3>
+        <span class="section-count">${domain.flashcards.length}</span>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:10px; max-height:400px; overflow-y:auto; padding-right:8px;">${flashcardsHTML}</div>
+    </div>
+  `;
+
+  // 4. Quizzes Section
+  let quizzesHTML = '';
+  domain.quizzes.forEach((q, idx) => {
+    quizzesHTML += `
+      <div class="domain-item-card" data-quiz-idx="${idx}">
+        <div class="item-title">${q.title}</div>
+        <div class="item-meta">${q.questions_count} Questions</div>
+      </div>
+    `;
+  });
+
+  container.innerHTML += `
+    <div class="domain-section sec-quizzes">
+      <div class="domain-section-header">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        <h3>Practice Quizzes</h3>
+        <span class="section-count">${domain.quizzes.length}</span>
+      </div>
+      <div class="domain-items-grid" id="domain-quizzes-grid">${quizzesHTML}</div>
+    </div>
+  `;
+
+  // Bind quiz buttons
+  setTimeout(() => {
+    document.querySelectorAll('#domain-quizzes-grid .domain-item-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const qIdx = parseInt(card.getAttribute('data-quiz-idx'));
+        startDomainQuiz(domain, qIdx);
+      });
+    });
+  }, 0);
+}
+
+function startDomainQuiz(domain, quizIdx) {
+  const quiz = domain.quizzes[quizIdx];
+  if (!quiz) return;
+  
+  quizSession.mode = 'block';
+  quizSession.questions = quiz.questions;
+  quizSession.userAnswers = {};
+  quizSession.flaggedQuestions = {};
+  quizSession.currentIndex = 0;
+  quizSession.startTime = Date.now();
+  quizSession.timeLeft = quiz.questions.length * 60; // 1 min per question
+
+  document.getElementById('practice-setup').style.display = 'none';
+  document.getElementById('practice-session').style.display = 'block';
+  document.getElementById('practice-results').style.display = 'none';
+  document.getElementById('practice-review').style.display = 'none';
+  document.getElementById('btn-practice').click();
+
+  // Start Timer
+  document.getElementById('session-timer').textContent = formatTime(quizSession.timeLeft);
+  clearInterval(quizSession.timerInterval);
+  quizSession.timerInterval = setInterval(() => {
+    quizSession.timeLeft--;
+    document.getElementById('session-timer').textContent = formatTime(quizSession.timeLeft);
+    if (quizSession.timeLeft <= 0) {
+      clearInterval(quizSession.timerInterval);
+      alert("Time has expired!");
+      scoreExam();
+    }
+  }, 1000);
+
+  renderActiveQuestion();
+  renderQuestionNavGrid();
+}
+
+// ════════════════════════════════════════════════════════════════
+// EXAM OBJECTIVES BROWSER
+// ════════════════════════════════════════════════════════════════
+
+function renderObjectivesBrowser(query = '', domainFilter = 'all') {
+  const container = document.getElementById('objectives-list');
+  if (!container || !examObjectivesData.length) return;
+  
+  container.innerHTML = '';
+  const lq = query.toLowerCase();
+
+  let filtered = examObjectivesData;
+  if (domainFilter !== 'all') {
+    filtered = filtered.filter(o => o.domain_id === domainFilter);
+  }
+
+  if (query) {
+    filtered = filtered.filter(o => {
+      if (o.code.includes(lq) || o.title.toLowerCase().includes(lq)) return true;
+      if (o.bullets.some(b => b.toLowerCase().includes(lq))) return true;
+      return false;
+    });
+  }
+
+  filtered.forEach(obj => {
+    let bulletsHTML = '';
+    obj.bullets.forEach(b => {
+      bulletsHTML += `<div class="obj-bullet">${b}</div>`;
+    });
+
+    const card = document.createElement('div');
+    card.className = 'objective-card';
+    card.innerHTML = `
+      <div class="objective-card-header" onclick="this.parentElement.classList.toggle('open')">
+        <span class="obj-code ${obj.domain_id}">${obj.code}</span>
+        <span class="obj-title-text">${obj.title}</span>
+        <svg class="obj-expand-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+      <div class="objective-card-body">
+        <div class="obj-bullets">
+          ${bulletsHTML}
+        </div>
+      </div>
+    `;
+    // If searching, keep them open by default
+    if (query) card.classList.add('open');
+    container.appendChild(card);
+  });
+
+  if (filtered.length === 0) {
+    container.innerHTML = `<p style="color:var(--text-muted); padding: 20px;">No exam objectives match your search.</p>`;
+  }
+}
+
+// ════════════════════════════════════════════════════════════════
+// POPUP QUIZ MODAL LOGIC
+// ════════════════════════════════════════════════════════════════
+
+function launchPopupQuiz(slotIndex) {
+  // 10 random questions
+  const pool = [...questionsData];
+  shuffleArray(pool);
+  const qs = pool.slice(0, 10).map(q => {
+    const opts = [...q.options];
+    shuffleArray(opts);
+    return { ...q, options: opts };
+  });
+
+  popupQuizState.slotIndex = slotIndex;
+  popupQuizState.questions = qs;
+  popupQuizState.userAnswers = {};
+  popupQuizState.currentIndex = 0;
+
+  renderPopupQuizQuestion();
+  document.getElementById('popup-quiz-modal').style.display = 'flex';
+}
+
+function closePopupQuizModal() {
+  document.getElementById('popup-quiz-modal').style.display = 'none';
+}
+
+function renderPopupQuizQuestion() {
+  const q = popupQuizState.questions[popupQuizState.currentIndex];
+  
+  document.getElementById('popup-quiz-progress').textContent = `Question ${popupQuizState.currentIndex + 1} of ${popupQuizState.questions.length}`;
+  document.getElementById('popup-q-text').textContent = q.question;
+  
+  const optsContainer = document.getElementById('popup-q-options');
+  optsContainer.innerHTML = '';
+  
+  q.options.forEach((optText, idx) => {
+    const optDiv = document.createElement('div');
+    optDiv.className = 'popup-opt';
+    if (popupQuizState.userAnswers[popupQuizState.currentIndex] === optText) {
+      optDiv.classList.add('selected');
+    }
+    
+    optDiv.innerHTML = `
+      <div class="opt-dot"></div>
+      <div class="opt-text">${optText}</div>
+    `;
+    
+    optDiv.addEventListener('click', () => {
+      popupQuizState.userAnswers[popupQuizState.currentIndex] = optText;
+      renderPopupQuizQuestion();
+    });
+    
+    optsContainer.appendChild(optDiv);
+  });
+
+  // Buttons
+  document.getElementById('btn-popup-prev').disabled = popupQuizState.currentIndex === 0;
+  
+  if (popupQuizState.currentIndex === popupQuizState.questions.length - 1) {
+    document.getElementById('btn-popup-next').style.display = 'none';
+    document.getElementById('btn-popup-submit').style.display = 'block';
+  } else {
+    document.getElementById('btn-popup-next').style.display = 'block';
+    document.getElementById('btn-popup-submit').style.display = 'none';
+  }
+}
+
+function navigatePopupQuiz(dir) {
+  const nextIdx = popupQuizState.currentIndex + dir;
+  if (nextIdx >= 0 && nextIdx < popupQuizState.questions.length) {
+    popupQuizState.currentIndex = nextIdx;
+    renderPopupQuizQuestion();
+  }
+}
+
+function submitPopupQuiz() {
+  // Check if all answered
+  const total = popupQuizState.questions.length;
+  let answered = Object.keys(popupQuizState.userAnswers).length;
+  if (answered < total) {
+    if (!confirm(`You have ${total - answered} unanswered questions. Submit anyway?`)) return;
+  }
+
+  let score = 0;
+  popupQuizState.questions.forEach((q, idx) => {
+    if (popupQuizState.userAnswers[idx] === q.answer) {
+      score++;
+    }
+  });
+
+  // Save progress
+  const slotKey = `popup_slot_${popupQuizState.slotIndex}`;
+  userProgress.popupQuizzes[slotKey] = {
+    score: score,
+    total: total,
+    completed: true
+  };
+  saveProgress();
+
+  // Show Results
+  document.getElementById('popup-quiz-modal').style.display = 'none';
+  const resultsModal = document.getElementById('popup-quiz-results');
+  document.getElementById('popup-score-display').textContent = `${score}/${total}`;
+  
+  let msg = "Great job!";
+  if (score === total) msg = "Perfect score! Outstanding.";
+  else if (score < total / 2) msg = "Keep reviewing your materials, you'll get it.";
+  document.getElementById('popup-score-msg').textContent = msg;
+
+  resultsModal.style.display = 'flex';
+}
+
+async function openPdfReader(mdPath, title) {
   const libraryView = document.getElementById('pdfs-library-view');
   const readerView = document.getElementById('pdfs-reader-view');
   const contentArea = document.getElementById('pdf-reader-content-area');
