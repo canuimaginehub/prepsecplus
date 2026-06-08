@@ -147,35 +147,18 @@
       "time_limit": 20
     },
     "track_2": {
-      "description": "Study sub-objective 2.4: Indicators of Compromise & Malware (Part 1). Watch matching Professor Messer video lesson paths and read the companion reading module."
+      "description": "Study sub-objective 2.4: Indicators of Compromise & Network Attacks. Watch matching Professor Messer video lesson paths and read the companion reading module."
     },
     "checklist_payload": [
       "Detect malware behaviors: Ransomware (crypto locker states), Spyware (keyloggers), Rootkits (kernel level), and Trojans.",
-      "Identify physical security threats (tailgating, card cloning, dumpster diving)."
+      "Identify physical security threats (tailgating, card cloning, dumpster diving).",
+      "Analyze DoS/DDoS amplification attack vectors (DNS/NTP amplification).",
+      "Isolate network attacks: On-path (MITM) attacks, ARP cache poisoning, DNS hijacking, replay attacks, and wireless threats."
     ]
   },
   {
     "day": 9,
     "date": "2026-06-16",
-    "sub_objective": "2.4",
-    "track_1": {
-      "type": "Domain Isolated Drill",
-      "description": "Domain Drill: Threats, Vulnerabilities, and Mitigations. Complete 20 questions in 20 minutes focusing on Domain 2. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
-      "questions": 20,
-      "time_limit": 20
-    },
-    "track_2": {
-      "description": "Study sub-objective 2.4: Indicators of Compromise & Attacks (Part 2). Watch matching Professor Messer video lesson paths and read the companion reading module."
-    },
-    "checklist_payload": [
-      "Analyze DoS/DDoS amplification attack vectors (DNS/NTP amplification).",
-      "Isolate network attacks: On-path (MITM) attacks, ARP cache poisoning, DNS hijacking, and replay attacks.",
-      "Examine wireless attacks (evil twin, rogue AP, bluejacking)."
-    ]
-  },
-  {
-    "day": 10,
-    "date": "2026-06-17",
     "sub_objective": "2.5",
     "track_1": {
       "type": "Domain Isolated Drill",
@@ -192,8 +175,8 @@
     ]
   },
   {
-    "day": 11,
-    "date": "2026-06-18",
+    "day": 10,
+    "date": "2026-06-17",
     "sub_objective": "3.1",
     "track_1": {
       "type": "Domain Isolated Drill",
@@ -211,8 +194,8 @@
     ]
   },
   {
-    "day": 12,
-    "date": "2026-06-19",
+    "day": 11,
+    "date": "2026-06-18",
     "sub_objective": "3.2",
     "track_1": {
       "type": "Domain Isolated Drill",
@@ -230,8 +213,8 @@
     ]
   },
   {
-    "day": 13,
-    "date": "2026-06-20",
+    "day": 12,
+    "date": "2026-06-19",
     "sub_objective": "3.3",
     "track_1": {
       "type": "Domain Isolated Drill",
@@ -250,8 +233,8 @@
     ]
   },
   {
-    "day": 14,
-    "date": "2026-06-21",
+    "day": 13,
+    "date": "2026-06-20",
     "sub_objective": "3.4",
     "track_1": {
       "type": "Domain Isolated Drill",
@@ -269,26 +252,8 @@
     ]
   },
   {
-    "day": 15,
-    "date": "2026-06-22",
-    "sub_objective": "3.0",
-    "track_1": {
-      "type": "Domain Isolated Drill",
-      "description": "Domain Drill: Security Architecture. Complete 20 questions in 20 minutes focusing on Domain 3. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
-      "questions": 20,
-      "time_limit": 20
-    },
-    "track_2": {
-      "description": "Study sub-objective 3.0: Domain 3 Architecture Review. Watch matching Professor Messer video lesson paths and read the companion reading module."
-    },
-    "checklist_payload": [
-      "Review Domain 3 topics: Cloud, Virtualization, Firewalls, Data Protection, and Backups.",
-      "Conduct practice drill review for architectural vulnerabilities and design secure network maps."
-    ]
-  },
-  {
-    "day": 16,
-    "date": "2026-06-23",
+    "day": 14,
+    "date": "2026-06-21",
     "sub_objective": "4.1",
     "track_1": {
       "type": "Domain Isolated Drill",
@@ -305,8 +270,8 @@
     ]
   },
   {
-    "day": 17,
-    "date": "2026-06-24",
+    "day": 15,
+    "date": "2026-06-22",
     "sub_objective": "4.2",
     "track_1": {
       "type": "Domain Isolated Drill",
@@ -315,17 +280,35 @@
       "time_limit": 20
     },
     "track_2": {
-      "description": "Study sub-objective 4.2: Asset Management & Vulnerability Assessments. Watch matching Professor Messer video lesson paths and read the companion reading module."
+      "description": "Study sub-objective 4.2: Asset Management & Disposal. Watch matching Professor Messer video lesson paths and read the companion reading module."
     },
     "checklist_payload": [
-      "Implement asset discovery, inventory controls, and lifecycle management.",
-      "Analyze vulnerability scans: identify false positives, prioritize CVE scores, and perform patch validation.",
-      "Contrast penetration testing strategies: black box, white box, and gray box exercises."
+      "Implement asset discovery, inventory controls, and lifecycle tracking mechanisms.",
+      "Manage decommissioning processes: data sanitization, physical destruction, and disposal certifications.",
+      "Establish and enforce data retention rules based on legal and organizational requirements."
     ]
   },
   {
-    "day": 18,
-    "date": "2026-06-25",
+    "day": 16,
+    "date": "2026-06-23",
+    "sub_objective": "4.3",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Operations. Complete 20 questions in 20 minutes focusing on Domain 4. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 4.3: Vulnerability Management Activities. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Detail vulnerability scanning activities: CVSS scores, remediation prioritization, and threat feeds.",
+      "Differentiate static vs dynamic analysis and perform patch validation via rescanning."
+    ]
+  },
+  {
+    "day": 17,
+    "date": "2026-06-24",
     "sub_objective": "4.4",
     "track_1": {
       "type": "Domain Isolated Drill",
@@ -342,8 +325,8 @@
     ]
   },
   {
-    "day": 19,
-    "date": "2026-06-26",
+    "day": 18,
+    "date": "2026-06-25",
     "sub_objective": "4.5",
     "track_1": {
       "type": "Domain Isolated Drill",
@@ -360,8 +343,8 @@
     ]
   },
   {
-    "day": 20,
-    "date": "2026-06-27",
+    "day": 19,
+    "date": "2026-06-26",
     "sub_objective": "4.6",
     "track_1": {
       "type": "Domain Isolated Drill",
@@ -379,8 +362,8 @@
     ]
   },
   {
-    "day": 21,
-    "date": "2026-06-28",
+    "day": 20,
+    "date": "2026-06-27",
     "sub_objective": "4.7",
     "track_1": {
       "type": "Domain Isolated Drill",
@@ -397,8 +380,8 @@
     ]
   },
   {
-    "day": 22,
-    "date": "2026-06-29",
+    "day": 21,
+    "date": "2026-06-28",
     "sub_objective": "4.8",
     "track_1": {
       "type": "Domain Isolated Drill",
@@ -416,8 +399,8 @@
     ]
   },
   {
-    "day": 23,
-    "date": "2026-06-30",
+    "day": 22,
+    "date": "2026-06-29",
     "sub_objective": "4.9",
     "track_1": {
       "type": "Domain Isolated Drill",
@@ -434,8 +417,8 @@
     ]
   },
   {
-    "day": 24,
-    "date": "2026-07-01",
+    "day": 23,
+    "date": "2026-06-30",
     "sub_objective": "5.1",
     "track_1": {
       "type": "Domain Isolated Drill",
@@ -452,8 +435,8 @@
     ]
   },
   {
-    "day": 25,
-    "date": "2026-07-02",
+    "day": 24,
+    "date": "2026-07-01",
     "sub_objective": "5.2",
     "track_1": {
       "type": "Domain Isolated Drill",
@@ -471,8 +454,8 @@
     ]
   },
   {
-    "day": 26,
-    "date": "2026-07-03",
+    "day": 25,
+    "date": "2026-07-02",
     "sub_objective": "5.3",
     "track_1": {
       "type": "Domain Isolated Drill",
@@ -481,11 +464,29 @@
       "time_limit": 20
     },
     "track_2": {
-      "description": "Study sub-objective 5.3: Third-Party Vendor Contracts & Privacy. Watch matching Professor Messer video lesson paths and read the companion reading module."
+      "description": "Study sub-objective 5.3: Third-Party Vendor Contracts & Agreements. Watch matching Professor Messer video lesson paths and read the companion reading module."
     },
     "checklist_payload": [
       "Examine vendor contract blueprints: Service Level Agreement (SLA), Memorandum of Understanding (MOU), Memorandum of Agreement (MOA), and Statement of Work (SOW).",
-      "Verify compliance with privacy frameworks (GDPR, HIPAA, CCPA) and evaluate Privacy Impact Assessments (PIA)."
+      "Identify due diligence questionnaires, right-to-audit clauses, and third-party risk assessment parameters."
+    ]
+  },
+  {
+    "day": 26,
+    "date": "2026-07-03",
+    "sub_objective": "5.4",
+    "track_1": {
+      "type": "Domain Isolated Drill",
+      "description": "Domain Drill: Security Program Management and Oversight. Complete 20 questions in 20 minutes focusing on Domain 5. Apply Exam Hack Rules #10 (Flag & Move) and #11 (Defer PBQ).",
+      "questions": 20,
+      "time_limit": 20
+    },
+    "track_2": {
+      "description": "Study sub-objective 5.4: Compliance & Privacy Concepts. Watch matching Professor Messer video lesson paths and read the companion reading module."
+    },
+    "checklist_payload": [
+      "Summarize privacy regulations: GDPR, HIPAA, and privacy impact assessments (PIA).",
+      "Contrast controller vs processor roles and understand the right to be forgotten compliance mandate."
     ]
   },
   {
@@ -535,12 +536,12 @@
       "time_limit": 90
     },
     "track_2": {
-      "description": "Review Domain 1 & 2 weak areas. Practice card decks on Control Classifications, Cryptographic PKI pipelines, and Malware types."
+      "description": "Review Domain 1 weak areas. Practice card decks on Control Classifications, CIA Triad, Zero Trust architecture, and Cryptographic PKI pipelines."
     },
     "checklist_payload": [
       "Practice Domain 1 Flashcards (Security Control types and Zero Trust Control vs Data planes).",
-      "Practice Domain 2 Flashcards (TOCTOU race conditions and buffer overflow memory faults).",
-      "Analyze Practice Test 1 incorrect questions and log weak topics."
+      "Review PKI CSR validation pipelines and key exchange protocols.",
+      "Analyze Domain 1 incorrect questions and log weak topics."
     ]
   },
   {
@@ -554,12 +555,12 @@
       "time_limit": 90
     },
     "track_2": {
-      "description": "Review Domain 3 weak areas. Drill flashcards on Cloud Deployment types, Firewall topologies, and Resilience configurations."
+      "description": "Review Domain 2 weak areas. Practice card decks on Threat Actors, Social Engineering attacks, Malware types, and Hardening techniques."
     },
     "checklist_payload": [
-      "Practice Domain 3 Flashcards (RAID configurations, differential vs incremental backups).",
-      "Review states of data (TLS 1.3 transit, FDE at rest, secure enclaves in use).",
-      "Analyze Practice Test 2 incorrect questions and log weak topics."
+      "Practice Domain 2 Flashcards (TOCTOU race conditions, buffer overflows, injection attacks).",
+      "Review indicators of compromise and mitigation methodologies.",
+      "Analyze Domain 2 incorrect questions and log weak topics."
     ]
   },
   {
@@ -573,12 +574,12 @@
       "time_limit": 90
     },
     "track_2": {
-      "description": "Review Domain 4 weak areas. Memorize wireless settings (Dragonfly vs 802.1X/EAP) and port replacement maps."
+      "description": "Review Domain 3 weak areas. Drill flashcards on Cloud Deployment types, Firewall topologies, Data classifications, and Resilience configurations."
     },
     "checklist_payload": [
-      "Practice Domain 4 Flashcards (WPA3 SAE, port configurations: SSH on 22, HTTPS on 443, SFTP on 22).",
-      "Memorize the order of volatility (Registers -> RAM -> Disk -> Backups).",
-      "Analyze Practice Test 3 incorrect questions and log weak topics."
+      "Practice Domain 3 Flashcards (RAID configurations, differential vs incremental backups).",
+      "Review states of data (TLS 1.3 transit, FDE at rest, secure enclaves in use).",
+      "Analyze Domain 3 incorrect questions and log weak topics."
     ]
   },
   {
@@ -592,12 +593,12 @@
       "time_limit": 90
     },
     "track_2": {
-      "description": "Review Domain 5 weak areas. Recalculate ALE risk variables and verify contract frameworks."
+      "description": "Review Domain 4 weak areas. Memorize wireless settings, security baselines, vulnerability management pipelines, and port replacement maps."
     },
     "checklist_payload": [
-      "Practice Domain 5 Flashcards (Risk formulas: SLE=AV*EF, ALE=ARO*SLE).",
-      "Memorize agreement formats (SLA, MOU, MOA, SOW).",
-      "Analyze Practice Test 4 incorrect questions and log weak topics."
+      "Practice Domain 4 Flashcards (WPA3 SAE, port configurations: SSH on 22, HTTPS on 443, SFTP on 22).",
+      "Memorize the order of volatility (Registers -> RAM -> Disk -> Backups) and incident response phases.",
+      "Analyze Domain 4 incorrect questions and log weak topics."
     ]
   },
   {
@@ -611,12 +612,12 @@
       "time_limit": 90
     },
     "track_2": {
-      "description": "Comprehensive review of all 5 domains. Focus on acronym recognition and quick definitions."
+      "description": "Review Domain 5 weak areas. Recalculate ALE risk variables, third-party agreements, compliance regulations, and training metrics."
     },
     "checklist_payload": [
-      "Run standard front-to-back testing flashcard deck of 200+ cards.",
-      "Review the complete list of 28 exam sub-objectives.",
-      "Analyze Practice Test 5 incorrect questions and map final prep checklist."
+      "Practice Domain 5 Flashcards (Risk formulas: SLE=AV*EF, ALE=ARO*SLE).",
+      "Memorize agreement formats (SLA, MOU, MOA, SOW) and compliance frameworks (GDPR, HIPAA).",
+      "Analyze Domain 5 incorrect questions and log weak topics."
     ]
   },
   {
@@ -630,9 +631,10 @@
       "time_limit": 90
     },
     "track_2": {
-      "description": "Exam Day Warm-up. Final memorization sweeps. Rest and mentally prepare."
+      "description": "Comprehensive review of all 5 domains. Final memorization sweeps. Rest and mentally prepare."
     },
     "checklist_payload": [
+      "Run standard front-to-back testing flashcard deck of 200+ cards.",
       "Review high-yield acronym lists and formula sheets.",
       "Verify exam registration, location/online settings, and identification requirements.",
       "Review Exam Hack Rule #13 (Zero-penalty full selection mandate) and Rule #11 (Immediate MCQ-first routing, deferring active PBQs)."

@@ -2,131 +2,15 @@
   "deck": "SY0-701",
   "cards": [
     {
-      "front": "What is SPF (Sender Policy Framework)?",
-      "back": "A DNS TXT record that lists all authorized IP addresses that can send emails on behalf of a domain, preventing email spoofing."
-    },
-    {
-      "front": "What is DKIM (DomainKeys Identified Mail)?",
-      "back": "A cryptographic validation system that adds a digital signature to email headers, allowing the receiver to verify the email's origin domain."
-    },
-    {
-      "front": "What is DMARC (Domain-based Message Authentication, Reporting, and Conformance)?",
-      "back": "A DNS record that specifies how a receiver should handle emails failing SPF/DKIM verification (None, Quarantine, or Reject)."
-    },
-    {
-      "front": "What is SAML (Security Assertion Markup Language)?",
-      "back": "An XML-based open standard for exchanging authentication and authorization data, commonly used for single sign-on (SSO) on web portals."
-    },
-    {
-      "front": "What is ABAC (Attribute-Based Access Control)?",
-      "back": "An access control model that grants access permissions based on attributes of the subject, resource, action, and environment (e.g. time, location)."
-    },
-    {
-      "front": "What is RBAC (Role-Based Access Control)?",
-      "back": "An access control model that assigns permissions to specific job roles rather than individual user accounts."
-    },
-    {
-      "front": "What is MAC (Mandatory Access Control)?",
-      "back": "An access control model where the system administrator sets clearance levels (labels) for users and classification labels for resources, restricting access strictly."
-    },
-    {
-      "front": "What is DAC (Discretionary Access Control)?",
-      "back": "An access control model where the owner of a resource determines who is granted access permissions."
-    },
-    {
-      "front": "What is TPM (Trusted Platform Module)?",
-      "back": "A dedicated, tamper-resistant cryptographic chip soldered on a motherboard that stores encryption keys, certificates, and measures boot-loader integrity."
-    },
-    {
-      "front": "What is HSM (Hardware Security Module)?",
-      "back": "A removable or external physical network appliance designed for high-performance cryptographic key generation, storage, and processing."
-    },
-    {
-      "front": "What is VM Escape?",
-      "back": "A critical virtualization vulnerability where an attacker breaks out of a guest virtual machine's environment and gains direct access to the host operating system."
-    },
-    {
-      "front": "What is Buffer Overflow?",
-      "back": "A code flaw where an application writes more data to a memory buffer than it is allocated, overwriting adjacent memory and potentially executing arbitrary payload code."
-    },
-    {
-      "front": "What is SLA (Service Level Agreement)?",
-      "back": "A contract defining expected service levels, performance metrics, and penalties for service downtime."
-    },
-    {
-      "front": "What is MOU (Memorandum of Understanding)?",
-      "back": "A non-binding document outlining the mutual goals and agreements between two or more cooperating parties."
-    },
-    {
-      "front": "What are the three main security control categories defined in CompTIA Security+ (SY0-701)?",
-      "back": "Administrative (managerial controls like security policies, training, and risk assessments), Technical (logical controls implemented via systems, firewalls, and encryption), and Physical (tangible controls protecting physical areas like fences, gates, locks, and security guards)."
-    },
-    {
-      "front": "What are the six functional security control types?",
-      "back": "Preventive (blocks attacks), Deterrent (discourages actions), Detective (identifies ongoing events), Corrective (recovers systems post-attack), Compensating (alternative safeguard for vulnerabilities), and Directive (mandatory policy or compliance constraint)."
-    },
-    {
-      "front": "How is the Zero Trust Architecture (ZTA) plane layout structured?",
-      "back": "The Control Plane handles administrative policy enforcement through the Policy Engine and Policy Administrator. The Data Plane processes active network communication streams across the Policy Enforcement Point (PEP)."
-    },
-    {
-      "front": "What are the four classifications of physical security sensor equipment?",
-      "back": "Infrared (detects thermal emission shifts), Pressure (measures physical force weight on fields), Microwave (tracks high-frequency reflections), and Ultrasonic (analyzes sound wave echo modifications)."
-    },
-    {
-      "front": "What is the core rule distinguishing asymmetric from symmetric key encryption?",
-      "back": "Symmetric relies on a single shared key for encryption and decryption. Asymmetric implements public-private key pairs: data encrypted utilizing an entity's Public key can only be decrypted via that same entity's matching Private key."
-    },
-    {
-      "front": "What are the two real-time certificate validation mechanisms?",
-      "back": "Certificate Revocation Lists (CRLs) function as downloaded batch blacklists of revoked roots. Online Certificate Status Protocol (OCSP) Stapling offloads live verification lookups directly to the hosting web server via a time-stamped cryptographic token."
-    },
-    {
-      "front": "What is the difference between a Buffer Overflow and a DLL Injection?",
-      "back": "Buffer Overflow exploits software functions that fail to perform array bounds checking scripts. DLL Injection intercepts runtime processing by inserting external code files directly inside a legitimate running process execution tree."
-    },
-    {
-      "front": "What is a Time-of-Check to Time-of-Use (TOCTOU) vulnerability?",
-      "back": "A state race condition vulnerability where a system asset is altered or replaced by an attacker during the critical gap window after authorization checks occur but before execution completes."
-    },
-    {
-      "front": "How does the WPA3 Personal authentication handshake protect wireless connections?",
-      "back": "Replaces legacy vulnerable PSK handshakes with Simultaneous Authentication of Equals (SAE), leveraging a dragonfly handshake configuration to block offline brute-force key computations."
-    },
-    {
-      "front": "What are the secure replacements for the unencrypted Telnet, HTTP, and FTP protocols?",
-      "back": "Telnet (TCP 23) transitions to SSH (TCP 22); unencrypted HTTP (TCP 80) transitions to HTTPS (TCP 443); legacy cleartext FTP (TCP 20/21) transitions to cryptographic SFTP (TCP 22)."
-    },
-    {
-      "front": "What are the chronological steps of the NIST SP 800-61 Rev 2 Incident Response lifecycle?",
-      "back": "Chronological execution framework: 1. Preparation -> 2. Detection and Analysis -> 3. Containment, Eradication, and Recovery -> 4. Post-Incident Activity (Lessons Learned compilation loops)."
-    },
-    {
-      "front": "What is the forensic device acquisition order of volatility?",
-      "back": "Hierarchical capture routing (RFC 3227): CPU registers/cache arrays -> system RAM/routing tables -> local solid-state storage sectors -> remote network backup log clusters."
-    },
-    {
-      "front": "What are the formula equations for quantitative risk assessment?",
-      "back": "Single Loss Expectancy (SLE) = Asset Value (AV) x Exposure Factor (EF). Annualized Loss Expectancy (ALE) = Annualized Rate of Occurrence (ARO) x SLE."
-    },
-    {
-      "front": "What is the difference between recovery milestones RTO and RPO?",
-      "back": "Recovery Time Objective (RTO) dictates the maximum tolerable duration of system downtime. Recovery Point Objective (RPO) dictates the maximum acceptable age of data loss measured in time units since the last backup marker."
-    },
-    {
-      "front": "What are the differences between SLA, MOU, MOA, and SOW agreements?",
-      "back": "SLA targets system availability thresholds. MOU establishes a mutual statement of intent. MOA defines detailed shared operational workflows. SOW details explicit project deliverables and tasks."
-    },
-    {
       "front": "What is the primary goal of information security?",
       "back": "To protect information assets from threats and ensure confidentiality, integrity, and availability."
     },
     {
-      "front": "What is threat in cybersecurity?",
+      "front": "\"Define the term 'threat' in cybersecurity.\"",
       "back": "A potential cause of an unwanted incident, which may result in harm to a system or organization."
     },
     {
-      "front": "What is risk in information security?",
+      "front": "\"Explain the concept of 'risk' in information security.\"",
       "back": "The potential for loss, damage, or destruction of an asset as a result of a threat exploiting a vulnerability."
     },
     {
@@ -134,7 +18,7 @@
       "back": "To monitor and control incoming and outgoing network traffic based on predetermined security rules."
     },
     {
-      "front": "What is the function of antivirus software?",
+      "front": "Describe the function of antivirus software.",
       "back": "To detect, prevent, and remove malware and other malicious software."
     },
     {
@@ -142,7 +26,7 @@
       "back": "A Virtual Private Network, used to create a secure connection over a public network."
     },
     {
-      "front": "What is phishing in the context of cyber attacks?",
+      "front": "\"Define 'phishing' in the context of cyber attacks.\"",
       "back": "A type of cyber attack that involves tricking individuals into revealing sensitive information."
     },
     {
@@ -150,15 +34,15 @@
       "back": "To protect data by transforming it into an unreadable format for unauthorized users."
     },
     {
-      "front": "What is a security policy in an organization?",
-      "back": "A set of guidelines and best practices to manage and protect an organization's information."
+      "front": "\"Explain the concept of a 'security policy' in an organization.\"",
+      "back": "\"A set of guidelines and best practices to manage and protect an organization's information.\""
     },
     {
-      "front": "What is a 'security audit'?",
+      "front": "\"What is a 'security audit'?\"",
       "back": "An examination of security measures to ensure they comply with set standards."
     },
     {
-      "front": "What is access control in network security?",
+      "front": "\"Define 'access control' in network security.\"",
       "back": "Methods and practices used to prevent unauthorized access to a network or system."
     },
     {
@@ -166,15 +50,15 @@
       "back": "A security process that requires two different authentication methods to verify a user."
     },
     {
-      "front": "What is malware?",
+      "front": "\"Explain the term 'malware'.\"",
       "back": "Software designed to disrupt, damage, or gain unauthorized access to a computer system."
     },
     {
       "front": "What is the purpose of a DMZ in network security?",
-      "back": "A Demilitarized Zone, used to add an additional layer of security to an organization's local area network."
+      "back": "\"A Demilitarized Zone, used to add an additional layer of security to an organization's local area network.\""
     },
     {
-      "front": "What is intrusion detection system (IDS)?",
+      "front": "\"Define the term 'intrusion detection system (IDS)'.\"",
       "back": "A system that monitors network traffic for suspicious activity and issues alerts."
     },
     {
@@ -182,23 +66,23 @@
       "back": "IDS detects potential security breaches, while IPS prevents them."
     },
     {
-      "front": "What is the purpose of a security incident response plan?",
+      "front": "\"Describe the purpose of a 'security incident response plan'.\"",
       "back": "A plan for managing the aftermath of a cybersecurity breach or attack."
     },
     {
-      "front": "What is 'social engineering' in the context of information security?",
+      "front": "\"What is 'social engineering' in the context of information security?\"",
       "back": "The manipulation of people into performing actions or divulging confidential information."
     },
     {
-      "front": "What is risk management in cybersecurity?",
-      "back": "The process of identifying, assessing, and controlling risks to an organization's assets."
+      "front": "\"Explain the concept of 'risk management' in cybersecurity.\"",
+      "back": "\"The process of identifying, assessing, and controlling risks to an organization's assets.\""
     },
     {
-      "front": "What is 'data loss prevention' (DLP)?",
+      "front": "\"What is 'data loss prevention' (DLP)?\"",
       "back": "Strategies and tools used to prevent unauthorized access to or handling of data."
     },
     {
-      "front": "What is cryptography in the context of information security?",
+      "front": "\"Define 'cryptography' in the context of information security.\"",
       "back": "The practice of securing information by transforming it into a code to prevent unauthorized access."
     },
     {
@@ -206,23 +90,23 @@
       "back": "To authenticate the identity of a website and enable an encrypted connection."
     },
     {
-      "front": "What is public key infrastructure (PKI)?",
+      "front": "\"Explain the term 'public key infrastructure (PKI)'.\"",
       "back": "A system that provides the services and infrastructure for creating, managing, and using digital certificates and public-key cryptography."
     },
     {
-      "front": "What is a 'security baseline'?",
+      "front": "\"What is a 'security baseline'?\"",
       "back": "A set of security measures that are established as a minimum level of protection."
     },
     {
-      "front": "What is patch management?",
+      "front": "\"Describe the concept of 'patch management'.\"",
       "back": "The process of managing a network of computers by regularly applying updates and patches."
     },
     {
-      "front": "What is the principle of 'least privilege'?",
+      "front": "\"What is the principle of 'least privilege'?\"",
       "back": "Giving users only the access necessary to perform their job functions."
     },
     {
-      "front": "What is vulnerability in cybersecurity?",
+      "front": "\"Define 'vulnerability' in cybersecurity.\"",
       "back": "A weakness in a system that can be exploited by a threat to gain unauthorized access."
     },
     {
@@ -230,691 +114,691 @@
       "back": "A virus attaches itself to a program or file, whereas a worm is a standalone software."
     },
     {
-      "front": "What is threat intelligence?",
+      "front": "\"Explain the concept of 'threat intelligence'.\"",
       "back": "The collection and analysis of information about current and potential attacks that threaten the security of an organization."
     },
     {
-      "front": "What is the purpose of a 'security information and event management (SIEM)' system?",
+      "front": "\"What is the purpose of a 'security information and event management (SIEM)' system?\"",
       "back": "A system that provides real-time analysis of security alerts generated by applications and network hardware."
     },
     {
-      "front": "What is network segmentation in cybersecurity?",
+      "front": "\"Define 'network segmentation' in cybersecurity.\"",
       "back": "Dividing a network into smaller parts to improve performance and security."
     },
     {
-      "front": "What is the role of a 'firewall' in protecting a network?",
+      "front": "\"What is the role of a 'firewall' in protecting a network?\"",
       "back": "To screen and manage incoming and outgoing network traffic based on an organization’s security policies."
     },
     {
-      "front": "What is identity and access management (IAM)?",
+      "front": "\"Explain the concept of 'identity and access management (IAM)'.\"",
       "back": "The framework for managing and controlling user access to resources in a system."
     },
     {
-      "front": "What is 'penetration testing'?",
+      "front": "\"What is 'penetration testing'?\"",
       "back": "The practice of testing a computer system, network, or web application to find vulnerabilities that an attacker could exploit."
     },
     {
-      "front": "What is security governance?",
+      "front": "\"Define 'security governance'.\"",
       "back": "The set of processes and guidelines for managing, directing, and controlling an organization’s security practices."
     },
     {
-      "front": "What is the purpose of a 'business continuity plan'?",
+      "front": "\"What is the purpose of a 'business continuity plan'?\"",
       "back": "A plan for how an organization will continue its critical functions during and after an emergency event."
     },
     {
-      "front": "What is disaster recovery?",
+      "front": "\"Describe the concept of 'disaster recovery'.\"",
       "back": "The process of preparing for and recovering from a disaster."
     },
     {
-      "front": "What is the difference between 'symmetric' and 'asymmetric' encryption?",
+      "front": "\"What is the difference between 'symmetric' and 'asymmetric' encryption?\"",
       "back": "Symmetric encryption uses the same key for encryption and decryption, while asymmetric uses a public key for encryption and a private key for decryption."
     },
     {
-      "front": "What is the role of hashing in cybersecurity?",
+      "front": "\"Explain the role of 'hashing' in cybersecurity.\"",
       "back": "The process of converting data into a fixed-size string of characters, which cannot be reversed."
     },
     {
-      "front": "What is a 'secure socket layer (SSL)' certificate?",
+      "front": "\"What is a 'secure socket layer (SSL)' certificate?\"",
       "back": "A digital certificate used to provide secure, encrypted communications between a website and an internet browser."
     },
     {
-      "front": "What is endpoint security?",
-      "back": "The protection of computers, laptops, and other devices that access an organization's network."
+      "front": "\"Define 'endpoint security'.\"",
+      "back": "\"The protection of computers, laptops, and other devices that access an organization's network.\""
     },
     {
-      "front": "What is the purpose of 'network access control (NAC)'?",
+      "front": "\"What is the purpose of 'network access control (NAC)'?\"",
       "back": "A set of practices to control who and what can access the network and its resources."
     },
     {
-      "front": "What is virtualization security?",
+      "front": "\"Explain the concept of 'virtualization security'.\"",
       "back": "Security measures designed to protect systems that implement virtualization."
     },
     {
-      "front": "What is a 'honeypot' in network security?",
+      "front": "\"What is a 'honeypot' in network security?\"",
       "back": "A security mechanism set to detect, deflect, or, in some manner, counteract attempts at unauthorized use of information systems."
     },
     {
-      "front": "What is mobile device security?",
+      "front": "\"Define 'mobile device security'.\"",
       "back": "The security measures and practices applied to protect mobile devices such as smartphones and tablets."
     },
     {
-      "front": "What is the difference between 'authentication' and 'authorization'?",
-      "back": "Authentication verifies a user's identity, while authorization determines their access rights."
+      "front": "\"What is the difference between 'authentication' and 'authorization'?\"",
+      "back": "\"Authentication verifies a user's identity, while authorization determines their access rights.\""
     },
     {
-      "front": "What is cloud security?",
+      "front": "\"Explain the concept of 'cloud security'.\"",
       "back": "The processes, controls, and policies designed to protect data stored in the cloud."
     },
     {
-      "front": "What is 'container security' in the context of virtualization?",
+      "front": "\"What is 'container security' in the context of virtualization?\"",
       "back": "Security measures focused on protecting a standardized unit of software in a virtualized environment."
     },
     {
-      "front": "What is operational security?",
-      "back": "The process of developing and implementing security measures to protect an organization's operations."
+      "front": "\"Define 'operational security'.\"",
+      "back": "\"The process of developing and implementing security measures to protect an organization's operations.\""
     },
     {
-      "front": "What is the purpose of a 'security awareness training program'?",
+      "front": "\"What is the purpose of a 'security awareness training program'?\"",
       "back": "Programs designed to educate employees about computer security, good practices, and potential threats."
     },
     {
-      "front": "What is 'endpoint detection and response (EDR)'?",
+      "front": "\"What is 'endpoint detection and response (EDR)'?\"",
       "back": "A cybersecurity technology that continuously monitors and responds to mitigate threats at endpoints."
     },
     {
-      "front": "What is cloud access security broker (CASB)?",
+      "front": "\"Define 'cloud access security broker (CASB)'.\"",
       "back": "A security software that sits between cloud service users and cloud applications to monitor and enforce security policies."
     },
     {
-      "front": "What is the role of 'Unified Threat Management (UTM)' systems?",
+      "front": "\"What is the role of 'Unified Threat Management (UTM)' systems?\"",
       "back": "Systems that provide a comprehensive solution combining multiple security functions into a single appliance."
     },
     {
-      "front": "What is microsegmentation in network security?",
+      "front": "\"Explain 'microsegmentation' in network security.\"",
       "back": "Dividing a network into smaller, more secure segments to improve security."
     },
     {
-      "front": "What are 'Zero Trust' security models?",
+      "front": "\"What are 'Zero Trust' security models?\"",
       "back": "Security models based on the principle of not trusting any entity inside or outside the network by default."
     },
     {
-      "front": "What is forensic analysis in cybersecurity?",
+      "front": "\"Define 'forensic analysis' in cybersecurity.\"",
       "back": "The process of collecting, analyzing, and interpreting electronic data for evidence in legal cases."
     },
     {
-      "front": "What is the principle of 'non-repudiation' in security?",
+      "front": "\"What is the principle of 'non-repudiation' in security?\"",
       "back": "Ensuring that individuals cannot deny their actions, particularly in digital transactions."
     },
     {
-      "front": "What is IoT security?",
+      "front": "\"Explain the concept of 'IoT security'.\"",
       "back": "Security considerations specific to the Internet of Things devices and ecosystems."
     },
     {
-      "front": "What is a 'rootkit'?",
+      "front": "\"What is a 'rootkit'?\"",
       "back": "A type of malware designed to gain unauthorized access to a computer and hide its presence."
     },
     {
-      "front": "What is security orchestration, automation, and response (SOAR)?",
+      "front": "\"Describe 'security orchestration, automation, and response (SOAR)'.\"",
       "back": "Technologies that allow for more efficient security operations through a combination of integration, automation, and orchestration."
     },
     {
-      "front": "What is 'behavioral analytics' in cybersecurity?",
+      "front": "\"What is 'behavioral analytics' in cybersecurity?\"",
       "back": "The use of data analytics tools to detect abnormal user behavior as a sign of malicious activity."
     },
     {
-      "front": "What is threat hunting in network security?",
+      "front": "\"Define 'threat hunting' in network security.\"",
       "back": "The proactive, iterative search through networks to detect and isolate advanced threats."
     },
     {
-      "front": "What is the purpose of 'multi-factor authentication (MFA)'?",
+      "front": "\"What is the purpose of 'multi-factor authentication (MFA)'?\"",
       "back": "An authentication method that requires multiple independent credentials for increased security."
     },
     {
-      "front": "What is secure coding practices?",
+      "front": "\"Explain 'secure coding practices'.\"",
       "back": "Practices that ensure software is developed in a way that guards against security vulnerabilities."
     },
     {
-      "front": "What is 'chain of custody' in digital forensics?",
+      "front": "\"What is 'chain of custody' in digital forensics?\"",
       "back": "The documented process by which digital evidence is handled to maintain its integrity for legal proceedings."
     },
     {
-      "front": "What is application whitelisting?",
+      "front": "\"Define 'application whitelisting'.\"",
       "back": "A security strategy where a list of approved software applications is created, blocking all others by default."
     },
     {
-      "front": "What is 'secure software development lifecycle (SSDLC)'?",
+      "front": "\"What is 'secure software development lifecycle (SSDLC)'?\"",
       "back": "A process that integrates security considerations into every phase of the software development process."
     },
     {
-      "front": "What is security posture?",
+      "front": "\"Explain 'security posture'.\"",
       "back": "The overall level of security readiness and strength of an organization."
     },
     {
-      "front": "What is the difference between 'blue team' and 'red team' in cybersecurity?",
+      "front": "\"What is the difference between 'blue team' and 'red team' in cybersecurity?\"",
       "back": "The blue team defends, while the red team simulates cyberattacks to test the defenses."
     },
     {
-      "front": "What is security by design?",
+      "front": "\"Describe 'security by design'.\"",
       "back": "The integration of security measures into the design of products and systems."
     },
     {
-      "front": "What is 'data encryption standard (DES)'?",
+      "front": "\"What is 'data encryption standard (DES)'?\"",
       "back": "An outdated symmetric-key method of data encryption."
     },
     {
-      "front": "What is advanced persistent threat (APT)?",
+      "front": "\"Define 'advanced persistent threat (APT)'.\"",
       "back": "A long-term, stealthy network intrusion by an advanced attacker."
     },
     {
-      "front": "What is intrusion prevention system (IPS)?",
+      "front": "\"Explain 'intrusion prevention system (IPS)'.\"",
       "back": "A system that not only detects threats but also takes action to prevent them."
     },
     {
-      "front": "What is a 'botnet'?",
+      "front": "\"What is a 'botnet'?\"",
       "back": "A number of internet-connected devices, each of which runs one or more bots."
     },
     {
-      "front": "What is session hijacking in network security?",
+      "front": "\"Describe 'session hijacking' in network security.\"",
       "back": "The act of exploiting a valid computer session to gain unauthorized access to information or services."
     },
     {
-      "front": "What is 'domain name system security (DNSSEC)'?",
+      "front": "\"What is 'domain name system security (DNSSEC)'?\"",
       "back": "A suite of extensions to DNS which provide origin authentication of DNS data."
     },
     {
-      "front": "What is hardware security?",
+      "front": "\"Explain 'hardware security'.\"",
       "back": "Security measures specifically focused on protecting hardware components."
     },
     {
-      "front": "What is 'information rights management (IRM)'?",
+      "front": "\"What is 'information rights management (IRM)'?\"",
       "back": "Technologies that protect sensitive information by managing access rights and permissions."
     },
     {
-      "front": "What is ethical hacking?",
-      "back": "The practice of legally breaking into computers and devices to test an organization's defenses."
+      "front": "\"Describe the concept of 'ethical hacking'.\"",
+      "back": "\"The practice of legally breaking into computers and devices to test an organization's defenses.\""
     },
     {
-      "front": "What is 'cross-site scripting (XSS)'?",
+      "front": "\"What is 'cross-site scripting (XSS)'?\"",
       "back": "A type of security vulnerability typically found in web applications."
     },
     {
-      "front": "What is security information management (SIM)?",
+      "front": "\"Define 'security information management (SIM)'.\"",
       "back": "Systems that focus on the collection and analysis of security data from various sources."
     },
     {
-      "front": "What is federated identity management?",
-      "back": "The practice of linking a user's identity and attributes stored across multiple distinct identity management systems."
+      "front": "\"Explain 'federated identity management'.\"",
+      "back": "\"The practice of linking a user's identity and attributes stored across multiple distinct identity management systems.\""
     },
     {
-      "front": "What is 'ransomware'?",
-      "back": "Malware that encrypts a victim's data and demands payment for the decryption key."
+      "front": "\"What is 'ransomware'?\"",
+      "back": "\"Malware that encrypts a victim's data and demands payment for the decryption key.\""
     },
     {
-      "front": "What is security compliance?",
+      "front": "\"Describe 'security compliance'.\"",
       "back": "The process of ensuring that an organization meets the required security standards."
     },
     {
-      "front": "What is 'advanced encryption standard (AES)'?",
+      "front": "\"What is 'advanced encryption standard (AES)'?\"",
       "back": "A symmetric key cipher used by the U.S. government to protect classified information."
     },
     {
-      "front": "What is biometric authentication?",
+      "front": "\"Define 'biometric authentication'.\"",
       "back": "The use of biological traits, like fingerprints or facial recognition, for authentication."
     },
     {
-      "front": "What is spear phishing?",
+      "front": "\"Explain 'spear phishing'.\"",
       "back": "A targeted form of phishing that aims at specific individuals or organizations."
     },
     {
-      "front": "What is 'distributed denial of service (DDoS)' attack?",
+      "front": "\"What is 'distributed denial of service (DDoS)' attack?\"",
       "back": "An attack that overwhelms a network or service with excessive traffic, rendering it unavailable."
     },
     {
-      "front": "What are bring your own device (BYOD) policies?",
+      "front": "\"Describe 'bring your own device (BYOD)' policies.\"",
       "back": "Policies governing the use of personal devices in a corporate setting."
     },
     {
-      "front": "What is 'network peering'?",
+      "front": "\"What is 'network peering'?\"",
       "back": "The process of directly interconnecting two or more networks for the purpose of sharing resources."
     },
     {
-      "front": "What is quantum cryptography?",
+      "front": "\"Define 'quantum cryptography'.\"",
       "back": "A method of secure communication that applies quantum mechanics."
     },
     {
-      "front": "What is incident response planning?",
+      "front": "\"Explain 'incident response planning'.\"",
       "back": "The process of preparing for, detecting, responding to, and recovering from cybersecurity incidents."
     },
     {
-      "front": "What is 'certificate authority (CA)'?",
+      "front": "\"What is 'certificate authority (CA)'?\"",
       "back": "An entity that issues digital certificates for use in PKI systems."
     },
     {
-      "front": "What is application layer security?",
+      "front": "\"Describe 'application layer security'.\"",
       "back": "Security measures focused on protecting the upper OSI model layers."
     },
     {
-      "front": "What is 'intrusion detection prevention system (IDPS)'?",
+      "front": "\"What is 'intrusion detection prevention system (IDPS)'?\"",
       "back": "Systems that combine the functions of an intrusion detection system (IDS) and an intrusion prevention system (IPS)."
     },
     {
-      "front": "What is security incident and event management (SIEM)?",
+      "front": "\"Define 'security incident and event management (SIEM)'.\"",
       "back": "Solutions that provide real-time analysis and reporting of security alerts."
     },
     {
-      "front": "What is virtual private network (VPN) tunneling?",
+      "front": "\"Explain 'virtual private network (VPN) tunneling'.\"",
       "back": "A method in VPNs where data is encapsulated, creating a private and secure communication tunnel over a public network."
     },
     {
-      "front": "What is 'key management' in cryptography?",
+      "front": "\"What is 'key management' in cryptography?\"",
       "back": "The practice of managing cryptographic keys in a cryptosystem."
     },
     {
-      "front": "What is email security?",
+      "front": "\"Describe 'email security'.\"",
       "back": "The protection of email communication from unauthorized access, loss, or compromise."
     },
     {
-      "front": "What is 'containerization' in cybersecurity?",
+      "front": "\"What is 'containerization' in cybersecurity?\"",
       "back": "The use of virtualization to run applications in isolated environments."
     },
     {
-      "front": "What is 'data obfuscation' in cybersecurity?",
+      "front": "\"What is 'data obfuscation' in cybersecurity?\"",
       "back": "The process of disguising data to hide its sensitive information while retaining its functionality."
     },
     {
-      "front": "What is security token in the context of authentication?",
+      "front": "\"Define 'security token' in the context of authentication.\"",
       "back": "A physical or digital tool used to gain access to a secure system or area."
     },
     {
-      "front": "What is application layer firewall?",
+      "front": "\"Explain 'application layer firewall'.\"",
       "back": "A firewall that filters traffic based on applications or services rather than IP packets."
     },
     {
-      "front": "What is 'steganography' in information security?",
+      "front": "\"What is 'steganography' in information security?\"",
       "back": "The practice of concealing information within another non-secret file or message."
     },
     {
-      "front": "What are side-channel attacks?",
+      "front": "\"Describe 'side-channel attacks'.\"",
       "back": "Attacks that exploit physical properties of a computing device to extract data."
     },
     {
-      "front": "What is 'security convergence'?",
+      "front": "\"What is 'security convergence'?\"",
       "back": "The process of integrating various aspects of security technology and policy."
     },
     {
-      "front": "What is risk appetite in cybersecurity?",
+      "front": "\"Define 'risk appetite' in cybersecurity.\"",
       "back": "The level of risk an organization is willing to accept in pursuit of its objectives."
     },
     {
-      "front": "What is identity as a service (IDaaS)?",
+      "front": "\"Explain 'identity as a service (IDaaS)'.\"",
       "back": "A service model for managing identities and access privileges across cloud services."
     },
     {
-      "front": "What is 'data masking'?",
+      "front": "\"What is 'data masking'?\"",
       "back": "The process of hiding specific data within a database to protect it from unauthorized users while retaining its usability."
     },
     {
-      "front": "What is cybersecurity resilience?",
-      "back": "An organization's ability to effectively prepare for, respond to, and recover from cyber attacks."
+      "front": "\"Describe 'cybersecurity resilience'.\"",
+      "back": "\"An organization's ability to effectively prepare for, respond to, and recover from cyber attacks.\""
     },
     {
-      "front": "What is 'context-aware security'?",
+      "front": "\"What is 'context-aware security'?\"",
       "back": "Security measures that adapt based on the context of user interactions."
     },
     {
-      "front": "What is attack surface reduction?",
+      "front": "\"Explain 'attack surface reduction'.\"",
       "back": "Strategies to reduce the ways in which an attacker could potentially exploit a system."
     },
     {
-      "front": "What is security analytics?",
+      "front": "\"Define 'security analytics'.\"",
       "back": "The use of data analysis tools to monitor and detect security threats."
     },
     {
-      "front": "What is 'credential stuffing'?",
+      "front": "\"What is 'credential stuffing'?\"",
       "back": "A cyber attack in which stolen credentials are used to gain unauthorized access to accounts."
     },
     {
-      "front": "What is privileged access management (PAM)?",
+      "front": "\"Describe 'privileged access management (PAM)'.\"",
       "back": "A system for managing and monitoring access to critical systems and resources."
     },
     {
-      "front": "What is 'security assurance'?",
+      "front": "\"What is 'security assurance'?\"",
       "back": "The level of confidence that software is free from vulnerabilities and functions as intended."
     },
     {
-      "front": "What is cyber threat intelligence?",
+      "front": "\"Define 'cyber threat intelligence'.\"",
       "back": "Information used to understand and mitigate cyber threats."
     },
     {
-      "front": "What is web application firewall (WAF)?",
+      "front": "\"Explain 'web application firewall (WAF)'.\"",
       "back": "A security solution that protects web applications by filtering and monitoring HTTP traffic."
     },
     {
-      "front": "What is 'user and entity behavior analytics (UEBA)'?",
+      "front": "\"What is 'user and entity behavior analytics (UEBA)'?\"",
       "back": "Tools that analyze user and entity behaviors to detect anomalies that may indicate a security threat."
     },
     {
-      "front": "What is cloud security posture management (CSPM)?",
+      "front": "\"Describe 'cloud security posture management (CSPM)'.\"",
       "back": "Tools and practices for managing and securing cloud environments and compliance."
     },
     {
-      "front": "What is 'file integrity monitoring'?",
+      "front": "\"What is 'file integrity monitoring'?\"",
       "back": "The practice of checking and verifying the integrity of files and software."
     },
     {
-      "front": "What is anomaly detection in cybersecurity?",
+      "front": "\"Explain 'anomaly detection' in cybersecurity.\"",
       "back": "Identifying unusual patterns or behavior in data that may indicate a security threat."
     },
     {
-      "front": "What is mobile security management (MSM)?",
+      "front": "\"Define 'mobile security management (MSM)'.\"",
       "back": "The practice of managing and securing mobile devices within an organization."
     },
     {
-      "front": "What is 'quantum key distribution (QKD)'?",
+      "front": "\"What is 'quantum key distribution (QKD)'?\"",
       "back": "A method of distributing cryptographic keys using the principles of quantum mechanics."
     },
     {
-      "front": "What is content disarm and reconstruction (CDR)?",
+      "front": "\"Describe 'content disarm and reconstruction (CDR)'.\"",
       "back": "A security technology that removes potentially malicious code from files."
     },
     {
-      "front": "What is 'software composition analysis'?",
+      "front": "\"What is 'software composition analysis'?\"",
       "back": "The process of analyzing the components of software to ensure they do not contain vulnerabilities."
     },
     {
-      "front": "What is dynamic application security testing (DAST)?",
+      "front": "\"Explain 'dynamic application security testing (DAST)'.\"",
       "back": "A testing process that identifies security vulnerabilities in web applications while they are running."
     },
     {
-      "front": "What is data sovereignty?",
+      "front": "\"Define 'data sovereignty'.\"",
       "back": "The concept that data is subject to the laws of the country in which it is located."
     },
     {
-      "front": "What is 'cyber insurance'?",
+      "front": "\"What is 'cyber insurance'?\"",
       "back": "Insurance designed to mitigate losses from cyber incidents."
     },
     {
-      "front": "What is zero-day vulnerability?",
+      "front": "\"Describe 'zero-day vulnerability'.\"",
       "back": "A vulnerability that is unknown to those who should be interested in its mitigation."
     },
     {
-      "front": "What is 'security information management (SIM)'?",
+      "front": "\"What is 'security information management (SIM)'?\"",
       "back": "A system that focuses on the collection and analysis of security data."
     },
     {
-      "front": "What is cyber kill chain?",
+      "front": "\"Explain 'cyber kill chain'.\"",
       "back": "A model used to identify and describe the stages of a cyber attack."
     },
     {
-      "front": "What is network behavior analysis (NBA)?",
+      "front": "\"Define 'network behavior analysis (NBA)'.\"",
       "back": "The analysis of network behavior to detect anomalies that may indicate a security threat."
     },
     {
-      "front": "What is 'OAuth' in cybersecurity?",
+      "front": "\"What is 'OAuth' in cybersecurity?\"",
       "back": "An open standard for authorization that allows sharing of user credentials without exposing them."
     },
     {
-      "front": "What is microservice architecture security?",
+      "front": "\"Describe 'microservice architecture security'.\"",
       "back": "Security considerations specific to an architecture that uses loosely coupled services."
     },
     {
-      "front": "What is 'threat modeling'?",
+      "front": "\"What is 'threat modeling'?\"",
       "back": "The process of analyzing and understanding potential threats to a system or application."
     },
     {
-      "front": "What is a business impact analysis (BIA)?",
+      "front": "\"Define 'business impact analysis (BIA)'.\"",
       "back": "An analysis to predict the consequences of disruptions to a business."
     },
     {
-      "front": "What is sandboxing in cybersecurity?",
+      "front": "\"Explain 'sandboxing' in cybersecurity.\"",
       "back": "Running code in a separate environment to contain security breaches."
     },
     {
-      "front": "What is 'security by obscurity'?",
+      "front": "\"What is 'security by obscurity'?\"",
       "back": "The concept of securing a system by keeping details about the system hidden."
     },
     {
-      "front": "What is vulnerability scanning?",
+      "front": "\"Describe 'vulnerability scanning'.\"",
       "back": "The process of identifying vulnerabilities in a computer network."
     },
     {
-      "front": "What is 'cryptographic hash function'?",
+      "front": "\"What is 'cryptographic hash function'?\"",
       "back": "A function used to convert data into a fixed-size string that appears random."
     },
     {
-      "front": "What is cyber risk quantification?",
+      "front": "\"Explain 'cyber risk quantification'.\"",
       "back": "The process of assigning monetary values to potential cyber risks."
     },
     {
-      "front": "What is a 'man-in-the-middle (MITM)' attack?",
+      "front": "\"Define 'man-in-the-middle (MITM)' attack.\"",
       "back": "A security attack where the attacker secretly intercepts and possibly alters communication between two parties."
     },
     {
-      "front": "What is 'cybersecurity posture'?",
-      "back": "The overall strength and effectiveness of an organization's cybersecurity measures."
+      "front": "\"What is 'cybersecurity posture'?\"",
+      "back": "\"The overall strength and effectiveness of an organization's cybersecurity measures.\""
     },
     {
-      "front": "What is data residency?",
+      "front": "\"Describe 'data residency'.\"",
       "back": "The legal and regulatory aspects related to the physical location of data storage."
     },
     {
-      "front": "What is 'intrusion detection system (IDS)'?",
+      "front": "\"What is 'intrusion detection system (IDS)'?\"",
       "back": "A system that monitors network traffic for suspicious activity."
     },
     {
-      "front": "What is secure shell (SSH)?",
+      "front": "\"Explain 'secure shell (SSH)'.\"",
       "back": "A cryptographic network protocol for secure data communication."
     },
     {
-      "front": "What is mobile device management (MDM)?",
+      "front": "\"Define 'mobile device management (MDM)'.\"",
       "back": "Software that secures, monitors, and manages mobile devices in an organization."
     },
     {
-      "front": "What is 'cybersecurity framework'?",
+      "front": "\"What is 'cybersecurity framework'?\"",
       "back": "A structured approach to addressing and managing the security posture of an organization."
     },
     {
-      "front": "What is role-based access control (RBAC)?",
+      "front": "\"Describe 'role-based access control (RBAC)'.\"",
       "back": "A system of managing access to resources based on the roles of individual users."
     },
     {
-      "front": "What is 'incident response' in cybersecurity?",
+      "front": "\"What is 'incident response' in cybersecurity?\"",
       "back": "The organized approach to addressing and managing the aftermath of a security breach or cyberattack."
     },
     {
-      "front": "What is full disk encryption?",
+      "front": "\"Define 'full disk encryption'.\"",
       "back": "The encryption of all data on a hard drive to prevent unauthorized access."
     },
     {
-      "front": "What is endpoint protection platform (EPP)?",
+      "front": "\"Explain 'endpoint protection platform (EPP)'.\"",
       "back": "A comprehensive security solution that protects endpoints, such as laptops and mobile devices, from various threats."
     },
     {
-      "front": "What is 'network forensics'?",
+      "front": "\"What is 'network forensics'?\"",
       "back": "The process of capturing, recording, and analyzing network events to discover the source of security attacks."
     },
     {
-      "front": "What is data leakage prevention (DLP)?",
+      "front": "\"Describe 'data leakage prevention (DLP)'.\"",
       "back": "Strategies and tools used to detect and prevent data exfiltration."
     },
     {
-      "front": "What is 'security automation'?",
+      "front": "\"What is 'security automation'?\"",
       "back": "The use of technology to perform repetitive cybersecurity tasks automatically."
     },
     {
-      "front": "What is cybersecurity audit?",
-      "back": "A systematic examination of an organization's cybersecurity structure, policies, and adherence to best practices."
+      "front": "\"Define 'cybersecurity audit'.\"",
+      "back": "\"A systematic examination of an organization's cybersecurity structure, policies, and adherence to best practices.\""
     },
     {
-      "front": "What is continuous integration/continuous deployment (CI/CD) in security?",
+      "front": "\"Explain 'continuous integration/continuous deployment (CI/CD)' in security.\"",
       "back": "A development practice where code changes are automatically tested and deployed to production."
     },
     {
-      "front": "What is 'security event correlation'?",
+      "front": "\"What is 'security event correlation'?\"",
       "back": "The process of aggregating and analyzing security events from multiple sources to detect suspicious activities."
     },
     {
-      "front": "What is cryptographic protocol?",
+      "front": "\"Describe 'cryptographic protocol'.\"",
       "back": "A set of rules and standards used to secure the transmission of information."
     },
     {
-      "front": "What is 'patch management'?",
+      "front": "\"What is 'patch management'?\"",
       "back": "The process of regularly applying updates and patches to software and systems."
     },
     {
-      "front": "What is asset management in cybersecurity?",
+      "front": "\"Define 'asset management' in cybersecurity.\"",
       "back": "The process of tracking and managing the assets (hardware, software, and network assets) in a cybersecurity context."
     },
     {
-      "front": "What is active defense in cybersecurity?",
+      "front": "\"Explain 'active defense' in cybersecurity.\"",
       "back": "The proactive tactics used to detect, track, and counteract cyber threats."
     },
     {
-      "front": "What is 'penetration testing'?",
+      "front": "\"What is 'penetration testing'?\"",
       "back": "The practice of testing a computer system, network, or web application to find vulnerabilities that an attacker could exploit."
     },
     {
-      "front": "What is compliance management in cybersecurity?",
-      "back": "The management of an organization's compliance with regulatory and legal requirements."
+      "front": "\"Describe 'compliance management' in cybersecurity.\"",
+      "back": "\"The management of an organization's compliance with regulatory and legal requirements.\""
     },
     {
-      "front": "What is 'the principle of defense in depth'?",
+      "front": "\"What is 'the principle of defense in depth'?\"",
       "back": "A multi-layered approach to cybersecurity that uses several components to protect operations."
     },
     {
-      "front": "What is security architecture?",
+      "front": "\"Define 'security architecture'.\"",
       "back": "The design of the structure and behavior of a secure network and system."
     },
     {
-      "front": "What is cross-site request forgery (CSRF)?",
-      "back": "An attack that tricks a victim's browser into executing unauthorized actions on another site."
+      "front": "\"Explain 'cross-site request forgery (CSRF)'.\"",
+      "back": "\"An attack that tricks a victim's browser into executing unauthorized actions on another site.\""
     },
     {
-      "front": "What is 'secure code review'?",
+      "front": "\"What is 'secure code review'?\"",
       "back": "The process of examining the source code of a software to identify security vulnerabilities."
     },
     {
-      "front": "What is 'software-defined networking (SDN)' security?",
+      "front": "\"Describe 'software-defined networking (SDN)' security.\"",
       "back": "Security considerations for networks that are managed and configured through software."
     },
     {
-      "front": "What is 'threat intelligence sharing'?",
+      "front": "\"What is 'threat intelligence sharing'?\"",
       "back": "The exchange of threat-related information among organizations."
     },
     {
-      "front": "What is a security operations center (SOC)?",
+      "front": "\"Define 'security operations center (SOC)'.\"",
       "back": "A centralized unit that deals with security incidents on an organizational and technical level."
     },
     {
-      "front": "What is virtualization in cybersecurity?",
+      "front": "\"Explain 'virtualization' in cybersecurity.\"",
       "back": "The creation of a virtual version of something, such as virtual computer hardware platforms, storage devices, and computer network resources."
     },
     {
-      "front": "What is 'root of trust'?",
+      "front": "\"What is 'root of trust'?\"",
       "back": "A trusted base for validating the authenticity in computing platforms."
     },
     {
-      "front": "What is security configuration management?",
+      "front": "\"Describe 'security configuration management'.\"",
       "back": "Managing and controlling security settings in software and hardware devices."
     },
     {
-      "front": "What is 'cyber-physical system security'?",
+      "front": "\"What is 'cyber-physical system security'?\"",
       "back": "Security of interconnected systems that are both physical and computational."
     },
     {
-      "front": "What is cloud-native security?",
+      "front": "\"Define 'cloud-native security'.\"",
       "back": "Security principles and practices applied in cloud-based environments."
     },
     {
-      "front": "What is container orchestration security?",
+      "front": "\"Explain 'container orchestration security'.\"",
       "back": "Security aspects of managing and orchestrating containerized applications."
     },
     {
-      "front": "What is 'identity federation'?",
+      "front": "\"What is 'identity federation'?\"",
       "back": "The integration of user identities across different systems and services."
     },
     {
-      "front": "What is Next Generation Firewall (NGFW)?",
+      "front": "\"Describe 'Next Generation Firewall (NGFW)'.\"",
       "back": "A firewall that provides capabilities beyond traditional firewalls, such as application awareness and control."
     },
     {
-      "front": "What is 'GDPR' in cybersecurity context?",
+      "front": "\"What is 'GDPR' in cybersecurity context?\"",
       "back": "The General Data Protection Regulation, a legal framework that sets guidelines for the collection and processing of personal information."
     },
     {
-      "front": "What is multi-cloud security?",
+      "front": "\"Define 'multi-cloud security'.\"",
       "back": "Security strategies for managing and protecting environments that use multiple cloud service providers."
     },
     {
-      "front": "What is blockchain technology in cybersecurity?",
+      "front": "\"Explain 'blockchain technology' in cybersecurity.\"",
       "back": "A distributed ledger technology known for its role in cryptocurrency systems."
     },
     {
-      "front": "What is 'contextual authentication'?",
+      "front": "\"What is 'contextual authentication'?\"",
       "back": "Authentication that adapts based on the context of the access request."
     },
     {
-      "front": "What is Internet of Things (IoT) gateway security?",
+      "front": "\"Describe 'Internet of Things (IoT) gateway security'.\"",
       "back": "Security measures focused on the network gateways connecting IoT devices to other networks."
     },
     {
-      "front": "What is 'cybersecurity maturity model'?",
-      "back": "A model used to gauge the level of sophistication of an organization's cybersecurity posture."
+      "front": "\"What is 'cybersecurity maturity model'?\"",
+      "back": "\"A model used to gauge the level of sophistication of an organization's cybersecurity posture.\""
     },
     {
-      "front": "What is a phishing simulation?",
-      "back": "The practice of simulating a phishing attack to test employees' awareness and preparedness."
+      "front": "\"Define 'phishing simulation'.\"",
+      "back": "\"The practice of simulating a phishing attack to test employees' awareness and preparedness.\""
     },
     {
-      "front": "What is third-party risk management?",
+      "front": "\"Explain 'third-party risk management'.\"",
       "back": "The process of evaluating and managing risks associated with third-party vendors and service providers."
     },
     {
-      "front": "What is 'security policy management'?",
+      "front": "\"What is 'security policy management'?\"",
       "back": "The process of developing, implementing, and managing security protocols within an organization."
     },
     {
-      "front": "What is quantum computing in cybersecurity?",
+      "front": "\"Describe 'quantum computing' in cybersecurity.\"",
       "back": "The study of quantum computers and their potential impact on cybersecurity."
     },
     {
-      "front": "What is 'malware analysis'?",
+      "front": "\"What is 'malware analysis'?\"",
       "back": "The process of examining malicious software to understand its nature, functionality, and impact."
     },
     {
-      "front": "What is mobile application security?",
+      "front": "\"Define 'mobile application security'.\"",
       "back": "Security considerations specific to mobile applications."
     },
     {
-      "front": "What is supply chain security?",
+      "front": "\"Explain 'supply chain security'.\"",
       "back": "Security measures implemented in the supply chain to prevent malicious attacks."
     },
     {
-      "front": "What is 'data classification'?",
+      "front": "\"What is 'data classification'?\"",
       "back": "The process of categorizing data based on its level of sensitivity and importance."
     },
     {
-      "front": "What is encryption key lifecycle management?",
+      "front": "\"Describe 'encryption key lifecycle management'.\"",
       "back": "The process of managing the creation, use, and retirement of encryption keys."
     },
     {
-      "front": "What is 'zero trust architecture'?",
+      "front": "\"What is 'zero trust architecture'?\"",
       "back": "A security model that assumes no trust is given to assets or user accounts within a network by default."
     },
     {
-      "front": "What is application programming interface (API) security?",
+      "front": "\"Define 'application programming interface (API) security'.\"",
       "back": "Security considerations for APIs, which are sets of protocols and tools for building software applications."
     },
     {
-      "front": "What is cybersecurity capacity building?",
+      "front": "\"Explain 'cybersecurity capacity building'.\"",
       "back": "The efforts made to improve the cybersecurity skills and knowledge of an organization."
     },
     {
-      "front": "What is 'risk assessment' in cybersecurity?",
+      "front": "\"What is 'risk assessment' in cybersecurity?\"",
       "back": "The process of identifying, evaluating, and prioritizing risks to organizational operations."
     },
     {
-      "front": "What is cybersecurity insurance?",
+      "front": "\"Describe 'cybersecurity insurance'.\"",
       "back": "Insurance designed to cover losses and liabilities related to cyber incidents and data breaches."
     }
   ]

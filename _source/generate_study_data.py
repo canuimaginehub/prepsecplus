@@ -8,7 +8,7 @@ import json
 import os
 import random
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # ──────────────────────────────────────────────
 # 1. Hardcoded SY0-701 Exam Objectives (parsed from official CompTIA doc)
@@ -374,7 +374,7 @@ DOMAIN_DEFS = {
         "description": "Threat actors, attack vectors, software/hardware vulnerabilities, malware indicators, network attacks, and enterprise mitigation techniques.",
         "color": "purple",
         "sub_objectives": ["2.1", "2.2", "2.3", "2.4", "2.5"],
-        "day_range": [5, 10]
+        "day_range": [5, 9]
     },
     "domain_3": {
         "title": "3.0 Security Architecture",
@@ -382,7 +382,7 @@ DOMAIN_DEFS = {
         "description": "Cloud and hybrid architecture models, network infrastructure security, data protection strategies, and resilience/recovery design.",
         "color": "pink",
         "sub_objectives": ["3.1", "3.2", "3.3", "3.4"],
-        "day_range": [11, 15]
+        "day_range": [10, 13]
     },
     "domain_4": {
         "title": "4.0 Security Operations",
@@ -390,7 +390,7 @@ DOMAIN_DEFS = {
         "description": "Secure baselines, asset management, vulnerability management, monitoring, IAM, automation, incident response, and forensics.",
         "color": "amber",
         "sub_objectives": ["4.1", "4.2", "4.3", "4.4", "4.5", "4.6", "4.7", "4.8", "4.9"],
-        "day_range": [16, 23]
+        "day_range": [14, 22]
     },
     "domain_5": {
         "title": "5.0 Security Program Management and Oversight",
@@ -398,11 +398,12 @@ DOMAIN_DEFS = {
         "description": "Security governance, risk management processes, third-party assessments, compliance frameworks, audits, and security awareness training.",
         "color": "green",
         "sub_objectives": ["5.1", "5.2", "5.3", "5.4", "5.5", "5.6"],
-        "day_range": [24, 28]
+        "day_range": [23, 28]
     }
 }
 
 # Map sub-objectives to domain IDs
+# (unchanged loop)
 SUB_TO_DOMAIN = {}
 for did, ddef in DOMAIN_DEFS.items():
     for sub in ddef["sub_objectives"]:
@@ -428,33 +429,33 @@ DAY_TOPIC_MAP = {
     5: "Threat Actors",
     6: "Threat Vectors & Social Engineering",
     7: "Software & Hardware Vulnerabilities",
-    8: "Indicators of Compromise — Malware",
-    9: "Network & Application Attacks",
-    10: "Mitigation & Hardening Techniques",
-    11: "Cloud Models & Architecture",
-    12: "Secure Infrastructure & Firewalls",
-    13: "Data Protection & Classification",
-    14: "Resilience, Backups & Recovery",
-    15: "Domain 3 Architecture Review",
-    16: "Secure Baselines & Wireless",
-    17: "Asset & Vulnerability Management",
-    18: "Security Monitoring & Logging",
-    19: "Secure Protocols & Ports",
-    20: "Identity & Access Management",
-    21: "Automation & Scripting",
-    22: "Incident Response & Forensics",
-    23: "Data Sources & Investigation",
-    24: "Security Governance & Policies",
-    25: "Risk Management & Calculations",
-    26: "Third-Party Vendor Contracts",
-    27: "Audits & Assessments",
-    28: "Security Awareness Training",
-    29: "Full Exam Simulation — Review D1 & D2",
-    30: "Full Exam Simulation — Review D3",
-    31: "Full Exam Simulation — Review D4",
-    32: "Full Exam Simulation — Review D5",
-    33: "Full Exam Simulation — All Domains",
-    34: "Exam Day Warm-up & Final Prep"
+    8: "Indicators of Compromise & Network Attacks",
+    9: "Mitigation & Hardening Techniques",
+    10: "Cloud Models & Architecture",
+    11: "Secure Infrastructure & Firewalls",
+    12: "Data Protection & Classification",
+    13: "Resilience, Backups & Recovery",
+    14: "Secure Baselines & Wireless",
+    15: "Asset Management & Disposal",
+    16: "Vulnerability Management Activities",
+    17: "Security Monitoring & Logging",
+    18: "Secure Protocols & Port Hardening",
+    19: "Identity & Access Management",
+    20: "Scripting & Security Automation",
+    21: "Incident Response & Digital Forensics",
+    22: "Analyzing Data for Security Monitoring",
+    23: "Security Governance & Policies",
+    24: "Risk Management & Calculation Formulas",
+    25: "Third-Party Vendor Contracts & Agreements",
+    26: "Compliance & Privacy Concepts",
+    27: "Security Audits and Assessments",
+    28: "Security Awareness and Training",
+    29: "Full Exam Simulation — Review Domain 1",
+    30: "Full Exam Simulation — Review Domain 2",
+    31: "Full Exam Simulation — Review Domain 3",
+    32: "Full Exam Simulation — Review Domain 4",
+    33: "Full Exam Simulation — Review Domain 5",
+    34: "Final Prep & Simulation — All Domains"
 }
 
 
@@ -462,11 +463,11 @@ def get_domain_for_day(day_num):
     """Return domain_id for a given day number."""
     if day_num <= 4:
         return "domain_1"
-    elif day_num <= 10:
+    elif day_num <= 9:
         return "domain_2"
-    elif day_num <= 15:
+    elif day_num <= 13:
         return "domain_3"
-    elif day_num <= 23:
+    elif day_num <= 22:
         return "domain_4"
     elif day_num <= 28:
         return "domain_5"
@@ -567,7 +568,7 @@ def main():
         topic = DAY_TOPIC_MAP.get(day_num, f"Day {day_num}")
 
         # ── Reading ref ──
-        reading_ref = f"./{sub_obj}.md" if sub_obj not in ("Review", "3.0") else None
+        reading_ref = f"./{sub_obj}.md" if sub_obj != "Review" else None
         reading_title = topic
 
         # For review days, use domain handout
@@ -576,19 +577,20 @@ def main():
                 reading_ref = "./Security Plus SY0-701 Domain 1 Handout.md"
                 domain_id = "domain_1"
             elif day_num == 30:
+                reading_ref = "./Security Plus SY0-701 Domain 2 HANDOUT.md"
+                domain_id = "domain_2"
+            elif day_num == 31:
                 reading_ref = "./Security Plus SY0-701 Domain 3 Handout.md"
                 domain_id = "domain_3"
-            elif day_num == 31:
+            elif day_num == 32:
                 reading_ref = "./Security Plus SY0-701 Domain 4 Handout.md"
                 domain_id = "domain_4"
-            elif day_num == 32:
+            elif day_num == 33:
                 reading_ref = "./Security Plus SY0-701 Domain 5 Handout.md"
                 domain_id = "domain_5"
-            elif day_num in (33, 34):
+            elif day_num == 34:
                 reading_ref = "./professor-messer-sy0-701-comptia-security-plus-course-notes-v107.md"
                 domain_id = None
-        elif sub_obj == "3.0":
-            reading_ref = "./Security Plus SY0-701 Domain 3 Handout.md"
 
         # ── Video ref ──
         sub_videos = videos.get(sub_obj, [])

@@ -406,110 +406,111 @@ daily_assignments = {
             "Identify memory manipulation tools: DLL injection vs buffer bounds checking failures.",
             "Manage hardware state transitions: End-of-Life (EOL) vs End-of-Service-Life (EOSL) assets."
         ]},
-    8: {"sub_objective": "2.4", "name": "Indicators of Compromise & Malware (Part 1)", "domain": "Threats, Vulnerabilities, and Mitigations",
+    8: {"sub_objective": "2.4", "name": "Indicators of Compromise & Network Attacks", "domain": "Threats, Vulnerabilities, and Mitigations",
         "checklist": [
             "Detect malware behaviors: Ransomware (crypto locker states), Spyware (keyloggers), Rootkits (kernel level), and Trojans.",
-            "Identify physical security threats (tailgating, card cloning, dumpster diving)."
-        ]},
-    9: {"sub_objective": "2.4", "name": "Indicators of Compromise & Attacks (Part 2)", "domain": "Threats, Vulnerabilities, and Mitigations",
-        "checklist": [
+            "Identify physical security threats (tailgating, card cloning, dumpster diving).",
             "Analyze DoS/DDoS amplification attack vectors (DNS/NTP amplification).",
-            "Isolate network attacks: On-path (MITM) attacks, ARP cache poisoning, DNS hijacking, and replay attacks.",
-            "Examine wireless attacks (evil twin, rogue AP, bluejacking)."
+            "Isolate network attacks: On-path (MITM) attacks, ARP cache poisoning, DNS hijacking, replay attacks, and wireless threats."
         ]},
-    10: {"sub_objective": "2.5", "name": "Mitigation and Hardening Techniques", "domain": "Threats, Vulnerabilities, and Mitigations",
+    9: {"sub_objective": "2.5", "name": "Mitigation and Hardening Techniques", "domain": "Threats, Vulnerabilities, and Mitigations",
         "checklist": [
             "Enforce security configurations: Network segmentation, VLANs, and air gapping.",
             "Configure host-level hardening: disabling unused ports/services and uninstalling default apps."
         ]},
-    11: {"sub_objective": "3.1", "name": "Secure Architecture & Cloud Models", "domain": "Security Architecture",
+    10: {"sub_objective": "3.1", "name": "Secure Architecture & Cloud Models", "domain": "Security Architecture",
         "checklist": [
             "Differentiate cloud deployment types: Public, Private, Hybrid, and Community clouds.",
             "Identify virtualization vulnerabilities: VM escape, hypervisor compromise, and resource exhaustion.",
             "Enforce Software-Defined Networking (SDN) security partitions."
         ]},
-    12: {"sub_objective": "3.2", "name": "Securing Network Infrastructures & Firewalls", "domain": "Security Architecture",
+    11: {"sub_objective": "3.2", "name": "Securing Network Infrastructures & Firewalls", "domain": "Security Architecture",
         "checklist": [
             "Detail network appliances: firewalls, load balancers, proxies, and VPN concentrators.",
             "Contrast firewall types: stateless, stateful, Web Application Firewalls (WAF), and NGFW with DPI.",
             "Implement port-security settings (802.1X, MAC address filtering)."
         ]},
-    13: {"sub_objective": "3.3", "name": "Data Types, Classifications, and Protection", "domain": "Security Architecture",
+    12: {"sub_objective": "3.3", "name": "Data Types, Classifications, and Protection", "domain": "Security Architecture",
         "checklist": [
             "Contrast regulated data profiles: PII, PHI, and financial transaction records (PCI-DSS).",
             "Examine data classification tags: Public, Private, Proprietary, and Confidential.",
             "Secure states of data: data at rest (FDE), data in transit (TLS 1.3), and data in use (secure enclaves).",
             "Implement data masking, obfuscation, tokenization, and DLP policies."
         ]},
-    14: {"sub_objective": "3.4", "name": "Resilience, Backups, and Recovery", "domain": "Security Architecture",
+    13: {"sub_objective": "3.4", "name": "Resilience, Backups, and Recovery", "domain": "Security Architecture",
         "checklist": [
             "Design redundant systems: RAID arrays, load balancers, and active-active clustering.",
             "Evaluate backups: full, differential, incremental, and the 3-2-1 backup strategy.",
             "Differentiate recovery tests (tabletop exercises vs simulations)."
         ]},
-    15: {"sub_objective": "3.0", "name": "Domain 3 Architecture Review", "domain": "Security Architecture",
-        "checklist": [
-            "Review Domain 3 topics: Cloud, Virtualization, Firewalls, Data Protection, and Backups.",
-            "Conduct practice drill review for architectural vulnerabilities and design secure network maps."
-        ]},
-    16: {"sub_objective": "4.1", "name": "Secure Infrastructure Baselines & Wireless Settings", "domain": "Security Operations",
+    14: {"sub_objective": "4.1", "name": "Secure Infrastructure Baselines & Wireless Settings", "domain": "Security Operations",
         "checklist": [
             "Set secure OS baselines: firmware security (UEFI, Secure Boot) and TPM integration.",
             "Contrast secure wireless settings: WPA3 Personal using SAE Dragonfly handshakes vs WPA3 Enterprise using 802.1X/EAP validation pipelines."
         ]},
-    17: {"sub_objective": "4.2", "name": "Asset Management & Vulnerability Assessments", "domain": "Security Operations",
+    15: {"sub_objective": "4.2", "name": "Asset Management & Disposal", "domain": "Security Operations",
         "checklist": [
-            "Implement asset discovery, inventory controls, and lifecycle management.",
-            "Analyze vulnerability scans: identify false positives, prioritize CVE scores, and perform patch validation.",
-            "Contrast penetration testing strategies: black box, white box, and gray box exercises."
+            "Implement asset discovery, inventory controls, and lifecycle tracking mechanisms.",
+            "Manage decommissioning processes: data sanitization, physical destruction, and disposal certifications.",
+            "Establish and enforce data retention rules based on legal and organizational requirements."
         ]},
-    18: {"sub_objective": "4.4", "name": "Security Monitoring and Log Aggregation", "domain": "Security Operations",
+    16: {"sub_objective": "4.3", "name": "Vulnerability Management Activities", "domain": "Security Operations",
+        "checklist": [
+            "Detail vulnerability scanning activities: CVSS scores, remediation prioritization, and threat feeds.",
+            "Differentiate static vs dynamic analysis and perform patch validation via rescanning."
+        ]},
+    17: {"sub_objective": "4.4", "name": "Security Monitoring and Log Aggregation", "domain": "Security Operations",
         "checklist": [
             "Deploy security log aggregation systems and detail log flow structures.",
             "Establish SIEM correlation rules to link security events across firewalls, proxies, and domain controllers."
         ]},
-    19: {"sub_objective": "4.5", "name": "Secure Protocols and Port Hardening", "domain": "Security Operations",
+    18: {"sub_objective": "4.5", "name": "Secure Protocols and Port Hardening", "domain": "Security Operations",
         "checklist": [
             "Implement unencrypted service mitigation maps utilizing explicit port-level replacements: Telnet (TCP 23) to SSH (TCP 22), HTTP (TCP 80) to HTTPS (TCP 443), FTP (TCP 20/21) to SFTP (TCP 22).",
             "Hardening application ports and configuring email protections: SPF, DKIM, and DMARC DNS records."
         ]},
-    20: {"sub_objective": "4.6", "name": "Identity and Access Management (IAM)", "domain": "Security Operations",
+    19: {"sub_objective": "4.6", "name": "Identity and Access Management (IAM)", "domain": "Security Operations",
         "checklist": [
             "Contrast IAM frameworks: Directory Services (LDAP, Active Directory) and Single Sign-On (SAML, OAuth 2.0, OIDC).",
             "Enforce access control models: Attribute-based (ABAC), Role-based (RBAC), Mandatory (MAC), and Discretionary (DAC).",
             "Configure Multi-Factor Authentication (MFA) credentials: TOTP tokens, push notifications, and biometric verification."
         ]},
-    21: {"sub_objective": "4.7", "name": "Scripting and Security Automation", "domain": "Security Operations",
+    20: {"sub_objective": "4.7", "name": "Scripting and Security Automation", "domain": "Security Operations",
         "checklist": [
             "Identify scripting languages: PowerShell, Bash, and Python usage for security tasks.",
             "Configure automation playbooks and deploy SOAR orchestration pipelines to accelerate incident containment."
         ]},
-    22: {"sub_objective": "4.8", "name": "Incident Response & Digital Forensics", "domain": "Security Operations",
+    21: {"sub_objective": "4.8", "name": "Incident Response & Digital Forensics", "domain": "Security Operations",
         "checklist": [
             "Map incident response steps: Preparation, Detection & Analysis, Containment, Eradication, Recovery, and Post-Incident Activity.",
             "Enforce the explicit order of data volatility across storage resources: Registers/Cache -> Routing Tables/RAM -> Local Disk Storage -> Network Backups.",
             "Trace chain of custody protocols to document evidence acquisition and hash verification."
         ]},
-    23: {"sub_objective": "4.9", "name": "Analyzing Data for Security Monitoring", "domain": "Security Operations",
+    22: {"sub_objective": "4.9", "name": "Analyzing Data for Security Monitoring", "domain": "Security Operations",
         "checklist": [
             "Inspect firewall connection tables, proxy logs, and DNS query histories to map malicious network telemetry.",
             "Detect data exfiltration indicators and recognize command-and-control (C2) beaconing patterns."
         ]},
-    24: {"sub_objective": "5.1", "name": "Security Governance & Policies", "domain": "Security Program Management and Oversight",
+    23: {"sub_objective": "5.1", "name": "Security Governance & Policies", "domain": "Security Program Management and Oversight",
         "checklist": [
             "Differentiate governance documents: Policies (mandatory high-level), Standards (compulsory baselines), and Procedures (step-by-step instructions).",
             "Assign data handling roles: Controller, Processor, Custodian, and Owner."
         ]},
-    25: {"sub_objective": "5.2", "name": "Risk Management & Calculation Formulas", "domain": "Security Program Management and Oversight",
+    24: {"sub_objective": "5.2", "name": "Risk Management & Calculation Formulas", "domain": "Security Program Management and Oversight",
         "checklist": [
             "Enforce quantitative risk calculation formulas: SLE = AV * EF; ALE = ARO * SLE.",
             "Contrast recovery milestones: Recovery Time Objective (RTO timelines) vs Recovery Point Objective (RPO age tolerances).",
             "Review risk strategies: mitigation, acceptance, avoidance, and transfer."
         ]},
-    26: {"sub_objective": "5.3", "name": "Third-Party Vendor Contracts & Privacy", "domain": "Security Program Management and Oversight",
+    25: {"sub_objective": "5.3", "name": "Third-Party Vendor Contracts & Agreements", "domain": "Security Program Management and Oversight",
         "checklist": [
             "Examine vendor contract blueprints: Service Level Agreement (SLA), Memorandum of Understanding (MOU), Memorandum of Agreement (MOA), and Statement of Work (SOW).",
-            "Verify compliance with privacy frameworks (GDPR, HIPAA, CCPA) and evaluate Privacy Impact Assessments (PIA)."
+            "Identify due diligence questionnaires, right-to-audit clauses, and third-party risk assessment parameters."
+        ]},
+    26: {"sub_objective": "5.4", "name": "Compliance & Privacy Concepts", "domain": "Security Program Management and Oversight",
+        "checklist": [
+            "Summarize privacy regulations: GDPR, HIPAA, and privacy impact assessments (PIA).",
+            "Contrast controller vs processor roles and understand the right to be forgotten compliance mandate."
         ]},
     27: {"sub_objective": "5.5", "name": "Security Audits and Assessments", "domain": "Security Program Management and Oversight",
         "checklist": [
@@ -553,43 +554,44 @@ for i in range(1, 35):
     else:
         sub_obj = "Review"
         if i == 29:
-            t2_desc = "Review Domain 1 & 2 weak areas. Practice card decks on Control Classifications, Cryptographic PKI pipelines, and Malware types."
+            t2_desc = "Review Domain 1 weak areas. Practice card decks on Control Classifications, CIA Triad, Zero Trust architecture, and Cryptographic PKI pipelines."
             checklist = [
                 "Practice Domain 1 Flashcards (Security Control types and Zero Trust Control vs Data planes).",
-                "Practice Domain 2 Flashcards (TOCTOU race conditions and buffer overflow memory faults).",
-                "Analyze Practice Test 1 incorrect questions and log weak topics."
+                "Review PKI CSR validation pipelines and key exchange protocols.",
+                "Analyze Domain 1 incorrect questions and log weak topics."
             ]
         elif i == 30:
-            t2_desc = "Review Domain 3 weak areas. Drill flashcards on Cloud Deployment types, Firewall topologies, and Resilience configurations."
+            t2_desc = "Review Domain 2 weak areas. Practice card decks on Threat Actors, Social Engineering attacks, Malware types, and Hardening techniques."
+            checklist = [
+                "Practice Domain 2 Flashcards (TOCTOU race conditions, buffer overflows, injection attacks).",
+                "Review indicators of compromise and mitigation methodologies.",
+                "Analyze Domain 2 incorrect questions and log weak topics."
+            ]
+        elif i == 31:
+            t2_desc = "Review Domain 3 weak areas. Drill flashcards on Cloud Deployment types, Firewall topologies, Data classifications, and Resilience configurations."
             checklist = [
                 "Practice Domain 3 Flashcards (RAID configurations, differential vs incremental backups).",
                 "Review states of data (TLS 1.3 transit, FDE at rest, secure enclaves in use).",
-                "Analyze Practice Test 2 incorrect questions and log weak topics."
-            ]
-        elif i == 31:
-            t2_desc = "Review Domain 4 weak areas. Memorize wireless settings (Dragonfly vs 802.1X/EAP) and port replacement maps."
-            checklist = [
-                "Practice Domain 4 Flashcards (WPA3 SAE, port configurations: SSH on 22, HTTPS on 443, SFTP on 22).",
-                "Memorize the order of volatility (Registers -> RAM -> Disk -> Backups).",
-                "Analyze Practice Test 3 incorrect questions and log weak topics."
+                "Analyze Domain 3 incorrect questions and log weak topics."
             ]
         elif i == 32:
-            t2_desc = "Review Domain 5 weak areas. Recalculate ALE risk variables and verify contract frameworks."
+            t2_desc = "Review Domain 4 weak areas. Memorize wireless settings, security baselines, vulnerability management pipelines, and port replacement maps."
             checklist = [
-                "Practice Domain 5 Flashcards (Risk formulas: SLE=AV*EF, ALE=ARO*SLE).",
-                "Memorize agreement formats (SLA, MOU, MOA, SOW).",
-                "Analyze Practice Test 4 incorrect questions and log weak topics."
+                "Practice Domain 4 Flashcards (WPA3 SAE, port configurations: SSH on 22, HTTPS on 443, SFTP on 22).",
+                "Memorize the order of volatility (Registers -> RAM -> Disk -> Backups) and incident response phases.",
+                "Analyze Domain 4 incorrect questions and log weak topics."
             ]
         elif i == 33:
-            t2_desc = "Comprehensive review of all 5 domains. Focus on acronym recognition and quick definitions."
+            t2_desc = "Review Domain 5 weak areas. Recalculate ALE risk variables, third-party agreements, compliance regulations, and training metrics."
             checklist = [
-                "Run standard front-to-back testing flashcard deck of 200+ cards.",
-                "Review the complete list of 28 exam sub-objectives.",
-                "Analyze Practice Test 5 incorrect questions and map final prep checklist."
+                "Practice Domain 5 Flashcards (Risk formulas: SLE=AV*EF, ALE=ARO*SLE).",
+                "Memorize agreement formats (SLA, MOU, MOA, SOW) and compliance frameworks (GDPR, HIPAA).",
+                "Analyze Domain 5 incorrect questions and log weak topics."
             ]
         elif i == 34:
-            t2_desc = "Exam Day Warm-up. Final memorization sweeps. Rest and mentally prepare."
+            t2_desc = "Comprehensive review of all 5 domains. Final memorization sweeps. Rest and mentally prepare."
             checklist = [
+                "Run standard front-to-back testing flashcard deck of 200+ cards.",
                 "Review high-yield acronym lists and formula sheets.",
                 "Verify exam registration, location/online settings, and identification requirements.",
                 "Review Exam Hack Rule #13 (Zero-penalty full selection mandate) and Rule #11 (Immediate MCQ-first routing, deferring active PBQs)."

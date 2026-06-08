@@ -1103,9 +1103,9 @@ function renderModulesTree(filterQuery = '') {
 
 function getDayDomain(dayNum) {
   if (dayNum <= 4) return "1.0 General Security Concepts";
-  if (dayNum <= 10) return "2.0 Threats, Vulnerabilities, and Mitigations";
-  if (dayNum <= 15) return "3.0 Security Architecture";
-  if (dayNum <= 23) return "4.0 Security Operations";
+  if (dayNum <= 9) return "2.0 Threats, Vulnerabilities, and Mitigations";
+  if (dayNum <= 13) return "3.0 Security Architecture";
+  if (dayNum <= 22) return "4.0 Security Operations";
   return "5.0 Security Program Management and Oversight";
 }
 
@@ -1119,24 +1119,25 @@ function getSubName(dayNum) {
     5: "Threat Actors",
     6: "Threat Vectors",
     7: "Code Vulnerabilities",
-    8: "Malware Indicators",
-    9: "Network Attacks",
-    10: "Mitigations & Hardening",
-    11: "Cloud Models",
-    12: "Secure Infrastructure",
-    13: "Data Protections",
-    14: "Resiliency & Recovery",
-    16: "Secure Baselines",
-    17: "Asset & Vuln Management",
-    18: "Monitoring & Logging",
-    19: "Secure Protocols & Ports",
-    20: "IAM & Credentials",
-    21: "Automation Scripts",
-    22: "Incident & Forensics",
-    23: "Data Monitoring",
-    24: "Policies & Standards",
-    25: "Risk Frameworks",
-    26: "Contracts & Vendor Risks",
+    8: "Malware Indicators & Attacks",
+    9: "Mitigations & Hardening",
+    10: "Cloud Models",
+    11: "Secure Infrastructure",
+    12: "Data Protections",
+    13: "Resiliency & Recovery",
+    14: "Secure Baselines",
+    15: "Asset Management & Disposal",
+    16: "Vulnerability Management",
+    17: "Monitoring & Logging",
+    18: "Enterprise Security Capabilities",
+    19: "IAM & Credentials",
+    20: "Automation Scripts",
+    21: "Incident & Forensics",
+    22: "Data Monitoring",
+    23: "Policies & Standards",
+    24: "Risk Frameworks",
+    25: "Contracts & Vendor Risks",
+    26: "Compliance & Privacy",
     27: "Compliance Auditing",
     28: "Security Training"
   };
