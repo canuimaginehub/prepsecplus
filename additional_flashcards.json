@@ -1,0 +1,60 @@
+{
+  "cards": [
+    {
+      "front": "What is SPF (Sender Policy Framework)?",
+      "back": "A DNS TXT record that lists all authorized IP addresses that can send emails on behalf of a domain, preventing email spoofing."
+    },
+    {
+      "front": "What is DKIM (DomainKeys Identified Mail)?",
+      "back": "A cryptographic validation system that adds a digital signature to email headers, allowing the receiver to verify the email's origin domain."
+    },
+    {
+      "front": "What is DMARC (Domain-based Message Authentication, Reporting, and Conformance)?",
+      "back": "A DNS record that specifies how a receiver should handle emails failing SPF/DKIM verification (None, Quarantine, or Reject)."
+    },
+    {
+      "front": "What is SAML (Security Assertion Markup Language)?",
+      "back": "An XML-based open standard for exchanging authentication and authorization data, commonly used for single sign-on (SSO) on web portals."
+    },
+    {
+      "front": "What is ABAC (Attribute-Based Access Control)?",
+      "back": "An access control model that grants access permissions based on attributes of the subject, resource, action, and environment (e.g. time, location)."
+    },
+    {
+      "front": "What is RBAC (Role-Based Access Control)?",
+      "back": "An access control model that assigns permissions to specific job roles rather than individual user accounts."
+    },
+    {
+      "front": "What is MAC (Mandatory Access Control)?",
+      "back": "An access control model where the system administrator sets clearance levels (labels) for users and classification labels for resources, restricting access strictly."
+    },
+    {
+      "front": "What is DAC (Discretionary Access Control)?",
+      "back": "An access control model where the owner of a resource determines who is granted access permissions."
+    },
+    {
+      "front": "What is TPM (Trusted Platform Module)?",
+      "back": "A dedicated, tamper-resistant cryptographic chip soldered on a motherboard that stores encryption keys, certificates, and measures boot-loader integrity."
+    },
+    {
+      "front": "What is HSM (Hardware Security Module)?",
+      "back": "A removable or external physical network appliance designed for high-performance cryptographic key generation, storage, and processing."
+    },
+    {
+      "front": "What is VM Escape?",
+      "back": "A critical virtualization vulnerability where an attacker breaks out of a guest virtual machine's environment and gains direct access to the host operating system."
+    },
+    {
+      "front": "What is Buffer Overflow?",
+      "back": "A code flaw where an application writes more data to a memory buffer than it is allocated, overwriting adjacent memory and potentially executing arbitrary payload code."
+    },
+    {
+      "front": "What is SLA (Service Level Agreement)?",
+      "back": "A contract defining expected service levels, performance metrics, and penalties for service downtime."
+    },
+    {
+      "front": "What is MOU (Memorandum of Understanding)?",
+      "back": "A non-binding document outlining the mutual goals and agreements between two or more cooperating parties."
+    }
+  ]
+}
