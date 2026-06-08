@@ -1,0 +1,92 @@
+[
+  {
+    "domain": "1.0",
+    "objective": "1.1",
+    "front": "Security Control Categories",
+    "back": "Administrative (managerial controls like security policies, training, and risk assessments), Technical (logical controls implemented via systems, firewalls, and encryption), and Physical (tangible controls protecting physical areas like fences, gates, locks, and security guards)."
+  },
+  {
+    "domain": "1.0",
+    "objective": "1.1",
+    "front": "Functional Control Types",
+    "back": "Preventive (blocks attacks), Deterrent (discourages actions), Detective (identifies ongoing events), Corrective (recovers systems post-attack), Compensating (alternative safeguard for vulnerabilities), and Directive (mandatory policy or compliance constraint)."
+  },
+  {
+    "domain": "1.0",
+    "objective": "1.2",
+    "front": "Zero Trust Architecture (ZTA) Component Layout",
+    "back": "The Control Plane handles administrative policy enforcement through the Policy Engine and Policy Administrator. The Data Plane processes active network communication streams across the Policy Enforcement Point (PEP)."
+  },
+  {
+    "domain": "1.0",
+    "objective": "1.2",
+    "front": "Four Physical Security Sensor Classifications",
+    "back": "Infrared (detects thermal emission shifts), Pressure (measures physical force weight on fields), Microwave (tracks high-frequency reflections), and Ultrasonic (analyzes sound wave echo modifications)."
+  },
+  {
+    "domain": "1.0",
+    "objective": "1.4",
+    "front": "Asymmetric vs. Symmetric Key Encryption Rules",
+    "back": "Symmetric relies on a single shared key for encryption and decryption. Asymmetric implements public-private key pairs: data encrypted utilizing an entity's Public key can only be decrypted via that same entity's matching Private key."
+  },
+  {
+    "domain": "1.0",
+    "objective": "1.4",
+    "front": "Real-Time Certificate Validation Pipelines",
+    "back": "Certificate Revocation Lists (CRLs) function as downloaded batch blacklists of revoked roots. Online Certificate Status Protocol (OCSP) Stapling offloads live verification lookups directly to the hosting web server via a time-stamped cryptographic token."
+  },
+  {
+    "domain": "2.0",
+    "objective": "2.3",
+    "front": "Memory Corruption Vectors: Buffer Overflow vs. DLL Injection",
+    "back": "Buffer Overflow exploits software functions that fail to perform array bounds checking scripts. DLL Injection intercepts runtime processing by inserting external code files directly inside a legitimate running process execution tree."
+  },
+  {
+    "domain": "2.0",
+    "objective": "2.3",
+    "front": "TOCTOU (Time-of-Check to Time-of-Use)",
+    "back": "A state race condition vulnerability where a system asset is altered or replaced by an attacker during the critical gap window after authorization checks occur but before execution completes."
+  },
+  {
+    "domain": "4.0",
+    "objective": "4.1",
+    "front": "WPA3 Personal Authentication Handshake Architecture",
+    "back": "Replaces legacy vulnerable PSK handshakes with Simultaneous Authentication of Equals (SAE), leveraging a dragonfly handshake configuration to block offline brute-force key computations."
+  },
+  {
+    "domain": "4.0",
+    "objective": "4.5",
+    "front": "Secure Infrastructure Cryptographic Port Replacements",
+    "back": "Telnet (TCP 23) transitions to SSH (TCP 22); unencrypted HTTP (TCP 80) transitions to HTTPS (TCP 443); legacy cleartext FTP (TCP 20/21) transitions to cryptographic SFTP (TCP 22)."
+  },
+  {
+    "domain": "4.0",
+    "objective": "4.8",
+    "front": "NIST SP 800-61 Rev 2 Incident Response Step Cycle",
+    "back": "Chronological execution framework: 1. Preparation -> 2. Detection and Analysis -> 3. Containment, Eradication, and Recovery -> 4. Post-Incident Activity (Lessons Learned compilation loops)."
+  },
+  {
+    "domain": "4.0",
+    "objective": "4.8",
+    "front": "Forensic Device Acquisition Order of Volatility",
+    "back": "Hierarchical capture routing (RFC 3227): CPU registers/cache arrays -> system RAM/routing tables -> local solid-state storage sectors -> remote network backup log clusters."
+  },
+  {
+    "domain": "5.0",
+    "objective": "5.2",
+    "front": "Quantitative Risk Assessment Computations",
+    "back": "Single Loss Expectancy (SLE) = Asset Value (AV) x Exposure Factor (EF). Annualized Loss Expectancy (ALE) = Annualized Rate of Occurrence (ARO) x SLE."
+  },
+  {
+    "domain": "5.0",
+    "objective": "5.2",
+    "front": "RTO vs. RPO Core Targets",
+    "back": "Recovery Time Objective (RTO) dictates the maximum tolerable duration of system downtime. Recovery Point Objective (RPO) dictates the maximum acceptable age of data loss measured in time units since the last backup marker."
+  },
+  {
+    "domain": "5.0",
+    "objective": "5.3",
+    "front": "Third-Party Vendor Management Framework Agreements",
+    "back": "SLA targets system availability thresholds. MOU establishes a mutual statement of intent. MOA defines detailed shared operational workflows. SOW details explicit project deliverables and tasks."
+  }
+]

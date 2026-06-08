@@ -5,6 +5,7 @@ let scheduleData = [];
 let questionsData = [];
 let flashcardsData = [];
 let filteredFlashcards = [];
+let videosData = {};
 
 // Persistent user progress schema in localStorage
 let userProgress = {
@@ -122,12 +123,20 @@ function initRouter() {
       });
       
       // Special actions on route enter
+      // Pause any running videos when switching away
+      const player = document.getElementById('video-player-element');
+      if (player && paneId !== 'videos') {
+        player.pause();
+      }
+
       if (paneId === 'dashboard') {
         renderDashboard();
       } else if (paneId === 'modules') {
         renderModulesTree();
       } else if (paneId === 'flashcards') {
         initFlashcards();
+      } else if (paneId === 'videos') {
+        renderVideosTree();
       }
     });
   });
@@ -136,15 +145,17 @@ function initRouter() {
 // --- Fetch Data Assets ---
 async function loadData() {
   try {
-    const [scheduleRes, questionsRes, flashcardsRes] = await Promise.all([
+    const [scheduleRes, questionsRes, flashcardsRes, videosRes] = await Promise.all([
       fetch('./schedule.json'),
       fetch('./questions.json'),
-      fetch('./flashcards.json')
+      fetch('./flashcards.json'),
+      fetch('./videos.json')
     ]);
 
     scheduleData = await scheduleRes.json();
     questionsData = await questionsRes.json();
     flashcardsData = (await flashcardsRes.json()).cards;
+    videosData = await videosRes.json();
 
     renderDashboard();
     renderModulesTree();
@@ -255,6 +266,14 @@ function setupEventListeners() {
   });
   document.getElementById('btn-prev-card').addEventListener('click', () => navigateCard(-1));
   document.getElementById('btn-next-card').addEventListener('click', () => navigateCard(1));
+
+  // Search Video Lectures
+  const videoSearchInput = document.getElementById('videos-search-input');
+  if (videoSearchInput) {
+    videoSearchInput.addEventListener('input', () => {
+      renderVideosTree(videoSearchInput.value.trim().toLowerCase());
+    });
+  }
 }
 
 // --- Dashboard Renderer ---
@@ -345,6 +364,11 @@ function openDayModal(day) {
 
   // Track 2 launch configuration
   const viewT2Btn = document.getElementById('modal-btn-view-t2');
+  
+  // Remove any dynamically added play button first
+  const existingPlayBtn = document.getElementById('modal-btn-play-video');
+  if (existingPlayBtn) existingPlayBtn.remove();
+
   if (day.day >= 29) {
     viewT2Btn.textContent = "Open Flashcards Deck";
     viewT2Btn.onclick = () => {
@@ -360,6 +384,23 @@ function openDayModal(day) {
       // Load specific sub-objective
       loadReadingModule(day.sub_objective);
     };
+
+    // If videos are available for this day's sub-objective, add a play button
+    const subObjVideos = videosData[day.sub_objective];
+    if (subObjVideos && subObjVideos.length > 0) {
+      const playBtn = document.createElement('button');
+      playBtn.className = 'action-btn-primary inline-btn';
+      playBtn.id = 'modal-btn-play-video';
+      playBtn.style.marginLeft = '12px';
+      playBtn.style.background = 'linear-gradient(135deg, var(--color-purple), var(--color-pink))';
+      playBtn.textContent = 'Play Video Lesson';
+      playBtn.onclick = () => {
+        modal.style.display = 'none';
+        playVideoLesson(subObjVideos[0].path, `${day.sub_objective} - ${subObjVideos[0].title}`, `Video lesson for Objective ${day.sub_objective}.`);
+      };
+      // Insert after the View Reading Module button
+      viewT2Btn.parentNode.appendChild(playBtn);
+    }
   }
 
   // Render Checklists
@@ -936,7 +977,24 @@ async function loadReadingModule(subCode) {
     const markdown = await res.text();
     
     // Custom Markdown parser rendering logic
-    viewer.innerHTML = parseMarkdownToHTML(markdown);
+    let htmlContent = parseMarkdownToHTML(markdown);
+    
+    // Check if there are videos for this module and append a link/button at the top
+    const subObjVideos = videosData[subCode];
+    if (subObjVideos && subObjVideos.length > 0) {
+      const videoLinks = subObjVideos.map(v => 
+        `<button class="action-btn-primary inline-btn" style="margin: 4px; font-size: 11px; background: linear-gradient(135deg, var(--color-purple), var(--color-pink));" onclick="window.playVideoFromLink('${v.path}', '${subCode} - ${v.title}')">
+           Play Video: Lesson ${v.lesson_num} - ${v.title}
+         </button>`
+      ).join('');
+      
+      htmlContent = `<div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); padding: 16px; border-radius: 8px; margin-bottom: 20px;">
+                       <h5 style="margin-top:0; margin-bottom:8px; text-transform:uppercase; font-size:11px; color:var(--text-muted);">Related Video Lessons</h5>
+                       <div style="display:flex; flex-wrap:wrap; gap:8px;">${videoLinks}</div>
+                     </div>` + htmlContent;
+    }
+    
+    viewer.innerHTML = htmlContent;
   } catch (err) {
     viewer.innerHTML = `<h3 style="color:var(--color-red)">Failed to load study guide module for sub-objective ${subCode}. Please check your files directory structure.</h3>`;
   }
@@ -1053,4 +1111,125 @@ function formatTime(totalSecs) {
   const mins = Math.floor(totalSecs / 60);
   const secs = totalSecs % 60;
   return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+}
+
+// --- Videos View Controllers ---
+window.playVideoFromLink = (path, title) => {
+  playVideoLesson(path, title, `Video lesson for Objective.`);
+};
+
+function renderVideosTree(filterQuery = '') {
+  const container = document.getElementById('videos-list-tree');
+  if (!container || !scheduleData.length) return;
+  
+  container.innerHTML = '';
+  
+  // Group lessons by Domain
+  const domains = {};
+  scheduleData.forEach(day => {
+    if (day.day <= 28 && day.sub_objective !== "Review" && day.sub_objective !== "3.0") {
+      const dom = getDayDomain(day.day);
+      if (!domains[dom]) domains[dom] = [];
+      
+      if (!domains[dom].some(item => item.sub_objective === day.sub_objective)) {
+        domains[dom].push({
+          sub_objective: day.sub_objective,
+          name: getSubName(day.day),
+          day: day.day
+        });
+      }
+    }
+  });
+
+  Object.keys(domains).forEach(dom => {
+    const group = document.createElement('div');
+    group.className = 'modules-tree-group';
+    
+    let domainColorClass = 'cyan';
+    if (dom.includes("Threats")) domainColorClass = 'purple';
+    else if (dom.includes("Architecture")) domainColorClass = 'pink';
+    else if (dom.includes("Operations")) domainColorClass = 'amber';
+    else if (dom.includes("Oversight")) domainColorClass = 'green';
+    
+    group.innerHTML = `
+      <h4 class="text-${domainColorClass}">${dom}</h4>
+      <div class="videos-tree-items" style="display:flex; flex-direction:column; gap:4px;"></div>
+    `;
+    
+    const itemsContainer = group.querySelector('.videos-tree-items');
+    let hasMatchingLessons = false;
+    
+    domains[dom].forEach(item => {
+      const subObjVideos = videosData[item.sub_objective] || [];
+      const filteredVideos = subObjVideos.filter(v => 
+        v.title.toLowerCase().includes(filterQuery) || 
+        item.sub_objective.toLowerCase().includes(filterQuery) ||
+        item.name.toLowerCase().includes(filterQuery)
+      );
+      
+      if (filteredVideos.length > 0) {
+        hasMatchingLessons = true;
+        
+        filteredVideos.forEach(v => {
+          const btn = document.createElement('button');
+          btn.className = 'module-tree-item-btn';
+          btn.setAttribute('data-video-path', v.path);
+          btn.innerHTML = `
+            <span style="display: flex; align-items: center; text-align: left;">
+              <span class="sub-code-badge" style="background-color: rgba(179, 136, 255, 0.15); color: var(--color-purple);">${item.sub_objective} L${v.lesson_num}</span>
+              <span class="module-title">${v.title}</span>
+            </span>
+          `;
+          
+          btn.addEventListener('click', () => {
+            document.querySelectorAll('.module-tree-item-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            playVideoLesson(v.path, `${item.sub_objective} - ${v.title}`, `Streaming: Lesson ${v.lesson_num} for Objective ${item.sub_objective} - ${item.name}.`);
+          });
+          
+          itemsContainer.appendChild(btn);
+        });
+      }
+    });
+    
+    if (hasMatchingLessons) {
+      container.appendChild(group);
+    }
+  });
+}
+
+function playVideoLesson(videoPath, title, desc) {
+  // Switch to videos tab if not active
+  const videosBtn = document.getElementById('btn-videos');
+  if (videosBtn && !videosBtn.classList.contains('active')) {
+    videosBtn.click();
+  }
+  
+  const placeholder = document.getElementById('video-placeholder-text');
+  const playerContainer = document.getElementById('video-player-container');
+  const videoPlayer = document.getElementById('video-player-element');
+  
+  placeholder.style.display = 'none';
+  playerContainer.style.display = 'flex';
+  
+  document.getElementById('video-active-title').textContent = title;
+  document.getElementById('video-active-desc').textContent = desc;
+  
+  // Set video source and play
+  videoPlayer.src = videoPath;
+  videoPlayer.load();
+  
+  // Catch browser auto-play blockers
+  videoPlayer.play().catch(err => {
+    console.log("Auto-play blocked by browser. User gesture needed to start audio/video streams.");
+  });
+
+  // Highlight active tree item matching this video path
+  document.querySelectorAll('.module-tree-item-btn').forEach(b => {
+    if (b.getAttribute('data-video-path') === videoPath) {
+      b.classList.add('active');
+    } else {
+      b.classList.remove('active');
+    }
+  });
 }
