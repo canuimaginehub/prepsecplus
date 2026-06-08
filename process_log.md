@@ -1,0 +1,1028 @@
+# Workspace Asset Processing Log
+
+This log documents all file movements, ZIP extractions, PDF to Markdown conversions, and duplicates detected during the process.
+
+## 1. ZIP Archives Extracted
+- sy0-701-section3-video.zip
+- sec-program-mgmt-oversight-security-plus-cert.zip
+- sy0-701-section5-video.zip
+- sy0-701-audio.zip
+- sy0-701-section2-video.zip
+- sy0-701-section4-video.zip
+- threat-vul-mitigations-security-plus-cert.zip
+- sy0-701-section1-video.zip
+- CompTIA Security+ SY0-701 Bonuses-20250412T020608Z-001.zip
+- security-operations-security-plus-cert.zip
+- security-architecture-security-plus-cert.zip
+- gen-sec-concepts-security-plus-cert.zip
+
+## 2. Files Extracted / Moved to Root
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0301-01-cloud-infrastructures.mp4' -> 'sy0-701-0301-01-cloud-infrastructures_2.mp4'
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0301-02-network-infrastructure-concepts.mp4' -> 'sy0-701-0301-02-network-infrastructure-concepts_2.mp4'
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0301-03-other-infrastructure-concepts.mp4' -> 'sy0-701-0301-03-other-infrastructure-concepts_2.mp4'
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0301-04-infrastructure-considerations.mp4' -> 'sy0-701-0301-04-infrastructure-considerations_2.mp4'
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0302-01-secure-infrastructures.mp4' -> 'sy0-701-0302-01-secure-infrastructures_2.mp4'
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0302-02-intrusion-prevention.mp4' -> 'sy0-701-0302-02-intrusion-prevention_2.mp4'
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0302-03-network-appliances.mp4' -> 'sy0-701-0302-03-network-appliances_2.mp4'
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0302-04-port-security.mp4' -> 'sy0-701-0302-04-port-security_2.mp4'
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0302-05-firewall-types.mp4' -> 'sy0-701-0302-05-firewall-types_2.mp4'
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0302-06-secure-communication.mp4' -> 'sy0-701-0302-06-secure-communication_2.mp4'
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0303-01-data-types-and-classifications.mp4' -> 'sy0-701-0303-01-data-types-and-classifications_2.mp4'
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0303-02-states-of-data.mp4' -> 'sy0-701-0303-02-states-of-data_2.mp4'
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0303-03-protecting-data.mp4' -> 'sy0-701-0303-03-protecting-data_2.mp4'
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0304-01-resiliency.mp4' -> 'sy0-701-0304-01-resiliency_2.mp4'
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0304-02-capacity-planning.mp4' -> 'sy0-701-0304-02-capacity-planning_2.mp4'
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0304-03-recovery-testing.mp4' -> 'sy0-701-0304-03-recovery-testing_2.mp4'
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0304-04-backups.mp4' -> 'sy0-701-0304-04-backups_2.mp4'
+- Extracted from sy0-701-section3-video.zip: 'sy0-701-0304-05-power-resiliency.mp4' -> 'sy0-701-0304-05-power-resiliency_2.mp4'
+- Extracted from sec-program-mgmt-oversight-security-plus-cert.zip: '05/effective-security-compliance-slides.pdf' -> 'effective-security-compliance-slides_1.pdf'
+- Extracted from sec-program-mgmt-oversight-security-plus-cert.zip: '08/domain-summary-slides.pdf' -> 'domain-summary-slides_8.pdf'
+- Extracted from sec-program-mgmt-oversight-security-plus-cert.zip: '08/demos.docx' -> 'demos_1.docx'
+- Extracted from sec-program-mgmt-oversight-security-plus-cert.zip: '02/effective-elements-of-security-governance-slides.pdf' -> 'effective-elements-of-security-governance-slides_1.pdf'
+- Extracted from sec-program-mgmt-oversight-security-plus-cert.zip: '07/implement-security-awareness-practices-slides.pdf' -> 'implement-security-awareness-practices-slides_1.pdf'
+- Extracted from sec-program-mgmt-oversight-security-plus-cert.zip: '06/types-and-purposes-of-audits-and-assessments-slides.pdf' -> 'types-and-purposes-of-audits-and-assessments-slides_1.pdf'
+- Extracted from sec-program-mgmt-oversight-security-plus-cert.zip: '03/risk-management-process-slides.pdf' -> 'risk-management-process-slides_1.pdf'
+- Extracted from sec-program-mgmt-oversight-security-plus-cert.zip: '04/third-party-risk-assessment-and-management-slides.pdf' -> 'third-party-risk-assessment-and-management-slides_1.pdf'
+- Extracted from sy0-701-section5-video.zip: 'sy0-701-0501-01-security-policies.mp4' -> 'sy0-701-0501-01-security-policies_2.mp4'
+- Extracted from sy0-701-section5-video.zip: 'sy0-701-0501-02-security-standards.mp4' -> 'sy0-701-0501-02-security-standards_2.mp4'
+- Extracted from sy0-701-section5-video.zip: 'sy0-701-0501-03-security-procedures.mp4' -> 'sy0-701-0501-03-security-procedures_2.mp4'
+- Extracted from sy0-701-section5-video.zip: 'sy0-701-0501-04-security-considerations.mp4' -> 'sy0-701-0501-04-security-considerations_2.mp4'
+- Extracted from sy0-701-section5-video.zip: 'sy0-701-0501-05-data-roles-and-responsibilities.mp4' -> 'sy0-701-0501-05-data-roles-and-responsibilities_2.mp4'
+- Extracted from sy0-701-section5-video.zip: 'sy0-701-0502-01-risk-management.mp4' -> 'sy0-701-0502-01-risk-management_2.mp4'
+- Extracted from sy0-701-section5-video.zip: 'sy0-701-0502-02-risk-analysis.mp4' -> 'sy0-701-0502-02-risk-analysis_2.mp4'
+- Extracted from sy0-701-section5-video.zip: 'sy0-701-0502-03-risk-management-strategies.mp4' -> 'sy0-701-0502-03-risk-management-strategies_2.mp4'
+- Extracted from sy0-701-section5-video.zip: 'sy0-701-0502-04-business-impact-analysis.mp4' -> 'sy0-701-0502-04-business-impact-analysis_2.mp4'
+- Extracted from sy0-701-section5-video.zip: 'sy0-701-0503-01-third-party-risk-assessment.mp4' -> 'sy0-701-0503-01-third-party-risk-assessment_2.mp4'
+- Extracted from sy0-701-section5-video.zip: 'sy0-701-0503-02-agreement-types.mp4' -> 'sy0-701-0503-02-agreement-types_2.mp4'
+- Extracted from sy0-701-section5-video.zip: 'sy0-701-0504-01-compliance.mp4' -> 'sy0-701-0504-01-compliance_2.mp4'
+- Extracted from sy0-701-section5-video.zip: 'sy0-701-0504-02-privacy.mp4' -> 'sy0-701-0504-02-privacy_2.mp4'
+- Extracted from sy0-701-section5-video.zip: 'sy0-701-0505-01-audits-and-assessments.mp4' -> 'sy0-701-0505-01-audits-and-assessments_2.mp4'
+- Extracted from sy0-701-section5-video.zip: 'sy0-701-0505-02-penetration-tests.mp4' -> 'sy0-701-0505-02-penetration-tests_2.mp4'
+- Extracted from sy0-701-section5-video.zip: 'sy0-701-0506-01-security-awareness.mp4' -> 'sy0-701-0506-01-security-awareness_2.mp4'
+- Extracted from sy0-701-section5-video.zip: 'sy0-701-0506-02-user-training.mp4' -> 'sy0-701-0506-02-user-training_2.mp4'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam.mp3' -> 'sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0101-01-security-controls.mp3' -> 'sy0-701-0101-01-security-controls_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0102-01-the-cia-triad.mp3' -> 'sy0-701-0102-01-the-cia-triad_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0102-02-non-repudiation.mp3' -> 'sy0-701-0102-02-non-repudiation_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0102-03-authentication-authorization-and-accounting.mp3' -> 'sy0-701-0102-03-authentication-authorization-and-accounting_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0102-04-gap-analysis.mp3' -> 'sy0-701-0102-04-gap-analysis_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0102-05-zero-trust.mp3' -> 'sy0-701-0102-05-zero-trust_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0102-06-physical-security.mp3' -> 'sy0-701-0102-06-physical-security_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0102-07-deception-and-disruption.mp3' -> 'sy0-701-0102-07-deception-and-disruption_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0103-01-change-management.mp3' -> 'sy0-701-0103-01-change-management_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0103-02-technical-change-management.mp3' -> 'sy0-701-0103-02-technical-change-management_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0104-01-public-key-infrastructure.mp3' -> 'sy0-701-0104-01-public-key-infrastructure_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0104-02-encrypting-data.mp3' -> 'sy0-701-0104-02-encrypting-data_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0104-03-key-exchange.mp3' -> 'sy0-701-0104-03-key-exchange_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0104-04-encryption-technologies.mp3' -> 'sy0-701-0104-04-encryption-technologies_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0104-05-obfuscation.mp3' -> 'sy0-701-0104-05-obfuscation_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0104-06-hashing-and-digital-signatures.mp3' -> 'sy0-701-0104-06-hashing-and-digital-signatures_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0104-07-blockchain-technology.mp3' -> 'sy0-701-0104-07-blockchain-technology_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0104-08-certificates.mp3' -> 'sy0-701-0104-08-certificates_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0201-01-threat-actors.mp3' -> 'sy0-701-0201-01-threat-actors_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0202-01-common-threat-vectors.mp3' -> 'sy0-701-0202-01-common-threat-vectors_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0202-02-phishing.mp3' -> 'sy0-701-0202-02-phishing_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0202-03-impersonation.mp3' -> 'sy0-701-0202-03-impersonation_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0202-04-watering-hole-attacks.mp3' -> 'sy0-701-0202-04-watering-hole-attacks_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0202-05-other-social-engineering-attacks.mp3' -> 'sy0-701-0202-05-other-social-engineering-attacks_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0203-01-memory-injections.mp3' -> 'sy0-701-0203-01-memory-injections_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0203-02-buffer-overflows.mp3' -> 'sy0-701-0203-02-buffer-overflows_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0203-03-race-conditions.mp3' -> 'sy0-701-0203-03-race-conditions_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0203-04-malicious-updates.mp3' -> 'sy0-701-0203-04-malicious-updates_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0203-05-operating-system-vulnerabilities.mp3' -> 'sy0-701-0203-05-operating-system-vulnerabilities_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0203-06-sql-injection.mp3' -> 'sy0-701-0203-06-sql-injection_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0203-07-cross-site-scripting.mp3' -> 'sy0-701-0203-07-cross-site-scripting_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0203-08-hardware-vulnerabilities.mp3' -> 'sy0-701-0203-08-hardware-vulnerabilities_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0203-09-virtualization-vulnerabilities.mp3' -> 'sy0-701-0203-09-virtualization-vulnerabilities_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0203-10-cloud-specific-vulnerabilities.mp3' -> 'sy0-701-0203-10-cloud-specific-vulnerabilities_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0203-11-supply-chain-vulnerabilities.mp3' -> 'sy0-701-0203-11-supply-chain-vulnerabilities_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0203-12-misconfiguration-vulnerabilities.mp3' -> 'sy0-701-0203-12-misconfiguration-vulnerabilities_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0203-13-mobile-device-vulnerabilities.mp3' -> 'sy0-701-0203-13-mobile-device-vulnerabilities_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0203-14-zero-day-vulnerabilities.mp3' -> 'sy0-701-0203-14-zero-day-vulnerabilities_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0204-01-an-overview-of-malware.mp3' -> 'sy0-701-0204-01-an-overview-of-malware_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0204-02-viruses-and-worms.mp3' -> 'sy0-701-0204-02-viruses-and-worms_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0204-03-spyware-and-bloatware.mp3' -> 'sy0-701-0204-03-spyware-and-bloatware_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0204-04-other-malware-types.mp3' -> 'sy0-701-0204-04-other-malware-types_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0204-05-physical-attacks.mp3' -> 'sy0-701-0204-05-physical-attacks_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0204-06-denial-of-service.mp3' -> 'sy0-701-0204-06-denial-of-service_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0204-07-dns-attacks.mp3' -> 'sy0-701-0204-07-dns-attacks_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0204-08-wireless-attacks.mp3' -> 'sy0-701-0204-08-wireless-attacks_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0204-09-on-path-attacks.mp3' -> 'sy0-701-0204-09-on-path-attacks_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0204-10-replay-attacks.mp3' -> 'sy0-701-0204-10-replay-attacks_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0204-11-malicious-code.mp3' -> 'sy0-701-0204-11-malicious-code_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0204-12-application-attacks.mp3' -> 'sy0-701-0204-12-application-attacks_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0204-13-cryptographic-attacks.mp3' -> 'sy0-701-0204-13-cryptographic-attacks_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0204-14-password-attacks.mp3' -> 'sy0-701-0204-14-password-attacks_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0204-15-indicators-of-compromise.mp3' -> 'sy0-701-0204-15-indicators-of-compromise_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0205-01-segmentation-and-access-control.mp3' -> 'sy0-701-0205-01-segmentation-and-access-control_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0205-02-mitigation-techniques.mp3' -> 'sy0-701-0205-02-mitigation-techniques_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0205-03-hardening-techniques.mp3' -> 'sy0-701-0205-03-hardening-techniques_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0301-01-cloud-infrastructures.mp3' -> 'sy0-701-0301-01-cloud-infrastructures_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0301-02-network-infrastructure-concepts.mp3' -> 'sy0-701-0301-02-network-infrastructure-concepts_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0301-03-other-infrastructure-concepts.mp3' -> 'sy0-701-0301-03-other-infrastructure-concepts_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0301-04-infrastructure-considerations.mp3' -> 'sy0-701-0301-04-infrastructure-considerations_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0302-01-secure-infrastructures.mp3' -> 'sy0-701-0302-01-secure-infrastructures_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0302-02-intrusion-prevention.mp3' -> 'sy0-701-0302-02-intrusion-prevention_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0302-03-network-appliances.mp3' -> 'sy0-701-0302-03-network-appliances_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0302-04-port-security.mp3' -> 'sy0-701-0302-04-port-security_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0302-05-firewall-types.mp3' -> 'sy0-701-0302-05-firewall-types_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0302-06-secure-communication.mp3' -> 'sy0-701-0302-06-secure-communication_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0303-01-data-types-and-classifications.mp3' -> 'sy0-701-0303-01-data-types-and-classifications_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0303-02-states-of-data.mp3' -> 'sy0-701-0303-02-states-of-data_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0303-03-protecting-data.mp3' -> 'sy0-701-0303-03-protecting-data_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0304-01-resiliency.mp3' -> 'sy0-701-0304-01-resiliency_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0304-02-capacity-planning.mp3' -> 'sy0-701-0304-02-capacity-planning_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0304-03-recovery-testing.mp3' -> 'sy0-701-0304-03-recovery-testing_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0304-04-backups.mp3' -> 'sy0-701-0304-04-backups_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0304-05-power-resiliency.mp3' -> 'sy0-701-0304-05-power-resiliency_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0401-01-secure-baselines.mp3' -> 'sy0-701-0401-01-secure-baselines_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0401-02-hardening-targets.mp3' -> 'sy0-701-0401-02-hardening-targets_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0401-03-securing-wireless-and-mobile.mp3' -> 'sy0-701-0401-03-securing-wireless-and-mobile_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0401-04-wireless-security-settings.mp3' -> 'sy0-701-0401-04-wireless-security-settings_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0401-05-application-security.mp3' -> 'sy0-701-0401-05-application-security_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0402-01-asset-management.mp3' -> 'sy0-701-0402-01-asset-management_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0403-01-vulnerability-scanning.mp3' -> 'sy0-701-0403-01-vulnerability-scanning_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0403-02-threat-intelligence.mp3' -> 'sy0-701-0403-02-threat-intelligence_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0403-03-penetration-testing.mp3' -> 'sy0-701-0403-03-penetration-testing_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0403-04-analyzing-vulnerabilities.mp3' -> 'sy0-701-0403-04-analyzing-vulnerabilities_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0403-05-vulnerability-remediation.mp3' -> 'sy0-701-0403-05-vulnerability-remediation_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0404-01-security-monitoring.mp3' -> 'sy0-701-0404-01-security-monitoring_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0404-02-security-tools.mp3' -> 'sy0-701-0404-02-security-tools_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0405-01-firewalls.mp3' -> 'sy0-701-0405-01-firewalls_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0405-02-web-filtering.mp3' -> 'sy0-701-0405-02-web-filtering_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0405-03-operating-system-security.mp3' -> 'sy0-701-0405-03-operating-system-security_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0405-04-secure-protocols.mp3' -> 'sy0-701-0405-04-secure-protocols_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0405-05-email-security.mp3' -> 'sy0-701-0405-05-email-security_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0405-06-monitoring-data.mp3' -> 'sy0-701-0405-06-monitoring-data_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0405-07-endpoint-security.mp3' -> 'sy0-701-0405-07-endpoint-security_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0406-01-identity-and-access-management.mp3' -> 'sy0-701-0406-01-identity-and-access-management_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0406-02-access-controls.mp3' -> 'sy0-701-0406-02-access-controls_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0406-03-multi-factor-authentication.mp3' -> 'sy0-701-0406-03-multi-factor-authentication_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0406-04-password-security.mp3' -> 'sy0-701-0406-04-password-security_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0407-01-scripting-and-automation.mp3' -> 'sy0-701-0407-01-scripting-and-automation_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0408-01-incident-response.mp3' -> 'sy0-701-0408-01-incident-response_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0408-02-incident-planning.mp3' -> 'sy0-701-0408-02-incident-planning_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0408-03-digital-forensics.mp3' -> 'sy0-701-0408-03-digital-forensics_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0409-01-log-data.mp3' -> 'sy0-701-0409-01-log-data_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0501-01-security-policies.mp3' -> 'sy0-701-0501-01-security-policies_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0501-02-security-standards.mp3' -> 'sy0-701-0501-02-security-standards_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0501-03-security-procedures.mp3' -> 'sy0-701-0501-03-security-procedures_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0501-04-security-considerations.mp3' -> 'sy0-701-0501-04-security-considerations_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0501-05-data-roles-and-responsibilities.mp3' -> 'sy0-701-0501-05-data-roles-and-responsibilities_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0502-01-risk-management.mp3' -> 'sy0-701-0502-01-risk-management_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0502-02-risk-analysis.mp3' -> 'sy0-701-0502-02-risk-analysis_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0502-03-risk-management-strategies.mp3' -> 'sy0-701-0502-03-risk-management-strategies_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0502-04-business-impact-analysis.mp3' -> 'sy0-701-0502-04-business-impact-analysis_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0503-01-third-party-risk-assessment.mp3' -> 'sy0-701-0503-01-third-party-risk-assessment_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0503-02-agreement-types.mp3' -> 'sy0-701-0503-02-agreement-types_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0504-01-compliance.mp3' -> 'sy0-701-0504-01-compliance_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0504-02-privacy.mp3' -> 'sy0-701-0504-02-privacy_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0505-01-audits-and-assessments.mp3' -> 'sy0-701-0505-01-audits-and-assessments_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0505-02-penetration-tests.mp3' -> 'sy0-701-0505-02-penetration-tests_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0506-01-security-awareness.mp3' -> 'sy0-701-0506-01-security-awareness_2.mp3'
+- Extracted from sy0-701-audio.zip: 'sy0-701-0506-02-user-training.mp3' -> 'sy0-701-0506-02-user-training_2.mp3'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0201-01-threat-actors.mp4' -> 'sy0-701-0201-01-threat-actors_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0202-01-common-threat-vectors.mp4' -> 'sy0-701-0202-01-common-threat-vectors_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0202-02-phishing.mp4' -> 'sy0-701-0202-02-phishing_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0202-03-impersonation.mp4' -> 'sy0-701-0202-03-impersonation_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0202-04-watering-hole-attacks.mp4' -> 'sy0-701-0202-04-watering-hole-attacks_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0202-05-other-social-engineering-attacks.mp4' -> 'sy0-701-0202-05-other-social-engineering-attacks_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0203-01-memory-injections.mp4' -> 'sy0-701-0203-01-memory-injections_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0203-02-buffer-overflows.mp4' -> 'sy0-701-0203-02-buffer-overflows_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0203-03-race-conditions.mp4' -> 'sy0-701-0203-03-race-conditions_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0203-04-malicious-updates.mp4' -> 'sy0-701-0203-04-malicious-updates_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0203-05-operating-system-vulnerabilities.mp4' -> 'sy0-701-0203-05-operating-system-vulnerabilities_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0203-06-sql-injection.mp4' -> 'sy0-701-0203-06-sql-injection_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0203-07-cross-site-scripting.mp4' -> 'sy0-701-0203-07-cross-site-scripting_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0203-08-hardware-vulnerabilities.mp4' -> 'sy0-701-0203-08-hardware-vulnerabilities_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0203-09-virtualization-vulnerabilities.mp4' -> 'sy0-701-0203-09-virtualization-vulnerabilities_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0203-10-cloud-specific-vulnerabilities.mp4' -> 'sy0-701-0203-10-cloud-specific-vulnerabilities_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0203-11-supply-chain-vulnerabilities.mp4' -> 'sy0-701-0203-11-supply-chain-vulnerabilities_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0203-12-misconfiguration-vulnerabilities.mp4' -> 'sy0-701-0203-12-misconfiguration-vulnerabilities_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0203-13-mobile-device-vulnerabilities.mp4' -> 'sy0-701-0203-13-mobile-device-vulnerabilities_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0203-14-zero-day-vulnerabilities.mp4' -> 'sy0-701-0203-14-zero-day-vulnerabilities_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0204-01-an-overview-of-malware.mp4' -> 'sy0-701-0204-01-an-overview-of-malware_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0204-02-viruses-and-worms.mp4' -> 'sy0-701-0204-02-viruses-and-worms_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0204-03-spyware-and-bloatware.mp4' -> 'sy0-701-0204-03-spyware-and-bloatware_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0204-04-other-malware-types.mp4' -> 'sy0-701-0204-04-other-malware-types_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0204-05-physical-attacks.mp4' -> 'sy0-701-0204-05-physical-attacks_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0204-06-denial-of-service.mp4' -> 'sy0-701-0204-06-denial-of-service_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0204-07-dns-attacks.mp4' -> 'sy0-701-0204-07-dns-attacks_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0204-08-wireless-attacks.mp4' -> 'sy0-701-0204-08-wireless-attacks_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0204-09-on-path-attacks.mp4' -> 'sy0-701-0204-09-on-path-attacks_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0204-10-replay-attacks.mp4' -> 'sy0-701-0204-10-replay-attacks_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0204-11-malicious-code.mp4' -> 'sy0-701-0204-11-malicious-code_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0204-12-application-attacks.mp4' -> 'sy0-701-0204-12-application-attacks_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0204-13-cryptographic-attacks.mp4' -> 'sy0-701-0204-13-cryptographic-attacks_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0204-14-password-attacks.mp4' -> 'sy0-701-0204-14-password-attacks_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0204-15-indicators-of-compromise.mp4' -> 'sy0-701-0204-15-indicators-of-compromise_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0205-01-segmentation-and-access-control.mp4' -> 'sy0-701-0205-01-segmentation-and-access-control_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0205-02-mitigation-techniques.mp4' -> 'sy0-701-0205-02-mitigation-techniques_2.mp4'
+- Extracted from sy0-701-section2-video.zip: 'sy0-701-0205-03-hardening-techniques.mp4' -> 'sy0-701-0205-03-hardening-techniques_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0401-01-secure-baselines.mp4' -> 'sy0-701-0401-01-secure-baselines_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0401-02-hardening-targets.mp4' -> 'sy0-701-0401-02-hardening-targets_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0401-03-securing-wireless-and-mobile.mp4' -> 'sy0-701-0401-03-securing-wireless-and-mobile_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0401-04-wireless-security-settings.mp4' -> 'sy0-701-0401-04-wireless-security-settings_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0401-05-application-security.mp4' -> 'sy0-701-0401-05-application-security_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0402-01-asset-management.mp4' -> 'sy0-701-0402-01-asset-management_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0403-01-vulnerability-scanning.mp4' -> 'sy0-701-0403-01-vulnerability-scanning_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0403-02-threat-intelligence.mp4' -> 'sy0-701-0403-02-threat-intelligence_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0403-03-penetration-testing.mp4' -> 'sy0-701-0403-03-penetration-testing_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0403-04-analyzing-vulnerabilities.mp4' -> 'sy0-701-0403-04-analyzing-vulnerabilities_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0403-05-vulnerability-remediation.mp4' -> 'sy0-701-0403-05-vulnerability-remediation_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0404-01-security-monitoring.mp4' -> 'sy0-701-0404-01-security-monitoring_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0404-02-security-tools.mp4' -> 'sy0-701-0404-02-security-tools_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0405-01-firewalls.mp4' -> 'sy0-701-0405-01-firewalls_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0405-02-web-filtering.mp4' -> 'sy0-701-0405-02-web-filtering_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0405-03-operating-system-security.mp4' -> 'sy0-701-0405-03-operating-system-security_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0405-04-secure-protocols.mp4' -> 'sy0-701-0405-04-secure-protocols_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0405-05-email-security.mp4' -> 'sy0-701-0405-05-email-security_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0405-06-monitoring-data.mp4' -> 'sy0-701-0405-06-monitoring-data_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0405-07-endpoint-security.mp4' -> 'sy0-701-0405-07-endpoint-security_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0406-01-identity-and-access-management.mp4' -> 'sy0-701-0406-01-identity-and-access-management_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0406-02-access-controls.mp4' -> 'sy0-701-0406-02-access-controls_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0406-03-multi-factor-authentication.mp4' -> 'sy0-701-0406-03-multi-factor-authentication_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0406-04-password-security.mp4' -> 'sy0-701-0406-04-password-security_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0407-01-scripting-and-automation.mp4' -> 'sy0-701-0407-01-scripting-and-automation_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0408-01-incident-response.mp4' -> 'sy0-701-0408-01-incident-response_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0408-02-incident-planning.mp4' -> 'sy0-701-0408-02-incident-planning_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0408-03-digital-forensics.mp4' -> 'sy0-701-0408-03-digital-forensics_2.mp4'
+- Extracted from sy0-701-section4-video.zip: 'sy0-701-0409-01-log-data.mp4' -> 'sy0-701-0409-01-log-data_2.mp4'
+- Extracted from threat-vul-mitigations-security-plus-cert.zip: '02/common-threat-actors-and-motivations-slides.pdf' -> 'common-threat-actors-and-motivations-slides_1.pdf'
+- Extracted from threat-vul-mitigations-security-plus-cert.zip: '05/indicators-of-malicious-activity-slides.pdf' -> 'indicators-of-malicious-activity-slides_1.pdf'
+- Extracted from threat-vul-mitigations-security-plus-cert.zip: '06/mitigation-techniques-used-to-secure-the-enterprise-slides.pdf' -> 'mitigation-techniques-used-to-secure-the-enterprise-slides_1.pdf'
+- Extracted from threat-vul-mitigations-security-plus-cert.zip: '03/common-threat-vectors-and-attack-surfaces-slides.pdf' -> 'common-threat-vectors-and-attack-surfaces-slides_1.pdf'
+- Extracted from threat-vul-mitigations-security-plus-cert.zip: '07/domain-summary-slides.pdf' -> 'domain-summary-slides_9.pdf'
+- Extracted from threat-vul-mitigations-security-plus-cert.zip: '04/types-of-vulnerabilities-slides.pdf' -> 'types-of-vulnerabilities-slides_1.pdf'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam.mp4' -> 'sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0101-01-security-controls.mp4' -> 'sy0-701-0101-01-security-controls_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0102-01-the-cia-triad.mp4' -> 'sy0-701-0102-01-the-cia-triad_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0102-02-non-repudiation.mp4' -> 'sy0-701-0102-02-non-repudiation_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0102-03-authentication-authorization-and-accounting.mp4' -> 'sy0-701-0102-03-authentication-authorization-and-accounting_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0102-04-gap-analysis.mp4' -> 'sy0-701-0102-04-gap-analysis_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0102-05-zero-trust.mp4' -> 'sy0-701-0102-05-zero-trust_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0102-06-physical-security.mp4' -> 'sy0-701-0102-06-physical-security_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0102-07-deception-and-disruption.mp4' -> 'sy0-701-0102-07-deception-and-disruption_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0103-01-change-management.mp4' -> 'sy0-701-0103-01-change-management_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0103-02-technical-change-management.mp4' -> 'sy0-701-0103-02-technical-change-management_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0104-01-public-key-infrastructure.mp4' -> 'sy0-701-0104-01-public-key-infrastructure_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0104-02-encrypting-data.mp4' -> 'sy0-701-0104-02-encrypting-data_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0104-03-key-exchange.mp4' -> 'sy0-701-0104-03-key-exchange_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0104-04-encryption-technologies.mp4' -> 'sy0-701-0104-04-encryption-technologies_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0104-05-obfuscation.mp4' -> 'sy0-701-0104-05-obfuscation_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0104-06-hashing-and-digital-signatures.mp4' -> 'sy0-701-0104-06-hashing-and-digital-signatures_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0104-07-blockchain-technology.mp4' -> 'sy0-701-0104-07-blockchain-technology_2.mp4'
+- Extracted from sy0-701-section1-video.zip: 'sy0-701-0104-08-certificates.mp4' -> 'sy0-701-0104-08-certificates_2.mp4'
+- Extracted from CompTIA Security+ SY0-701 Bonuses-20250412T020608Z-001.zip: 'CompTIA Security+ SY0-701 Bonuses/Plain Text Flashcards.txt' -> 'Plain Text Flashcards_1.txt'
+- Extracted from CompTIA Security+ SY0-701 Bonuses-20250412T020608Z-001.zip: 'CompTIA Security+ SY0-701 Bonuses/Anki FlashCards.apkg' -> 'Anki FlashCards_1.apkg'
+- Extracted from CompTIA Security+ SY0-701 Bonuses-20250412T020608Z-001.zip: 'CompTIA Security+ SY0-701 Bonuses/CyberSecurity Trends & Opportunities.docx' -> 'CyberSecurity Trends & Opportunities_1.docx'
+- Extracted from CompTIA Security+ SY0-701 Bonuses-20250412T020608Z-001.zip: 'CompTIA Security+ SY0-701 Bonuses/Interview Preparation for Cybersecurity Jobs.docx' -> 'Interview Preparation for Cybersecurity Jobs_1.docx'
+- Extracted from CompTIA Security+ SY0-701 Bonuses-20250412T020608Z-001.zip: 'CompTIA Security+ SY0-701 Bonuses/CompTIA Quick Reference Guide.pptx' -> 'CompTIA Quick Reference Guide_1.pptx'
+- Extracted from CompTIA Security+ SY0-701 Bonuses-20250412T020608Z-001.zip: 'CompTIA Security+ SY0-701 Bonuses/Cybersecurity Best Practices_ Cutting-Edge Strategies and Techniques.docx' -> 'Cybersecurity Best Practices_ Cutting-Edge Strategies and Techniques_1.docx'
+- Extracted from CompTIA Security+ SY0-701 Bonuses-20250412T020608Z-001.zip: 'CompTIA Security+ SY0-701 Bonuses/CompTIA-S70-701-Audiobook.mp3' -> 'CompTIA-S70-701-Audiobook_1.mp3'
+- Extracted from security-operations-security-plus-cert.zip: 'Course #4 Key Terms and Definitions.docx' -> 'Course #4 Key Terms and Definitions_2.docx'
+- Extracted from security-operations-security-plus-cert.zip: '11/domain-summary-slides.pdf' -> 'domain-summary-slides_10.pdf'
+- Extracted from security-operations-security-plus-cert.zip: '05/security-alerting-and-monitoring-concepts-and-tools-slides.pdf' -> 'security-alerting-and-monitoring-concepts-and-tools-slides_2.pdf'
+- Extracted from security-operations-security-plus-cert.zip: '07/implement-and-maintain-identity-and-access-management-slides.pdf' -> 'implement-and-maintain-identity-and-access-management-slides_2.pdf'
+- Extracted from security-operations-security-plus-cert.zip: '02/applying-common-security-techniques-to-computing-resources-slides.pdf' -> 'applying-common-security-techniques-to-computing-resources-slides_2.pdf'
+- Extracted from security-operations-security-plus-cert.zip: '03/security-implications-of-proper-hardware-software-and-data-asset-management-slides.pdf' -> 'security-implications-of-proper-hardware-software-and-data-asset-management-slides_2.pdf'
+- Extracted from security-operations-security-plus-cert.zip: '04/activities-associated-with-vulnerability-management-slides.pdf' -> 'activities-associated-with-vulnerability-management-slides_2.pdf'
+- Extracted from security-operations-security-plus-cert.zip: '10/use-data-sources-to-support-an-investigation-slides.pdf' -> 'use-data-sources-to-support-an-investigation-slides_2.pdf'
+- Extracted from security-operations-security-plus-cert.zip: '06/modify-enterprise-capabilities-to-enhance-security-slides.pdf' -> 'modify-enterprise-capabilities-to-enhance-security-slides_2.pdf'
+- Extracted from security-operations-security-plus-cert.zip: '09/appropriate-incident-response-activities-slides.pdf' -> 'appropriate-incident-response-activities-slides_2.pdf'
+- Extracted from security-operations-security-plus-cert.zip: '08/importance-of-automation-and-orchestration-related-to-secure-operations-slides.pdf' -> 'importance-of-automation-and-orchestration-related-to-secure-operations-slides_2.pdf'
+- Extracted from security-architecture-security-plus-cert.zip: '06/domain-summary-slides.pdf' -> 'domain-summary-slides_11.pdf'
+- Extracted from security-architecture-security-plus-cert.zip: '03/secure-principles-to-secure-enterprise-infrastructure-slides.pdf' -> 'secure-principles-to-secure-enterprise-infrastructure-slides_1.pdf'
+- Extracted from security-architecture-security-plus-cert.zip: '02/security-implications-of-different-architecture-models-slides.pdf' -> 'security-implications-of-different-architecture-models-slides_1.pdf'
+- Extracted from security-architecture-security-plus-cert.zip: '05/resilience-and-recovery-in-security-architecture-slides.pdf' -> 'resilience-and-recovery-in-security-architecture-slides_1.pdf'
+- Extracted from gen-sec-concepts-security-plus-cert.zip: '03/fundamental-security-concepts-slides.pdf' -> 'fundamental-security-concepts-slides_2.pdf'
+- Extracted from gen-sec-concepts-security-plus-cert.zip: '04/change-management-processes-and-impacts-slides.pdf' -> 'change-management-processes-and-impacts-slides_2.pdf'
+- Extracted from gen-sec-concepts-security-plus-cert.zip: '06/domain-summary-slides.pdf' -> 'domain-summary-slides_12.pdf'
+- Extracted from gen-sec-concepts-security-plus-cert.zip: '02/understanding-security-controls-slides.pdf' -> 'understanding-security-controls-slides_2.pdf'
+- Extracted from gen-sec-concepts-security-plus-cert.zip: '05/using-appropriate-cryptographic-solutions-slides.pdf' -> 'using-appropriate-cryptographic-solutions-slides_2.pdf'
+
+## 3. PDFs Converted to Markdown
+- Converted 'risk-management-process-slides_1.pdf' to 'risk-management-process-slides_1.md'
+- Converted 'professor-messer-comptia-exam-hacks-v107s_1.pdf' to 'professor-messer-comptia-exam-hacks-v107s_1.md'
+- Converted 'activities-associated-with-vulnerability-management-slides.pdf' to 'activities-associated-with-vulnerability-management-slides.md'
+- Converted 'types-of-vulnerabilities-slides.pdf' to 'types-of-vulnerabilities-slides.md'
+- Converted 'CompTIA Security+ (SY0-701) Study Guide 2.pdf' to 'CompTIA Security+ (SY0-701) Study Guide 2.md'
+- Converted 'Series Intro and Exam Prep Strategy Handout.pdf' to 'Series Intro and Exam Prep Strategy Handout.md'
+- Converted 'indicators-of-malicious-activity-slides.pdf' to 'indicators-of-malicious-activity-slides.md'
+- Converted 'CompTIA+Security++(SY0-701)+Exam+Objectives.pdf' to 'CompTIA+Security++(SY0-701)+Exam+Objectives.md'
+- Converted 'professor-messer-comptia-exam-hacks-v107s.pdf' to 'professor-messer-comptia-exam-hacks-v107s.md'
+- Converted 'Security Plus SY0-701 Domain 1 Handout.pdf' to 'Security Plus SY0-701 Domain 1 Handout.md'
+- Converted 'tips-for-passing-the-exam-slides.pdf' to 'tips-for-passing-the-exam-slides.md'
+- Converted 'common-threat-vectors-and-attack-surfaces-slides.pdf' to 'common-threat-vectors-and-attack-surfaces-slides.md'
+- Converted 'applying-common-security-techniques-to-computing-resources-slides_1.pdf' to 'applying-common-security-techniques-to-computing-resources-slides_1.md'
+- Converted 'importance-of-automation-and-orchestration-related-to-secure-operations-slides_2.pdf' to 'importance-of-automation-and-orchestration-related-to-secure-operations-slides_2.md'
+- Converted 'implement-and-maintain-identity-and-access-management-slides_2.pdf' to 'implement-and-maintain-identity-and-access-management-slides_2.md'
+- Converted 'risk-management-process-slides.pdf' to 'risk-management-process-slides.md'
+- Converted 'appropriate-incident-response-activities-slides_2.pdf' to 'appropriate-incident-response-activities-slides_2.md'
+- Converted 'Security Plus SY0-701 Domain 4 Handout.pdf' to 'Security Plus SY0-701 Domain 4 Handout.md'
+- Converted 'security-alerting-and-monitoring-concepts-and-tools-slides_2.pdf' to 'security-alerting-and-monitoring-concepts-and-tools-slides_2.md'
+- Converted 'applying-common-security-techniques-to-computing-resources-slides_2.pdf' to 'applying-common-security-techniques-to-computing-resources-slides_2.md'
+- Converted 'importance-of-automation-and-orchestration-related-to-secure-operations-slides_1.pdf' to 'importance-of-automation-and-orchestration-related-to-secure-operations-slides_1.md'
+- Converted 'resilience-and-recovery-in-security-architecture-slides.pdf' to 'resilience-and-recovery-in-security-architecture-slides.md'
+- Converted 'implement-and-maintain-identity-and-access-management-slides_1.pdf' to 'implement-and-maintain-identity-and-access-management-slides_1.md'
+- Converted 'appropriate-incident-response-activities-slides_1.pdf' to 'appropriate-incident-response-activities-slides_1.md'
+- Converted 'CompTIA Security+ (SY0-701)Study Plan 2.pdf' to 'CompTIA Security+ (SY0-701)Study Plan 2.md'
+- Converted 'understanding-security-controls-slides.pdf' to 'understanding-security-controls-slides.md'
+- Converted 'security-alerting-and-monitoring-concepts-and-tools-slides_1.pdf' to 'security-alerting-and-monitoring-concepts-and-tools-slides_1.md'
+- Converted 'CompTIA+Security++(SY0-701)+Study+Guide.pdf' to 'CompTIA+Security++(SY0-701)+Study+Guide.md'
+- Converted 'fundamental-security-concepts-slides_2.pdf' to 'fundamental-security-concepts-slides_2.md'
+- Converted 'domain-summary-slides_2.pdf' to 'domain-summary-slides_2.md'
+- Converted 'exam-overview-slides.pdf' to 'exam-overview-slides.md'
+- Converted 'activities-associated-with-vulnerability-management-slides_1.pdf' to 'activities-associated-with-vulnerability-management-slides_1.md'
+- Converted 'using-appropriate-cryptographic-solutions-slides_1.pdf' to 'using-appropriate-cryptographic-solutions-slides_1.md'
+- Converted 'CompTIA Quick Reference Guide.pptx.pdf' to 'CompTIA Quick Reference Guide.pptx.md'
+- Converted 'domain-summary-slides_3.pdf' to 'domain-summary-slides_3.md'
+- Converted 'types-and-purposes-of-audits-and-assessments-slides.pdf' to 'types-and-purposes-of-audits-and-assessments-slides.md'
+- Converted 'SYO-701+Study+Guide.pdf' to 'SYO-701+Study+Guide.md'
+- Converted 'fundamental-security-concepts-slides_1.pdf' to 'fundamental-security-concepts-slides_1.md'
+- Converted 'security-701-exam-objectives-comparison-flyer-online.pdf' to 'security-701-exam-objectives-comparison-flyer-online.md'
+- Converted 'domain-summary-slides_1.pdf' to 'domain-summary-slides_1.md'
+- Converted 'activities-associated-with-vulnerability-management-slides_2.pdf' to 'activities-associated-with-vulnerability-management-slides_2.md'
+- Converted 'using-appropriate-cryptographic-solutions-slides_2.pdf' to 'using-appropriate-cryptographic-solutions-slides_2.md'
+- Converted 'CompTIA+Security++701+Acronyms+List.pdf' to 'CompTIA+Security++701+Acronyms+List.md'
+- Converted 'domain-summary-slides.pdf' to 'domain-summary-slides.md'
+- Converted 'common-threat-vectors-and-attack-surfaces-slides_1.pdf' to 'common-threat-vectors-and-attack-surfaces-slides_1.md'
+- Converted 'appropriate-incident-response-activities-slides.pdf' to 'appropriate-incident-response-activities-slides.md'
+- Converted 'implement-security-awareness-practices-slides.pdf' to 'implement-security-awareness-practices-slides.md'
+- Converted 'mitigation-techniques-used-to-secure-the-enterprise-slides.pdf' to 'mitigation-techniques-used-to-secure-the-enterprise-slides.md'
+- Converted 'secure-principles-to-secure-enterprise-infrastructure-slides.pdf' to 'secure-principles-to-secure-enterprise-infrastructure-slides.md'
+- Converted 'domain-summary-slides_4.pdf' to 'domain-summary-slides_4.md'
+- Converted 'modify-enterprise-capabilities-to-enhance-security-slides_1.pdf' to 'modify-enterprise-capabilities-to-enhance-security-slides_1.md'
+- Converted 'Security Plus SY0-701 Domain 2 HANDOUT.pdf' to 'Security Plus SY0-701 Domain 2 HANDOUT.md'
+- Converted 'types-of-vulnerabilities-slides_1.pdf' to 'types-of-vulnerabilities-slides_1.md'
+- Converted 'change-management-processes-and-impacts-slides.pdf' to 'change-management-processes-and-impacts-slides.md'
+- Converted 'domain-summary-slides_5.pdf' to 'domain-summary-slides_5.md'
+- Converted 'understanding-security-controls-slides_2.pdf' to 'understanding-security-controls-slides_2.md'
+- Converted 'domain-summary-slides_7.pdf' to 'domain-summary-slides_7.md'
+- Converted 'modify-enterprise-capabilities-to-enhance-security-slides_2.pdf' to 'modify-enterprise-capabilities-to-enhance-security-slides_2.md'
+- Converted 'CompTIA_Security_701 NOTES 🗒️ ✅ (1).pdf' to 'CompTIA_Security_701 NOTES 🗒️ ✅ (1).md'
+- Converted 'CompTIA Security Plus+ Master Cheat Sheet.pdf' to 'CompTIA Security Plus+ Master Cheat Sheet.md'
+- Converted 'effective-elements-of-security-governance-slides.pdf' to 'effective-elements-of-security-governance-slides.md'
+- Converted 'security-implications-of-different-architecture-models-slides.pdf' to 'security-implications-of-different-architecture-models-slides.md'
+- Converted 'domain-summary-slides_6.pdf' to 'domain-summary-slides_6.md'
+- Converted 'understanding-security-controls-slides_1.pdf' to 'understanding-security-controls-slides_1.md'
+- Converted 'effective-elements-of-security-governance-slides_1.pdf' to 'effective-elements-of-security-governance-slides_1.md'
+- Converted 'professor-messer-sy0-701-comptia-security-plus-practice-exams-v18.pdf' to 'professor-messer-sy0-701-comptia-security-plus-practice-exams-v18.md'
+- Converted 'use-data-sources-to-support-an-investigation-slides.pdf' to 'use-data-sources-to-support-an-investigation-slides.md'
+- Converted 'third-party-risk-assessment-and-management-slides.pdf' to 'third-party-risk-assessment-and-management-slides.md'
+- Converted 'COMPTIA_Security_Plus_Master_1740709645.pdf' to 'COMPTIA_Security_Plus_Master_1740709645.md'
+- Converted 'domain-summary-slides_8.pdf' to 'domain-summary-slides_8.md'
+- Converted 'types-and-purposes-of-audits-and-assessments-slides_1.pdf' to 'types-and-purposes-of-audits-and-assessments-slides_1.md'
+- Converted 'secure-principles-to-secure-enterprise-infrastructure-slides_1.pdf' to 'secure-principles-to-secure-enterprise-infrastructure-slides_1.md'
+- Converted 'security-701-certification-guide_oct-final.pdf' to 'security-701-certification-guide_oct-final.md'
+- Converted 'Security Plus SY0-701 Domain 5 Handout.pdf' to 'Security Plus SY0-701 Domain 5 Handout.md'
+- Converted 'importance-of-automation-and-orchestration-related-to-secure-operations-slides.pdf' to 'importance-of-automation-and-orchestration-related-to-secure-operations-slides.md'
+- Converted 'fundamental-security-concepts-slides.pdf' to 'fundamental-security-concepts-slides.md'
+- Converted 'security-alerting-and-monitoring-concepts-and-tools-slides.pdf' to 'security-alerting-and-monitoring-concepts-and-tools-slides.md'
+- Converted 'domain-summary-slides_9.pdf' to 'domain-summary-slides_9.md'
+- Converted 'CompTIA Security+ (SY0-701) Exam Objectives 2.pdf' to 'CompTIA Security+ (SY0-701) Exam Objectives 2.md'
+- Converted 'domain-summary-slides_11.pdf' to 'domain-summary-slides_11.md'
+- Converted 'security-implications-of-different-architecture-models-slides_1.pdf' to 'security-implications-of-different-architecture-models-slides_1.md'
+- Converted 'security-implications-of-proper-hardware-software-and-data-asset-management-slides.pdf' to 'security-implications-of-proper-hardware-software-and-data-asset-management-slides.md'
+- Converted 'domain-summary-slides_10.pdf' to 'domain-summary-slides_10.md'
+- Converted 'use-data-sources-to-support-an-investigation-slides_2.pdf' to 'use-data-sources-to-support-an-investigation-slides_2.md'
+- Converted 'professor-messer-sy0-701-comptia-security-plus-course-notes-v107.pdf' to 'professor-messer-sy0-701-comptia-security-plus-course-notes-v107.md'
+- Converted 'implement-and-maintain-identity-and-access-management-slides.pdf' to 'implement-and-maintain-identity-and-access-management-slides.md'
+- Converted 'domain-summary-slides_12.pdf' to 'domain-summary-slides_12.md'
+- Converted 'common-threat-actors-and-motivations-slides_1.pdf' to 'common-threat-actors-and-motivations-slides_1.md'
+- Converted 'mitigation-techniques-used-to-secure-the-enterprise-slides_1.pdf' to 'mitigation-techniques-used-to-secure-the-enterprise-slides_1.md'
+- Converted 'resilience-and-recovery-in-security-architecture-slides_1.pdf' to 'resilience-and-recovery-in-security-architecture-slides_1.md'
+- Converted 'use-data-sources-to-support-an-investigation-slides_1.pdf' to 'use-data-sources-to-support-an-investigation-slides_1.md'
+- Converted '250_DevOps_Interview_Questions_with_Detailed_Answers_1738019318 copy.pdf' to '250_DevOps_Interview_Questions_with_Detailed_Answers_1738019318 copy.md'
+- Converted 'CompTIA s+.pdf' to 'CompTIA s+.md'
+- Converted 'using-appropriate-cryptographic-solutions-slides.pdf' to 'using-appropriate-cryptographic-solutions-slides.md'
+- Converted 'CompTIA+Security++(SY0-701)Study+Plan.pdf' to 'CompTIA+Security++(SY0-701)Study+Plan.md'
+- Converted 'implement-security-awareness-practices-slides_1.pdf' to 'implement-security-awareness-practices-slides_1.md'
+- Converted 'effective-security-compliance-slides_1.pdf' to 'effective-security-compliance-slides_1.md'
+- Converted 'third-party-risk-assessment-and-management-slides_1.pdf' to 'third-party-risk-assessment-and-management-slides_1.md'
+- Converted 'modify-enterprise-capabilities-to-enhance-security-slides.pdf' to 'modify-enterprise-capabilities-to-enhance-security-slides.md'
+- Converted 'applying-common-security-techniques-to-computing-resources-slides.pdf' to 'applying-common-security-techniques-to-computing-resources-slides.md'
+- Converted 'Security Plus SY0-701 Domain 3 Handout.pdf' to 'Security Plus SY0-701 Domain 3 Handout.md'
+- Converted 'security-implications-of-proper-hardware-software-and-data-asset-management-slides_1.pdf' to 'security-implications-of-proper-hardware-software-and-data-asset-management-slides_1.md'
+- Converted 'common-threat-actors-and-motivations-slides.pdf' to 'common-threat-actors-and-motivations-slides.md'
+- Converted 'CompTIA_Security_Plus_701_study_notes_1727782137.pdf' to 'CompTIA_Security_Plus_701_study_notes_1727782137.md'
+- Converted 'change-management-processes-and-impacts-slides_1.pdf' to 'change-management-processes-and-impacts-slides_1.md'
+- Converted 'effective-security-compliance-slides.pdf' to 'effective-security-compliance-slides.md'
+- Converted 'Printer+Friendly+Study+Guide.pdf' to 'Printer+Friendly+Study+Guide.md'
+- Converted 'security-implications-of-proper-hardware-software-and-data-asset-management-slides_2.pdf' to 'security-implications-of-proper-hardware-software-and-data-asset-management-slides_2.md'
+- Converted 'professor-messer-sy0-701-comptia-security-plus-practice-exams-v18_1.pdf' to 'professor-messer-sy0-701-comptia-security-plus-practice-exams-v18_1.md'
+- Converted 'Cybersecurity Best Practices_ Cutting-Edge Strategies and Techniques.pdf' to 'Cybersecurity Best Practices_ Cutting-Edge Strategies and Techniques.md'
+- Converted 'indicators-of-malicious-activity-slides_1.pdf' to 'indicators-of-malicious-activity-slides_1.md'
+- Converted 'change-management-processes-and-impacts-slides_2.pdf' to 'change-management-processes-and-impacts-slides_2.md'
+- Converted 'professor-messer-sy0-701-comptia-security-plus-course-notes-v107_1.pdf' to 'professor-messer-sy0-701-comptia-security-plus-course-notes-v107_1.md'
+
+## 4. Duplicate Files Detected (Awaiting Review)
+### Duplicates by Name (Original Name Groups)
+- **sy0-701-0406-02-access-controls.mp3**: sy0-701-0406-02-access-controls_1.mp3, sy0-701-0406-02-access-controls_2.mp3, sy0-701-0406-02-access-controls.mp3
+- **sy0-701-0405-05-email-security.mp4**: sy0-701-0405-05-email-security_2.mp4, sy0-701-0405-05-email-security_1.mp4, sy0-701-0405-05-email-security.mp4
+- **sy0-701-0407-01-scripting-and-automation.mp3**: sy0-701-0407-01-scripting-and-automation.mp3, sy0-701-0407-01-scripting-and-automation_1.mp3, sy0-701-0407-01-scripting-and-automation_2.mp3
+- **sy0-701-0102-04-gap-analysis.mp4**: sy0-701-0102-04-gap-analysis_1.mp4, sy0-701-0102-04-gap-analysis_2.mp4, sy0-701-0102-04-gap-analysis.mp4
+- **sy0-701-0202-02-phishing.mp3**: sy0-701-0202-02-phishing_2.mp3, sy0-701-0202-02-phishing_1.mp3, sy0-701-0202-02-phishing.mp3
+- **CyberSecurity Trends & Opportunities.docx**: CyberSecurity Trends & Opportunities_1.docx, CyberSecurity Trends & Opportunities.docx
+- **sy0-701-0405-02-web-filtering.mp3**: sy0-701-0405-02-web-filtering.mp3, sy0-701-0405-02-web-filtering_2.mp3, sy0-701-0405-02-web-filtering_1.mp3
+- **sy0-701-0204-02-viruses-and-worms.mp3**: sy0-701-0204-02-viruses-and-worms_1.mp3, sy0-701-0204-02-viruses-and-worms_2.mp3, sy0-701-0204-02-viruses-and-worms.mp3
+- **sy0-701-0403-02-threat-intelligence.mp4**: sy0-701-0403-02-threat-intelligence.mp4, sy0-701-0403-02-threat-intelligence_2.mp4, sy0-701-0403-02-threat-intelligence_1.mp4
+- **sy0-701-0401-05-application-security.mp3**: sy0-701-0401-05-application-security_2.mp3, sy0-701-0401-05-application-security_1.mp3, sy0-701-0401-05-application-security.mp3
+- **sy0-701-0404-02-security-tools.mp4**: sy0-701-0404-02-security-tools_2.mp4, sy0-701-0404-02-security-tools_1.mp4, sy0-701-0404-02-security-tools.mp4
+- **sy0-701-0204-09-on-path-attacks.mp3**: sy0-701-0204-09-on-path-attacks_1.mp3, sy0-701-0204-09-on-path-attacks_2.mp3, sy0-701-0204-09-on-path-attacks.mp3
+- **sy0-701-0102-04-gap-analysis.mp3**: sy0-701-0102-04-gap-analysis_1.mp3, sy0-701-0102-04-gap-analysis_2.mp3, sy0-701-0102-04-gap-analysis.mp3
+- **sy0-701-0407-01-scripting-and-automation.mp4**: sy0-701-0407-01-scripting-and-automation.mp4, sy0-701-0407-01-scripting-and-automation_1.mp4, sy0-701-0407-01-scripting-and-automation_2.mp4
+- **sy0-701-0405-05-email-security.mp3**: sy0-701-0405-05-email-security_2.mp3, sy0-701-0405-05-email-security_1.mp3, sy0-701-0405-05-email-security.mp3
+- **sy0-701-0406-02-access-controls.mp4**: sy0-701-0406-02-access-controls_1.mp4, sy0-701-0406-02-access-controls_2.mp4, sy0-701-0406-02-access-controls.mp4
+- **sy0-701-0204-09-on-path-attacks.mp4**: sy0-701-0204-09-on-path-attacks_1.mp4, sy0-701-0204-09-on-path-attacks_2.mp4, sy0-701-0204-09-on-path-attacks.mp4
+- **sy0-701-0401-05-application-security.mp4**: sy0-701-0401-05-application-security_2.mp4, sy0-701-0401-05-application-security_1.mp4, sy0-701-0401-05-application-security.mp4
+- **sy0-701-0404-02-security-tools.mp3**: sy0-701-0404-02-security-tools_2.mp3, sy0-701-0404-02-security-tools_1.mp3, sy0-701-0404-02-security-tools.mp3
+- **sy0-701-0204-02-viruses-and-worms.mp4**: sy0-701-0204-02-viruses-and-worms_1.mp4, sy0-701-0204-02-viruses-and-worms_2.mp4, sy0-701-0204-02-viruses-and-worms.mp4
+- **sy0-701-0403-02-threat-intelligence.mp3**: sy0-701-0403-02-threat-intelligence.mp3, sy0-701-0403-02-threat-intelligence_2.mp3, sy0-701-0403-02-threat-intelligence_1.mp3
+- **sy0-701-0405-02-web-filtering.mp4**: sy0-701-0405-02-web-filtering.mp4, sy0-701-0405-02-web-filtering_2.mp4, sy0-701-0405-02-web-filtering_1.mp4
+- **sy0-701-0202-02-phishing.mp4**: sy0-701-0202-02-phishing_2.mp4, sy0-701-0202-02-phishing_1.mp4, sy0-701-0202-02-phishing.mp4
+- **professor-messer-comptia-exam-hacks-v107s.md**: professor-messer-comptia-exam-hacks-v107s_1.md, professor-messer-comptia-exam-hacks-v107s.md
+- **sy0-701-0102-01-the-cia-triad.mp3**: sy0-701-0102-01-the-cia-triad.mp3, sy0-701-0102-01-the-cia-triad_2.mp3, sy0-701-0102-01-the-cia-triad_1.mp3
+- **sy0-701-0501-05-data-roles-and-responsibilities.mp4**: sy0-701-0501-05-data-roles-and-responsibilities_2.mp4, sy0-701-0501-05-data-roles-and-responsibilities_1.mp4, sy0-701-0501-05-data-roles-and-responsibilities.mp4
+- **sy0-701-0203-01-memory-injections.mp4**: sy0-701-0203-01-memory-injections.mp4, sy0-701-0203-01-memory-injections_1.mp4, sy0-701-0203-01-memory-injections_2.mp4
+- **Course #4 Key Terms and Definitions.docx**: Course #4 Key Terms and Definitions.docx, Course #4 Key Terms and Definitions_1.docx, Course #4 Key Terms and Definitions_2.docx
+- **risk-management-process-slides.pdf**: risk-management-process-slides_1.pdf, risk-management-process-slides.pdf
+- **sy0-701-0501-05-data-roles-and-responsibilities.mp3**: sy0-701-0501-05-data-roles-and-responsibilities_2.mp3, sy0-701-0501-05-data-roles-and-responsibilities_1.mp3, sy0-701-0501-05-data-roles-and-responsibilities.mp3
+- **sy0-701-0102-01-the-cia-triad.mp4**: sy0-701-0102-01-the-cia-triad.mp4, sy0-701-0102-01-the-cia-triad_2.mp4, sy0-701-0102-01-the-cia-triad_1.mp4
+- **professor-messer-comptia-exam-hacks-v107s.pdf**: professor-messer-comptia-exam-hacks-v107s_1.pdf, professor-messer-comptia-exam-hacks-v107s.pdf
+- **importance-of-automation-and-orchestration-related-to-secure-operations-slides.md**: importance-of-automation-and-orchestration-related-to-secure-operations-slides_1.md, importance-of-automation-and-orchestration-related-to-secure-operations-slides_2.md, importance-of-automation-and-orchestration-related-to-secure-operations-slides.md
+- **sy0-701-0203-01-memory-injections.mp3**: sy0-701-0203-01-memory-injections.mp3, sy0-701-0203-01-memory-injections_1.mp3, sy0-701-0203-01-memory-injections_2.mp3
+- **sy0-701-0302-03-network-appliances.mp3**: sy0-701-0302-03-network-appliances_2.mp3, sy0-701-0302-03-network-appliances_1.mp3, sy0-701-0302-03-network-appliances.mp3
+- **sy0-701-0302-06-secure-communication.mp3**: sy0-701-0302-06-secure-communication_1.mp3, sy0-701-0302-06-secure-communication_2.mp3, sy0-701-0302-06-secure-communication.mp3
+- **third-party-risk-assessment-and-management-slides.md**: third-party-risk-assessment-and-management-slides.md, third-party-risk-assessment-and-management-slides_1.md
+- **sy0-701-0302-03-network-appliances.mp4**: sy0-701-0302-03-network-appliances_2.mp4, sy0-701-0302-03-network-appliances_1.mp4, sy0-701-0302-03-network-appliances.mp4
+- **sy0-701-0302-06-secure-communication.mp4**: sy0-701-0302-06-secure-communication_1.mp4, sy0-701-0302-06-secure-communication_2.mp4, sy0-701-0302-06-secure-communication.mp4
+- **activities-associated-with-vulnerability-management-slides.pdf**: activities-associated-with-vulnerability-management-slides.pdf, activities-associated-with-vulnerability-management-slides_1.pdf, activities-associated-with-vulnerability-management-slides_2.pdf
+- **sy0-701-0103-02-technical-change-management.mp4**: sy0-701-0103-02-technical-change-management_2.mp4, sy0-701-0103-02-technical-change-management_1.mp4, sy0-701-0103-02-technical-change-management.mp4
+- **types-of-vulnerabilities-slides.pdf**: types-of-vulnerabilities-slides.pdf, types-of-vulnerabilities-slides_1.pdf
+- **sy0-701-0204-07-dns-attacks.mp4**: sy0-701-0204-07-dns-attacks_2.mp4, sy0-701-0204-07-dns-attacks_1.mp4, sy0-701-0204-07-dns-attacks.mp4
+- **sy0-701-0403-03-penetration-testing.mp3**: sy0-701-0403-03-penetration-testing.mp3, sy0-701-0403-03-penetration-testing_2.mp3, sy0-701-0403-03-penetration-testing_1.mp3
+- **security-implications-of-proper-hardware-software-and-data-asset-management-slides.md**: security-implications-of-proper-hardware-software-and-data-asset-management-slides.md, security-implications-of-proper-hardware-software-and-data-asset-management-slides_1.md, security-implications-of-proper-hardware-software-and-data-asset-management-slides_2.md
+- **domain-summary-slides.md**: domain-summary-slides_2.md, domain-summary-slides_11.md, domain-summary-slides_6.md, domain-summary-slides_7.md, domain-summary-slides_3.md, domain-summary-slides_10.md, domain-summary-slides_8.md, domain-summary-slides.md, domain-summary-slides_9.md, domain-summary-slides_4.md, domain-summary-slides_1.md, domain-summary-slides_12.md, domain-summary-slides_5.md
+- **sy0-701-0403-03-penetration-testing.mp4**: sy0-701-0403-03-penetration-testing.mp4, sy0-701-0403-03-penetration-testing_2.mp4, sy0-701-0403-03-penetration-testing_1.mp4
+- **sy0-701-0103-02-technical-change-management.mp3**: sy0-701-0103-02-technical-change-management_2.mp3, sy0-701-0103-02-technical-change-management_1.mp3, sy0-701-0103-02-technical-change-management.mp3
+- **sy0-701-0204-07-dns-attacks.mp3**: sy0-701-0204-07-dns-attacks_2.mp3, sy0-701-0204-07-dns-attacks_1.mp3, sy0-701-0204-07-dns-attacks.mp3
+- **sy0-701-0102-02-non-repudiation.mp3**: sy0-701-0102-02-non-repudiation.mp3, sy0-701-0102-02-non-repudiation_2.mp3, sy0-701-0102-02-non-repudiation_1.mp3
+- **sy0-701-0202-04-watering-hole-attacks.mp3**: sy0-701-0202-04-watering-hole-attacks.mp3, sy0-701-0202-04-watering-hole-attacks_1.mp3, sy0-701-0202-04-watering-hole-attacks_2.mp3
+- **sy0-701-0202-04-watering-hole-attacks.mp4**: sy0-701-0202-04-watering-hole-attacks.mp4, sy0-701-0202-04-watering-hole-attacks_1.mp4, sy0-701-0202-04-watering-hole-attacks_2.mp4
+- **sy0-701-0102-02-non-repudiation.mp4**: sy0-701-0102-02-non-repudiation.mp4, sy0-701-0102-02-non-repudiation_2.mp4, sy0-701-0102-02-non-repudiation_1.mp4
+- **secure-principles-to-secure-enterprise-infrastructure-slides.md**: secure-principles-to-secure-enterprise-infrastructure-slides_1.md, secure-principles-to-secure-enterprise-infrastructure-slides.md
+- **sy0-701-0301-01-cloud-infrastructures.mp4**: sy0-701-0301-01-cloud-infrastructures.mp4, sy0-701-0301-01-cloud-infrastructures_2.mp4, sy0-701-0301-01-cloud-infrastructures_1.mp4
+- **indicators-of-malicious-activity-slides.pdf**: indicators-of-malicious-activity-slides.pdf, indicators-of-malicious-activity-slides_1.pdf
+- **sy0-701-0301-01-cloud-infrastructures.mp3**: sy0-701-0301-01-cloud-infrastructures.mp3, sy0-701-0301-01-cloud-infrastructures_2.mp3, sy0-701-0301-01-cloud-infrastructures_1.mp3
+- **sy0-701-0502-04-business-impact-analysis.mp3**: sy0-701-0502-04-business-impact-analysis.mp3, sy0-701-0502-04-business-impact-analysis_1.mp3, sy0-701-0502-04-business-impact-analysis_2.mp3
+- **implement-and-maintain-identity-and-access-management-slides.md**: implement-and-maintain-identity-and-access-management-slides.md, implement-and-maintain-identity-and-access-management-slides_1.md, implement-and-maintain-identity-and-access-management-slides_2.md
+- **security-implications-of-different-architecture-models-slides.md**: security-implications-of-different-architecture-models-slides_1.md, security-implications-of-different-architecture-models-slides.md
+- **effective-security-compliance-slides.md**: effective-security-compliance-slides.md, effective-security-compliance-slides_1.md
+- **sy0-701-0502-04-business-impact-analysis.mp4**: sy0-701-0502-04-business-impact-analysis.mp4, sy0-701-0502-04-business-impact-analysis_1.mp4, sy0-701-0502-04-business-impact-analysis_2.mp4
+- **resilience-and-recovery-in-security-architecture-slides.md**: resilience-and-recovery-in-security-architecture-slides.md, resilience-and-recovery-in-security-architecture-slides_1.md
+- **modify-enterprise-capabilities-to-enhance-security-slides.md**: modify-enterprise-capabilities-to-enhance-security-slides.md, modify-enterprise-capabilities-to-enhance-security-slides_2.md, modify-enterprise-capabilities-to-enhance-security-slides_1.md
+- **sy0-701-0504-02-privacy.mp3**: sy0-701-0504-02-privacy.mp3, sy0-701-0504-02-privacy_2.mp3, sy0-701-0504-02-privacy_1.mp3
+- **sy0-701-0204-10-replay-attacks.mp3**: sy0-701-0204-10-replay-attacks.mp3, sy0-701-0204-10-replay-attacks_1.mp3, sy0-701-0204-10-replay-attacks_2.mp3
+- **sy0-701-0501-01-security-policies.mp3**: sy0-701-0501-01-security-policies.mp3, sy0-701-0501-01-security-policies_2.mp3, sy0-701-0501-01-security-policies_1.mp3
+- **security-alerting-and-monitoring-concepts-and-tools-slides.md**: security-alerting-and-monitoring-concepts-and-tools-slides_2.md, security-alerting-and-monitoring-concepts-and-tools-slides.md, security-alerting-and-monitoring-concepts-and-tools-slides_1.md
+- **sy0-701-0504-02-privacy.mp4**: sy0-701-0504-02-privacy.mp4, sy0-701-0504-02-privacy_2.mp4, sy0-701-0504-02-privacy_1.mp4
+- **change-management-processes-and-impacts-slides.md**: change-management-processes-and-impacts-slides_2.md, change-management-processes-and-impacts-slides.md, change-management-processes-and-impacts-slides_1.md
+- **sy0-701-0501-01-security-policies.mp4**: sy0-701-0501-01-security-policies.mp4, sy0-701-0501-01-security-policies_2.mp4, sy0-701-0501-01-security-policies_1.mp4
+- **sy0-701-0204-10-replay-attacks.mp4**: sy0-701-0204-10-replay-attacks.mp4, sy0-701-0204-10-replay-attacks_1.mp4, sy0-701-0204-10-replay-attacks_2.mp4
+- **sy0-701-0301-04-infrastructure-considerations.mp4**: sy0-701-0301-04-infrastructure-considerations.mp4, sy0-701-0301-04-infrastructure-considerations_1.mp4, sy0-701-0301-04-infrastructure-considerations_2.mp4
+- **sy0-701-0203-03-race-conditions.mp4**: sy0-701-0203-03-race-conditions.mp4, sy0-701-0203-03-race-conditions_1.mp4, sy0-701-0203-03-race-conditions_2.mp4
+- **sy0-701-0404-01-security-monitoring.mp4**: sy0-701-0404-01-security-monitoring.mp4, sy0-701-0404-01-security-monitoring_2.mp4, sy0-701-0404-01-security-monitoring_1.mp4
+- **sy0-701-0203-07-cross-site-scripting.mp3**: sy0-701-0203-07-cross-site-scripting_2.mp3, sy0-701-0203-07-cross-site-scripting_1.mp3, sy0-701-0203-07-cross-site-scripting.mp3
+- **sy0-701-0203-14-zero-day-vulnerabilities.mp4**: sy0-701-0203-14-zero-day-vulnerabilities.mp4, sy0-701-0203-14-zero-day-vulnerabilities_1.mp4, sy0-701-0203-14-zero-day-vulnerabilities_2.mp4
+- **sy0-701-0404-01-security-monitoring.mp3**: sy0-701-0404-01-security-monitoring.mp3, sy0-701-0404-01-security-monitoring_2.mp3, sy0-701-0404-01-security-monitoring_1.mp3
+- **sy0-701-0203-03-race-conditions.mp3**: sy0-701-0203-03-race-conditions.mp3, sy0-701-0203-03-race-conditions_1.mp3, sy0-701-0203-03-race-conditions_2.mp3
+- **sy0-701-0301-04-infrastructure-considerations.mp3**: sy0-701-0301-04-infrastructure-considerations.mp3, sy0-701-0301-04-infrastructure-considerations_1.mp3, sy0-701-0301-04-infrastructure-considerations_2.mp3
+- **common-threat-vectors-and-attack-surfaces-slides.pdf**: common-threat-vectors-and-attack-surfaces-slides.pdf, common-threat-vectors-and-attack-surfaces-slides_1.pdf
+- **sy0-701-0203-14-zero-day-vulnerabilities.mp3**: sy0-701-0203-14-zero-day-vulnerabilities.mp3, sy0-701-0203-14-zero-day-vulnerabilities_1.mp3, sy0-701-0203-14-zero-day-vulnerabilities_2.mp3
+- **sy0-701-0203-07-cross-site-scripting.mp4**: sy0-701-0203-07-cross-site-scripting_2.mp4, sy0-701-0203-07-cross-site-scripting_1.mp4, sy0-701-0203-07-cross-site-scripting.mp4
+- **sy0-701-0202-03-impersonation.mp4**: sy0-701-0202-03-impersonation.mp4, sy0-701-0202-03-impersonation_1.mp4, sy0-701-0202-03-impersonation_2.mp4
+- **applying-common-security-techniques-to-computing-resources-slides.pdf**: applying-common-security-techniques-to-computing-resources-slides_1.pdf, applying-common-security-techniques-to-computing-resources-slides_2.pdf, applying-common-security-techniques-to-computing-resources-slides.pdf
+- **sy0-701-0501-02-security-standards.mp3**: sy0-701-0501-02-security-standards.mp3, sy0-701-0501-02-security-standards_1.mp3, sy0-701-0501-02-security-standards_2.mp3
+- **sy0-701-0102-05-zero-trust.mp3**: sy0-701-0102-05-zero-trust_2.mp3, sy0-701-0102-05-zero-trust_1.mp3, sy0-701-0102-05-zero-trust.mp3
+- **Interview Preparation for Cybersecurity Jobs.docx**: Interview Preparation for Cybersecurity Jobs.docx, Interview Preparation for Cybersecurity Jobs_1.docx
+- **importance-of-automation-and-orchestration-related-to-secure-operations-slides.pdf**: importance-of-automation-and-orchestration-related-to-secure-operations-slides_2.pdf, importance-of-automation-and-orchestration-related-to-secure-operations-slides_1.pdf, importance-of-automation-and-orchestration-related-to-secure-operations-slides.pdf
+- **sy0-701-0501-02-security-standards.mp4**: sy0-701-0501-02-security-standards.mp4, sy0-701-0501-02-security-standards_1.mp4, sy0-701-0501-02-security-standards_2.mp4
+- **sy0-701-0202-03-impersonation.mp3**: sy0-701-0202-03-impersonation.mp3, sy0-701-0202-03-impersonation_1.mp3, sy0-701-0202-03-impersonation_2.mp3
+- **implement-and-maintain-identity-and-access-management-slides.pdf**: implement-and-maintain-identity-and-access-management-slides_2.pdf, implement-and-maintain-identity-and-access-management-slides_1.pdf, implement-and-maintain-identity-and-access-management-slides.pdf
+- **CompTIA Quick Reference Guide.pptx**: CompTIA Quick Reference Guide_1.pptx, CompTIA Quick Reference Guide.pptx
+- **use-data-sources-to-support-an-investigation-slides.md**: use-data-sources-to-support-an-investigation-slides_1.md, use-data-sources-to-support-an-investigation-slides.md, use-data-sources-to-support-an-investigation-slides_2.md
+- **sy0-701-0102-05-zero-trust.mp4**: sy0-701-0102-05-zero-trust_2.mp4, sy0-701-0102-05-zero-trust_1.mp4, sy0-701-0102-05-zero-trust.mp4
+- **sy0-701-0104-03-key-exchange.mp4**: sy0-701-0104-03-key-exchange.mp4, sy0-701-0104-03-key-exchange_1.mp4, sy0-701-0104-03-key-exchange_2.mp4
+- **sy0-701-0505-02-penetration-tests.mp3**: sy0-701-0505-02-penetration-tests_1.mp3, sy0-701-0505-02-penetration-tests_2.mp3, sy0-701-0505-02-penetration-tests.mp3
+- **appropriate-incident-response-activities-slides.pdf**: appropriate-incident-response-activities-slides_2.pdf, appropriate-incident-response-activities-slides_1.pdf, appropriate-incident-response-activities-slides.pdf
+- **sy0-701-0104-03-key-exchange.mp3**: sy0-701-0104-03-key-exchange.mp3, sy0-701-0104-03-key-exchange_1.mp3, sy0-701-0104-03-key-exchange_2.mp3
+- **risk-management-process-slides.md**: risk-management-process-slides_1.md, risk-management-process-slides.md
+- **sy0-701-0505-02-penetration-tests.mp4**: sy0-701-0505-02-penetration-tests_1.mp4, sy0-701-0505-02-penetration-tests_2.mp4, sy0-701-0505-02-penetration-tests.mp4
+- **sy0-701-0302-02-intrusion-prevention.mp4**: sy0-701-0302-02-intrusion-prevention.mp4, sy0-701-0302-02-intrusion-prevention_2.mp4, sy0-701-0302-02-intrusion-prevention_1.mp4
+- **sy0-701-0203-13-mobile-device-vulnerabilities.mp3**: sy0-701-0203-13-mobile-device-vulnerabilities_2.mp3, sy0-701-0203-13-mobile-device-vulnerabilities_1.mp3, sy0-701-0203-13-mobile-device-vulnerabilities.mp3
+- **sy0-701-0202-05-other-social-engineering-attacks.mp3**: sy0-701-0202-05-other-social-engineering-attacks_1.mp3, sy0-701-0202-05-other-social-engineering-attacks_2.mp3, sy0-701-0202-05-other-social-engineering-attacks.mp3
+- **sy0-701-0503-01-third-party-risk-assessment.mp3**: sy0-701-0503-01-third-party-risk-assessment_2.mp3, sy0-701-0503-01-third-party-risk-assessment_1.mp3, sy0-701-0503-01-third-party-risk-assessment.mp3
+- **sy0-701-0203-13-mobile-device-vulnerabilities.mp4**: sy0-701-0203-13-mobile-device-vulnerabilities_2.mp4, sy0-701-0203-13-mobile-device-vulnerabilities_1.mp4, sy0-701-0203-13-mobile-device-vulnerabilities.mp4
+- **sy0-701-0302-02-intrusion-prevention.mp3**: sy0-701-0302-02-intrusion-prevention.mp3, sy0-701-0302-02-intrusion-prevention_2.mp3, sy0-701-0302-02-intrusion-prevention_1.mp3
+- **sy0-701-0503-01-third-party-risk-assessment.mp4**: sy0-701-0503-01-third-party-risk-assessment_2.mp4, sy0-701-0503-01-third-party-risk-assessment_1.mp4, sy0-701-0503-01-third-party-risk-assessment.mp4
+- **security-alerting-and-monitoring-concepts-and-tools-slides.pdf**: security-alerting-and-monitoring-concepts-and-tools-slides_2.pdf, security-alerting-and-monitoring-concepts-and-tools-slides_1.pdf, security-alerting-and-monitoring-concepts-and-tools-slides.pdf
+- **sy0-701-0202-05-other-social-engineering-attacks.mp4**: sy0-701-0202-05-other-social-engineering-attacks_1.mp4, sy0-701-0202-05-other-social-engineering-attacks_2.mp4, sy0-701-0202-05-other-social-engineering-attacks.mp4
+- **fundamental-security-concepts-slides.md**: fundamental-security-concepts-slides_2.md, fundamental-security-concepts-slides.md, fundamental-security-concepts-slides_1.md
+- **sy0-701-0104-05-obfuscation.mp4**: sy0-701-0104-05-obfuscation.mp4, sy0-701-0104-05-obfuscation_2.mp4, sy0-701-0104-05-obfuscation_1.mp4
+- **sy0-701-0501-03-security-procedures.mp4**: sy0-701-0501-03-security-procedures.mp4, sy0-701-0501-03-security-procedures_1.mp4, sy0-701-0501-03-security-procedures_2.mp4
+- **sy0-701-0104-05-obfuscation.mp3**: sy0-701-0104-05-obfuscation.mp3, sy0-701-0104-05-obfuscation_2.mp3, sy0-701-0104-05-obfuscation_1.mp3
+- **professor-messer-sy0-701-comptia-security-plus-practice-exams-v18.md**: professor-messer-sy0-701-comptia-security-plus-practice-exams-v18.md, professor-messer-sy0-701-comptia-security-plus-practice-exams-v18_1.md
+- **sy0-701-0501-03-security-procedures.mp3**: sy0-701-0501-03-security-procedures.mp3, sy0-701-0501-03-security-procedures_1.mp3, sy0-701-0501-03-security-procedures_2.mp3
+- **applying-common-security-techniques-to-computing-resources-slides.md**: applying-common-security-techniques-to-computing-resources-slides.md, applying-common-security-techniques-to-computing-resources-slides_2.md, applying-common-security-techniques-to-computing-resources-slides_1.md
+- **mitigation-techniques-used-to-secure-the-enterprise-slides.md**: mitigation-techniques-used-to-secure-the-enterprise-slides.md, mitigation-techniques-used-to-secure-the-enterprise-slides_1.md
+- **sy0-701-0303-02-states-of-data.mp3**: sy0-701-0303-02-states-of-data.mp3, sy0-701-0303-02-states-of-data_1.mp3, sy0-701-0303-02-states-of-data_2.mp3
+- **sy0-701-0102-07-deception-and-disruption.mp3**: sy0-701-0102-07-deception-and-disruption.mp3, sy0-701-0102-07-deception-and-disruption_1.mp3, sy0-701-0102-07-deception-and-disruption_2.mp3
+- **sy0-701-0303-02-states-of-data.mp4**: sy0-701-0303-02-states-of-data.mp4, sy0-701-0303-02-states-of-data_1.mp4, sy0-701-0303-02-states-of-data_2.mp4
+- **appropriate-incident-response-activities-slides.md**: appropriate-incident-response-activities-slides_1.md, appropriate-incident-response-activities-slides_2.md, appropriate-incident-response-activities-slides.md
+- **resilience-and-recovery-in-security-architecture-slides.pdf**: resilience-and-recovery-in-security-architecture-slides.pdf, resilience-and-recovery-in-security-architecture-slides_1.pdf
+- **effective-elements-of-security-governance-slides.md**: effective-elements-of-security-governance-slides.md, effective-elements-of-security-governance-slides_1.md
+- **sy0-701-0102-07-deception-and-disruption.mp4**: sy0-701-0102-07-deception-and-disruption.mp4, sy0-701-0102-07-deception-and-disruption_1.mp4, sy0-701-0102-07-deception-and-disruption_2.mp4
+- **sy0-701-0405-01-firewalls.mp4**: sy0-701-0405-01-firewalls.mp4, sy0-701-0405-01-firewalls_1.mp4, sy0-701-0405-01-firewalls_2.mp4
+- **sy0-701-0205-02-mitigation-techniques.mp3**: sy0-701-0205-02-mitigation-techniques.mp3, sy0-701-0205-02-mitigation-techniques_1.mp3, sy0-701-0205-02-mitigation-techniques_2.mp3
+- **sy0-701-0405-01-firewalls.mp3**: sy0-701-0405-01-firewalls.mp3, sy0-701-0405-01-firewalls_1.mp3, sy0-701-0405-01-firewalls_2.mp3
+- **sy0-701-0205-02-mitigation-techniques.mp4**: sy0-701-0205-02-mitigation-techniques.mp4, sy0-701-0205-02-mitigation-techniques_1.mp4, sy0-701-0205-02-mitigation-techniques_2.mp4
+- **understanding-security-controls-slides.pdf**: understanding-security-controls-slides.pdf, understanding-security-controls-slides_2.pdf, understanding-security-controls-slides_1.pdf
+- **using-appropriate-cryptographic-solutions-slides.md**: using-appropriate-cryptographic-solutions-slides_2.md, using-appropriate-cryptographic-solutions-slides.md, using-appropriate-cryptographic-solutions-slides_1.md
+- **sy0-701-0204-14-password-attacks.mp4**: sy0-701-0204-14-password-attacks.mp4, sy0-701-0204-14-password-attacks_2.mp4, sy0-701-0204-14-password-attacks_1.mp4
+- **sy0-701-0204-14-password-attacks.mp3**: sy0-701-0204-14-password-attacks.mp3, sy0-701-0204-14-password-attacks_2.mp3, sy0-701-0204-14-password-attacks_1.mp3
+- **sy0-701-0506-02-user-training.mp3**: sy0-701-0506-02-user-training.mp3, sy0-701-0506-02-user-training_2.mp3, sy0-701-0506-02-user-training_1.mp3
+- **sy0-701-0304-01-resiliency.mp4**: sy0-701-0304-01-resiliency.mp4, sy0-701-0304-01-resiliency_2.mp4, sy0-701-0304-01-resiliency_1.mp4
+- **sy0-701-0304-05-power-resiliency.mp4**: sy0-701-0304-05-power-resiliency_1.mp4, sy0-701-0304-05-power-resiliency_2.mp4, sy0-701-0304-05-power-resiliency.mp4
+- **sy0-701-0203-12-misconfiguration-vulnerabilities.mp3**: sy0-701-0203-12-misconfiguration-vulnerabilities_2.mp3, sy0-701-0203-12-misconfiguration-vulnerabilities_1.mp3, sy0-701-0203-12-misconfiguration-vulnerabilities.mp3
+- **sy0-701-0203-09-virtualization-vulnerabilities.mp4**: sy0-701-0203-09-virtualization-vulnerabilities_1.mp4, sy0-701-0203-09-virtualization-vulnerabilities_2.mp4, sy0-701-0203-09-virtualization-vulnerabilities.mp4
+- **sy0-701-0203-12-misconfiguration-vulnerabilities.mp4**: sy0-701-0203-12-misconfiguration-vulnerabilities_2.mp4, sy0-701-0203-12-misconfiguration-vulnerabilities_1.mp4, sy0-701-0203-12-misconfiguration-vulnerabilities.mp4
+- **sy0-701-0304-01-resiliency.mp3**: sy0-701-0304-01-resiliency.mp3, sy0-701-0304-01-resiliency_2.mp3, sy0-701-0304-01-resiliency_1.mp3
+- **sy0-701-0304-05-power-resiliency.mp3**: sy0-701-0304-05-power-resiliency_1.mp3, sy0-701-0304-05-power-resiliency_2.mp3, sy0-701-0304-05-power-resiliency.mp3
+- **fundamental-security-concepts-slides.pdf**: fundamental-security-concepts-slides_2.pdf, fundamental-security-concepts-slides_1.pdf, fundamental-security-concepts-slides.pdf
+- **sy0-701-0506-02-user-training.mp4**: sy0-701-0506-02-user-training.mp4, sy0-701-0506-02-user-training_2.mp4, sy0-701-0506-02-user-training_1.mp4
+- **domain-summary-slides.pdf**: domain-summary-slides_2.pdf, domain-summary-slides_3.pdf, domain-summary-slides_1.pdf, domain-summary-slides.pdf, domain-summary-slides_4.pdf, domain-summary-slides_5.pdf, domain-summary-slides_7.pdf, domain-summary-slides_6.pdf, domain-summary-slides_8.pdf, domain-summary-slides_9.pdf, domain-summary-slides_11.pdf, domain-summary-slides_10.pdf, domain-summary-slides_12.pdf
+- **sy0-701-0203-09-virtualization-vulnerabilities.mp3**: sy0-701-0203-09-virtualization-vulnerabilities_1.mp3, sy0-701-0203-09-virtualization-vulnerabilities_2.mp3, sy0-701-0203-09-virtualization-vulnerabilities.mp3
+- **sy0-701-0102-06-physical-security.mp4**: sy0-701-0102-06-physical-security_2.mp4, sy0-701-0102-06-physical-security_1.mp4, sy0-701-0102-06-physical-security.mp4
+- **sy0-701-0203-06-sql-injection.mp4**: sy0-701-0203-06-sql-injection.mp4, sy0-701-0203-06-sql-injection_1.mp4, sy0-701-0203-06-sql-injection_2.mp4
+- **sy0-701-0104-04-encryption-technologies.mp3**: sy0-701-0104-04-encryption-technologies_1.mp3, sy0-701-0104-04-encryption-technologies_2.mp3, sy0-701-0104-04-encryption-technologies.mp3
+- **sy0-701-0203-11-supply-chain-vulnerabilities.mp4**: sy0-701-0203-11-supply-chain-vulnerabilities_2.mp4, sy0-701-0203-11-supply-chain-vulnerabilities_1.mp4, sy0-701-0203-11-supply-chain-vulnerabilities.mp4
+- **using-appropriate-cryptographic-solutions-slides.pdf**: using-appropriate-cryptographic-solutions-slides_1.pdf, using-appropriate-cryptographic-solutions-slides_2.pdf, using-appropriate-cryptographic-solutions-slides.pdf
+- **sy0-701-0204-12-application-attacks.mp4**: sy0-701-0204-12-application-attacks_2.mp4, sy0-701-0204-12-application-attacks_1.mp4, sy0-701-0204-12-application-attacks.mp4
+- **sy0-701-0102-03-authentication-authorization-and-accounting.mp3**: sy0-701-0102-03-authentication-authorization-and-accounting_1.mp3, sy0-701-0102-03-authentication-authorization-and-accounting_2.mp3, sy0-701-0102-03-authentication-authorization-and-accounting.mp3
+- **sy0-701-0203-11-supply-chain-vulnerabilities.mp3**: sy0-701-0203-11-supply-chain-vulnerabilities_2.mp3, sy0-701-0203-11-supply-chain-vulnerabilities_1.mp3, sy0-701-0203-11-supply-chain-vulnerabilities.mp3
+- **sy0-701-0102-06-physical-security.mp3**: sy0-701-0102-06-physical-security_2.mp3, sy0-701-0102-06-physical-security_1.mp3, sy0-701-0102-06-physical-security.mp3
+- **sy0-701-0203-06-sql-injection.mp3**: sy0-701-0203-06-sql-injection.mp3, sy0-701-0203-06-sql-injection_1.mp3, sy0-701-0203-06-sql-injection_2.mp3
+- **sy0-701-0104-04-encryption-technologies.mp4**: sy0-701-0104-04-encryption-technologies_1.mp4, sy0-701-0104-04-encryption-technologies_2.mp4, sy0-701-0104-04-encryption-technologies.mp4
+- **sy0-701-0102-03-authentication-authorization-and-accounting.mp4**: sy0-701-0102-03-authentication-authorization-and-accounting_1.mp4, sy0-701-0102-03-authentication-authorization-and-accounting.mp4, sy0-701-0102-03-authentication-authorization-and-accounting_2.mp4
+- **sy0-701-0204-12-application-attacks.mp3**: sy0-701-0204-12-application-attacks_2.mp3, sy0-701-0204-12-application-attacks_1.mp3, sy0-701-0204-12-application-attacks.mp3
+- **sy0-701-0503-02-agreement-types.mp4**: sy0-701-0503-02-agreement-types_2.mp4, sy0-701-0503-02-agreement-types_1.mp4, sy0-701-0503-02-agreement-types.mp4
+- **sy0-701-0405-04-secure-protocols.mp4**: sy0-701-0405-04-secure-protocols_2.mp4, sy0-701-0405-04-secure-protocols_1.mp4, sy0-701-0405-04-secure-protocols.mp4
+- **sy0-701-0405-07-endpoint-security.mp4**: sy0-701-0405-07-endpoint-security.mp4, sy0-701-0405-07-endpoint-security_2.mp4, sy0-701-0405-07-endpoint-security_1.mp4
+- **sy0-701-0406-04-password-security.mp3**: sy0-701-0406-04-password-security_2.mp3, sy0-701-0406-04-password-security_1.mp3, sy0-701-0406-04-password-security.mp3
+- **sy0-701-0405-04-secure-protocols.mp3**: sy0-701-0405-04-secure-protocols_2.mp3, sy0-701-0405-04-secure-protocols_1.mp3, sy0-701-0405-04-secure-protocols.mp3
+- **sy0-701-0503-02-agreement-types.mp3**: sy0-701-0503-02-agreement-types_2.mp3, sy0-701-0503-02-agreement-types_1.mp3, sy0-701-0503-02-agreement-types.mp3
+- **sy0-701-0406-04-password-security.mp4**: sy0-701-0406-04-password-security_2.mp4, sy0-701-0406-04-password-security_1.mp4, sy0-701-0406-04-password-security.mp4
+- **sy0-701-0405-07-endpoint-security.mp3**: sy0-701-0405-07-endpoint-security.mp3, sy0-701-0405-07-endpoint-security_2.mp3, sy0-701-0405-07-endpoint-security_1.mp3
+- **sy0-701-0302-05-firewall-types.mp3**: sy0-701-0302-05-firewall-types_1.mp3, sy0-701-0302-05-firewall-types_2.mp3, sy0-701-0302-05-firewall-types.mp3
+- **sy0-701-0302-05-firewall-types.mp4**: sy0-701-0302-05-firewall-types_1.mp4, sy0-701-0302-05-firewall-types_2.mp4, sy0-701-0302-05-firewall-types.mp4
+- **sy0-701-0205-01-segmentation-and-access-control.mp3**: sy0-701-0205-01-segmentation-and-access-control.mp3, sy0-701-0205-01-segmentation-and-access-control_1.mp3, sy0-701-0205-01-segmentation-and-access-control_2.mp3
+- **types-and-purposes-of-audits-and-assessments-slides.pdf**: types-and-purposes-of-audits-and-assessments-slides.pdf, types-and-purposes-of-audits-and-assessments-slides_1.pdf
+- **sy0-701-0205-01-segmentation-and-access-control.mp4**: sy0-701-0205-01-segmentation-and-access-control.mp4, sy0-701-0205-01-segmentation-and-access-control_1.mp4, sy0-701-0205-01-segmentation-and-access-control_2.mp4
+- **understanding-security-controls-slides.md**: understanding-security-controls-slides.md, understanding-security-controls-slides_1.md, understanding-security-controls-slides_2.md
+- **types-of-vulnerabilities-slides.md**: types-of-vulnerabilities-slides.md, types-of-vulnerabilities-slides_1.md
+- **sy0-701-0401-03-securing-wireless-and-mobile.mp3**: sy0-701-0401-03-securing-wireless-and-mobile.mp3, sy0-701-0401-03-securing-wireless-and-mobile_2.mp3, sy0-701-0401-03-securing-wireless-and-mobile_1.mp3
+- **sy0-701-0504-01-compliance.mp3**: sy0-701-0504-01-compliance.mp3, sy0-701-0504-01-compliance_2.mp3, sy0-701-0504-01-compliance_1.mp3
+- **sy0-701-0401-03-securing-wireless-and-mobile.mp4**: sy0-701-0401-03-securing-wireless-and-mobile.mp4, sy0-701-0401-03-securing-wireless-and-mobile_2.mp4, sy0-701-0401-03-securing-wireless-and-mobile_1.mp4
+- **sy0-701-0504-01-compliance.mp4**: sy0-701-0504-01-compliance.mp4, sy0-701-0504-01-compliance_2.mp4, sy0-701-0504-01-compliance_1.mp4
+- **sy0-701-0304-04-backups.mp3**: sy0-701-0304-04-backups.mp3, sy0-701-0304-04-backups_1.mp3, sy0-701-0304-04-backups_2.mp3
+- **sy0-701-0303-01-data-types-and-classifications.mp4**: sy0-701-0303-01-data-types-and-classifications.mp4, sy0-701-0303-01-data-types-and-classifications_2.mp4, sy0-701-0303-01-data-types-and-classifications_1.mp4
+- **sy0-701-0304-04-backups.mp4**: sy0-701-0304-04-backups.mp4, sy0-701-0304-04-backups_1.mp4, sy0-701-0304-04-backups_2.mp4
+- **implement-security-awareness-practices-slides.pdf**: implement-security-awareness-practices-slides.pdf, implement-security-awareness-practices-slides_1.pdf
+- **sy0-701-0303-01-data-types-and-classifications.mp3**: sy0-701-0303-01-data-types-and-classifications.mp3, sy0-701-0303-01-data-types-and-classifications_2.mp3, sy0-701-0303-01-data-types-and-classifications_1.mp3
+- **sy0-701-0205-03-hardening-techniques.mp3**: sy0-701-0205-03-hardening-techniques.mp3, sy0-701-0205-03-hardening-techniques_2.mp3, sy0-701-0205-03-hardening-techniques_1.mp3
+- **mitigation-techniques-used-to-secure-the-enterprise-slides.pdf**: mitigation-techniques-used-to-secure-the-enterprise-slides.pdf, mitigation-techniques-used-to-secure-the-enterprise-slides_1.pdf
+- **sy0-701-0205-03-hardening-techniques.mp4**: sy0-701-0205-03-hardening-techniques.mp4, sy0-701-0205-03-hardening-techniques_2.mp4, sy0-701-0205-03-hardening-techniques_1.mp4
+- **types-and-purposes-of-audits-and-assessments-slides.md**: types-and-purposes-of-audits-and-assessments-slides.md, types-and-purposes-of-audits-and-assessments-slides_1.md
+- **sy0-701-0203-05-operating-system-vulnerabilities.mp3**: sy0-701-0203-05-operating-system-vulnerabilities.mp3, sy0-701-0203-05-operating-system-vulnerabilities_2.mp3, sy0-701-0203-05-operating-system-vulnerabilities_1.mp3
+- **sy0-701-0409-01-log-data.mp4**: sy0-701-0409-01-log-data.mp4, sy0-701-0409-01-log-data_1.mp4, sy0-701-0409-01-log-data_2.mp4
+- **common-threat-vectors-and-attack-surfaces-slides.md**: common-threat-vectors-and-attack-surfaces-slides.md, common-threat-vectors-and-attack-surfaces-slides_1.md
+- **sy0-701-0401-02-hardening-targets.mp4**: sy0-701-0401-02-hardening-targets.mp4, sy0-701-0401-02-hardening-targets_1.mp4, sy0-701-0401-02-hardening-targets_2.mp4
+- **sy0-701-0104-06-hashing-and-digital-signatures.mp3**: sy0-701-0104-06-hashing-and-digital-signatures_2.mp3, sy0-701-0104-06-hashing-and-digital-signatures_1.mp3, sy0-701-0104-06-hashing-and-digital-signatures.mp3
+- **secure-principles-to-secure-enterprise-infrastructure-slides.pdf**: secure-principles-to-secure-enterprise-infrastructure-slides.pdf, secure-principles-to-secure-enterprise-infrastructure-slides_1.pdf
+- **sy0-701-0409-01-log-data.mp3**: sy0-701-0409-01-log-data.mp3, sy0-701-0409-01-log-data_1.mp3, sy0-701-0409-01-log-data_2.mp3
+- **sy0-701-0203-05-operating-system-vulnerabilities.mp4**: sy0-701-0203-05-operating-system-vulnerabilities.mp4, sy0-701-0203-05-operating-system-vulnerabilities_2.mp4, sy0-701-0203-05-operating-system-vulnerabilities_1.mp4
+- **sy0-701-0104-06-hashing-and-digital-signatures.mp4**: sy0-701-0104-06-hashing-and-digital-signatures_2.mp4, sy0-701-0104-06-hashing-and-digital-signatures_1.mp4, sy0-701-0104-06-hashing-and-digital-signatures.mp4
+- **sy0-701-0401-02-hardening-targets.mp3**: sy0-701-0401-02-hardening-targets.mp3, sy0-701-0401-02-hardening-targets_1.mp3, sy0-701-0401-02-hardening-targets_2.mp3
+- **sy0-701-0406-03-multi-factor-authentication.mp3**: sy0-701-0406-03-multi-factor-authentication_1.mp3, sy0-701-0406-03-multi-factor-authentication_2.mp3, sy0-701-0406-03-multi-factor-authentication.mp3
+- **sy0-701-0501-04-security-considerations.mp4**: sy0-701-0501-04-security-considerations_1.mp4, sy0-701-0501-04-security-considerations.mp4, sy0-701-0501-04-security-considerations_2.mp4
+- **sy0-701-0203-04-malicious-updates.mp3**: sy0-701-0203-04-malicious-updates.mp3, sy0-701-0203-04-malicious-updates_1.mp3, sy0-701-0203-04-malicious-updates_2.mp3
+- **sy0-701-0202-01-common-threat-vectors.mp4**: sy0-701-0202-01-common-threat-vectors_2.mp4, sy0-701-0202-01-common-threat-vectors_1.mp4, sy0-701-0202-01-common-threat-vectors.mp4
+- **activities-associated-with-vulnerability-management-slides.md**: activities-associated-with-vulnerability-management-slides_1.md, activities-associated-with-vulnerability-management-slides_2.md, activities-associated-with-vulnerability-management-slides.md
+- **sy0-701-0405-06-monitoring-data.mp4**: sy0-701-0405-06-monitoring-data.mp4, sy0-701-0405-06-monitoring-data_1.mp4, sy0-701-0405-06-monitoring-data_2.mp4
+- **modify-enterprise-capabilities-to-enhance-security-slides.pdf**: modify-enterprise-capabilities-to-enhance-security-slides_1.pdf, modify-enterprise-capabilities-to-enhance-security-slides_2.pdf, modify-enterprise-capabilities-to-enhance-security-slides.pdf
+- **sy0-701-0301-03-other-infrastructure-concepts.mp4**: sy0-701-0301-03-other-infrastructure-concepts_1.mp4, sy0-701-0301-03-other-infrastructure-concepts.mp4, sy0-701-0301-03-other-infrastructure-concepts_2.mp4
+- **implement-security-awareness-practices-slides.md**: implement-security-awareness-practices-slides_1.md, implement-security-awareness-practices-slides.md
+- **sy0-701-0501-04-security-considerations.mp3**: sy0-701-0501-04-security-considerations_1.mp3, sy0-701-0501-04-security-considerations_2.mp3, sy0-701-0501-04-security-considerations.mp3
+- **sy0-701-0406-03-multi-factor-authentication.mp4**: sy0-701-0406-03-multi-factor-authentication_1.mp4, sy0-701-0406-03-multi-factor-authentication_2.mp4, sy0-701-0406-03-multi-factor-authentication.mp4
+- **sy0-701-0301-03-other-infrastructure-concepts.mp3**: sy0-701-0301-03-other-infrastructure-concepts_1.mp3, sy0-701-0301-03-other-infrastructure-concepts.mp3, sy0-701-0301-03-other-infrastructure-concepts_2.mp3
+- **sy0-701-0405-06-monitoring-data.mp3**: sy0-701-0405-06-monitoring-data.mp3, sy0-701-0405-06-monitoring-data_1.mp3, sy0-701-0405-06-monitoring-data_2.mp3
+- **sy0-701-0202-01-common-threat-vectors.mp3**: sy0-701-0202-01-common-threat-vectors_2.mp3, sy0-701-0202-01-common-threat-vectors_1.mp3, sy0-701-0202-01-common-threat-vectors.mp3
+- **sy0-701-0203-04-malicious-updates.mp4**: sy0-701-0203-04-malicious-updates.mp4, sy0-701-0203-04-malicious-updates_1.mp4, sy0-701-0203-04-malicious-updates_2.mp4
+- **sy0-701-0204-11-malicious-code.mp4**: sy0-701-0204-11-malicious-code_2.mp4, sy0-701-0204-11-malicious-code_1.mp4, sy0-701-0204-11-malicious-code.mp4
+- **sy0-701-0104-07-blockchain-technology.mp3**: sy0-701-0104-07-blockchain-technology.mp3, sy0-701-0104-07-blockchain-technology_2.mp3, sy0-701-0104-07-blockchain-technology_1.mp3
+- **sy0-701-0502-02-risk-analysis.mp4**: sy0-701-0502-02-risk-analysis_2.mp4, sy0-701-0502-02-risk-analysis_1.mp4, sy0-701-0502-02-risk-analysis.mp4
+- **change-management-processes-and-impacts-slides.pdf**: change-management-processes-and-impacts-slides.pdf, change-management-processes-and-impacts-slides_1.pdf, change-management-processes-and-impacts-slides_2.pdf
+- **sy0-701-0104-07-blockchain-technology.mp4**: sy0-701-0104-07-blockchain-technology.mp4, sy0-701-0104-07-blockchain-technology_2.mp4, sy0-701-0104-07-blockchain-technology_1.mp4
+- **sy0-701-0502-02-risk-analysis.mp3**: sy0-701-0502-02-risk-analysis_2.mp3, sy0-701-0502-02-risk-analysis_1.mp3, sy0-701-0502-02-risk-analysis.mp3
+- **sy0-701-0204-11-malicious-code.mp3**: sy0-701-0204-11-malicious-code_2.mp3, sy0-701-0204-11-malicious-code_1.mp3, sy0-701-0204-11-malicious-code.mp3
+- **sy0-701-0101-01-security-controls.mp4**: sy0-701-0101-01-security-controls.mp4, sy0-701-0101-01-security-controls_2.mp4, sy0-701-0101-01-security-controls_1.mp4
+- **sy0-701-0401-04-wireless-security-settings.mp4**: sy0-701-0401-04-wireless-security-settings.mp4, sy0-701-0401-04-wireless-security-settings_2.mp4, sy0-701-0401-04-wireless-security-settings_1.mp4
+- **sy0-701-0203-02-buffer-overflows.mp4**: sy0-701-0203-02-buffer-overflows_1.mp4, sy0-701-0203-02-buffer-overflows.mp4, sy0-701-0203-02-buffer-overflows_2.mp4
+- **sy0-701-0204-06-denial-of-service.mp4**: sy0-701-0204-06-denial-of-service.mp4, sy0-701-0204-06-denial-of-service_2.mp4, sy0-701-0204-06-denial-of-service_1.mp4
+- **sy0-701-0204-08-wireless-attacks.mp3**: sy0-701-0204-08-wireless-attacks_2.mp3, sy0-701-0204-08-wireless-attacks_1.mp3, sy0-701-0204-08-wireless-attacks.mp3
+- **sy0-701-0203-02-buffer-overflows.mp3**: sy0-701-0203-02-buffer-overflows_1.mp3, sy0-701-0203-02-buffer-overflows.mp3, sy0-701-0203-02-buffer-overflows_2.mp3
+- **sy0-701-0101-01-security-controls.mp3**: sy0-701-0101-01-security-controls.mp3, sy0-701-0101-01-security-controls_2.mp3, sy0-701-0101-01-security-controls_1.mp3
+- **sy0-701-0401-04-wireless-security-settings.mp3**: sy0-701-0401-04-wireless-security-settings.mp3, sy0-701-0401-04-wireless-security-settings_2.mp3, sy0-701-0401-04-wireless-security-settings_1.mp3
+- **sy0-701-0204-08-wireless-attacks.mp4**: sy0-701-0204-08-wireless-attacks_2.mp4, sy0-701-0204-08-wireless-attacks_1.mp4, sy0-701-0204-08-wireless-attacks.mp4
+- **sy0-701-0204-06-denial-of-service.mp3**: sy0-701-0204-06-denial-of-service.mp3, sy0-701-0204-06-denial-of-service_2.mp3, sy0-701-0204-06-denial-of-service_1.mp3
+- **indicators-of-malicious-activity-slides.md**: indicators-of-malicious-activity-slides_1.md, indicators-of-malicious-activity-slides.md
+- **sy0-701-0502-03-risk-management-strategies.mp3**: sy0-701-0502-03-risk-management-strategies.mp3, sy0-701-0502-03-risk-management-strategies_2.mp3, sy0-701-0502-03-risk-management-strategies_1.mp3
+- **sy0-701-0506-01-security-awareness.mp4**: sy0-701-0506-01-security-awareness.mp4, sy0-701-0506-01-security-awareness_1.mp4, sy0-701-0506-01-security-awareness_2.mp4
+- **sy0-701-0304-03-recovery-testing.mp3**: sy0-701-0304-03-recovery-testing.mp3, sy0-701-0304-03-recovery-testing_2.mp3, sy0-701-0304-03-recovery-testing_1.mp3
+- **CompTIA-S70-701-Audiobook.mp3**: CompTIA-S70-701-Audiobook.mp3, CompTIA-S70-701-Audiobook_1.mp3
+- **sy0-701-0502-03-risk-management-strategies.mp4**: sy0-701-0502-03-risk-management-strategies.mp4, sy0-701-0502-03-risk-management-strategies_2.mp4, sy0-701-0502-03-risk-management-strategies_1.mp4
+- **effective-elements-of-security-governance-slides.pdf**: effective-elements-of-security-governance-slides.pdf, effective-elements-of-security-governance-slides_1.pdf
+- **sy0-701-0304-03-recovery-testing.mp4**: sy0-701-0304-03-recovery-testing.mp4, sy0-701-0304-03-recovery-testing_2.mp4, sy0-701-0304-03-recovery-testing_1.mp4
+- **sy0-701-0506-01-security-awareness.mp3**: sy0-701-0506-01-security-awareness.mp3, sy0-701-0506-01-security-awareness_1.mp3, sy0-701-0506-01-security-awareness_2.mp3
+- **sy0-701-0204-03-spyware-and-bloatware.mp3**: sy0-701-0204-03-spyware-and-bloatware.mp3, sy0-701-0204-03-spyware-and-bloatware_1.mp3, sy0-701-0204-03-spyware-and-bloatware_2.mp3
+- **security-implications-of-different-architecture-models-slides.pdf**: security-implications-of-different-architecture-models-slides.pdf, security-implications-of-different-architecture-models-slides_1.pdf
+- **sy0-701-0204-03-spyware-and-bloatware.mp4**: sy0-701-0204-03-spyware-and-bloatware.mp4, sy0-701-0204-03-spyware-and-bloatware_1.mp4, sy0-701-0204-03-spyware-and-bloatware_2.mp4
+- **sy0-701-0302-04-port-security.mp3**: sy0-701-0302-04-port-security_1.mp3, sy0-701-0302-04-port-security_2.mp3, sy0-701-0302-04-port-security.mp3
+- **sy0-701-0402-01-asset-management.mp4**: sy0-701-0402-01-asset-management.mp4, sy0-701-0402-01-asset-management_2.mp4, sy0-701-0402-01-asset-management_1.mp4
+- **professor-messer-sy0-701-comptia-security-plus-practice-exams-v18.pdf**: professor-messer-sy0-701-comptia-security-plus-practice-exams-v18.pdf, professor-messer-sy0-701-comptia-security-plus-practice-exams-v18_1.pdf
+- **sy0-701-0302-04-port-security.mp4**: sy0-701-0302-04-port-security_1.mp4, sy0-701-0302-04-port-security_2.mp4, sy0-701-0302-04-port-security.mp4
+- **sy0-701-0402-01-asset-management.mp3**: sy0-701-0402-01-asset-management.mp3, sy0-701-0402-01-asset-management_2.mp3, sy0-701-0402-01-asset-management_1.mp3
+- **sy0-701-0505-01-audits-and-assessments.mp3**: sy0-701-0505-01-audits-and-assessments.mp3, sy0-701-0505-01-audits-and-assessments_2.mp3, sy0-701-0505-01-audits-and-assessments_1.mp3
+- **sy0-701-0505-01-audits-and-assessments.mp4**: sy0-701-0505-01-audits-and-assessments.mp4, sy0-701-0505-01-audits-and-assessments_2.mp4, sy0-701-0505-01-audits-and-assessments_1.mp4
+- **sy0-701-0408-02-incident-planning.mp4**: sy0-701-0408-02-incident-planning_2.mp4, sy0-701-0408-02-incident-planning_1.mp4, sy0-701-0408-02-incident-planning.mp4
+- **use-data-sources-to-support-an-investigation-slides.pdf**: use-data-sources-to-support-an-investigation-slides.pdf, use-data-sources-to-support-an-investigation-slides_2.pdf, use-data-sources-to-support-an-investigation-slides_1.pdf
+- **sy0-701-0103-01-change-management.mp3**: sy0-701-0103-01-change-management_2.mp3, sy0-701-0103-01-change-management_1.mp3, sy0-701-0103-01-change-management.mp3
+- **sy0-701-0408-02-incident-planning.mp3**: sy0-701-0408-02-incident-planning_2.mp3, sy0-701-0408-02-incident-planning_1.mp3, sy0-701-0408-02-incident-planning.mp3
+- **sy0-701-0103-01-change-management.mp4**: sy0-701-0103-01-change-management_2.mp4, sy0-701-0103-01-change-management_1.mp4, sy0-701-0103-01-change-management.mp4
+- **professor-messer-sy0-701-comptia-security-plus-course-notes-v107.md**: professor-messer-sy0-701-comptia-security-plus-course-notes-v107.md, professor-messer-sy0-701-comptia-security-plus-course-notes-v107_1.md
+- **third-party-risk-assessment-and-management-slides.pdf**: third-party-risk-assessment-and-management-slides.pdf, third-party-risk-assessment-and-management-slides_1.pdf
+- **sy0-701-0203-08-hardware-vulnerabilities.mp3**: sy0-701-0203-08-hardware-vulnerabilities.mp3, sy0-701-0203-08-hardware-vulnerabilities_2.mp3, sy0-701-0203-08-hardware-vulnerabilities_1.mp3
+- **sy0-701-0203-08-hardware-vulnerabilities.mp4**: sy0-701-0203-08-hardware-vulnerabilities.mp4, sy0-701-0203-08-hardware-vulnerabilities_2.mp4, sy0-701-0203-08-hardware-vulnerabilities_1.mp4
+- **sy0-701-0408-01-incident-response.mp3**: sy0-701-0408-01-incident-response.mp3, sy0-701-0408-01-incident-response_1.mp3, sy0-701-0408-01-incident-response_2.mp3
+- **sy0-701-0408-01-incident-response.mp4**: sy0-701-0408-01-incident-response.mp4, sy0-701-0408-01-incident-response_1.mp4, sy0-701-0408-01-incident-response_2.mp4
+- **sy0-701-0204-05-physical-attacks.mp4**: sy0-701-0204-05-physical-attacks.mp4, sy0-701-0204-05-physical-attacks_2.mp4, sy0-701-0204-05-physical-attacks_1.mp4
+- **sy0-701-0204-01-an-overview-of-malware.mp3**: sy0-701-0204-01-an-overview-of-malware.mp3, sy0-701-0204-01-an-overview-of-malware_2.mp3, sy0-701-0204-01-an-overview-of-malware_1.mp3
+- **sy0-701-0204-05-physical-attacks.mp3**: sy0-701-0204-05-physical-attacks.mp3, sy0-701-0204-05-physical-attacks_2.mp3, sy0-701-0204-05-physical-attacks_1.mp3
+- **Plain Text Flashcards.txt**: Plain Text Flashcards_1.txt, Plain Text Flashcards.txt
+- **sy0-701-0204-01-an-overview-of-malware.mp4**: sy0-701-0204-01-an-overview-of-malware.mp4, sy0-701-0204-01-an-overview-of-malware_2.mp4, sy0-701-0204-01-an-overview-of-malware_1.mp4
+- **sy0-701-0403-01-vulnerability-scanning.mp4**: sy0-701-0403-01-vulnerability-scanning.mp4, sy0-701-0403-01-vulnerability-scanning_2.mp4, sy0-701-0403-01-vulnerability-scanning_1.mp4
+- **sy0-701-0403-01-vulnerability-scanning.mp3**: sy0-701-0403-01-vulnerability-scanning.mp3, sy0-701-0403-01-vulnerability-scanning_2.mp3, sy0-701-0403-01-vulnerability-scanning_1.mp3
+- **sy0-701-0104-08-certificates.mp4**: sy0-701-0104-08-certificates.mp4, sy0-701-0104-08-certificates_2.mp4, sy0-701-0104-08-certificates_1.mp4
+- **sy0-701-0104-02-encrypting-data.mp4**: sy0-701-0104-02-encrypting-data_1.mp4, sy0-701-0104-02-encrypting-data_2.mp4, sy0-701-0104-02-encrypting-data.mp4
+- **sy0-701-0405-03-operating-system-security.mp4**: sy0-701-0405-03-operating-system-security.mp4, sy0-701-0405-03-operating-system-security_2.mp4, sy0-701-0405-03-operating-system-security_1.mp4
+- **sy0-701-0104-08-certificates.mp3**: sy0-701-0104-08-certificates.mp3, sy0-701-0104-08-certificates_2.mp3, sy0-701-0104-08-certificates_1.mp3
+- **sy0-701-0104-02-encrypting-data.mp3**: sy0-701-0104-02-encrypting-data_1.mp3, sy0-701-0104-02-encrypting-data_2.mp3, sy0-701-0104-02-encrypting-data.mp3
+- **sy0-701-0405-03-operating-system-security.mp3**: sy0-701-0405-03-operating-system-security.mp3, sy0-701-0405-03-operating-system-security_2.mp3, sy0-701-0405-03-operating-system-security_1.mp3
+- **Anki FlashCards.apkg**: Anki FlashCards.apkg, Anki FlashCards_1.apkg
+- **sy0-701-0403-04-analyzing-vulnerabilities.mp4**: sy0-701-0403-04-analyzing-vulnerabilities.mp4, sy0-701-0403-04-analyzing-vulnerabilities_1.mp4, sy0-701-0403-04-analyzing-vulnerabilities_2.mp4
+- **sy0-701-0203-10-cloud-specific-vulnerabilities.mp3**: sy0-701-0203-10-cloud-specific-vulnerabilities_2.mp3, sy0-701-0203-10-cloud-specific-vulnerabilities_1.mp3, sy0-701-0203-10-cloud-specific-vulnerabilities.mp3
+- **sy0-701-0403-04-analyzing-vulnerabilities.mp3**: sy0-701-0403-04-analyzing-vulnerabilities.mp3, sy0-701-0403-04-analyzing-vulnerabilities_1.mp3, sy0-701-0403-04-analyzing-vulnerabilities_2.mp3
+- **sy0-701-0203-10-cloud-specific-vulnerabilities.mp4**: sy0-701-0203-10-cloud-specific-vulnerabilities_2.mp4, sy0-701-0203-10-cloud-specific-vulnerabilities_1.mp4, sy0-701-0203-10-cloud-specific-vulnerabilities.mp4
+- **sy0-701-0204-13-cryptographic-attacks.mp3**: sy0-701-0204-13-cryptographic-attacks_1.mp3, sy0-701-0204-13-cryptographic-attacks_2.mp3, sy0-701-0204-13-cryptographic-attacks.mp3
+- **sy0-701-0204-04-other-malware-types.mp4**: sy0-701-0204-04-other-malware-types.mp4, sy0-701-0204-04-other-malware-types_1.mp4, sy0-701-0204-04-other-malware-types_2.mp4
+- **Cybersecurity Best Practices_ Cutting-Edge Strategies and Techniques.docx**: Cybersecurity Best Practices_ Cutting-Edge Strategies and Techniques_1.docx, Cybersecurity Best Practices_ Cutting-Edge Strategies and Techniques.docx
+- **sy0-701-0204-13-cryptographic-attacks.mp4**: sy0-701-0204-13-cryptographic-attacks_1.mp4, sy0-701-0204-13-cryptographic-attacks_2.mp4, sy0-701-0204-13-cryptographic-attacks.mp4
+- **sy0-701-0204-04-other-malware-types.mp3**: sy0-701-0204-04-other-malware-types.mp3, sy0-701-0204-04-other-malware-types_1.mp3, sy0-701-0204-04-other-malware-types_2.mp3
+- **sy0-701-0304-02-capacity-planning.mp3**: sy0-701-0304-02-capacity-planning_2.mp3, sy0-701-0304-02-capacity-planning.mp3, sy0-701-0304-02-capacity-planning_1.mp3
+- **sy0-701-0301-02-network-infrastructure-concepts.mp3**: sy0-701-0301-02-network-infrastructure-concepts.mp3, sy0-701-0301-02-network-infrastructure-concepts_2.mp3, sy0-701-0301-02-network-infrastructure-concepts_1.mp3
+- **sy0-701-0302-01-secure-infrastructures.mp4**: sy0-701-0302-01-secure-infrastructures_2.mp4, sy0-701-0302-01-secure-infrastructures_1.mp4, sy0-701-0302-01-secure-infrastructures.mp4
+- **sy0-701-0301-02-network-infrastructure-concepts.mp4**: sy0-701-0301-02-network-infrastructure-concepts_2.mp4, sy0-701-0301-02-network-infrastructure-concepts.mp4, sy0-701-0301-02-network-infrastructure-concepts_1.mp4
+- **security-implications-of-proper-hardware-software-and-data-asset-management-slides.pdf**: security-implications-of-proper-hardware-software-and-data-asset-management-slides.pdf, security-implications-of-proper-hardware-software-and-data-asset-management-slides_1.pdf, security-implications-of-proper-hardware-software-and-data-asset-management-slides_2.pdf
+- **professor-messer-sy0-701-comptia-security-plus-course-notes-v107.pdf**: professor-messer-sy0-701-comptia-security-plus-course-notes-v107.pdf, professor-messer-sy0-701-comptia-security-plus-course-notes-v107_1.pdf
+- **sy0-701-0302-01-secure-infrastructures.mp3**: sy0-701-0302-01-secure-infrastructures_2.mp3, sy0-701-0302-01-secure-infrastructures_1.mp3, sy0-701-0302-01-secure-infrastructures.mp3
+- **sy0-701-0304-02-capacity-planning.mp4**: sy0-701-0304-02-capacity-planning_2.mp4, sy0-701-0304-02-capacity-planning.mp4, sy0-701-0304-02-capacity-planning_1.mp4
+- **common-threat-actors-and-motivations-slides.pdf**: common-threat-actors-and-motivations-slides_1.pdf, common-threat-actors-and-motivations-slides.pdf
+- **sy0-701-0201-01-threat-actors.mp4**: sy0-701-0201-01-threat-actors.mp4, sy0-701-0201-01-threat-actors_1.mp4, sy0-701-0201-01-threat-actors_2.mp4
+- **sy0-701-0201-01-threat-actors.mp3**: sy0-701-0201-01-threat-actors.mp3, sy0-701-0201-01-threat-actors_1.mp3, sy0-701-0201-01-threat-actors_2.mp3
+- **common-threat-actors-and-motivations-slides.md**: common-threat-actors-and-motivations-slides.md, common-threat-actors-and-motivations-slides_1.md
+- **sy0-701-0502-01-risk-management.mp3**: sy0-701-0502-01-risk-management_1.mp3, sy0-701-0502-01-risk-management.mp3, sy0-701-0502-01-risk-management_2.mp3
+- **sy0-701-0408-03-digital-forensics.mp4**: sy0-701-0408-03-digital-forensics.mp4, sy0-701-0408-03-digital-forensics_2.mp4, sy0-701-0408-03-digital-forensics_1.mp4
+- **sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam.mp4**: sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam.mp4, sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam_2.mp4, sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam_1.mp4
+- **sy0-701-0502-01-risk-management.mp4**: sy0-701-0502-01-risk-management_1.mp4, sy0-701-0502-01-risk-management.mp4, sy0-701-0502-01-risk-management_2.mp4
+- **sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam.mp3**: sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam.mp3, sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam_2.mp3, sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam_1.mp3
+- **sy0-701-0408-03-digital-forensics.mp3**: sy0-701-0408-03-digital-forensics.mp3, sy0-701-0408-03-digital-forensics_2.mp3, sy0-701-0408-03-digital-forensics_1.mp3
+- **sy0-701-0104-01-public-key-infrastructure.mp3**: sy0-701-0104-01-public-key-infrastructure_2.mp3, sy0-701-0104-01-public-key-infrastructure.mp3, sy0-701-0104-01-public-key-infrastructure_1.mp3
+- **sy0-701-0204-15-indicators-of-compromise.mp4**: sy0-701-0204-15-indicators-of-compromise_1.mp4, sy0-701-0204-15-indicators-of-compromise_2.mp4, sy0-701-0204-15-indicators-of-compromise.mp4
+- **sy0-701-0401-01-secure-baselines.mp3**: sy0-701-0401-01-secure-baselines.mp3, sy0-701-0401-01-secure-baselines_2.mp3, sy0-701-0401-01-secure-baselines_1.mp3
+- **demos.docx**: demos_1.docx, demos.docx
+- **sy0-701-0401-01-secure-baselines.mp4**: sy0-701-0401-01-secure-baselines.mp4, sy0-701-0401-01-secure-baselines_2.mp4, sy0-701-0401-01-secure-baselines_1.mp4
+- **sy0-701-0204-15-indicators-of-compromise.mp3**: sy0-701-0204-15-indicators-of-compromise_1.mp3, sy0-701-0204-15-indicators-of-compromise_2.mp3, sy0-701-0204-15-indicators-of-compromise.mp3
+- **sy0-701-0104-01-public-key-infrastructure.mp4**: sy0-701-0104-01-public-key-infrastructure_2.mp4, sy0-701-0104-01-public-key-infrastructure.mp4, sy0-701-0104-01-public-key-infrastructure_1.mp4
+- **effective-security-compliance-slides.pdf**: effective-security-compliance-slides_1.pdf, effective-security-compliance-slides.pdf
+- **sy0-701-0303-03-protecting-data.mp3**: sy0-701-0303-03-protecting-data.mp3, sy0-701-0303-03-protecting-data_2.mp3, sy0-701-0303-03-protecting-data_1.mp3
+- **sy0-701-0303-03-protecting-data.mp4**: sy0-701-0303-03-protecting-data.mp4, sy0-701-0303-03-protecting-data_2.mp4, sy0-701-0303-03-protecting-data_1.mp4
+- **sy0-701-0403-05-vulnerability-remediation.mp4**: sy0-701-0403-05-vulnerability-remediation_2.mp4, sy0-701-0403-05-vulnerability-remediation_1.mp4, sy0-701-0403-05-vulnerability-remediation.mp4
+- **sy0-701-0403-05-vulnerability-remediation.mp3**: sy0-701-0403-05-vulnerability-remediation_2.mp3, sy0-701-0403-05-vulnerability-remediation.mp3, sy0-701-0403-05-vulnerability-remediation_1.mp3
+- **sy0-701-0406-01-identity-and-access-management.mp4**: sy0-701-0406-01-identity-and-access-management_1.mp4, sy0-701-0406-01-identity-and-access-management.mp4, sy0-701-0406-01-identity-and-access-management_2.mp4
+- **sy0-701-0406-01-identity-and-access-management.mp3**: sy0-701-0406-01-identity-and-access-management_1.mp3, sy0-701-0406-01-identity-and-access-management.mp3, sy0-701-0406-01-identity-and-access-management_2.mp3
+
+### Duplicates by Content (MD5 Hash Groups)
+- **Hash 20c86692...**: sy0-701-0406-02-access-controls_1.mp3, sy0-701-0406-02-access-controls_2.mp3, sy0-701-0406-02-access-controls.mp3
+- **Hash e1688119...**: sy0-701-0405-05-email-security_2.mp4, sy0-701-0405-05-email-security_1.mp4, sy0-701-0405-05-email-security.mp4
+- **Hash 9d8466c1...**: sy0-701-0407-01-scripting-and-automation.mp3, sy0-701-0407-01-scripting-and-automation_1.mp3, sy0-701-0407-01-scripting-and-automation_2.mp3
+- **Hash 82b2be2b...**: sy0-701-0102-04-gap-analysis_1.mp4, sy0-701-0102-04-gap-analysis_2.mp4, sy0-701-0102-04-gap-analysis.mp4
+- **Hash 5d5e4c20...**: sy0-701-0202-02-phishing_2.mp3, sy0-701-0202-02-phishing_1.mp3, sy0-701-0202-02-phishing.mp3
+- **Hash ec3f773b...**: CyberSecurity Trends & Opportunities_1.docx, CyberSecurity Trends & Opportunities.docx
+- **Hash 1722936b...**: sy0-701-0405-02-web-filtering.mp3, sy0-701-0405-02-web-filtering_2.mp3, sy0-701-0405-02-web-filtering_1.mp3
+- **Hash 6ad7d739...**: sy0-701-0204-02-viruses-and-worms_1.mp3, sy0-701-0204-02-viruses-and-worms_2.mp3, sy0-701-0204-02-viruses-and-worms.mp3
+- **Hash bf4e84a2...**: sy0-701-0403-02-threat-intelligence.mp4, sy0-701-0403-02-threat-intelligence_2.mp4, sy0-701-0403-02-threat-intelligence_1.mp4
+- **Hash e90ca08e...**: sy0-701-0401-05-application-security_2.mp3, sy0-701-0401-05-application-security_1.mp3, sy0-701-0401-05-application-security.mp3
+- **Hash d5f043b2...**: sy0-701-0404-02-security-tools_2.mp4, sy0-701-0404-02-security-tools_1.mp4, sy0-701-0404-02-security-tools.mp4
+- **Hash 54b92313...**: sy0-701-0204-09-on-path-attacks_1.mp3, sy0-701-0204-09-on-path-attacks_2.mp3, sy0-701-0204-09-on-path-attacks.mp3
+- **Hash 96924d4f...**: sy0-701-0102-04-gap-analysis_1.mp3, sy0-701-0102-04-gap-analysis_2.mp3, sy0-701-0102-04-gap-analysis.mp3
+- **Hash 35ce9027...**: sy0-701-0407-01-scripting-and-automation.mp4, sy0-701-0407-01-scripting-and-automation_1.mp4, sy0-701-0407-01-scripting-and-automation_2.mp4
+- **Hash c30b7842...**: sy0-701-0405-05-email-security_2.mp3, sy0-701-0405-05-email-security_1.mp3, sy0-701-0405-05-email-security.mp3
+- **Hash 16a7d390...**: sy0-701-0406-02-access-controls_1.mp4, sy0-701-0406-02-access-controls_2.mp4, sy0-701-0406-02-access-controls.mp4
+- **Hash 5dc7af3d...**: sy0-701-0204-09-on-path-attacks_1.mp4, sy0-701-0204-09-on-path-attacks_2.mp4, sy0-701-0204-09-on-path-attacks.mp4
+- **Hash 2c05aa5f...**: sy0-701-0401-05-application-security_2.mp4, sy0-701-0401-05-application-security_1.mp4, sy0-701-0401-05-application-security.mp4
+- **Hash 3c3a6f51...**: sy0-701-0404-02-security-tools_2.mp3, sy0-701-0404-02-security-tools_1.mp3, sy0-701-0404-02-security-tools.mp3
+- **Hash a4e8f1ef...**: sy0-701-0204-02-viruses-and-worms_1.mp4, sy0-701-0204-02-viruses-and-worms_2.mp4, sy0-701-0204-02-viruses-and-worms.mp4
+- **Hash f25fc4e8...**: sy0-701-0403-02-threat-intelligence.mp3, sy0-701-0403-02-threat-intelligence_2.mp3, sy0-701-0403-02-threat-intelligence_1.mp3
+- **Hash ec9ea1b7...**: sy0-701-0405-02-web-filtering.mp4, sy0-701-0405-02-web-filtering_2.mp4, sy0-701-0405-02-web-filtering_1.mp4
+- **Hash 3c553e3f...**: sy0-701-0202-02-phishing_2.mp4, sy0-701-0202-02-phishing_1.mp4, sy0-701-0202-02-phishing.mp4
+- **Hash c335d30e...**: sy0-701-0102-01-the-cia-triad.mp3, sy0-701-0102-01-the-cia-triad_2.mp3, sy0-701-0102-01-the-cia-triad_1.mp3
+- **Hash a2eebd42...**: sy0-701-0501-05-data-roles-and-responsibilities_2.mp4, sy0-701-0501-05-data-roles-and-responsibilities_1.mp4, sy0-701-0501-05-data-roles-and-responsibilities.mp4
+- **Hash 0b606da8...**: sy0-701-0203-01-memory-injections.mp4, sy0-701-0203-01-memory-injections_1.mp4, sy0-701-0203-01-memory-injections_2.mp4
+- **Hash 27892ea9...**: Course #4 Key Terms and Definitions.docx, Course #4 Key Terms and Definitions_1.docx, Course #4 Key Terms and Definitions_2.docx
+- **Hash 908c0f46...**: risk-management-process-slides_1.pdf, risk-management-process-slides.pdf
+- **Hash ed0a6343...**: sy0-701-0501-05-data-roles-and-responsibilities_2.mp3, sy0-701-0501-05-data-roles-and-responsibilities_1.mp3, sy0-701-0501-05-data-roles-and-responsibilities.mp3
+- **Hash 338ab85a...**: sy0-701-0102-01-the-cia-triad.mp4, sy0-701-0102-01-the-cia-triad_2.mp4, sy0-701-0102-01-the-cia-triad_1.mp4
+- **Hash ee6de598...**: professor-messer-comptia-exam-hacks-v107s_1.pdf, professor-messer-comptia-exam-hacks-v107s.pdf
+- **Hash b612c4e7...**: sy0-701-0203-01-memory-injections.mp3, sy0-701-0203-01-memory-injections_1.mp3, sy0-701-0203-01-memory-injections_2.mp3
+- **Hash 1046f806...**: sy0-701-0302-03-network-appliances_2.mp3, sy0-701-0302-03-network-appliances_1.mp3, sy0-701-0302-03-network-appliances.mp3
+- **Hash 5dab1560...**: sy0-701-0302-06-secure-communication_1.mp3, sy0-701-0302-06-secure-communication_2.mp3, sy0-701-0302-06-secure-communication.mp3
+- **Hash 598e81ea...**: sy0-701-0302-03-network-appliances_2.mp4, sy0-701-0302-03-network-appliances_1.mp4, sy0-701-0302-03-network-appliances.mp4
+- **Hash 9ebefdd0...**: sy0-701-0302-06-secure-communication_1.mp4, sy0-701-0302-06-secure-communication_2.mp4, sy0-701-0302-06-secure-communication.mp4
+- **Hash f22fcac0...**: activities-associated-with-vulnerability-management-slides.pdf, activities-associated-with-vulnerability-management-slides_1.pdf, activities-associated-with-vulnerability-management-slides_2.pdf
+- **Hash 6a7d935a...**: sy0-701-0103-02-technical-change-management_2.mp4, sy0-701-0103-02-technical-change-management_1.mp4, sy0-701-0103-02-technical-change-management.mp4
+- **Hash 7bc55fa3...**: types-of-vulnerabilities-slides.pdf, types-of-vulnerabilities-slides_1.pdf
+- **Hash c553aaa7...**: sy0-701-0204-07-dns-attacks_2.mp4, sy0-701-0204-07-dns-attacks_1.mp4, sy0-701-0204-07-dns-attacks.mp4
+- **Hash d0a2522d...**: sy0-701-0403-03-penetration-testing.mp3, sy0-701-0403-03-penetration-testing_2.mp3, sy0-701-0403-03-penetration-testing_1.mp3
+- **Hash 6efa6b2f...**: sy0-701-0403-03-penetration-testing.mp4, sy0-701-0403-03-penetration-testing_2.mp4, sy0-701-0403-03-penetration-testing_1.mp4
+- **Hash 88ac7268...**: sy0-701-0103-02-technical-change-management_2.mp3, sy0-701-0103-02-technical-change-management_1.mp3, sy0-701-0103-02-technical-change-management.mp3
+- **Hash bc698ed7...**: sy0-701-0204-07-dns-attacks_2.mp3, sy0-701-0204-07-dns-attacks_1.mp3, sy0-701-0204-07-dns-attacks.mp3
+- **Hash 386ebb90...**: sy0-701-0102-02-non-repudiation.mp3, sy0-701-0102-02-non-repudiation_2.mp3, sy0-701-0102-02-non-repudiation_1.mp3
+- **Hash abbd88de...**: sy0-701-0202-04-watering-hole-attacks.mp3, sy0-701-0202-04-watering-hole-attacks_1.mp3, sy0-701-0202-04-watering-hole-attacks_2.mp3
+- **Hash e0579f8d...**: sy0-701-0202-04-watering-hole-attacks.mp4, sy0-701-0202-04-watering-hole-attacks_1.mp4, sy0-701-0202-04-watering-hole-attacks_2.mp4
+- **Hash dd63e112...**: sy0-701-0102-02-non-repudiation.mp4, sy0-701-0102-02-non-repudiation_2.mp4, sy0-701-0102-02-non-repudiation_1.mp4
+- **Hash 2a4d46ec...**: sy0-701-0301-01-cloud-infrastructures.mp4, sy0-701-0301-01-cloud-infrastructures_2.mp4, sy0-701-0301-01-cloud-infrastructures_1.mp4
+- **Hash 3db0ee53...**: indicators-of-malicious-activity-slides.pdf, indicators-of-malicious-activity-slides_1.pdf
+- **Hash 9258e8be...**: sy0-701-0301-01-cloud-infrastructures.mp3, sy0-701-0301-01-cloud-infrastructures_2.mp3, sy0-701-0301-01-cloud-infrastructures_1.mp3
+- **Hash a2c64118...**: sy0-701-0502-04-business-impact-analysis.mp3, sy0-701-0502-04-business-impact-analysis_1.mp3, sy0-701-0502-04-business-impact-analysis_2.mp3
+- **Hash 104eaa04...**: CompTIA+Security++(SY0-701)+Exam+Objectives.pdf, CompTIA Security+ (SY0-701) Exam Objectives 2.pdf
+- **Hash 342f0da1...**: sy0-701-0502-04-business-impact-analysis.mp4, sy0-701-0502-04-business-impact-analysis_1.mp4, sy0-701-0502-04-business-impact-analysis_2.mp4
+- **Hash d3544429...**: sy0-701-0504-02-privacy.mp3, sy0-701-0504-02-privacy_2.mp3, sy0-701-0504-02-privacy_1.mp3
+- **Hash fe3158d8...**: sy0-701-0204-10-replay-attacks.mp3, sy0-701-0204-10-replay-attacks_1.mp3, sy0-701-0204-10-replay-attacks_2.mp3
+- **Hash e99f609c...**: sy0-701-0501-01-security-policies.mp3, sy0-701-0501-01-security-policies_2.mp3, sy0-701-0501-01-security-policies_1.mp3
+- **Hash 330d6b39...**: sy0-701-0504-02-privacy.mp4, sy0-701-0504-02-privacy_2.mp4, sy0-701-0504-02-privacy_1.mp4
+- **Hash feed58e6...**: sy0-701-0501-01-security-policies.mp4, sy0-701-0501-01-security-policies_2.mp4, sy0-701-0501-01-security-policies_1.mp4
+- **Hash 65f98b8d...**: sy0-701-0204-10-replay-attacks.mp4, sy0-701-0204-10-replay-attacks_1.mp4, sy0-701-0204-10-replay-attacks_2.mp4
+- **Hash 07accdba...**: sy0-701-0301-04-infrastructure-considerations.mp4, sy0-701-0301-04-infrastructure-considerations_1.mp4, sy0-701-0301-04-infrastructure-considerations_2.mp4
+- **Hash 07048462...**: sy0-701-0203-03-race-conditions.mp4, sy0-701-0203-03-race-conditions_1.mp4, sy0-701-0203-03-race-conditions_2.mp4
+- **Hash 813706f7...**: sy0-701-0404-01-security-monitoring.mp4, sy0-701-0404-01-security-monitoring_2.mp4, sy0-701-0404-01-security-monitoring_1.mp4
+- **Hash 32a4090a...**: sy0-701-0203-07-cross-site-scripting_2.mp3, sy0-701-0203-07-cross-site-scripting_1.mp3, sy0-701-0203-07-cross-site-scripting.mp3
+- **Hash fdeba3aa...**: sy0-701-0203-14-zero-day-vulnerabilities.mp4, sy0-701-0203-14-zero-day-vulnerabilities_1.mp4, sy0-701-0203-14-zero-day-vulnerabilities_2.mp4
+- **Hash 1f315288...**: sy0-701-0404-01-security-monitoring.mp3, sy0-701-0404-01-security-monitoring_2.mp3, sy0-701-0404-01-security-monitoring_1.mp3
+- **Hash 33fb025d...**: sy0-701-0203-03-race-conditions.mp3, sy0-701-0203-03-race-conditions_1.mp3, sy0-701-0203-03-race-conditions_2.mp3
+- **Hash 1d409a35...**: sy0-701-0301-04-infrastructure-considerations.mp3, sy0-701-0301-04-infrastructure-considerations_1.mp3, sy0-701-0301-04-infrastructure-considerations_2.mp3
+- **Hash b1142eb8...**: common-threat-vectors-and-attack-surfaces-slides.pdf, common-threat-vectors-and-attack-surfaces-slides_1.pdf
+- **Hash 5978b739...**: sy0-701-0203-14-zero-day-vulnerabilities.mp3, sy0-701-0203-14-zero-day-vulnerabilities_1.mp3, sy0-701-0203-14-zero-day-vulnerabilities_2.mp3
+- **Hash 67de2075...**: sy0-701-0203-07-cross-site-scripting_2.mp4, sy0-701-0203-07-cross-site-scripting_1.mp4, sy0-701-0203-07-cross-site-scripting.mp4
+- **Hash 30925828...**: sy0-701-0202-03-impersonation.mp4, sy0-701-0202-03-impersonation_1.mp4, sy0-701-0202-03-impersonation_2.mp4
+- **Hash 60754ace...**: applying-common-security-techniques-to-computing-resources-slides_1.pdf, applying-common-security-techniques-to-computing-resources-slides_2.pdf, applying-common-security-techniques-to-computing-resources-slides.pdf
+- **Hash 1751e82f...**: sy0-701-0501-02-security-standards.mp3, sy0-701-0501-02-security-standards_1.mp3, sy0-701-0501-02-security-standards_2.mp3
+- **Hash 5275e6e0...**: sy0-701-0102-05-zero-trust_2.mp3, sy0-701-0102-05-zero-trust_1.mp3, sy0-701-0102-05-zero-trust.mp3
+- **Hash 66fb64ed...**: Interview Preparation for Cybersecurity Jobs.docx, Interview Preparation for Cybersecurity Jobs_1.docx
+- **Hash ed7f6831...**: importance-of-automation-and-orchestration-related-to-secure-operations-slides_2.pdf, importance-of-automation-and-orchestration-related-to-secure-operations-slides_1.pdf, importance-of-automation-and-orchestration-related-to-secure-operations-slides.pdf
+- **Hash 1c27db0f...**: sy0-701-0501-02-security-standards.mp4, sy0-701-0501-02-security-standards_1.mp4, sy0-701-0501-02-security-standards_2.mp4
+- **Hash 86c19721...**: sy0-701-0202-03-impersonation.mp3, sy0-701-0202-03-impersonation_1.mp3, sy0-701-0202-03-impersonation_2.mp3
+- **Hash df3065c1...**: implement-and-maintain-identity-and-access-management-slides_2.pdf, implement-and-maintain-identity-and-access-management-slides_1.pdf, implement-and-maintain-identity-and-access-management-slides.pdf
+- **Hash c2fa9114...**: CompTIA Quick Reference Guide_1.pptx, CompTIA Quick Reference Guide.pptx
+- **Hash e77c075b...**: sy0-701-0102-05-zero-trust_2.mp4, sy0-701-0102-05-zero-trust_1.mp4, sy0-701-0102-05-zero-trust.mp4
+- **Hash ccfd130f...**: sy0-701-0104-03-key-exchange.mp4, sy0-701-0104-03-key-exchange_1.mp4, sy0-701-0104-03-key-exchange_2.mp4
+- **Hash cf142f53...**: sy0-701-0505-02-penetration-tests_1.mp3, sy0-701-0505-02-penetration-tests_2.mp3, sy0-701-0505-02-penetration-tests.mp3
+- **Hash 6aad1d16...**: appropriate-incident-response-activities-slides_2.pdf, appropriate-incident-response-activities-slides_1.pdf, appropriate-incident-response-activities-slides.pdf
+- **Hash 273cbf66...**: sy0-701-0104-03-key-exchange.mp3, sy0-701-0104-03-key-exchange_1.mp3, sy0-701-0104-03-key-exchange_2.mp3
+- **Hash 20cfa884...**: sy0-701-0505-02-penetration-tests_1.mp4, sy0-701-0505-02-penetration-tests_2.mp4, sy0-701-0505-02-penetration-tests.mp4
+- **Hash daec44d7...**: sy0-701-0302-02-intrusion-prevention.mp4, sy0-701-0302-02-intrusion-prevention_2.mp4, sy0-701-0302-02-intrusion-prevention_1.mp4
+- **Hash a4e778cf...**: sy0-701-0203-13-mobile-device-vulnerabilities_2.mp3, sy0-701-0203-13-mobile-device-vulnerabilities_1.mp3, sy0-701-0203-13-mobile-device-vulnerabilities.mp3
+- **Hash 4a28096b...**: sy0-701-0202-05-other-social-engineering-attacks_1.mp3, sy0-701-0202-05-other-social-engineering-attacks_2.mp3, sy0-701-0202-05-other-social-engineering-attacks.mp3
+- **Hash 948c6b69...**: sy0-701-0503-01-third-party-risk-assessment_2.mp3, sy0-701-0503-01-third-party-risk-assessment_1.mp3, sy0-701-0503-01-third-party-risk-assessment.mp3
+- **Hash fb8bebe1...**: sy0-701-0203-13-mobile-device-vulnerabilities_2.mp4, sy0-701-0203-13-mobile-device-vulnerabilities_1.mp4, sy0-701-0203-13-mobile-device-vulnerabilities.mp4
+- **Hash 8807dd47...**: sy0-701-0302-02-intrusion-prevention.mp3, sy0-701-0302-02-intrusion-prevention_2.mp3, sy0-701-0302-02-intrusion-prevention_1.mp3
+- **Hash a908ce94...**: sy0-701-0503-01-third-party-risk-assessment_2.mp4, sy0-701-0503-01-third-party-risk-assessment_1.mp4, sy0-701-0503-01-third-party-risk-assessment.mp4
+- **Hash 94ed202c...**: security-alerting-and-monitoring-concepts-and-tools-slides_2.pdf, security-alerting-and-monitoring-concepts-and-tools-slides_1.pdf, security-alerting-and-monitoring-concepts-and-tools-slides.pdf
+- **Hash f1e03731...**: sy0-701-0202-05-other-social-engineering-attacks_1.mp4, sy0-701-0202-05-other-social-engineering-attacks_2.mp4, sy0-701-0202-05-other-social-engineering-attacks.mp4
+- **Hash 8d0a88b9...**: sy0-701-0104-05-obfuscation.mp4, sy0-701-0104-05-obfuscation_2.mp4, sy0-701-0104-05-obfuscation_1.mp4
+- **Hash 493f322c...**: sy0-701-0501-03-security-procedures.mp4, sy0-701-0501-03-security-procedures_1.mp4, sy0-701-0501-03-security-procedures_2.mp4
+- **Hash 5e1f767f...**: sy0-701-0104-05-obfuscation.mp3, sy0-701-0104-05-obfuscation_2.mp3, sy0-701-0104-05-obfuscation_1.mp3
+- **Hash f944a765...**: sy0-701-0501-03-security-procedures.mp3, sy0-701-0501-03-security-procedures_1.mp3, sy0-701-0501-03-security-procedures_2.mp3
+- **Hash ba6ed724...**: sy0-701-0303-02-states-of-data.mp3, sy0-701-0303-02-states-of-data_1.mp3, sy0-701-0303-02-states-of-data_2.mp3
+- **Hash 4d6ac84e...**: sy0-701-0102-07-deception-and-disruption.mp3, sy0-701-0102-07-deception-and-disruption_1.mp3, sy0-701-0102-07-deception-and-disruption_2.mp3
+- **Hash e374a7a5...**: sy0-701-0303-02-states-of-data.mp4, sy0-701-0303-02-states-of-data_1.mp4, sy0-701-0303-02-states-of-data_2.mp4
+- **Hash 21e4b5a6...**: resilience-and-recovery-in-security-architecture-slides.pdf, resilience-and-recovery-in-security-architecture-slides_1.pdf
+- **Hash ec3034ff...**: sy0-701-0102-07-deception-and-disruption.mp4, sy0-701-0102-07-deception-and-disruption_1.mp4, sy0-701-0102-07-deception-and-disruption_2.mp4
+- **Hash ba4cfe51...**: sy0-701-0405-01-firewalls.mp4, sy0-701-0405-01-firewalls_1.mp4, sy0-701-0405-01-firewalls_2.mp4
+- **Hash f1b3af30...**: sy0-701-0205-02-mitigation-techniques.mp3, sy0-701-0205-02-mitigation-techniques_1.mp3, sy0-701-0205-02-mitigation-techniques_2.mp3
+- **Hash 90dbc0e7...**: sy0-701-0405-01-firewalls.mp3, sy0-701-0405-01-firewalls_1.mp3, sy0-701-0405-01-firewalls_2.mp3
+- **Hash b4a770da...**: CompTIA Security+ (SY0-701)Study Plan 2.pdf, CompTIA+Security++(SY0-701)Study+Plan.pdf
+- **Hash 2666d452...**: sy0-701-0205-02-mitigation-techniques.mp4, sy0-701-0205-02-mitigation-techniques_1.mp4, sy0-701-0205-02-mitigation-techniques_2.mp4
+- **Hash cdea1576...**: understanding-security-controls-slides.pdf, understanding-security-controls-slides_2.pdf, understanding-security-controls-slides_1.pdf
+- **Hash 1fe0c5fc...**: sy0-701-0204-14-password-attacks.mp4, sy0-701-0204-14-password-attacks_2.mp4, sy0-701-0204-14-password-attacks_1.mp4
+- **Hash 6fd13fb9...**: sy0-701-0204-14-password-attacks.mp3, sy0-701-0204-14-password-attacks_2.mp3, sy0-701-0204-14-password-attacks_1.mp3
+- **Hash c6cbccee...**: sy0-701-0506-02-user-training.mp3, sy0-701-0506-02-user-training_2.mp3, sy0-701-0506-02-user-training_1.mp3
+- **Hash 4fcc1e52...**: sy0-701-0304-01-resiliency.mp4, sy0-701-0304-01-resiliency_2.mp4, sy0-701-0304-01-resiliency_1.mp4
+- **Hash b027529d...**: sy0-701-0304-05-power-resiliency_1.mp4, sy0-701-0304-05-power-resiliency_2.mp4, sy0-701-0304-05-power-resiliency.mp4
+- **Hash 1a8b9e81...**: sy0-701-0203-12-misconfiguration-vulnerabilities_2.mp3, sy0-701-0203-12-misconfiguration-vulnerabilities_1.mp3, sy0-701-0203-12-misconfiguration-vulnerabilities.mp3
+- **Hash 59297df6...**: sy0-701-0203-09-virtualization-vulnerabilities_1.mp4, sy0-701-0203-09-virtualization-vulnerabilities_2.mp4, sy0-701-0203-09-virtualization-vulnerabilities.mp4
+- **Hash 43a9feb8...**: sy0-701-0203-12-misconfiguration-vulnerabilities_2.mp4, sy0-701-0203-12-misconfiguration-vulnerabilities_1.mp4, sy0-701-0203-12-misconfiguration-vulnerabilities.mp4
+- **Hash b24a8447...**: sy0-701-0304-01-resiliency.mp3, sy0-701-0304-01-resiliency_2.mp3, sy0-701-0304-01-resiliency_1.mp3
+- **Hash 8648a293...**: sy0-701-0304-05-power-resiliency_1.mp3, sy0-701-0304-05-power-resiliency_2.mp3, sy0-701-0304-05-power-resiliency.mp3
+- **Hash be1fe980...**: fundamental-security-concepts-slides_2.pdf, fundamental-security-concepts-slides_1.pdf, fundamental-security-concepts-slides.pdf
+- **Hash 26a16064...**: sy0-701-0506-02-user-training.mp4, sy0-701-0506-02-user-training_2.mp4, sy0-701-0506-02-user-training_1.mp4
+- **Hash aaa443a4...**: domain-summary-slides_2.pdf, domain-summary-slides_4.pdf, domain-summary-slides_12.pdf
+- **Hash f038adc6...**: sy0-701-0203-09-virtualization-vulnerabilities_1.mp3, sy0-701-0203-09-virtualization-vulnerabilities_2.mp3, sy0-701-0203-09-virtualization-vulnerabilities.mp3
+- **Hash 3c32bab6...**: sy0-701-0102-06-physical-security_2.mp4, sy0-701-0102-06-physical-security_1.mp4, sy0-701-0102-06-physical-security.mp4
+- **Hash 043f200d...**: sy0-701-0203-06-sql-injection.mp4, sy0-701-0203-06-sql-injection_1.mp4, sy0-701-0203-06-sql-injection_2.mp4
+- **Hash bbcc3dac...**: sy0-701-0104-04-encryption-technologies_1.mp3, sy0-701-0104-04-encryption-technologies_2.mp3, sy0-701-0104-04-encryption-technologies.mp3
+- **Hash c6c9f589...**: sy0-701-0203-11-supply-chain-vulnerabilities_2.mp4, sy0-701-0203-11-supply-chain-vulnerabilities_1.mp4, sy0-701-0203-11-supply-chain-vulnerabilities.mp4
+- **Hash e05f5b04...**: using-appropriate-cryptographic-solutions-slides_1.pdf, using-appropriate-cryptographic-solutions-slides_2.pdf, using-appropriate-cryptographic-solutions-slides.pdf
+- **Hash 284f50e2...**: sy0-701-0204-12-application-attacks_2.mp4, sy0-701-0204-12-application-attacks_1.mp4, sy0-701-0204-12-application-attacks.mp4
+- **Hash cdfd170b...**: sy0-701-0102-03-authentication-authorization-and-accounting_1.mp3, sy0-701-0102-03-authentication-authorization-and-accounting_2.mp3, sy0-701-0102-03-authentication-authorization-and-accounting.mp3
+- **Hash cd1d5e3f...**: sy0-701-0203-11-supply-chain-vulnerabilities_2.mp3, sy0-701-0203-11-supply-chain-vulnerabilities_1.mp3, sy0-701-0203-11-supply-chain-vulnerabilities.mp3
+- **Hash f5a7fecf...**: sy0-701-0102-06-physical-security_2.mp3, sy0-701-0102-06-physical-security_1.mp3, sy0-701-0102-06-physical-security.mp3
+- **Hash 13961a97...**: sy0-701-0203-06-sql-injection.mp3, sy0-701-0203-06-sql-injection_1.mp3, sy0-701-0203-06-sql-injection_2.mp3
+- **Hash c5157367...**: sy0-701-0104-04-encryption-technologies_1.mp4, sy0-701-0104-04-encryption-technologies_2.mp4, sy0-701-0104-04-encryption-technologies.mp4
+- **Hash 7fd64f6a...**: sy0-701-0102-03-authentication-authorization-and-accounting_1.mp4, sy0-701-0102-03-authentication-authorization-and-accounting.mp4, sy0-701-0102-03-authentication-authorization-and-accounting_2.mp4
+- **Hash 6852c14d...**: sy0-701-0204-12-application-attacks_2.mp3, sy0-701-0204-12-application-attacks_1.mp3, sy0-701-0204-12-application-attacks.mp3
+- **Hash e6591852...**: sy0-701-0503-02-agreement-types_2.mp4, sy0-701-0503-02-agreement-types_1.mp4, sy0-701-0503-02-agreement-types.mp4
+- **Hash e7281a41...**: sy0-701-0405-04-secure-protocols_2.mp4, sy0-701-0405-04-secure-protocols_1.mp4, sy0-701-0405-04-secure-protocols.mp4
+- **Hash 29fbadd8...**: sy0-701-0405-07-endpoint-security.mp4, sy0-701-0405-07-endpoint-security_2.mp4, sy0-701-0405-07-endpoint-security_1.mp4
+- **Hash 389286b1...**: Security+ (SY0-701) - Quiz Questions.xlsx, Security+ (SY0-701) - Quiz Questions copy.xlsx
+- **Hash cb8aecb2...**: sy0-701-0406-04-password-security_2.mp3, sy0-701-0406-04-password-security_1.mp3, sy0-701-0406-04-password-security.mp3
+- **Hash 50c29f15...**: sy0-701-0405-04-secure-protocols_2.mp3, sy0-701-0405-04-secure-protocols_1.mp3, sy0-701-0405-04-secure-protocols.mp3
+- **Hash a7d3e664...**: sy0-701-0503-02-agreement-types_2.mp3, sy0-701-0503-02-agreement-types_1.mp3, sy0-701-0503-02-agreement-types.mp3
+- **Hash 17c2dc0e...**: sy0-701-0406-04-password-security_2.mp4, sy0-701-0406-04-password-security_1.mp4, sy0-701-0406-04-password-security.mp4
+- **Hash b27544fa...**: sy0-701-0405-07-endpoint-security.mp3, sy0-701-0405-07-endpoint-security_2.mp3, sy0-701-0405-07-endpoint-security_1.mp3
+- **Hash 1d84c5da...**: domain-summary-slides_3.pdf, domain-summary-slides_11.pdf
+- **Hash 6a7ee318...**: sy0-701-0302-05-firewall-types_1.mp3, sy0-701-0302-05-firewall-types_2.mp3, sy0-701-0302-05-firewall-types.mp3
+- **Hash 0e9c1787...**: sy0-701-0302-05-firewall-types_1.mp4, sy0-701-0302-05-firewall-types_2.mp4, sy0-701-0302-05-firewall-types.mp4
+- **Hash a647801b...**: sy0-701-0205-01-segmentation-and-access-control.mp3, sy0-701-0205-01-segmentation-and-access-control_1.mp3, sy0-701-0205-01-segmentation-and-access-control_2.mp3
+- **Hash 61c5c8a6...**: types-and-purposes-of-audits-and-assessments-slides.pdf, types-and-purposes-of-audits-and-assessments-slides_1.pdf
+- **Hash 4e711a65...**: domain-summary-slides_1.pdf, domain-summary-slides_8.pdf
+- **Hash 942bfdc6...**: sy0-701-0205-01-segmentation-and-access-control.mp4, sy0-701-0205-01-segmentation-and-access-control_1.mp4, sy0-701-0205-01-segmentation-and-access-control_2.mp4
+- **Hash 51c38726...**: sy0-701-0401-03-securing-wireless-and-mobile.mp3, sy0-701-0401-03-securing-wireless-and-mobile_2.mp3, sy0-701-0401-03-securing-wireless-and-mobile_1.mp3
+- **Hash 6391123c...**: sy0-701-0504-01-compliance.mp3, sy0-701-0504-01-compliance_2.mp3, sy0-701-0504-01-compliance_1.mp3
+- **Hash c1a916e8...**: sy0-701-0401-03-securing-wireless-and-mobile.mp4, sy0-701-0401-03-securing-wireless-and-mobile_2.mp4, sy0-701-0401-03-securing-wireless-and-mobile_1.mp4
+- **Hash b3790304...**: domain-summary-slides.pdf, domain-summary-slides_9.pdf
+- **Hash c965f35c...**: sy0-701-0504-01-compliance.mp4, sy0-701-0504-01-compliance_2.mp4, sy0-701-0504-01-compliance_1.mp4
+- **Hash 81df0a5e...**: sy0-701-0304-04-backups.mp3, sy0-701-0304-04-backups_1.mp3, sy0-701-0304-04-backups_2.mp3
+- **Hash a7013ec5...**: sy0-701-0303-01-data-types-and-classifications.mp4, sy0-701-0303-01-data-types-and-classifications_2.mp4, sy0-701-0303-01-data-types-and-classifications_1.mp4
+- **Hash 83cac957...**: sy0-701-0304-04-backups.mp4, sy0-701-0304-04-backups_1.mp4, sy0-701-0304-04-backups_2.mp4
+- **Hash e4c046db...**: implement-security-awareness-practices-slides.pdf, implement-security-awareness-practices-slides_1.pdf
+- **Hash 5e34062b...**: sy0-701-0303-01-data-types-and-classifications.mp3, sy0-701-0303-01-data-types-and-classifications_2.mp3, sy0-701-0303-01-data-types-and-classifications_1.mp3
+- **Hash b1cb47b0...**: sy0-701-0205-03-hardening-techniques.mp3, sy0-701-0205-03-hardening-techniques_2.mp3, sy0-701-0205-03-hardening-techniques_1.mp3
+- **Hash 725985b5...**: mitigation-techniques-used-to-secure-the-enterprise-slides.pdf, mitigation-techniques-used-to-secure-the-enterprise-slides_1.pdf
+- **Hash 5de4af4c...**: sy0-701-0205-03-hardening-techniques.mp4, sy0-701-0205-03-hardening-techniques_2.mp4, sy0-701-0205-03-hardening-techniques_1.mp4
+- **Hash d43bc003...**: sy0-701-0203-05-operating-system-vulnerabilities.mp3, sy0-701-0203-05-operating-system-vulnerabilities_2.mp3, sy0-701-0203-05-operating-system-vulnerabilities_1.mp3
+- **Hash 6fc3f2e5...**: sy0-701-0409-01-log-data.mp4, sy0-701-0409-01-log-data_1.mp4, sy0-701-0409-01-log-data_2.mp4
+- **Hash 6fa1ad90...**: sy0-701-0401-02-hardening-targets.mp4, sy0-701-0401-02-hardening-targets_1.mp4, sy0-701-0401-02-hardening-targets_2.mp4
+- **Hash 27bd5475...**: sy0-701-0104-06-hashing-and-digital-signatures_2.mp3, sy0-701-0104-06-hashing-and-digital-signatures_1.mp3, sy0-701-0104-06-hashing-and-digital-signatures.mp3
+- **Hash 7b71c6e0...**: secure-principles-to-secure-enterprise-infrastructure-slides.pdf, secure-principles-to-secure-enterprise-infrastructure-slides_1.pdf
+- **Hash 70ea376e...**: sy0-701-0409-01-log-data.mp3, sy0-701-0409-01-log-data_1.mp3, sy0-701-0409-01-log-data_2.mp3
+- **Hash 8da050e5...**: sy0-701-0203-05-operating-system-vulnerabilities.mp4, sy0-701-0203-05-operating-system-vulnerabilities_2.mp4, sy0-701-0203-05-operating-system-vulnerabilities_1.mp4
+- **Hash d1868940...**: sy0-701-0104-06-hashing-and-digital-signatures_2.mp4, sy0-701-0104-06-hashing-and-digital-signatures_1.mp4, sy0-701-0104-06-hashing-and-digital-signatures.mp4
+- **Hash e530e3d6...**: sy0-701-0401-02-hardening-targets.mp3, sy0-701-0401-02-hardening-targets_1.mp3, sy0-701-0401-02-hardening-targets_2.mp3
+- **Hash 8c8e9153...**: sy0-701-0406-03-multi-factor-authentication_1.mp3, sy0-701-0406-03-multi-factor-authentication_2.mp3, sy0-701-0406-03-multi-factor-authentication.mp3
+- **Hash 43f5dddc...**: sy0-701-0501-04-security-considerations_1.mp4, sy0-701-0501-04-security-considerations.mp4, sy0-701-0501-04-security-considerations_2.mp4
+- **Hash 12630551...**: sy0-701-0203-04-malicious-updates.mp3, sy0-701-0203-04-malicious-updates_1.mp3, sy0-701-0203-04-malicious-updates_2.mp3
+- **Hash 8ebbae0f...**: sy0-701-0202-01-common-threat-vectors_2.mp4, sy0-701-0202-01-common-threat-vectors_1.mp4, sy0-701-0202-01-common-threat-vectors.mp4
+- **Hash f2956ae5...**: sy0-701-0405-06-monitoring-data.mp4, sy0-701-0405-06-monitoring-data_1.mp4, sy0-701-0405-06-monitoring-data_2.mp4
+- **Hash 0176b0fc...**: modify-enterprise-capabilities-to-enhance-security-slides_1.pdf, modify-enterprise-capabilities-to-enhance-security-slides_2.pdf, modify-enterprise-capabilities-to-enhance-security-slides.pdf
+- **Hash f03ee100...**: sy0-701-0301-03-other-infrastructure-concepts_1.mp4, sy0-701-0301-03-other-infrastructure-concepts.mp4, sy0-701-0301-03-other-infrastructure-concepts_2.mp4
+- **Hash 934d6b35...**: sy0-701-0501-04-security-considerations_1.mp3, sy0-701-0501-04-security-considerations_2.mp3, sy0-701-0501-04-security-considerations.mp3
+- **Hash b46c48ee...**: sy0-701-0406-03-multi-factor-authentication_1.mp4, sy0-701-0406-03-multi-factor-authentication_2.mp4, sy0-701-0406-03-multi-factor-authentication.mp4
+- **Hash a1c58946...**: sy0-701-0301-03-other-infrastructure-concepts_1.mp3, sy0-701-0301-03-other-infrastructure-concepts.mp3, sy0-701-0301-03-other-infrastructure-concepts_2.mp3
+- **Hash 5e27a9fa...**: sy0-701-0405-06-monitoring-data.mp3, sy0-701-0405-06-monitoring-data_1.mp3, sy0-701-0405-06-monitoring-data_2.mp3
+- **Hash 0d88c58c...**: sy0-701-0202-01-common-threat-vectors_2.mp3, sy0-701-0202-01-common-threat-vectors_1.mp3, sy0-701-0202-01-common-threat-vectors.mp3
+- **Hash 2ba0e67c...**: sy0-701-0203-04-malicious-updates.mp4, sy0-701-0203-04-malicious-updates_1.mp4, sy0-701-0203-04-malicious-updates_2.mp4
+- **Hash c446dd95...**: sy0-701-0204-11-malicious-code_2.mp4, sy0-701-0204-11-malicious-code_1.mp4, sy0-701-0204-11-malicious-code.mp4
+- **Hash ac47cb72...**: sy0-701-0104-07-blockchain-technology.mp3, sy0-701-0104-07-blockchain-technology_2.mp3, sy0-701-0104-07-blockchain-technology_1.mp3
+- **Hash 2cc151d4...**: sy0-701-0502-02-risk-analysis_2.mp4, sy0-701-0502-02-risk-analysis_1.mp4, sy0-701-0502-02-risk-analysis.mp4
+- **Hash 7a44ce77...**: change-management-processes-and-impacts-slides.pdf, change-management-processes-and-impacts-slides_1.pdf, change-management-processes-and-impacts-slides_2.pdf
+- **Hash 98e4147d...**: sy0-701-0104-07-blockchain-technology.mp4, sy0-701-0104-07-blockchain-technology_2.mp4, sy0-701-0104-07-blockchain-technology_1.mp4
+- **Hash 9f967b5c...**: sy0-701-0502-02-risk-analysis_2.mp3, sy0-701-0502-02-risk-analysis_1.mp3, sy0-701-0502-02-risk-analysis.mp3
+- **Hash 9bc5dc09...**: sy0-701-0204-11-malicious-code_2.mp3, sy0-701-0204-11-malicious-code_1.mp3, sy0-701-0204-11-malicious-code.mp3
+- **Hash 375210a7...**: sy0-701-0101-01-security-controls.mp4, sy0-701-0101-01-security-controls_2.mp4, sy0-701-0101-01-security-controls_1.mp4
+- **Hash 9c21d14a...**: sy0-701-0401-04-wireless-security-settings.mp4, sy0-701-0401-04-wireless-security-settings_2.mp4, sy0-701-0401-04-wireless-security-settings_1.mp4
+- **Hash de8722d5...**: sy0-701-0203-02-buffer-overflows_1.mp4, sy0-701-0203-02-buffer-overflows.mp4, sy0-701-0203-02-buffer-overflows_2.mp4
+- **Hash 96ca5fea...**: sy0-701-0204-06-denial-of-service.mp4, sy0-701-0204-06-denial-of-service_2.mp4, sy0-701-0204-06-denial-of-service_1.mp4
+- **Hash b3769216...**: sy0-701-0204-08-wireless-attacks_2.mp3, sy0-701-0204-08-wireless-attacks_1.mp3, sy0-701-0204-08-wireless-attacks.mp3
+- **Hash f7f4abe5...**: domain-summary-slides_5.pdf, domain-summary-slides_7.pdf, domain-summary-slides_10.pdf
+- **Hash b1e16f97...**: sy0-701-0203-02-buffer-overflows_1.mp3, sy0-701-0203-02-buffer-overflows.mp3, sy0-701-0203-02-buffer-overflows_2.mp3
+- **Hash 9d7e2af4...**: sy0-701-0101-01-security-controls.mp3, sy0-701-0101-01-security-controls_2.mp3, sy0-701-0101-01-security-controls_1.mp3
+- **Hash 96b297d1...**: sy0-701-0401-04-wireless-security-settings.mp3, sy0-701-0401-04-wireless-security-settings_2.mp3, sy0-701-0401-04-wireless-security-settings_1.mp3
+- **Hash 9a9b9dcc...**: sy0-701-0204-08-wireless-attacks_2.mp4, sy0-701-0204-08-wireless-attacks_1.mp4, sy0-701-0204-08-wireless-attacks.mp4
+- **Hash 2dc8e1a9...**: sy0-701-0204-06-denial-of-service.mp3, sy0-701-0204-06-denial-of-service_2.mp3, sy0-701-0204-06-denial-of-service_1.mp3
+- **Hash 020e7991...**: sy0-701-0502-03-risk-management-strategies.mp3, sy0-701-0502-03-risk-management-strategies_2.mp3, sy0-701-0502-03-risk-management-strategies_1.mp3
+- **Hash 9e92f805...**: sy0-701-0506-01-security-awareness.mp4, sy0-701-0506-01-security-awareness_1.mp4, sy0-701-0506-01-security-awareness_2.mp4
+- **Hash cf47dc45...**: sy0-701-0304-03-recovery-testing.mp3, sy0-701-0304-03-recovery-testing_2.mp3, sy0-701-0304-03-recovery-testing_1.mp3
+- **Hash 0238f17a...**: CompTIA Security Plus+ Master Cheat Sheet.pdf, COMPTIA_Security_Plus_Master_1740709645.pdf
+- **Hash b69b548c...**: CompTIA-S70-701-Audiobook.mp3, CompTIA-S70-701-Audiobook_1.mp3
+- **Hash 5f8ecd9d...**: sy0-701-0502-03-risk-management-strategies.mp4, sy0-701-0502-03-risk-management-strategies_2.mp4, sy0-701-0502-03-risk-management-strategies_1.mp4
+- **Hash 443f8647...**: effective-elements-of-security-governance-slides.pdf, effective-elements-of-security-governance-slides_1.pdf
+- **Hash 81e6c64a...**: sy0-701-0304-03-recovery-testing.mp4, sy0-701-0304-03-recovery-testing_2.mp4, sy0-701-0304-03-recovery-testing_1.mp4
+- **Hash d909695a...**: sy0-701-0506-01-security-awareness.mp3, sy0-701-0506-01-security-awareness_1.mp3, sy0-701-0506-01-security-awareness_2.mp3
+- **Hash 6630ee07...**: sy0-701-0204-03-spyware-and-bloatware.mp3, sy0-701-0204-03-spyware-and-bloatware_1.mp3, sy0-701-0204-03-spyware-and-bloatware_2.mp3
+- **Hash 5731f04d...**: security-implications-of-different-architecture-models-slides.pdf, security-implications-of-different-architecture-models-slides_1.pdf
+- **Hash 8c78e2f0...**: sy0-701-0204-03-spyware-and-bloatware.mp4, sy0-701-0204-03-spyware-and-bloatware_1.mp4, sy0-701-0204-03-spyware-and-bloatware_2.mp4
+- **Hash b275455f...**: sy0-701-0302-04-port-security_1.mp3, sy0-701-0302-04-port-security_2.mp3, sy0-701-0302-04-port-security.mp3
+- **Hash 9aef5ecf...**: sy0-701-0402-01-asset-management.mp4, sy0-701-0402-01-asset-management_2.mp4, sy0-701-0402-01-asset-management_1.mp4
+- **Hash 014504e5...**: professor-messer-sy0-701-comptia-security-plus-practice-exams-v18.pdf, professor-messer-sy0-701-comptia-security-plus-practice-exams-v18_1.pdf
+- **Hash f3f35c22...**: sy0-701-0302-04-port-security_1.mp4, sy0-701-0302-04-port-security_2.mp4, sy0-701-0302-04-port-security.mp4
+- **Hash 8ab2e43a...**: sy0-701-0402-01-asset-management.mp3, sy0-701-0402-01-asset-management_2.mp3, sy0-701-0402-01-asset-management_1.mp3
+- **Hash f14ba2d1...**: sy0-701-0505-01-audits-and-assessments.mp3, sy0-701-0505-01-audits-and-assessments_2.mp3, sy0-701-0505-01-audits-and-assessments_1.mp3
+- **Hash 2c49ec8c...**: sy0-701-0505-01-audits-and-assessments.mp4, sy0-701-0505-01-audits-and-assessments_2.mp4, sy0-701-0505-01-audits-and-assessments_1.mp4
+- **Hash 53ebe402...**: sy0-701-0408-02-incident-planning_2.mp4, sy0-701-0408-02-incident-planning_1.mp4, sy0-701-0408-02-incident-planning.mp4
+- **Hash 234ab16e...**: use-data-sources-to-support-an-investigation-slides.pdf, use-data-sources-to-support-an-investigation-slides_2.pdf, use-data-sources-to-support-an-investigation-slides_1.pdf
+- **Hash 9a8f162a...**: sy0-701-0103-01-change-management_2.mp3, sy0-701-0103-01-change-management_1.mp3, sy0-701-0103-01-change-management.mp3
+- **Hash c7110476...**: sy0-701-0408-02-incident-planning_2.mp3, sy0-701-0408-02-incident-planning_1.mp3, sy0-701-0408-02-incident-planning.mp3
+- **Hash d64ce0bf...**: sy0-701-0103-01-change-management_2.mp4, sy0-701-0103-01-change-management_1.mp4, sy0-701-0103-01-change-management.mp4
+- **Hash 6d67ae17...**: third-party-risk-assessment-and-management-slides.pdf, third-party-risk-assessment-and-management-slides_1.pdf
+- **Hash 694b741d...**: sy0-701-0203-08-hardware-vulnerabilities.mp3, sy0-701-0203-08-hardware-vulnerabilities_2.mp3, sy0-701-0203-08-hardware-vulnerabilities_1.mp3
+- **Hash 2fa11d17...**: sy0-701-0203-08-hardware-vulnerabilities.mp4, sy0-701-0203-08-hardware-vulnerabilities_2.mp4, sy0-701-0203-08-hardware-vulnerabilities_1.mp4
+- **Hash d0b4d2df...**: sy0-701-0408-01-incident-response.mp3, sy0-701-0408-01-incident-response_1.mp3, sy0-701-0408-01-incident-response_2.mp3
+- **Hash 90a2f9ae...**: sy0-701-0408-01-incident-response.mp4, sy0-701-0408-01-incident-response_1.mp4, sy0-701-0408-01-incident-response_2.mp4
+- **Hash 17264a4d...**: sy0-701-0204-05-physical-attacks.mp4, sy0-701-0204-05-physical-attacks_2.mp4, sy0-701-0204-05-physical-attacks_1.mp4
+- **Hash 1b70fb73...**: sy0-701-0204-01-an-overview-of-malware.mp3, sy0-701-0204-01-an-overview-of-malware_2.mp3, sy0-701-0204-01-an-overview-of-malware_1.mp3
+- **Hash a6c22d3b...**: sy0-701-0204-05-physical-attacks.mp3, sy0-701-0204-05-physical-attacks_2.mp3, sy0-701-0204-05-physical-attacks_1.mp3
+- **Hash 31f18cfd...**: Plain Text Flashcards_1.txt, Plain Text Flashcards.txt
+- **Hash ce71341d...**: sy0-701-0204-01-an-overview-of-malware.mp4, sy0-701-0204-01-an-overview-of-malware_2.mp4, sy0-701-0204-01-an-overview-of-malware_1.mp4
+- **Hash fe2239cd...**: sy0-701-0403-01-vulnerability-scanning.mp4, sy0-701-0403-01-vulnerability-scanning_2.mp4, sy0-701-0403-01-vulnerability-scanning_1.mp4
+- **Hash 9551da57...**: sy0-701-0403-01-vulnerability-scanning.mp3, sy0-701-0403-01-vulnerability-scanning_2.mp3, sy0-701-0403-01-vulnerability-scanning_1.mp3
+- **Hash 676fd3d5...**: sy0-701-0104-08-certificates.mp4, sy0-701-0104-08-certificates_2.mp4, sy0-701-0104-08-certificates_1.mp4
+- **Hash 0f81e451...**: sy0-701-0104-02-encrypting-data_1.mp4, sy0-701-0104-02-encrypting-data_2.mp4, sy0-701-0104-02-encrypting-data.mp4
+- **Hash 3b695c10...**: sy0-701-0405-03-operating-system-security.mp4, sy0-701-0405-03-operating-system-security_2.mp4, sy0-701-0405-03-operating-system-security_1.mp4
+- **Hash 71cf03fb...**: sy0-701-0104-08-certificates.mp3, sy0-701-0104-08-certificates_2.mp3, sy0-701-0104-08-certificates_1.mp3
+- **Hash 05312e5a...**: sy0-701-0104-02-encrypting-data_1.mp3, sy0-701-0104-02-encrypting-data_2.mp3, sy0-701-0104-02-encrypting-data.mp3
+- **Hash 5f6baff8...**: sy0-701-0405-03-operating-system-security.mp3, sy0-701-0405-03-operating-system-security_2.mp3, sy0-701-0405-03-operating-system-security_1.mp3
+- **Hash 4e1a2f06...**: Anki FlashCards.apkg, Anki FlashCards_1.apkg
+- **Hash 9e43ca1b...**: sy0-701-0403-04-analyzing-vulnerabilities.mp4, sy0-701-0403-04-analyzing-vulnerabilities_1.mp4, sy0-701-0403-04-analyzing-vulnerabilities_2.mp4
+- **Hash be084572...**: sy0-701-0203-10-cloud-specific-vulnerabilities_2.mp3, sy0-701-0203-10-cloud-specific-vulnerabilities_1.mp3, sy0-701-0203-10-cloud-specific-vulnerabilities.mp3
+- **Hash f25bb869...**: sy0-701-0403-04-analyzing-vulnerabilities.mp3, sy0-701-0403-04-analyzing-vulnerabilities_1.mp3, sy0-701-0403-04-analyzing-vulnerabilities_2.mp3
+- **Hash 6b47234d...**: sy0-701-0203-10-cloud-specific-vulnerabilities_2.mp4, sy0-701-0203-10-cloud-specific-vulnerabilities_1.mp4, sy0-701-0203-10-cloud-specific-vulnerabilities.mp4
+- **Hash 574e369b...**: sy0-701-0204-13-cryptographic-attacks_1.mp3, sy0-701-0204-13-cryptographic-attacks_2.mp3, sy0-701-0204-13-cryptographic-attacks.mp3
+- **Hash e6e0d19a...**: sy0-701-0204-04-other-malware-types.mp4, sy0-701-0204-04-other-malware-types_1.mp4, sy0-701-0204-04-other-malware-types_2.mp4
+- **Hash 7cf94310...**: Cybersecurity Best Practices_ Cutting-Edge Strategies and Techniques_1.docx, Cybersecurity Best Practices_ Cutting-Edge Strategies and Techniques.docx
+- **Hash fee82a46...**: sy0-701-0204-13-cryptographic-attacks_1.mp4, sy0-701-0204-13-cryptographic-attacks_2.mp4, sy0-701-0204-13-cryptographic-attacks.mp4
+- **Hash 22e441e2...**: sy0-701-0204-04-other-malware-types.mp3, sy0-701-0204-04-other-malware-types_1.mp3, sy0-701-0204-04-other-malware-types_2.mp3
+- **Hash 0f642776...**: sy0-701-0304-02-capacity-planning_2.mp3, sy0-701-0304-02-capacity-planning.mp3, sy0-701-0304-02-capacity-planning_1.mp3
+- **Hash fde2850e...**: sy0-701-0301-02-network-infrastructure-concepts.mp3, sy0-701-0301-02-network-infrastructure-concepts_2.mp3, sy0-701-0301-02-network-infrastructure-concepts_1.mp3
+- **Hash 0ef1c45e...**: sy0-701-0302-01-secure-infrastructures_2.mp4, sy0-701-0302-01-secure-infrastructures_1.mp4, sy0-701-0302-01-secure-infrastructures.mp4
+- **Hash 5c926617...**: sy0-701-0301-02-network-infrastructure-concepts_2.mp4, sy0-701-0301-02-network-infrastructure-concepts.mp4, sy0-701-0301-02-network-infrastructure-concepts_1.mp4
+- **Hash 133393f7...**: security-implications-of-proper-hardware-software-and-data-asset-management-slides.pdf, security-implications-of-proper-hardware-software-and-data-asset-management-slides_1.pdf, security-implications-of-proper-hardware-software-and-data-asset-management-slides_2.pdf
+- **Hash de4ce836...**: professor-messer-sy0-701-comptia-security-plus-course-notes-v107.pdf, professor-messer-sy0-701-comptia-security-plus-course-notes-v107_1.pdf
+- **Hash 7985b216...**: sy0-701-0302-01-secure-infrastructures_2.mp3, sy0-701-0302-01-secure-infrastructures_1.mp3, sy0-701-0302-01-secure-infrastructures.mp3
+- **Hash 8ab15a65...**: sy0-701-0304-02-capacity-planning_2.mp4, sy0-701-0304-02-capacity-planning.mp4, sy0-701-0304-02-capacity-planning_1.mp4
+- **Hash 146f7e65...**: common-threat-actors-and-motivations-slides_1.pdf, common-threat-actors-and-motivations-slides.pdf
+- **Hash 152b778b...**: sy0-701-0201-01-threat-actors.mp4, sy0-701-0201-01-threat-actors_1.mp4, sy0-701-0201-01-threat-actors_2.mp4
+- **Hash ccb86675...**: sy0-701-0201-01-threat-actors.mp3, sy0-701-0201-01-threat-actors_1.mp3, sy0-701-0201-01-threat-actors_2.mp3
+- **Hash 9ce108e6...**: sy0-701-0502-01-risk-management_1.mp3, sy0-701-0502-01-risk-management.mp3, sy0-701-0502-01-risk-management_2.mp3
+- **Hash f829e5db...**: sy0-701-0408-03-digital-forensics.mp4, sy0-701-0408-03-digital-forensics_2.mp4, sy0-701-0408-03-digital-forensics_1.mp4
+- **Hash 5a62d5a4...**: sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam.mp4, sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam_2.mp4, sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam_1.mp4
+- **Hash 48e769f2...**: sy0-701-0502-01-risk-management_1.mp4, sy0-701-0502-01-risk-management.mp4, sy0-701-0502-01-risk-management_2.mp4
+- **Hash 0eeabea2...**: sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam.mp3, sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam_2.mp3, sy0-701-0001-01-how-to-pass-your-sy0-701-security-plus-exam_1.mp3
+- **Hash 5438f4a6...**: sy0-701-0408-03-digital-forensics.mp3, sy0-701-0408-03-digital-forensics_2.mp3, sy0-701-0408-03-digital-forensics_1.mp3
+- **Hash ff09b6ed...**: sy0-701-0104-01-public-key-infrastructure_2.mp3, sy0-701-0104-01-public-key-infrastructure.mp3, sy0-701-0104-01-public-key-infrastructure_1.mp3
+- **Hash 33bf057f...**: sy0-701-0204-15-indicators-of-compromise_1.mp4, sy0-701-0204-15-indicators-of-compromise_2.mp4, sy0-701-0204-15-indicators-of-compromise.mp4
+- **Hash 83e0cf3a...**: sy0-701-0401-01-secure-baselines.mp3, sy0-701-0401-01-secure-baselines_2.mp3, sy0-701-0401-01-secure-baselines_1.mp3
+- **Hash 029f5b31...**: demos_1.docx, demos.docx
+- **Hash 3c62f268...**: sy0-701-0401-01-secure-baselines.mp4, sy0-701-0401-01-secure-baselines_2.mp4, sy0-701-0401-01-secure-baselines_1.mp4
+- **Hash fc921b4c...**: sy0-701-0204-15-indicators-of-compromise_1.mp3, sy0-701-0204-15-indicators-of-compromise_2.mp3, sy0-701-0204-15-indicators-of-compromise.mp3
+- **Hash ba52ce57...**: sy0-701-0104-01-public-key-infrastructure_2.mp4, sy0-701-0104-01-public-key-infrastructure.mp4, sy0-701-0104-01-public-key-infrastructure_1.mp4
+- **Hash edbb2be2...**: effective-security-compliance-slides_1.pdf, effective-security-compliance-slides.pdf
+- **Hash 4881ab81...**: sy0-701-0303-03-protecting-data.mp3, sy0-701-0303-03-protecting-data_2.mp3, sy0-701-0303-03-protecting-data_1.mp3
+- **Hash 7ed43e6e...**: sy0-701-0303-03-protecting-data.mp4, sy0-701-0303-03-protecting-data_2.mp4, sy0-701-0303-03-protecting-data_1.mp4
+- **Hash dea79ac5...**: sy0-701-0403-05-vulnerability-remediation_2.mp4, sy0-701-0403-05-vulnerability-remediation_1.mp4, sy0-701-0403-05-vulnerability-remediation.mp4
+- **Hash ab80f66c...**: sy0-701-0403-05-vulnerability-remediation_2.mp3, sy0-701-0403-05-vulnerability-remediation.mp3, sy0-701-0403-05-vulnerability-remediation_1.mp3
+- **Hash a5db3dc8...**: sy0-701-0406-01-identity-and-access-management_1.mp4, sy0-701-0406-01-identity-and-access-management.mp4, sy0-701-0406-01-identity-and-access-management_2.mp4
+- **Hash 70c97b9a...**: sy0-701-0406-01-identity-and-access-management_1.mp3, sy0-701-0406-01-identity-and-access-management.mp3, sy0-701-0406-01-identity-and-access-management_2.mp3
+
+## 5. Empty Folders Deleted
+- None deleted.

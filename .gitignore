@@ -12,6 +12,8 @@ node_modules/
 *.pptx
 *.mp4
 *.mp3
+*.zip
+*.apkg
 sy0-701-audio/
 sy0-701-section1-video/
 sy0-701-section2-video/

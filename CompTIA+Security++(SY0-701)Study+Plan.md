@@ -1,0 +1,412 @@
+# CompTIA+Security++(SY0-701)Study+Plan
+
+## Page 1
+
+CompTIASecurity+(SY0-701)(StudyPlan)
+
+CompTIASecurity+(SY0-701)StudyPlan
+
+Purpose
+
+Thisstudyplancontainsgeneralstudytips,anoverviewofhowtocreateanduseflashcards
+
+effectively,otherstudytools,asuggested30-daystudyplan,andasuggested60-daystudyplan.
+
+Thepurposeistoprovidestudentswithsomegeneralinformationandageneralplanthatthey
+
+canadapttofittheirownlearninggoals.
+
+GeneralStudyTips
+
+● Studyingandlearningareveryindividualistic.o Noteverythingworksforeverybody.Findthetools,methods,andstrategiesthat
+
+workforyou.
+
+● Theaveragepersonhasanattentionspanof20-30minutes.o Onceyouhavereachedthelimitofyourattentiononatask,youshoulddo
+
+somethingelseforawhile.o Anytimeyouspendstudyingbeyondyourattentionspanisgenerallywasted
+
+timebecausethestudyingwillbecomeincreasinglyinefficient.o Thekeytomaintainingattentionistodivideworkintodifferenttasksand
+
+alternatetypesoftasks.Forexample,youcanwatchvideosfor20minutes,then
+
+reviewnotesfor10minutes,thenworkonlearningtoolsfor15minutes,then
+
+getupandmovearoundfor15minutesbeforereturningtovideos.Youcanalso
+
+1https://www.DionTraining.com
+
+## Page 2
+
+CompTIASecurity+(SY0-701)(StudyPlan)
+
+alternatewatchingvideoswithanothertasklikeworkingonlearningtools.
+
+● Berealisticandlearnhowyoulearn.o Ifyouhaveashorterattentionspan,thensetyourstudytimeaccordingly.Try
+
+somedifferenttimespansandactivitiesandseewhatworks.If,forexample,
+
+sittingstillmakesyoulosefocusquickly,trytoengageinsomeactivitysuchas
+
+followingalongwiththeclosedcaptions,takingnotes,orevenwalkingaroundas
+
+youwatchthevideo.o Ifastrategyortoolisn’tworkingafterafewdaysoftryingit,changetoit.
+
+Learninghowyoulearnismainlytheresultoftrialanderror.
+
+● Onceyouhavetheplanset,establishsmallrewardsforfollowingtheplan.o Thiscouldbe30minutesofuninterruptedvideogametime,afoodordrink
+
+treat,oranythingelsethatwillmotivateyoutosticktotheplan.Therewardis
+
+justforfollowingthroughontheplanforthatday,notforgettingaparticular
+
+scoreonapracticeexamoraquiz.
+
+● Findthebalancebetweenstrictlyfollowingtheplanyoucreatedandextreme
+
+flexibility.o Strictlyfollowingaplanthatisn’tworkingoristooambitiouswillcreateanxiety
+
+andyouwilllosemotivation.Ifthe30dayplaniscreatingtoomuchanxiety,you
+
+canswitchtothe60dayplan,ormodifyitsoitfitswithyourlearningstyle.o Beingextremelyflexible,forexample,constantlychangingtheplan,willcause
+
+youtolosefocusandlosemotivation.
+
+● Don’tbeatyourselfupoveraperceivedfailure.
+
+2https://www.DionTraining.com
+
+## Page 3
+
+CompTIASecurity+(SY0-701)(StudyPlan)
+
+- Thisincludesnotstickingtotheplan,failingaquiz,orfailingapracticeexam.
+Insteadthinkaboutthefactorsthatmayhaveledtotheperceivedfailure.o Ifthefactorissomethinginyourcontrol,changeit.Forexample,ifyouplanned
+
+- nstudyingforanhourandlostfocusafter30minutes,changeuptheplanto
+makeitworkforyourattentionspan.Ifstudyingduringyourlunchbreakwas
+
+interruptedbypeopletalkinginyourlunchspace,changethelunchspaceor
+
+scheduleyourstudyingforanothertime.o Ifthefactorisnotinyourcontrol,ignoreit.Lifehappensandfeelingbadlyabout
+
+thingsbeyondyourcontrolisn’thelpful.
+
+3https://www.DionTraining.com
+
+## Page 4
+
+CompTIASecurity+(SY0-701)(StudyPlan)
+
+HowtoUsetheVideosEffectively
+
+● Asyouwatchthevideos:o Addnotestothestudyguide.
+
+- Highlighttermsandconceptsyouwanttomakeflashcardsfor.
+- Marktermsorsectionsbasedonhowwellyouunderstandthem.
+- Putquestionmarksnexttoanyconceptsyouwanttodomoreresearchon.
+● Afteryouwatchasection:o Rereadthestudyguideandthenotesyouhavemadetoensureyouunderstand
+
+whatyouwrotewhilethematerialisstillfreshinyourmind.o Createflashcardsorstudytools.
+
+- Reviewthepreviousday’sflashcardsorstudytools.
+4https://www.DionTraining.com
+
+## Page 5
+
+CompTIASecurity+(SY0-701)(StudyPlan)
+
+HowtoUsethePracticeExamsEffectively
+
+● Whiletakingthepracticeexams:o FollowthetipsfromtheCourse’sConclusionvideo.
+
+▪ Doabraindump(writedowneverythingyoucanremember)whenyou
+
+beginthepracticeexamtopracticetheprocessandtoseewhetheritwill
+
+behelpfultoyou.
+
+● Afteryoutakeapracticeexam:o Reviewthequestionsthatyougotincorrect.
+
+▪ Readtheexplanation.
+
+▪ Addtoyourflashcardsorstudytoolsandtoyourstudyguide.
+
+- Reviewthebraindumpyoucreatedandevaluatewhetheryoushouldmake
+changestoit.o Makealistoftheobjectivesforthequestionsthatyougotcorrectandthoseyou
+
+gotincorrect.Usingatrackingchartliketheonebelowwillhelpyouseetrends.
+
+PracticeExamNumber ObjectivesofCorrectAnswers
+
+ObjectivesofincorrectAnswers
+
+#1
+
+5https://www.DionTraining.com
+
+## Page 6
+
+CompTIASecurity+(SY0-701)(StudyPlan)
+
+HowtoMakeRetakingtheExamanEffectiveLearningTool
+
+● Whenyouretaketheexam:o Whenyoureadaquestionthatyouremember,takeamomentandthinkthrough
+
+whythecorrectansweriscorrectinsteadofjustclickingontheremembered
+
+correctanswer.
+
+● Afteryouretaketheexam:o Reviewthequestionsthatyougotincorrect.
+
+▪ Readtheexplanation.
+
+▪ Addtoyourflashcardsorstudytoolsandtoyourstudyguide.
+
+- Reviewthebraindumpyoucreatedandevaluatewhetheryoushouldmake
+changestoit.o Addtheretaketothetrackingchart.
+
+6https://www.DionTraining.com
+
+## Page 7
+
+CompTIASecurity+(SY0-701)(StudyPlan)
+
+HowtoUseFlashcardsEffectively
+
+Flashcardscanbeaveryeffectivelearningtooliftheyaresetupcorrectlyandusedcorrectly
+
+andconsistently. Ingeneral,therearetwotypesofflashcards:WrittenandApps.Eachhasits
+
+advantagesanddisadvantages.
+
+WrittenFlashcards
+
+● Writingisaneffectivewaytocreatememories.Writingyourownflashcardswillhelp
+
+youtoremembermaterialevenifyoudon’tusetheflashcardslater.
+
+● Setupyourflashcardsconsistently.Forexample,usethelinedsideofthecardfor
+
+definitionsandtheblanksideforterms.Visualclues(likelines)oftenworkinour
+
+subconscioustohelpusremember.
+
+● Usecoloredflashcardstodistinguishdifferentpartsofcontent.Forexample,usepink
+
+cardsforlearningportsandprotocols.Thiscreatesavisualclueandhelpsyouassociate
+
+thetermwiththecontentthatitfallsunder.
+
+● Considerdrawingpicturesanddiagramsonthecards.
+
+● Sortyourflashcardsintostacks.Whenyougothroughtheflashcards,sorttheminto
+
+stacksbasedonhowconfidentyouarethatyouknowthematerialorhowmuchtimeit
+
+takesyoutothinkoftheanswer.Seeifyoucangetallofthecardsintothestackthat
+
+representsthatyouknowtheanswers.
+
+7https://www.DionTraining.com
+
+## Page 8
+
+CompTIASecurity+(SY0-701)(StudyPlan)
+
+- Examplestacksforhowlongittookyoutothinkoftheanswer
+▪ Knewitrightaway
+
+▪ Hadtothinkforamoment
+
+▪ Hadtothinkforawhile
+
+▪ Hadtolookattheanswer
+
+FlashcardApps
+
+● Therearemanyflashcardappsavailable.Mostarefreeorlowcost.Theyoftencontain
+
+gamesormethodsofgoingthroughthecardsthataredesignedspecificallytomake
+
+yourstudyingmoreefficient.Theyalsopreventyoufromjustthinking“Iknowthat”and
+
+movingonbyrequiringyoutoperformatasktoproveyouknowit.
+
+● Someappsofferreadymadestacksthathavebeencreatedbyotherstudents.While
+
+thismayseemlikeaquickalternative,manyofthesestacksarenotsetupwellandmay
+
+containerrors.Makingyourownisamorereliablewaytoensurethequalityoftheset
+
+upandcontent.
+
+● Themostimportantpartofthesetupforflashcardappsisconsistency.Generally,you
+
+shouldhaveshortanswersandlongerdefinitions,descriptions,orquestions.Besure
+
+thattheanswersareconsistentlyononesideofthecard.o Thisbecomesimportantwhenusingappsthathaveyoutypetheanswer,which
+
+isthebestwaytodetermineifyouknowthecorrectanswer.Shorteranswerswill
+
+8https://www.DionTraining.com
+
+## Page 9
+
+CompTIASecurity+(SY0-701)(StudyPlan)
+
+allowyoutotypetheanswermoreeffectivelyandquickly.Iftheanswerisa
+
+sentenceorlongerphraseyouwon’tbeabletoremembertheexactwordsinthe
+
+answerandyouwillbemarkedwrongevenwhenyouranswerwasreallycorrect.
+
+● FlashcardappslikeQuizletandAnkihavemodesthathelpyoulearncontentbyfirst
+
+settingupmultiplechoicequestionsandthenfillintheblankquestions.Thisisbasedon
+
+researchintomemoryandhowtocreateit.
+
+● Brainscapeusesaconfidencemeasuretosortcardsintostackssimilartohowyouwould
+
+usewrittenflashcards.Thiscanbeveryeffectiveaslongasyouarehonestinyour
+
+confidenceranking.
+
+● Someappsallowyoutocreatelistsinwordprocessingprogramsandthenimport
+
+themintotheprogram.Thisisveryhandyandmakescreatingthecardsfasterandmore
+
+consistent.Normallyyoutypetheanswer,thentabandwritethequestion.Youcopyand
+
+pastethewholepageofanswersandquestionsintotheapp.
+
+9https://www.DionTraining.com
+
+## Page 10
+
+CompTIASecurity+(SY0-701)(StudyPlan)
+
+OtherStudyTools/Methods
+
+● Usingtheexamobjectivesandturningthemintoquestionscanbeapowerfulwayto
+
+figureoutwhatareasyouneedtoworkharderon.o Objective5.5:Explaintypesandpurposesofauditsandassessments.
+
+- Term:Attestation
+- Question:Whatisthepurposeofattestation?
+● ChatGPToffersawaytocheckyourlearning.EnteraquestionintoChatGPT.Beforeyou
+
+lookattheChatGPTanswer,writeananswerofyourown.Compareyouranswerto
+
+ChatGPT’sanswer.
+
+10https://www.DionTraining.com
+
+## Page 11
+
+CompTIASecurity+(SY0-701)(StudyPlan)
+
+30-DayStudyPlan
+
+Day1 Day2 Day3 Day4 Day5
+
+Watchsections1and2DownloadPDFs
+
+Watchsections3and4 Watchsections5and6 Watchsections7and8 Watchsections9,10,and11
+
+Day6 Day7 Day8 Day9 Day10
+
+Watchsections12and13 Watchsections14and15 Watchsection16 Watchsections17and18 Watchsections19and20
+
+Day11 Day12 Day13 Day14 Day15
+
+Watchsections21and22 Watchsections23and24 Watchsections25and26 Watchsections27and28 Take1Practiceexam
+
+Day16 Day17 Day18 Day19 Day20
+
+Take1Practiceexam Take1Practiceexam Take1Practiceexam Take1Practiceexam Take1Practiceexam
+
+Day21 Day22 Day23 Day24 Day25
+
+Take1Practiceexam Take2Practiceexams Take2Practiceexam Take2Practiceexam Retake3PracticeExams
+
+Day26 Day27 Day28 Day29 Day30
+
+Retake3PracticeExams Retake3PracticeExams Retake3PracticeExams Retake3PracticeExams Retake2PracticeExamsBestforpeoplewithsomeexperience
+
+11https://www.DionTraining.com
+
+## Page 12
+
+CompTIASecurity+(SY0-701)(StudyPlan)
+
+60-DayStudyPlan
+
+Day1 Day2 Day3 Day4 Day5
+
+Watchsections1DownloadPDFs
+
+WatchSection2
+
+WatchSection3 WatchSection4 WatchSection5
+
+Day6 Day7 Day8 Day9 Day10WatchSection6 WatchSection7 WatchSection8videos1-7 WatchSection8videos8-13 WatchSection9
+
+Day11 Day12 Day13 Day14 Day15
+
+WatchSection10 WatchSection11 WatchSection12
+
+WatchSection13 WatchSection14
+
+Day16 Day17 Day18 Day19 Day20
+
+WatchSection15 WatchSection16videos1-6 WatchSection16videos7-12
+
+WatchSection17videos1-7 WatchSection17videos8-10andSection18videos1-3
+
+Day21 Day22 Day23 Day24 Day25
+
+WatchSection18videos4-10 WatchSection19 WatchSection20 WatchSection21videos1-7 WatchSection21videos8-10andSection22videos1-3
+
+Day26 Day27 Day28 Day29 Day30
+
+WatchSection22videos4-10 WatchSection23 WatchSection24
+
+WatchSection25 WatchSection26Bestforpeoplewithlittleexperience
+
+12https://www.DionTraining.com
+
+## Page 13
+
+CompTIASecurity+(SY0-701)(StudyPlan)
+
+60-DayStudyPlan
+
+Day31 Day32 Day33 Day34 Day35
+
+WatchSection27
+
+WatchSection28 Relax Take1PracticeExam Take1PracticeExam
+
+Day36 Day37 Day38 Day39 Day40
+
+Take1PracticeExam Take1PracticeExam Take1PracticeExam Take1PracticeExam Take1PracticeExam
+
+Day41 Day42 Day43 Day44 Day45
+
+Take1PracticeExam Take1PracticeExam Take1PracticeExam Take1PracticeExam Take1PracticeExam
+
+Day46 Day47 Day48 Day49 Day50
+
+Take1PracticeExam Retake1PracticeExam Retake1PracticeExam Retake1PracticeExam Retake1PracticeExam
+
+Day51 Day52 Day53 Day54 Day55
+
+Retake1PracticeExam Retake1PracticeExam Retake1PracticeExam Retake1PracticeExam Retake1PracticeExam
+
+Day56 Day57 Day58 Day59 Day60
+
+Retake1PracticeExam Retake1PracticeExam Retake1PracticeExam Retake1PracticeExam Retake1PracticeExamBestforpeoplewithlittleexperience
+
+13https://www.DionTraining.com

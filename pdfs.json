@@ -1,0 +1,567 @@
+[
+  {
+    "title": "Risk-Management-Process-Slides 1",
+    "pdf_path": "./risk-management-process-slides_1.pdf",
+    "md_path": "./risk-management-process-slides_1.md"
+  },
+  {
+    "title": "Professor-Messer-Comptia-Exam-Hacks-V107S 1",
+    "pdf_path": "./professor-messer-comptia-exam-hacks-v107s_1.pdf",
+    "md_path": "./professor-messer-comptia-exam-hacks-v107s_1.md"
+  },
+  {
+    "title": "Activities-Associated-With-Vulnerability-Management-Slides",
+    "pdf_path": "./activities-associated-with-vulnerability-management-slides.pdf",
+    "md_path": "./activities-associated-with-vulnerability-management-slides.md"
+  },
+  {
+    "title": "Types-Of-Vulnerabilities-Slides",
+    "pdf_path": "./types-of-vulnerabilities-slides.pdf",
+    "md_path": "./types-of-vulnerabilities-slides.md"
+  },
+  {
+    "title": "Comptia Security+ (Sy0-701) Study Guide 2",
+    "pdf_path": "./CompTIA Security+ (SY0-701) Study Guide 2.pdf",
+    "md_path": "./CompTIA Security+ (SY0-701) Study Guide 2.md"
+  },
+  {
+    "title": "Series Intro And Exam Prep Strategy Handout",
+    "pdf_path": "./Series Intro and Exam Prep Strategy Handout.pdf",
+    "md_path": "./Series Intro and Exam Prep Strategy Handout.md"
+  },
+  {
+    "title": "Indicators-Of-Malicious-Activity-Slides",
+    "pdf_path": "./indicators-of-malicious-activity-slides.pdf",
+    "md_path": "./indicators-of-malicious-activity-slides.md"
+  },
+  {
+    "title": "Comptia+Security++(Sy0-701)+Exam+Objectives",
+    "pdf_path": "./CompTIA+Security++(SY0-701)+Exam+Objectives.pdf",
+    "md_path": "./CompTIA+Security++(SY0-701)+Exam+Objectives.md"
+  },
+  {
+    "title": "Professor-Messer-Comptia-Exam-Hacks-V107S",
+    "pdf_path": "./professor-messer-comptia-exam-hacks-v107s.pdf",
+    "md_path": "./professor-messer-comptia-exam-hacks-v107s.md"
+  },
+  {
+    "title": "Security Plus Sy0-701 Domain 1 Handout",
+    "pdf_path": "./Security Plus SY0-701 Domain 1 Handout.pdf",
+    "md_path": "./Security Plus SY0-701 Domain 1 Handout.md"
+  },
+  {
+    "title": "Tips-For-Passing-The-Exam-Slides",
+    "pdf_path": "./tips-for-passing-the-exam-slides.pdf",
+    "md_path": "./tips-for-passing-the-exam-slides.md"
+  },
+  {
+    "title": "Common-Threat-Vectors-And-Attack-Surfaces-Slides",
+    "pdf_path": "./common-threat-vectors-and-attack-surfaces-slides.pdf",
+    "md_path": "./common-threat-vectors-and-attack-surfaces-slides.md"
+  },
+  {
+    "title": "Applying-Common-Security-Techniques-To-Computing-Resources-Slides 1",
+    "pdf_path": "./applying-common-security-techniques-to-computing-resources-slides_1.pdf",
+    "md_path": "./applying-common-security-techniques-to-computing-resources-slides_1.md"
+  },
+  {
+    "title": "Importance-Of-Automation-And-Orchestration-Related-To-Secure-Operations-Slides 2",
+    "pdf_path": "./importance-of-automation-and-orchestration-related-to-secure-operations-slides_2.pdf",
+    "md_path": "./importance-of-automation-and-orchestration-related-to-secure-operations-slides_2.md"
+  },
+  {
+    "title": "Implement-And-Maintain-Identity-And-Access-Management-Slides 2",
+    "pdf_path": "./implement-and-maintain-identity-and-access-management-slides_2.pdf",
+    "md_path": "./implement-and-maintain-identity-and-access-management-slides_2.md"
+  },
+  {
+    "title": "Risk-Management-Process-Slides",
+    "pdf_path": "./risk-management-process-slides.pdf",
+    "md_path": "./risk-management-process-slides.md"
+  },
+  {
+    "title": "Appropriate-Incident-Response-Activities-Slides 2",
+    "pdf_path": "./appropriate-incident-response-activities-slides_2.pdf",
+    "md_path": "./appropriate-incident-response-activities-slides_2.md"
+  },
+  {
+    "title": "Security Plus Sy0-701 Domain 4 Handout",
+    "pdf_path": "./Security Plus SY0-701 Domain 4 Handout.pdf",
+    "md_path": "./Security Plus SY0-701 Domain 4 Handout.md"
+  },
+  {
+    "title": "Security-Alerting-And-Monitoring-Concepts-And-Tools-Slides 2",
+    "pdf_path": "./security-alerting-and-monitoring-concepts-and-tools-slides_2.pdf",
+    "md_path": "./security-alerting-and-monitoring-concepts-and-tools-slides_2.md"
+  },
+  {
+    "title": "Applying-Common-Security-Techniques-To-Computing-Resources-Slides 2",
+    "pdf_path": "./applying-common-security-techniques-to-computing-resources-slides_2.pdf",
+    "md_path": "./applying-common-security-techniques-to-computing-resources-slides_2.md"
+  },
+  {
+    "title": "Importance-Of-Automation-And-Orchestration-Related-To-Secure-Operations-Slides 1",
+    "pdf_path": "./importance-of-automation-and-orchestration-related-to-secure-operations-slides_1.pdf",
+    "md_path": "./importance-of-automation-and-orchestration-related-to-secure-operations-slides_1.md"
+  },
+  {
+    "title": "Resilience-And-Recovery-In-Security-Architecture-Slides",
+    "pdf_path": "./resilience-and-recovery-in-security-architecture-slides.pdf",
+    "md_path": "./resilience-and-recovery-in-security-architecture-slides.md"
+  },
+  {
+    "title": "Implement-And-Maintain-Identity-And-Access-Management-Slides 1",
+    "pdf_path": "./implement-and-maintain-identity-and-access-management-slides_1.pdf",
+    "md_path": "./implement-and-maintain-identity-and-access-management-slides_1.md"
+  },
+  {
+    "title": "Appropriate-Incident-Response-Activities-Slides 1",
+    "pdf_path": "./appropriate-incident-response-activities-slides_1.pdf",
+    "md_path": "./appropriate-incident-response-activities-slides_1.md"
+  },
+  {
+    "title": "Comptia Security+ (Sy0-701)Study Plan 2",
+    "pdf_path": "./CompTIA Security+ (SY0-701)Study Plan 2.pdf",
+    "md_path": "./CompTIA Security+ (SY0-701)Study Plan 2.md"
+  },
+  {
+    "title": "Understanding-Security-Controls-Slides",
+    "pdf_path": "./understanding-security-controls-slides.pdf",
+    "md_path": "./understanding-security-controls-slides.md"
+  },
+  {
+    "title": "Security-Alerting-And-Monitoring-Concepts-And-Tools-Slides 1",
+    "pdf_path": "./security-alerting-and-monitoring-concepts-and-tools-slides_1.pdf",
+    "md_path": "./security-alerting-and-monitoring-concepts-and-tools-slides_1.md"
+  },
+  {
+    "title": "Comptia+Security++(Sy0-701)+Study+Guide",
+    "pdf_path": "./CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+    "md_path": "./CompTIA+Security++(SY0-701)+Study+Guide.md"
+  },
+  {
+    "title": "Fundamental-Security-Concepts-Slides 2",
+    "pdf_path": "./fundamental-security-concepts-slides_2.pdf",
+    "md_path": "./fundamental-security-concepts-slides_2.md"
+  },
+  {
+    "title": "Domain-Summary-Slides 2",
+    "pdf_path": "./domain-summary-slides_2.pdf",
+    "md_path": "./domain-summary-slides_2.md"
+  },
+  {
+    "title": "Exam-Overview-Slides",
+    "pdf_path": "./exam-overview-slides.pdf",
+    "md_path": "./exam-overview-slides.md"
+  },
+  {
+    "title": "Activities-Associated-With-Vulnerability-Management-Slides 1",
+    "pdf_path": "./activities-associated-with-vulnerability-management-slides_1.pdf",
+    "md_path": "./activities-associated-with-vulnerability-management-slides_1.md"
+  },
+  {
+    "title": "Using-Appropriate-Cryptographic-Solutions-Slides 1",
+    "pdf_path": "./using-appropriate-cryptographic-solutions-slides_1.pdf",
+    "md_path": "./using-appropriate-cryptographic-solutions-slides_1.md"
+  },
+  {
+    "title": "Comptia Quick Reference Guide.Pptx",
+    "pdf_path": "./CompTIA Quick Reference Guide.pptx.pdf",
+    "md_path": "./CompTIA Quick Reference Guide.pptx.md"
+  },
+  {
+    "title": "Domain-Summary-Slides 3",
+    "pdf_path": "./domain-summary-slides_3.pdf",
+    "md_path": "./domain-summary-slides_3.md"
+  },
+  {
+    "title": "Types-And-Purposes-Of-Audits-And-Assessments-Slides",
+    "pdf_path": "./types-and-purposes-of-audits-and-assessments-slides.pdf",
+    "md_path": "./types-and-purposes-of-audits-and-assessments-slides.md"
+  },
+  {
+    "title": "Syo-701+Study+Guide",
+    "pdf_path": "./SYO-701+Study+Guide.pdf",
+    "md_path": "./SYO-701+Study+Guide.md"
+  },
+  {
+    "title": "Fundamental-Security-Concepts-Slides 1",
+    "pdf_path": "./fundamental-security-concepts-slides_1.pdf",
+    "md_path": "./fundamental-security-concepts-slides_1.md"
+  },
+  {
+    "title": "Security-701-Exam-Objectives-Comparison-Flyer-Online",
+    "pdf_path": "./security-701-exam-objectives-comparison-flyer-online.pdf",
+    "md_path": "./security-701-exam-objectives-comparison-flyer-online.md"
+  },
+  {
+    "title": "Domain-Summary-Slides 1",
+    "pdf_path": "./domain-summary-slides_1.pdf",
+    "md_path": "./domain-summary-slides_1.md"
+  },
+  {
+    "title": "Activities-Associated-With-Vulnerability-Management-Slides 2",
+    "pdf_path": "./activities-associated-with-vulnerability-management-slides_2.pdf",
+    "md_path": "./activities-associated-with-vulnerability-management-slides_2.md"
+  },
+  {
+    "title": "Using-Appropriate-Cryptographic-Solutions-Slides 2",
+    "pdf_path": "./using-appropriate-cryptographic-solutions-slides_2.pdf",
+    "md_path": "./using-appropriate-cryptographic-solutions-slides_2.md"
+  },
+  {
+    "title": "Comptia+Security++701+Acronyms+List",
+    "pdf_path": "./CompTIA+Security++701+Acronyms+List.pdf",
+    "md_path": "./CompTIA+Security++701+Acronyms+List.md"
+  },
+  {
+    "title": "Domain-Summary-Slides",
+    "pdf_path": "./domain-summary-slides.pdf",
+    "md_path": "./domain-summary-slides.md"
+  },
+  {
+    "title": "Common-Threat-Vectors-And-Attack-Surfaces-Slides 1",
+    "pdf_path": "./common-threat-vectors-and-attack-surfaces-slides_1.pdf",
+    "md_path": "./common-threat-vectors-and-attack-surfaces-slides_1.md"
+  },
+  {
+    "title": "Appropriate-Incident-Response-Activities-Slides",
+    "pdf_path": "./appropriate-incident-response-activities-slides.pdf",
+    "md_path": "./appropriate-incident-response-activities-slides.md"
+  },
+  {
+    "title": "Implement-Security-Awareness-Practices-Slides",
+    "pdf_path": "./implement-security-awareness-practices-slides.pdf",
+    "md_path": "./implement-security-awareness-practices-slides.md"
+  },
+  {
+    "title": "Mitigation-Techniques-Used-To-Secure-The-Enterprise-Slides",
+    "pdf_path": "./mitigation-techniques-used-to-secure-the-enterprise-slides.pdf",
+    "md_path": "./mitigation-techniques-used-to-secure-the-enterprise-slides.md"
+  },
+  {
+    "title": "Secure-Principles-To-Secure-Enterprise-Infrastructure-Slides",
+    "pdf_path": "./secure-principles-to-secure-enterprise-infrastructure-slides.pdf",
+    "md_path": "./secure-principles-to-secure-enterprise-infrastructure-slides.md"
+  },
+  {
+    "title": "Domain-Summary-Slides 4",
+    "pdf_path": "./domain-summary-slides_4.pdf",
+    "md_path": "./domain-summary-slides_4.md"
+  },
+  {
+    "title": "Modify-Enterprise-Capabilities-To-Enhance-Security-Slides 1",
+    "pdf_path": "./modify-enterprise-capabilities-to-enhance-security-slides_1.pdf",
+    "md_path": "./modify-enterprise-capabilities-to-enhance-security-slides_1.md"
+  },
+  {
+    "title": "Security Plus Sy0-701 Domain 2 Handout",
+    "pdf_path": "./Security Plus SY0-701 Domain 2 HANDOUT.pdf",
+    "md_path": "./Security Plus SY0-701 Domain 2 HANDOUT.md"
+  },
+  {
+    "title": "Types-Of-Vulnerabilities-Slides 1",
+    "pdf_path": "./types-of-vulnerabilities-slides_1.pdf",
+    "md_path": "./types-of-vulnerabilities-slides_1.md"
+  },
+  {
+    "title": "Change-Management-Processes-And-Impacts-Slides",
+    "pdf_path": "./change-management-processes-and-impacts-slides.pdf",
+    "md_path": "./change-management-processes-and-impacts-slides.md"
+  },
+  {
+    "title": "Domain-Summary-Slides 5",
+    "pdf_path": "./domain-summary-slides_5.pdf",
+    "md_path": "./domain-summary-slides_5.md"
+  },
+  {
+    "title": "Understanding-Security-Controls-Slides 2",
+    "pdf_path": "./understanding-security-controls-slides_2.pdf",
+    "md_path": "./understanding-security-controls-slides_2.md"
+  },
+  {
+    "title": "Domain-Summary-Slides 7",
+    "pdf_path": "./domain-summary-slides_7.pdf",
+    "md_path": "./domain-summary-slides_7.md"
+  },
+  {
+    "title": "Modify-Enterprise-Capabilities-To-Enhance-Security-Slides 2",
+    "pdf_path": "./modify-enterprise-capabilities-to-enhance-security-slides_2.pdf",
+    "md_path": "./modify-enterprise-capabilities-to-enhance-security-slides_2.md"
+  },
+  {
+    "title": "Comptia Security 701 Notes 🗒️ ✅ (1)",
+    "pdf_path": "./CompTIA_Security_701 NOTES 🗒️ ✅ (1).pdf",
+    "md_path": "./CompTIA_Security_701 NOTES 🗒️ ✅ (1).md"
+  },
+  {
+    "title": "Comptia Security Plus+ Master Cheat Sheet",
+    "pdf_path": "./CompTIA Security Plus+ Master Cheat Sheet.pdf",
+    "md_path": "./CompTIA Security Plus+ Master Cheat Sheet.md"
+  },
+  {
+    "title": "Effective-Elements-Of-Security-Governance-Slides",
+    "pdf_path": "./effective-elements-of-security-governance-slides.pdf",
+    "md_path": "./effective-elements-of-security-governance-slides.md"
+  },
+  {
+    "title": "Security-Implications-Of-Different-Architecture-Models-Slides",
+    "pdf_path": "./security-implications-of-different-architecture-models-slides.pdf",
+    "md_path": "./security-implications-of-different-architecture-models-slides.md"
+  },
+  {
+    "title": "Domain-Summary-Slides 6",
+    "pdf_path": "./domain-summary-slides_6.pdf",
+    "md_path": "./domain-summary-slides_6.md"
+  },
+  {
+    "title": "Understanding-Security-Controls-Slides 1",
+    "pdf_path": "./understanding-security-controls-slides_1.pdf",
+    "md_path": "./understanding-security-controls-slides_1.md"
+  },
+  {
+    "title": "Effective-Elements-Of-Security-Governance-Slides 1",
+    "pdf_path": "./effective-elements-of-security-governance-slides_1.pdf",
+    "md_path": "./effective-elements-of-security-governance-slides_1.md"
+  },
+  {
+    "title": "Professor-Messer-Sy0-701-Comptia-Security-Plus-Practice-Exams-V18",
+    "pdf_path": "./professor-messer-sy0-701-comptia-security-plus-practice-exams-v18.pdf",
+    "md_path": "./professor-messer-sy0-701-comptia-security-plus-practice-exams-v18.md"
+  },
+  {
+    "title": "Use-Data-Sources-To-Support-An-Investigation-Slides",
+    "pdf_path": "./use-data-sources-to-support-an-investigation-slides.pdf",
+    "md_path": "./use-data-sources-to-support-an-investigation-slides.md"
+  },
+  {
+    "title": "Third-Party-Risk-Assessment-And-Management-Slides",
+    "pdf_path": "./third-party-risk-assessment-and-management-slides.pdf",
+    "md_path": "./third-party-risk-assessment-and-management-slides.md"
+  },
+  {
+    "title": "Comptia Security Plus Master 1740709645",
+    "pdf_path": "./COMPTIA_Security_Plus_Master_1740709645.pdf",
+    "md_path": "./COMPTIA_Security_Plus_Master_1740709645.md"
+  },
+  {
+    "title": "Domain-Summary-Slides 8",
+    "pdf_path": "./domain-summary-slides_8.pdf",
+    "md_path": "./domain-summary-slides_8.md"
+  },
+  {
+    "title": "Types-And-Purposes-Of-Audits-And-Assessments-Slides 1",
+    "pdf_path": "./types-and-purposes-of-audits-and-assessments-slides_1.pdf",
+    "md_path": "./types-and-purposes-of-audits-and-assessments-slides_1.md"
+  },
+  {
+    "title": "Secure-Principles-To-Secure-Enterprise-Infrastructure-Slides 1",
+    "pdf_path": "./secure-principles-to-secure-enterprise-infrastructure-slides_1.pdf",
+    "md_path": "./secure-principles-to-secure-enterprise-infrastructure-slides_1.md"
+  },
+  {
+    "title": "Security-701-Certification-Guide Oct-Final",
+    "pdf_path": "./security-701-certification-guide_oct-final.pdf",
+    "md_path": "./security-701-certification-guide_oct-final.md"
+  },
+  {
+    "title": "Security Plus Sy0-701 Domain 5 Handout",
+    "pdf_path": "./Security Plus SY0-701 Domain 5 Handout.pdf",
+    "md_path": "./Security Plus SY0-701 Domain 5 Handout.md"
+  },
+  {
+    "title": "Importance-Of-Automation-And-Orchestration-Related-To-Secure-Operations-Slides",
+    "pdf_path": "./importance-of-automation-and-orchestration-related-to-secure-operations-slides.pdf",
+    "md_path": "./importance-of-automation-and-orchestration-related-to-secure-operations-slides.md"
+  },
+  {
+    "title": "Fundamental-Security-Concepts-Slides",
+    "pdf_path": "./fundamental-security-concepts-slides.pdf",
+    "md_path": "./fundamental-security-concepts-slides.md"
+  },
+  {
+    "title": "Security-Alerting-And-Monitoring-Concepts-And-Tools-Slides",
+    "pdf_path": "./security-alerting-and-monitoring-concepts-and-tools-slides.pdf",
+    "md_path": "./security-alerting-and-monitoring-concepts-and-tools-slides.md"
+  },
+  {
+    "title": "Domain-Summary-Slides 9",
+    "pdf_path": "./domain-summary-slides_9.pdf",
+    "md_path": "./domain-summary-slides_9.md"
+  },
+  {
+    "title": "Comptia Security+ (Sy0-701) Exam Objectives 2",
+    "pdf_path": "./CompTIA Security+ (SY0-701) Exam Objectives 2.pdf",
+    "md_path": "./CompTIA Security+ (SY0-701) Exam Objectives 2.md"
+  },
+  {
+    "title": "Domain-Summary-Slides 11",
+    "pdf_path": "./domain-summary-slides_11.pdf",
+    "md_path": "./domain-summary-slides_11.md"
+  },
+  {
+    "title": "Security-Implications-Of-Different-Architecture-Models-Slides 1",
+    "pdf_path": "./security-implications-of-different-architecture-models-slides_1.pdf",
+    "md_path": "./security-implications-of-different-architecture-models-slides_1.md"
+  },
+  {
+    "title": "Security-Implications-Of-Proper-Hardware-Software-And-Data-Asset-Management-Slides",
+    "pdf_path": "./security-implications-of-proper-hardware-software-and-data-asset-management-slides.pdf",
+    "md_path": "./security-implications-of-proper-hardware-software-and-data-asset-management-slides.md"
+  },
+  {
+    "title": "Domain-Summary-Slides 10",
+    "pdf_path": "./domain-summary-slides_10.pdf",
+    "md_path": "./domain-summary-slides_10.md"
+  },
+  {
+    "title": "Use-Data-Sources-To-Support-An-Investigation-Slides 2",
+    "pdf_path": "./use-data-sources-to-support-an-investigation-slides_2.pdf",
+    "md_path": "./use-data-sources-to-support-an-investigation-slides_2.md"
+  },
+  {
+    "title": "Professor-Messer-Sy0-701-Comptia-Security-Plus-Course-Notes-V107",
+    "pdf_path": "./professor-messer-sy0-701-comptia-security-plus-course-notes-v107.pdf",
+    "md_path": "./professor-messer-sy0-701-comptia-security-plus-course-notes-v107.md"
+  },
+  {
+    "title": "Implement-And-Maintain-Identity-And-Access-Management-Slides",
+    "pdf_path": "./implement-and-maintain-identity-and-access-management-slides.pdf",
+    "md_path": "./implement-and-maintain-identity-and-access-management-slides.md"
+  },
+  {
+    "title": "Domain-Summary-Slides 12",
+    "pdf_path": "./domain-summary-slides_12.pdf",
+    "md_path": "./domain-summary-slides_12.md"
+  },
+  {
+    "title": "Common-Threat-Actors-And-Motivations-Slides 1",
+    "pdf_path": "./common-threat-actors-and-motivations-slides_1.pdf",
+    "md_path": "./common-threat-actors-and-motivations-slides_1.md"
+  },
+  {
+    "title": "Mitigation-Techniques-Used-To-Secure-The-Enterprise-Slides 1",
+    "pdf_path": "./mitigation-techniques-used-to-secure-the-enterprise-slides_1.pdf",
+    "md_path": "./mitigation-techniques-used-to-secure-the-enterprise-slides_1.md"
+  },
+  {
+    "title": "Resilience-And-Recovery-In-Security-Architecture-Slides 1",
+    "pdf_path": "./resilience-and-recovery-in-security-architecture-slides_1.pdf",
+    "md_path": "./resilience-and-recovery-in-security-architecture-slides_1.md"
+  },
+  {
+    "title": "Use-Data-Sources-To-Support-An-Investigation-Slides 1",
+    "pdf_path": "./use-data-sources-to-support-an-investigation-slides_1.pdf",
+    "md_path": "./use-data-sources-to-support-an-investigation-slides_1.md"
+  },
+  {
+    "title": "250 Devops Interview Questions With Detailed Answers 1738019318 Copy",
+    "pdf_path": "./250_DevOps_Interview_Questions_with_Detailed_Answers_1738019318 copy.pdf",
+    "md_path": "./250_DevOps_Interview_Questions_with_Detailed_Answers_1738019318 copy.md"
+  },
+  {
+    "title": "Comptia S+",
+    "pdf_path": "./CompTIA s+.pdf",
+    "md_path": "./CompTIA s+.md"
+  },
+  {
+    "title": "Using-Appropriate-Cryptographic-Solutions-Slides",
+    "pdf_path": "./using-appropriate-cryptographic-solutions-slides.pdf",
+    "md_path": "./using-appropriate-cryptographic-solutions-slides.md"
+  },
+  {
+    "title": "Comptia+Security++(Sy0-701)Study+Plan",
+    "pdf_path": "./CompTIA+Security++(SY0-701)Study+Plan.pdf",
+    "md_path": "./CompTIA+Security++(SY0-701)Study+Plan.md"
+  },
+  {
+    "title": "Implement-Security-Awareness-Practices-Slides 1",
+    "pdf_path": "./implement-security-awareness-practices-slides_1.pdf",
+    "md_path": "./implement-security-awareness-practices-slides_1.md"
+  },
+  {
+    "title": "Effective-Security-Compliance-Slides 1",
+    "pdf_path": "./effective-security-compliance-slides_1.pdf",
+    "md_path": "./effective-security-compliance-slides_1.md"
+  },
+  {
+    "title": "Third-Party-Risk-Assessment-And-Management-Slides 1",
+    "pdf_path": "./third-party-risk-assessment-and-management-slides_1.pdf",
+    "md_path": "./third-party-risk-assessment-and-management-slides_1.md"
+  },
+  {
+    "title": "Modify-Enterprise-Capabilities-To-Enhance-Security-Slides",
+    "pdf_path": "./modify-enterprise-capabilities-to-enhance-security-slides.pdf",
+    "md_path": "./modify-enterprise-capabilities-to-enhance-security-slides.md"
+  },
+  {
+    "title": "Applying-Common-Security-Techniques-To-Computing-Resources-Slides",
+    "pdf_path": "./applying-common-security-techniques-to-computing-resources-slides.pdf",
+    "md_path": "./applying-common-security-techniques-to-computing-resources-slides.md"
+  },
+  {
+    "title": "Security Plus Sy0-701 Domain 3 Handout",
+    "pdf_path": "./Security Plus SY0-701 Domain 3 Handout.pdf",
+    "md_path": "./Security Plus SY0-701 Domain 3 Handout.md"
+  },
+  {
+    "title": "Security-Implications-Of-Proper-Hardware-Software-And-Data-Asset-Management-Slides 1",
+    "pdf_path": "./security-implications-of-proper-hardware-software-and-data-asset-management-slides_1.pdf",
+    "md_path": "./security-implications-of-proper-hardware-software-and-data-asset-management-slides_1.md"
+  },
+  {
+    "title": "Common-Threat-Actors-And-Motivations-Slides",
+    "pdf_path": "./common-threat-actors-and-motivations-slides.pdf",
+    "md_path": "./common-threat-actors-and-motivations-slides.md"
+  },
+  {
+    "title": "Comptia Security Plus 701 Study Notes 1727782137",
+    "pdf_path": "./CompTIA_Security_Plus_701_study_notes_1727782137.pdf",
+    "md_path": "./CompTIA_Security_Plus_701_study_notes_1727782137.md"
+  },
+  {
+    "title": "Change-Management-Processes-And-Impacts-Slides 1",
+    "pdf_path": "./change-management-processes-and-impacts-slides_1.pdf",
+    "md_path": "./change-management-processes-and-impacts-slides_1.md"
+  },
+  {
+    "title": "Effective-Security-Compliance-Slides",
+    "pdf_path": "./effective-security-compliance-slides.pdf",
+    "md_path": "./effective-security-compliance-slides.md"
+  },
+  {
+    "title": "Printer+Friendly+Study+Guide",
+    "pdf_path": "./Printer+Friendly+Study+Guide.pdf",
+    "md_path": "./Printer+Friendly+Study+Guide.md"
+  },
+  {
+    "title": "Security-Implications-Of-Proper-Hardware-Software-And-Data-Asset-Management-Slides 2",
+    "pdf_path": "./security-implications-of-proper-hardware-software-and-data-asset-management-slides_2.pdf",
+    "md_path": "./security-implications-of-proper-hardware-software-and-data-asset-management-slides_2.md"
+  },
+  {
+    "title": "Professor-Messer-Sy0-701-Comptia-Security-Plus-Practice-Exams-V18 1",
+    "pdf_path": "./professor-messer-sy0-701-comptia-security-plus-practice-exams-v18_1.pdf",
+    "md_path": "./professor-messer-sy0-701-comptia-security-plus-practice-exams-v18_1.md"
+  },
+  {
+    "title": "Cybersecurity Best Practices  Cutting-Edge Strategies And Techniques",
+    "pdf_path": "./Cybersecurity Best Practices_ Cutting-Edge Strategies and Techniques.pdf",
+    "md_path": "./Cybersecurity Best Practices_ Cutting-Edge Strategies and Techniques.md"
+  },
+  {
+    "title": "Indicators-Of-Malicious-Activity-Slides 1",
+    "pdf_path": "./indicators-of-malicious-activity-slides_1.pdf",
+    "md_path": "./indicators-of-malicious-activity-slides_1.md"
+  },
+  {
+    "title": "Change-Management-Processes-And-Impacts-Slides 2",
+    "pdf_path": "./change-management-processes-and-impacts-slides_2.pdf",
+    "md_path": "./change-management-processes-and-impacts-slides_2.md"
+  },
+  {
+    "title": "Professor-Messer-Sy0-701-Comptia-Security-Plus-Course-Notes-V107 1",
+    "pdf_path": "./professor-messer-sy0-701-comptia-security-plus-course-notes-v107_1.pdf",
+    "md_path": "./professor-messer-sy0-701-comptia-security-plus-course-notes-v107_1.md"
+  }
+]

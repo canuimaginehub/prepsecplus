@@ -6,6 +6,7 @@ let questionsData = [];
 let flashcardsData = [];
 let filteredFlashcards = [];
 let videosData = {};
+let pdfsData = [];
 
 // Persistent user progress schema in localStorage
 let userProgress = {
@@ -110,6 +111,11 @@ function initRouter() {
     btn.addEventListener('click', () => {
       const paneId = btn.getAttribute('data-pane');
       
+      // Update location hash to synchronize with our hash router
+      if (location.hash !== `#${paneId}`) {
+        location.hash = paneId;
+      }
+      
       // Active states in menu
       menuButtons.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
@@ -157,9 +163,22 @@ async function loadData() {
     flashcardsData = (await flashcardsRes.json()).cards;
     videosData = await videosRes.json();
 
+    // Optional: Load PDF guides manifest
+    try {
+      const pdfsRes = await fetch('./pdfs.json');
+      if (pdfsRes.ok) {
+        pdfsData = await pdfsRes.json();
+      }
+    } catch (e) {
+      console.warn("pdfs.json manifest not found or empty yet", e);
+    }
+
     renderDashboard();
     renderModulesTree();
     updateOverallProgress();
+    
+    // Process initial route if any hash is present
+    handleHashRouting();
   } catch (err) {
     console.error("Failed to load portal JSON database files", err);
   }
@@ -272,6 +291,26 @@ function setupEventListeners() {
   if (videoSearchInput) {
     videoSearchInput.addEventListener('input', () => {
       renderVideosTree(videoSearchInput.value.trim().toLowerCase());
+    });
+  }
+
+  // Window hash routing handler
+  window.addEventListener('hashchange', handleHashRouting);
+
+  // Search PDFs list
+  const pdfsSearchInput = document.getElementById('pdfs-search-input');
+  if (pdfsSearchInput) {
+    pdfsSearchInput.addEventListener('input', () => {
+      renderPdfLibrary(pdfsSearchInput.value);
+    });
+  }
+  
+  // Close reader button
+  const closePdfReaderBtn = document.getElementById('btn-close-pdf-reader');
+  if (closePdfReaderBtn) {
+    closePdfReaderBtn.addEventListener('click', () => {
+      document.getElementById('pdfs-library-view').style.display = 'block';
+      document.getElementById('pdfs-reader-view').style.display = 'none';
     });
   }
 }
@@ -972,7 +1011,7 @@ async function loadReadingModule(subCode) {
   viewer.innerHTML = `<h3>Loading Module ${subCode} Content...</h3>`;
   
   try {
-    const res = await fetch(`./modules/${subCode}.md`);
+    const res = await fetch(`./${subCode}.md`);
     if (!res.ok) throw new Error("Module file not found");
     const markdown = await res.text();
     
@@ -1233,3 +1272,139 @@ function playVideoLesson(videoPath, title, desc) {
     }
   });
 }
+
+// --- PDFs & Docs Router and Render Controllers ---
+function handleHashRouting() {
+  const hash = location.hash.toLowerCase();
+  
+  if (hash === '#pdfs' || hash === '#docs') {
+    // Deactivate all sidebar buttons
+    document.querySelectorAll('.menu-btn').forEach(btn => btn.classList.remove('active'));
+    
+    // Deactivate all panes
+    document.querySelectorAll('.pane').forEach(pane => pane.classList.remove('active'));
+    
+    // Activate PDF pane
+    const pdfPane = document.getElementById('pane-pdfs');
+    if (pdfPane) {
+      pdfPane.classList.add('active');
+    }
+    
+    // Pause any running videos when switching away
+    const player = document.getElementById('video-player-element');
+    if (player) {
+      player.pause();
+    }
+    
+    // Reset reader view back to library grid
+    document.getElementById('pdfs-library-view').style.display = 'block';
+    document.getElementById('pdfs-reader-view').style.display = 'none';
+    
+    // Render PDFs library
+    renderPdfLibrary();
+  } else if (hash) {
+    const paneId = hash.substring(1);
+    const btn = document.querySelector(`.menu-btn[data-pane="${paneId}"]`);
+    if (btn && !btn.classList.contains('active')) {
+      btn.click();
+    }
+  }
+}
+
+function renderPdfLibrary(filterQuery = '') {
+  const gridContainer = document.getElementById('pdfs-grid-container');
+  if (!gridContainer) return;
+  
+  gridContainer.innerHTML = '';
+  
+  if (!pdfsData.length) {
+    gridContainer.innerHTML = `
+      <div style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--text-muted);">
+        <p>No study guide PDF documents have been processed yet.</p>
+        <p style="font-size: 12px; margin-top: 8px;">Run the asset processing script in the workspace to generate the PDF database.</p>
+      </div>
+    `;
+    return;
+  }
+  
+  const query = filterQuery.toLowerCase().trim();
+  const filteredPdfs = pdfsData.filter(pdf => 
+    pdf.title.toLowerCase().includes(query) || 
+    pdf.pdf_path.toLowerCase().includes(query)
+  );
+  
+  if (filteredPdfs.length === 0) {
+    gridContainer.innerHTML = `
+      <div style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--text-muted);">
+        <p>No PDF files matched your search "${filterQuery}".</p>
+      </div>
+    `;
+    return;
+  }
+  
+  filteredPdfs.forEach(pdf => {
+    const card = document.createElement('div');
+    card.className = 'pdf-card';
+    
+    let docType = "Study Reference";
+    if (pdf.pdf_path.toLowerCase().includes("objectives")) docType = "Exam Objectives Blueprint";
+    else if (pdf.pdf_path.toLowerCase().includes("notes") || pdf.pdf_path.toLowerCase().includes("cheat")) docType = "High-Yield Notes";
+    else if (pdf.pdf_path.toLowerCase().includes("practice")) docType = "Practice Exam Book";
+    else if (pdf.pdf_path.toLowerCase().includes("slides")) docType = "Presentation Slides PDF";
+    
+    card.innerHTML = `
+      <div>
+        <div class="pdf-card-title">${pdf.title}</div>
+        <div class="pdf-card-meta">${docType}</div>
+      </div>
+      <div class="pdf-card-actions">
+        <button class="action-btn-primary inline-btn btn-read-md" data-md="${pdf.md_path}" data-title="${pdf.title}">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2zM22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          Read Markdown
+        </button>
+        <a href="${pdf.pdf_path}" target="_blank" class="btn-download btn-secondary inline-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Download PDF
+        </a>
+      </div>
+    `;
+    
+    card.querySelector('.btn-read-md').addEventListener('click', (e) => {
+      const mdPath = e.currentTarget.getAttribute('data-md');
+      const title = e.currentTarget.getAttribute('data-title');
+      openPdfMarkdownReader(mdPath, title);
+    });
+    
+    gridContainer.appendChild(card);
+  });
+}
+
+async function openPdfMarkdownReader(mdPath, title) {
+  const libraryView = document.getElementById('pdfs-library-view');
+  const readerView = document.getElementById('pdfs-reader-view');
+  const contentArea = document.getElementById('pdf-reader-content-area');
+  
+  if (!libraryView || !readerView || !contentArea) return;
+  
+  libraryView.style.display = 'none';
+  readerView.style.display = 'flex';
+  contentArea.innerHTML = `<h3>Loading Markdown document...</h3>`;
+  
+  try {
+    const res = await fetch(mdPath);
+    if (!res.ok) throw new Error("Document not found");
+    const markdown = await res.text();
+    
+    const htmlContent = `
+      <h1 style="color: var(--color-cyan); margin-bottom: 24px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px;">${title}</h1>
+      <div style="font-size: 14.5px; line-height: 1.7; color: var(--text-main);">
+        ${parseMarkdownToHTML(markdown)}
+      </div>
+    `;
+    contentArea.innerHTML = htmlContent;
+    contentArea.scrollTop = 0;
+  } catch (err) {
+    contentArea.innerHTML = `<h3 style="color:var(--color-red)">Failed to load Markdown companion document. The conversion might still be in progress.</h3>`;
+  }
+}
+
